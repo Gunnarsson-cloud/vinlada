@@ -196,7 +196,8 @@ class VivinoTest(unittest.TestCase):
                              "wine": {"id": 7, "type_id": 1, "winery": {"name": "Masi"},
                                       "style": {"name": "Italian Ripasso", "body": 4, "acidity": 3,
                                                 "description": "Mjuka, runda viner med toner av körsbär och vanilj."}}},
-                 "price": {"amount": 139.0, "currency": {"code": "SEK"}, "bottle_type": {"volume_ml": 750}}}
+                 "price": {"amount": 139.0, "currency": {"code": "SEK"}, "bottle_type": {"volume_ml": 750},
+                           "url": "https://www.vivino.com/sv/masi-campofiorin/w/7"}}
         shop = {"name": "Vivino", "url": "https://www.vivino.com/sv/", "vivino": {"pages": 1}}
 
         class VivinoFetcher(FakeFetcher):
@@ -278,3 +279,93 @@ class ConfigTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SystembolagetTest(unittest.TestCase):
+    PRODUCTS = {"products": [
+        {"productId": "1001", "productNumber": "7401", "productNameBold": "Langhe Nebbiolo",
+         "productNameThin": "", "producerName": "Burzi", "price": 179.0, "volume": 750, "vintage": "2023",
+         "assortmentText": "Beställningssortiment"},
+        {"productId": "1002", "productNumber": "2400", "productNameBold": "Barbaresco",
+         "productNameThin": "Produttori", "producerName": "Produttori del Barbaresco", "price": 399.0,
+         "volume": 750, "vintage": "2020"},
+    ]}
+
+    def fetcher(self):
+        from urllib.parse import quote
+        return FakeFetcher({
+            "https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?*": self.PRODUCTS,
+            "https://api-extern.systembolaget.se/sb-api-ecommerce/v1/sitesearch/site?*": {"siteSearchResults": [
+                {"siteId": "1234", "alias": "Väla", "city": "HELSINGBORG", "isAgent": False},
+                {"siteId": "9999", "alias": "Ombud", "city": "HELSINGBORG", "isAgent": True},
+                {"siteId": "0102", "alias": "Fältöversten", "city": "STOCKHOLM", "isAgent": False},
+            ]},
+            "https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1234/1001/": {"stock": 7},
+        })
+
+    def test_match_and_stock(self):
+        from vinlada.systembolaget import Systembolaget
+        sb = Systembolaget(self.fetcher(), city="Helsingborg", api_key="nyckel")
+        offer = Offer("Fine Wine Service", "2024 Burzi Langhe Nebbiolo ×6", "u", 249 * 6, 6, kind="flaska")
+        stats = sb.enrich([offer])
+        self.assertEqual(stats["hittade"], 1)
+        self.assertEqual(offer.systembolaget["price"], 179.0)
+        self.assertEqual(offer.systembolaget["stock"], {"Väla": 7})
+        self.assertTrue(offer.systembolaget["other_vintage"])
+        self.assertIn("/produkt/vin/langhe-nebbiolo-7401/", offer.systembolaget["url"])
+
+    def test_no_match_for_other_wine(self):
+        from vinlada.systembolaget import Systembolaget
+        sb = Systembolaget(self.fetcher(), api_key="nyckel")
+        offer = Offer("X", "Bindella Fossolupaio Rosso di Montepulciano ×6", "u", 189 * 6, 6, kind="flaska")
+        sb.enrich([offer])
+        self.assertIsNone(offer.systembolaget)
+
+    def test_boxes_are_not_searched(self):
+        from vinlada.systembolaget import Systembolaget
+        fetcher = self.fetcher()
+        Systembolaget(fetcher, api_key="nyckel").enrich([Offer("X", "Toscana-låda 6 flaskor", "u", 799, 6)])
+        self.assertEqual(fetcher.requested, [])
+
+    def test_api_key_from_site_scripts(self):
+        from vinlada.systembolaget import Systembolaget
+        fetcher = FakeFetcher({
+            "https://www.systembolaget.se/": '<script src="/_next/static/chunks/abc.js" defer=""></script>',
+            "https://www.systembolaget.se/_next/static/chunks/abc.js": 'x={NEXT_PUBLIC_API_KEY_APIM:"hemlig"}',
+        })
+        self.assertEqual(Systembolaget(fetcher).api_key(), "hemlig")
+
+
+class JsonFeedTest(unittest.TestCase):
+    def test_rapido_like_feed(self):
+        from vinlada.sources import fetch_jsonfeed
+        feed = {"ProductsContainer": [{"Product": [
+            {"id": "1", "name": "Smagekasse Italien – 6 flaskor", "link": "/smagekasse-italien",
+             "priceDouble": 1295.0, "currency": "SEK"},
+            {"id": "2", "name": "Vinglas 6 st", "link": "/glas", "priceDouble": 199.0, "currency": "SEK"},
+        ]}]}
+        shop = {"name": "Philipson Wine", "url": "https://philipsonwine.se",
+                "feed_urls": ["https://philipsonwine.se/vinlaador?feed=true"]}
+        offers = fetch_jsonfeed(shop, FakeFetcher({"https://philipsonwine.se/vinlaador?feed=true": feed}))
+        self.assertEqual(len(offers), 1)
+        self.assertEqual(offers[0].url, "https://philipsonwine.se/smagekasse-italien")
+        self.assertEqual(offers[0].bottles, 6)
+
+
+class BundleSinglesTest(unittest.TestCase):
+    def test_shopify_singles_counted_as_six(self):
+        shop = {"name": "Vinibutik", "url": "https://vinibutik.dk", "bundle_singles": 6,
+                "title_regex": "l[åa]da|kasse"}
+        fetcher = FakeFetcher({
+            "https://vinibutik.dk/meta.json": {"currency": "SEK"},
+            "https://vinibutik.dk/products.json?limit=250&page=1": {"products": [
+                {"title": "Yllera Crianza 2020", "handle": "yllera", "body_html": "",
+                 "variants": [{"id": 1, "title": "Default Title", "price": "129.00", "available": True}]},
+                {"title": "Yllera Magnum 1,5 l", "handle": "magnum", "body_html": "",
+                 "variants": [{"id": 2, "title": "Default Title", "price": "299.00", "available": True}]},
+            ]},
+            "https://vinibutik.dk/products.json?limit=250&page=2": {"products": []},
+        })
+        offers = fetch_shopify(shop, fetcher)
+        self.assertEqual([o.title for o in offers], ["Yllera Crianza 2020 ×6"])
+        self.assertEqual((offers[0].price, offers[0].bottles, offers[0].kind), (774.0, 6.0, "flaska"))

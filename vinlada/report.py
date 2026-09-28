@@ -53,6 +53,16 @@ def _fmt_bottles(q: Quote) -> str:
     return ("≈" if q.offer.bottles_approx else "") + text
 
 
+def _sb_text(q: Quote) -> str:
+    sb = q.offer.systembolaget
+    if not sb:
+        return ""
+    stock = sum(sb["stock"].values())
+    where = f"{stock} st i lager" if stock else "beställs till butik"
+    cheaper = q.per_bottle is not None and sb["price"] < q.per_bottle
+    return f"{sb['price']:.0f} kr ({where}){' – billigare!' if cheaper else ''}"
+
+
 def rows(quotes: Iterable[Quote]) -> list[dict]:
     result = []
     for q in quotes:
@@ -67,6 +77,7 @@ def rows(quotes: Iterable[Quote]) -> list[dict]:
             "kr_per_flaska": _fmt_money(q.per_bottle),
             "smak": ", ".join(o.taste_matches),
             "kalla": o.source + (f" {o.checked}" if o.checked else ""),
+            "systembolaget": _sb_text(q),
             "kommentar": "; ".join(x for x in (q.shipping_note, o.note) if x),
             "url": o.url,
         })
@@ -76,7 +87,7 @@ def rows(quotes: Iterable[Quote]) -> list[dict]:
 COLUMNS = [
     ("butik", "Butik", 14), ("lada", "Låda", 44), ("flaskor", "Fl", 4), ("pris", "Pris", 6),
     ("frakt", "Frakt", 5), ("totalt", "Totalt", 6), ("kr_per_flaska", "kr/fl", 5),
-    ("smak", "Smakträff", 22), ("kalla", "Källa", 15),
+    ("smak", "Smakträff", 22), ("systembolaget", "Systembolaget", 34), ("kalla", "Källa", 15),
 ]
 RIGHT = {"flaskor", "pris", "frakt", "totalt", "kr_per_flaska"}
 
@@ -85,8 +96,14 @@ def _cut(text: str, width: int) -> str:
     return text if len(text) <= width else text[: width - 1] + "…"
 
 
+def _visible_columns(data: list[dict], show_taste: bool) -> list[tuple[str, str, int]]:
+    show_sb = any(row["systembolaget"] for row in data)
+    return [c for c in COLUMNS
+            if (show_taste or c[0] != "smak") and (show_sb or c[0] != "systembolaget")]
+
+
 def print_table(data: list[dict], out: TextIO, show_taste: bool, show_urls: bool) -> None:
-    cols = [c for c in COLUMNS if show_taste or c[0] != "smak"]
+    cols = _visible_columns(data, show_taste)
     term = shutil.get_terminal_size((160, 20)).columns
     fixed = sum(w for k, _, w in cols if k != "lada") + 3 * len(cols) + 4
     lada_width = max(24, min(60, term - fixed))
@@ -106,7 +123,7 @@ def print_table(data: list[dict], out: TextIO, show_taste: bool, show_urls: bool
 
 
 def print_markdown(data: list[dict], out: TextIO, show_taste: bool) -> None:
-    cols = [c for c in COLUMNS if show_taste or c[0] != "smak"] + [("kommentar", "Kommentar", 0)]
+    cols = _visible_columns(data, show_taste) + [("kommentar", "Kommentar", 0)]
     out.write("| # | " + " | ".join(h for _, h, _ in cols) + " |\n")
     out.write("|---|" + "|".join("---:" if k in RIGHT else "---" for k, _, _ in cols) + "|\n")
     for i, row in enumerate(data, 1):
@@ -137,6 +154,7 @@ def write_json(quotes: list[Quote], path: str) -> None:
             "kr_per_flaska": q.per_bottle, "i_lager": o.in_stock, "kalla": o.source,
             "kontrollerad": o.checked, "smakpoang": o.taste_score, "smaktraffar": o.taste_matches,
             "kommentar": "; ".join(x for x in (q.shipping_note, o.note) if x),
+            "systembolaget": o.systembolaget,
         })
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)

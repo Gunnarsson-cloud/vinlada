@@ -35,6 +35,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--lista-smaker", action="store_true", help="visa kända smakprofiler och avsluta")
     p.add_argument("--max-pris", type=float, help="högsta totalpris inkl. frakt")
     p.add_argument("--max-per-flaska", type=float, help="högsta pris per flaska inkl. frakt")
+    p.add_argument("--stad", default="Helsingborg", help="stad för Systembolagets lagerstatus")
+    p.add_argument("--utan-systembolaget", action="store_true", help="hoppa över jämförelsen med Systembolaget")
+    p.add_argument("--sb-max", type=int, default=400, help="max antal viner att söka upp på Systembolaget")
     p.add_argument("--alkoholfritt", action="store_true", help="ta med alkoholfria lådor")
     p.add_argument("--min-flaskor", type=float, default=0, help="minsta antal flaskor per låda")
     p.add_argument("--antal-lador", type=int, default=2,
@@ -85,13 +88,16 @@ def load_shops(args: argparse.Namespace) -> list[dict]:
     return shops
 
 
-def collect(shops: list[dict], args: argparse.Namespace
-            ) -> tuple[list[tuple[Offer, dict]], list[str], dict[str, dict]]:
-    fetcher = Fetcher(
+def make_fetcher(args: argparse.Namespace) -> Fetcher:
+    return Fetcher(
         cache_dir=None if args.ingen_cache else Path(".cache"),
         ttl_hours=args.cache_timmar,
         respect_robots=not args.ignorera_robots,
     )
+
+
+def collect(shops: list[dict], args: argparse.Namespace, fetcher: Fetcher
+            ) -> tuple[list[tuple[Offer, dict]], list[str], dict[str, dict]]:
     offers: list[tuple[Offer, dict]] = []
     problems: list[str] = []
     statuses: dict[str, dict] = {}
@@ -121,10 +127,39 @@ def collect(shops: list[dict], args: argparse.Namespace
     return offers, problems, statuses
 
 
+def compare_systembolaget(offers: list[Offer], args: argparse.Namespace, fetcher: Fetcher,
+                          statuses: dict[str, dict], problems: list[str]) -> None:
+    """Leta upp enskilda viner på Systembolaget och kolla lagret i butikerna i --stad."""
+    from .http import FetchError
+    from .systembolaget import Systembolaget
+
+    singles = sum(1 for o in offers if o.kind == "flaska")
+    if not singles:
+        return
+    print(f"Jämför {singles} viner med Systembolaget i {args.stad} …", file=sys.stderr)
+    sb = Systembolaget(fetcher, city=args.stad)
+    try:
+        stats = sb.enrich(offers, limit=args.sb_max)
+        stores = [s.get("alias") or s.get("displayName") for s in sb.stores()]
+    except FetchError as exc:
+        problems.append(f"Systembolaget: {exc}")
+        statuses["Systembolaget"] = {"state": "kunde inte läsas", "count": 0, "errors": [str(exc)]}
+        return
+    print(f"  Systembolaget      {stats['hittade']} av {stats['sokta']} hittade, "
+          f"{stats['i_lager']} i lager i {args.stad}", file=sys.stderr)
+    statuses["Systembolaget"] = {"state": "live", "count": stats["hittade"], "stats": stats,
+                                 "stores": stores, "city": args.stad}
+
+
 def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, dict]]) -> None:
     """Diagnos per butik: hur många lådor som hittades och vilka fel som uppstod."""
     report = {}
     for name, status in statuses.items():
+        if name == "Systembolaget":
+            found = [o for o, _ in pairs if o.systembolaget]
+            report[name] = {**status, "exempel": [
+                {"vin": o.title, "butik": o.shop, "sb": o.systembolaget} for o in found[:15]]}
+            continue
         found = [o for o, _ in pairs if o.shop == name and o.source == "live"]
         report[name] = {
             **status,
@@ -157,7 +192,10 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     if not args.offline:
         print(f"Hämtar från {len(shops)} butiker …", file=sys.stderr)
-    pairs, problems, statuses = collect(shops, args)
+    fetcher = make_fetcher(args)
+    pairs, problems, statuses = collect(shops, args, fetcher)
+    if not args.offline and not args.utan_systembolaget:
+        compare_systembolaget([o for o, _ in pairs], args, fetcher, statuses, problems)
 
     if not args.alkoholfritt:
         pairs = [(o, s) for o, s in pairs if not o.alcohol_free]

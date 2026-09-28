@@ -116,7 +116,7 @@
     {
       "name": "Philipson Wine",
       "url": "https://philipsonwine.se",
-      "platform": "html",
+      "platform": "jsonfeed",
       "listing_urls": [
         "https://philipsonwine.se/vinlaador/vinlaador-med-6-flaskor",
         "https://philipsonwine.se/12-6"
@@ -128,7 +128,11 @@
         "free_from": 1295,
         "note": "kolla mängdrabatter (18 fl. för priset av 12)"
       },
-      "html_price_fallback": true
+      "html_price_fallback": true,
+      "feed_urls": [
+        "https://philipsonwine.se/vinlaador/vinlaador-med-6-flaskor?feed=true&redirect=false&PageSize=200",
+        "https://philipsonwine.se/vinlaador?feed=true&redirect=false&PageSize=200"
+      ]
     },
     {
       "name": "Nordiska Vin",
@@ -203,7 +207,9 @@
       ],
       "shipping": {
         "fee": null
-      }
+      },
+      "enabled": false,
+      "_varför_av": "Visar bara priser i euro; oklart om svensk alkoholskatt ingår (2026-09-28)."
     },
     {
       "name": "Wine Trade",

@@ -2,14 +2,15 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import re
 from typing import Any, Callable
-from urllib.parse import urlencode, urlsplit
+from urllib.parse import urlencode, urljoin, urlsplit
 
 from .http import Fetcher, FetchError
 from .models import Offer
-from .parse import (clean_title, extract_links, guess_bottles, product_from_html_price,
+from .parse import (clean_title, extract_links, guess_bottles, parse_price, product_from_html_price,
                     product_from_meta, products_from_jsonld)
 
 log = logging.getLogger(__name__)
@@ -70,8 +71,8 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
                  alcohol_free=bool(ALCOHOL_FREE.search(title) or ALCOHOL_FREE.search(description[:400])))
 
 
-# Svensk alkoholskatt + moms gör vin under ca 40 kr/flaska orimligt.
-MIN_PRICE_PER_BOTTLE = 40
+# Svensk alkoholskatt + moms gör 75 cl vin under ca 55 kr orimligt (då är det små flaskor eller fel antal).
+MIN_PRICE_PER_BOTTLE = 55
 
 
 def _plain(*texts: str) -> str:
@@ -89,7 +90,7 @@ def _single_bottle_bundle(shop: dict, title: str, url: str, price: float, in_sto
         return None
     description = _plain(*descriptions)
     return Offer(shop=shop["name"], title=f"{title} ×{n}", url=url, price=price * n, bottles=float(n),
-                 in_stock=in_stock, note=f"säljs per flaska; räknat som {n} st",
+                 in_stock=in_stock, note=f"säljs per flaska; räknat som {n} st", kind="flaska",
                  description=description,
                  alcohol_free=bool(ALCOHOL_FREE.search(title)))
 
@@ -140,7 +141,8 @@ def fetch_shopify(shop: dict, fetcher: Fetcher) -> list[Offer]:
                 if product["handle"] in seen:
                     continue
                 seen.add(product["handle"])
-                if not _title_ok(shop, product["title"], product.get("body_html") or ""):
+                if not shop.get("bundle_singles") and not _title_ok(
+                        shop, product["title"], product.get("body_html") or ""):
                     continue
                 offers.extend(_shopify_product_offers(shop, fetcher, product, use_product_js))
     return offers
@@ -335,6 +337,79 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
 
 
 # ---------------------------------------------------------------------------
+# JSON-flöden (t.ex. Dynamicweb/Rapido: listningssidan med ?feed=true)
+# ---------------------------------------------------------------------------
+
+_NAME_KEYS = ("name", "productName", "Name", "title", "Title", "ProductName")
+_PRICE_KEYS = ("priceDouble", "PriceDouble", "priceWithVat", "PriceWithVat", "priceValue", "price", "Price")
+_LINK_KEYS = ("link", "url", "Link", "Url", "productLink", "href")
+_DESC_KEYS = ("shortDescription", "description", "ShortDescription", "Description", "teaser")
+
+
+def _json_products(data: Any) -> list[dict]:
+    """Alla objekt i ett godtyckligt JSON-svar som har både namn och pris."""
+    found = []
+    for node in _walk_json(data):
+        name = next((node[k] for k in _NAME_KEYS if isinstance(node.get(k), str) and node[k].strip()), None)
+        if not name:
+            continue
+        price = None
+        for key in _PRICE_KEYS:
+            value = node.get(key)
+            if isinstance(value, dict):
+                value = value.get("value") or value.get("price") or value.get("Price")
+            price = parse_price(value)
+            if price:
+                break
+        if not price:
+            continue
+        link = next((node[k] for k in _LINK_KEYS if isinstance(node.get(k), str)), "")
+        desc = " ".join(str(node[k]) for k in _DESC_KEYS if isinstance(node.get(k), str))
+        currency = next((str(node[k]) for k in ("currency", "Currency", "currencyCode", "CurrencyCode")
+                         if isinstance(node.get(k), str)), None)
+        found.append({"name": name, "price": price, "url": link, "description": desc, "currency": currency})
+    return found
+
+
+def _walk_json(node: Any):
+    if isinstance(node, dict):
+        yield node
+        for value in node.values():
+            yield from _walk_json(value)
+    elif isinstance(node, list):
+        for item in node:
+            yield from _walk_json(item)
+
+
+def fetch_jsonfeed(shop: dict, fetcher: Fetcher) -> list[Offer]:
+    base = shop["url"].rstrip("/")
+    offers: dict[str, Offer] = {}
+    seen = 0
+    for feed in shop.get("feed_urls", []):
+        body = fetcher.get(feed, accept="application/json")
+        try:
+            data = json.loads(body)
+        except ValueError:
+            _dump(shop, feed, body)
+            raise FetchError(f"flödet är inte JSON: {feed}")
+        products = _json_products(data)
+        seen += len(products)
+        if not products:
+            _dump(shop, feed, body)
+        for product in products:
+            currency = (product["currency"] or "SEK").upper()
+            if currency not in ("SEK", "KR"):
+                continue
+            url = urljoin(base + "/", product["url"]) if product["url"] else feed
+            offer = _make_offer(shop, product["name"], url, product["price"], None, product["description"])
+            if offer:
+                offers[offer.url + offer.title] = offer
+    if not offers:
+        raise FetchError(f"inga vinlådor i JSON-flödet ({seen} produkter med pris)")
+    return list(offers.values())
+
+
+# ---------------------------------------------------------------------------
 # Vivino (säljer per flaska – räknas om till en "låda" om N flaskor)
 # ---------------------------------------------------------------------------
 
@@ -390,7 +465,7 @@ def _vivino_offer(shop: dict, match: dict, bundle: int) -> Offer | None:
     winery = (wine.get("winery") or {}).get("name", "")
     name = vintage.get("name") or f"{winery} {wine.get('name', '')} {vintage.get('year', '')}"
     rating = (vintage.get("statistics") or {}).get("ratings_average")
-    url = price_info.get("url") or f"https://www.vivino.com/sv/w/{wine.get('id', '')}"
+    url = price_info.get("url") or ""
     if url.startswith("/"):
         url = "https://www.vivino.com" + url
     if not urlsplit(url).netloc.endswith("vivino.com"):
@@ -400,7 +475,7 @@ def _vivino_offer(shop: dict, match: dict, bundle: int) -> Offer | None:
         note += f", betyg {rating}"
     structure, description = _vivino_taste(vintage, wine)
     return Offer(shop=shop["name"], title=f"{name.strip()} ×{bundle}", url=url,
-                 price=float(amount) * bundle, bottles=float(bundle), in_stock=True, note=note,
+                 price=float(amount) * bundle, bottles=float(bundle), kind="flaska", in_stock=True, note=note,
                  description=description, structure=structure, wine_type=wine.get("type_id"))
 
 
@@ -424,6 +499,7 @@ FETCHERS: dict[str, Callable[[dict, Fetcher], list[Offer]]] = {
     "woocommerce": fetch_woocommerce,
     "html": fetch_html,
     "vivino": fetch_vivino,
+    "jsonfeed": fetch_jsonfeed,
 }
 
 

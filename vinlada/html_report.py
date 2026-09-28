@@ -48,6 +48,7 @@ def build_data(quotes: list[Quote], shops: list[dict], statuses: dict[str, dict]
             "perBottle": round(q.per_bottle, 1) if q.per_bottle is not None else None,
             "source": o.source, "checked": o.checked, "tags": tags, "color": color,
             "note": "; ".join(x for x in (q.shipping_note, o.note) if x),
+            "kind": o.kind, "sb": o.systembolaget,
         })
     shop_rows = []
     for shop in shops:
@@ -60,8 +61,11 @@ def build_data(quotes: list[Quote], shops: list[dict], statuses: dict[str, dict]
             "count": status.get("count", 0), "known": len(shop.get("known_offers", [])),
             "platform": shop.get("platform", "html"),
         })
+    sb_status = statuses.get("Systembolaget", {})
     return {
         "postcode": postcode, "generated": date.today().isoformat(), "offers": offers, "shops": shop_rows,
+        "sbStores": sb_status.get("stores", []), "sbState": sb_status.get("state"),
+        "sbCity": sb_status.get("city", "Helsingborg"),
         "profiles": {k: v["beskrivning"] for k, v in taste.PROFILES.items()},
         "colors": list(taste.COLORS),
     }
@@ -91,7 +95,7 @@ TEMPLATE = r"""<title>Vinlådor till __POSTCODE__</title>
 :root {
   --bg: #f4f3f6; --surface: #ffffff; --surface-2: #ecebf0; --ink: #221b26; --muted: #675e6d;
   --line: #dcd8e1; --accent: #7a1f3d; --accent-soft: #f3e4ea; --good: #2d6a4c; --good-soft: #e1efe7;
-  --warn: #8a5a10; --warn-soft: #f6ecd9; --focus: #b0305a;
+  --warn: #8a5a10; --warn-soft: #f6ecd9; --focus: #b0305a; --sb: #1f5f8b; --sb-soft: #e2edf5;
   --serif: "Young Serif", Georgia, "Times New Roman", serif;
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -101,14 +105,14 @@ TEMPLATE = r"""<title>Vinlådor till __POSTCODE__</title>
     color-scheme: dark;
     --bg: #17131a; --surface: #211b25; --surface-2: #2a2330; --ink: #efe9f2; --muted: #a99fae;
     --line: #3a3141; --accent: #e57b9d; --accent-soft: #3a1f2a; --good: #74c79d; --good-soft: #1d3228;
-    --warn: #e2ad5b; --warn-soft: #3a2c16; --focus: #f09ab6;
+    --warn: #e2ad5b; --warn-soft: #3a2c16; --focus: #f09ab6; --sb: #7fb8e0; --sb-soft: #1b2c3a;
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
   --bg: #17131a; --surface: #211b25; --surface-2: #2a2330; --ink: #efe9f2; --muted: #a99fae;
   --line: #3a3141; --accent: #e57b9d; --accent-soft: #3a1f2a; --good: #74c79d; --good-soft: #1d3228;
-  --warn: #e2ad5b; --warn-soft: #3a2c16; --focus: #f09ab6;
+  --warn: #e2ad5b; --warn-soft: #3a2c16; --focus: #f09ab6; --sb: #7fb8e0; --sb-soft: #1b2c3a;
 }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--sans); margin: 0; }
@@ -153,6 +157,12 @@ td.per { font-weight: 500; color: var(--accent); }
 .pill.known { background: var(--surface-2); color: var(--muted); }
 .pill.live { background: var(--good-soft); color: var(--good); }
 .empty { padding: 24px; color: var(--muted); }
+.sb { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; margin-top: 6px; font-size: 13px; color: var(--muted); }
+.sb .sb-label { font: 500 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--sb); }
+.pill.cheaper { background: var(--sb-soft); color: var(--sb); }
+.sb-note { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; display: grid; gap: 6px; max-width: 80ch; }
+.sb-note h3 { font: 500 13px/1.2 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--sb); margin: 0; }
+.sb-note p { margin: 0; color: var(--muted); }
 .shops { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
 .shop { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; }
 .shop-head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
@@ -177,12 +187,19 @@ code { font-family: var(--mono); font-size: .92em; background: var(--surface-2);
   <section class="best" id="best" aria-live="polite"></section>
 
   <section class="filters" aria-label="Filter">
+    <fieldset class="field"><legend>Typ</legend><div class="chips" id="kinds"></div></fieldset>
     <fieldset class="field"><legend>Färg</legend><div class="chips" id="colors"></div></fieldset>
     <fieldset class="field"><legend>Smak (alla valda måste matcha)</legend><div class="chips" id="tastes"></div></fieldset>
     <label class="field"><span>Butik</span><select id="shop"><option value="">Alla butiker</option></select></label>
     <label class="field"><span>Max kr/flaska</span><input id="maxper" type="number" min="0" step="10" placeholder="t.ex. 150"></label>
     <label class="field"><span>Sök</span><input id="q" type="search" placeholder="Toscana, Rioja …"></label>
+    <label class="toggle"><input id="sbonly" type="checkbox"> Bara viner som finns på Systembolaget</label>
     <label class="toggle"><input id="unknown" type="checkbox"> Visa lådor med okänd frakt eller okänt flaskantal</label>
+  </section>
+
+  <section class="sb-note" id="sbnote">
+    <h3>Systembolaget</h3>
+    <p id="sbtext"></p>
   </section>
 
   <div class="table-scroll">
@@ -212,7 +229,7 @@ code { font-family: var(--mono); font-size: .92em; background: var(--surface-2);
 <script>
 (function () {
   var data = JSON.parse(document.getElementById("data").textContent);
-  var state = { color: "", tastes: [], shop: "", maxper: null, q: "", unknown: false };
+  var state = { kind: "", color: "", tastes: [], shop: "", maxper: null, q: "", unknown: false, sbonly: false };
   var kr = function (v) { return v == null ? "?" : Math.round(v).toLocaleString("sv-SE") + " kr"; };
   var el = function (tag, attrs, children) {
     var e = document.createElement(tag);
@@ -245,10 +262,24 @@ code { font-family: var(--mono); font-size: .92em; background: var(--surface-2);
   document.getElementById("maxper").addEventListener("input", function (e) { state.maxper = e.target.value ? Number(e.target.value) : null; render(); });
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.trim().toLowerCase(); render(); });
   document.getElementById("unknown").addEventListener("change", function (e) { state.unknown = e.target.checked; render(); });
+  document.getElementById("sbonly").addEventListener("change", function (e) { state.sbonly = e.target.checked; render(); });
+
+  var sbMatches = data.offers.filter(function (o) { return o.sb; });
+  var sbCheaper = sbMatches.filter(function (o) { return o.perBottle != null && o.sb.price < o.perBottle; });
+  var singles = data.offers.filter(function (o) { return o.kind === "flaska"; }).length;
+  document.getElementById("sbtext").textContent = data.sbState === "live"
+    ? "Enskilda viner har sökts upp på Systembolaget: " + sbMatches.length + " av " + singles + " finns där, och " +
+      sbCheaper.length + " är billigare på Systembolaget än hos nätbutiken inklusive frakt. Lagersaldot gäller butikerna i " +
+      data.sbCity + (data.sbStores.length ? " (" + data.sbStores.join(", ") + ")" : "") +
+      ". Varor som inte finns i lager kan beställas till butiken utan kostnad."
+    : "Jämförelsen med Systembolaget kunde inte göras vid den här körningen.";
+  if (!singles) document.getElementById("sbnote").hidden = true;
 
   function visible() {
     return data.offers.filter(function (o) {
       if (!state.unknown && o.perBottle == null) return false;
+      if (state.kind && o.kind !== state.kind) return false;
+      if (state.sbonly && !o.sb) return false;
       if (state.color && o.color !== state.color) return false;
       if (state.tastes.some(function (t) { return o.tags.indexOf(t) < 0; })) return false;
       if (state.shop && o.shop !== state.shop) return false;
@@ -262,6 +293,8 @@ code { font-family: var(--mono); font-size: .92em; background: var(--surface-2);
   }
 
   function render() {
+    chipGroup("kinds", [{ value: "", label: "Alla" }, { value: "låda", label: "Vinlådor" }, { value: "flaska", label: "Enstaka viner ×6" }],
+      function (v) { return state.kind === v; }, function (v) { state.kind = v; });
     chipGroup("colors", [{ value: "", label: "Alla" }].concat(data.colors.map(function (c) { return { value: c, label: c }; })),
       function (v) { return state.color === v; }, function (v) { state.color = v; });
     chipGroup("tastes", Object.keys(data.profiles).map(function (p) { return { value: p, label: p, title: data.profiles[p] }; }),
@@ -280,6 +313,18 @@ code { font-family: var(--mono); font-size: .92em; background: var(--surface-2);
       o.tags.forEach(function (t) { tagLine.appendChild(el("span", { cls: "tag" + (state.tastes.indexOf(t) >= 0 ? " hit" : ""), text: t })); });
       tagLine.appendChild(el("span", { cls: "pill " + (o.source === "live" ? "live" : "known"), text: o.source === "live" ? "live" : "känt pris " + (o.checked || "") }));
       title.appendChild(tagLine);
+      if (o.sb) {
+        var stock = Object.keys(o.sb.stock || {}).filter(function (k) { return o.sb.stock[k] > 0; })
+          .map(function (k) { return k + " " + o.sb.stock[k] + " st"; });
+        var cheaper = o.perBottle != null && o.sb.price < o.perBottle;
+        var line = el("div", { cls: "sb" }, [
+          el("span", { cls: "sb-label", text: "Systembolaget" }),
+          link(o.sb.url, Math.round(o.sb.price) + " kr/fl" + (o.sb.otherVintage || o.sb.other_vintage ? " (annan årgång " + o.sb.vintage + ")" : "")),
+          el("span", { text: stock.length ? "i lager: " + stock.join(", ") : "ej i lager i " + data.sbCity + ", kan beställas till butik" })
+        ]);
+        if (cheaper) line.appendChild(el("span", { cls: "pill cheaper", text: "billigare på Systembolaget" }));
+        title.appendChild(line);
+      }
       var shop = data.shops.find(function (s) { return s.name === o.shop; });
       var ship = o.shipping == null ? el("span", { cls: "pill unknown", text: "okänd" })
         : o.shipping === 0 ? el("span", { cls: "pill free", text: "fri" }) : kr(o.shipping);
