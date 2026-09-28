@@ -1,62 +1,85 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 14,
+    "count": 15,
     "errors": [],
-    "utan_flaskantal": 12,
+    "utan_flaskantal": 2,
     "exempel": [
       {
         "titel": "XL födelsedagslåda - 12 särskilda rödviner 🍷🎁",
         "pris": 799.0,
-        "flaskor": null,
+        "flaskor": 12.0,
         "url": "https://dittvin.se/products/xl-fodelsedagslada-12-sarskilda-rodviner"
       },
       {
         "titel": "Dittvins bubbellåda- 6 festliga smakupplevelser 🥂🍾",
         "pris": 499.0,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser"
-      },
-      {
-        "titel": "Moon vinlåda - 6 alkoholfria vinupplevelser 🤩🥂",
-        "pris": 180.0,
-        "flaskor": 3.0,
-        "url": "https://dittvin.se/products/mane-vinladan"
       },
       {
         "titel": "Dittvins födelsedagslåda - 6 favoritviner",
         "pris": 469.0,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-s-fodelsedagslada-6-favoritviner"
       },
       {
         "titel": "Dittvins Surprise Födelsedagslåda - 6 hemliga viner",
         "pris": 569.0,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-s-overrasknings-fodelsedagslada-6-hemliga-viner"
+      },
+      {
+        "titel": "Dittvins 2 års XL födelsedagslåda 🥳🇸🇪",
+        "pris": 799.0,
+        "flaskor": 12.0,
+        "url": "https://dittvin.se/products/dittvins-2-ars-fodelsedagslada"
       }
     ]
   },
   "Vinoteket": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
-    ],
-    "utan_flaskantal": 0,
-    "exempel": []
+    "state": "live",
+    "count": 4,
+    "errors": [],
+    "utan_flaskantal": 3,
+    "exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/hostens-stora-mixlada"
+      },
+      {
+        "titel": "Vinotekets vita & bubbel låda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/vit-manad---mix-x-9"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix"
+      }
+    ]
   },
   "Winefinder": {
     "state": "live",
-    "count": 1,
+    "count": 2,
     "errors": [],
     "utan_flaskantal": 1,
     "exempel": [
       {
-        "titel": "Chateau Bregancon Rosé La Réserve Cru Classé Provence 2025: Köp online | Winefinder",
-        "pris": 249.0,
+        "titel": "Wine Mechanics GBG - Goa Buteljer från Göteborg! #6",
+        "pris": 269.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/eu/eu/gbg-goa-buteljer-fran-goteborg-6-wine-mechanics-a137671"
+      },
+      {
+        "titel": "Weingut Dr. Corvers-Kauter Terroir Riesling Case 2025",
+        "pris": 199.0,
         "flaskor": null,
-        "url": "https://www.winefinder.se/vin/frankrike/provence/rose-la-reserve-cru-classe-provence-chateau-bregancon-2025-kpw137675"
+        "url": "https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941"
       }
     ]
   },
@@ -64,24 +87,24 @@
     "state": "live",
     "count": 47,
     "errors": [],
-    "utan_flaskantal": 30,
+    "utan_flaskantal": 11,
     "exempel": [
       {
         "titel": "Vit Bourgogne Vinlåda",
         "pris": 1719.95,
-        "flaskor": null,
+        "flaskor": 5.0,
         "url": "https://www.supervin.se/vit-bourgogne-vinlada"
       },
       {
         "titel": "Brunello Vinlåda",
         "pris": 3599.95,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://www.supervin.se/brunello-vinlada"
       },
       {
         "titel": "Champagne Vinlåda",
         "pris": 2259.95,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://www.supervin.se/champagne-vinlada"
       },
       {
@@ -102,25 +125,19 @@
     "state": "kunde inte läsas",
     "count": 0,
     "errors": [
-      "html: inga vinlådor: 2 listningar, 231 länkar, 49 sidor, 0 med pris, 0 fel valuta"
+      "html: inga vinlådor: 2 listningar, 224 länkar, 50 sidor, 0 med pris, 0 fel valuta"
     ],
     "utan_flaskantal": 0,
     "exempel": []
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 35,
+    "count": 31,
     "errors": [
       "shopify: HTTP 404 för https://nordiskavin.se/store/collections/blandlador/products.json?limit=250&page=1"
     ],
-    "utan_flaskantal": 16,
+    "utan_flaskantal": 12,
     "exempel": [
-      {
-        "titel": "Fransk rödvinsmix Bordeaux och Rhône",
-        "pris": 1599.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/bundlelada"
-      },
       {
         "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
         "pris": 1049.0,
@@ -140,20 +157,26 @@
         "url": "https://nordiskavin.se/store/italienska-bianco-chardonnay-blandlada"
       },
       {
-        "titel": "Italiensk guldbox med Appassimento från Puglia och Sicilien",
-        "pris": 1649.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada"
+        "titel": "Fransk Brut - Krispigt och fräscht! 9 flaskor",
+        "pris": 1099.0,
+        "flaskor": 9.0,
+        "url": "https://nordiskavin.se/store/franskt-brut-blandlada-9-flaskor"
+      },
+      {
+        "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
+        "pris": 1149.0,
+        "flaskor": 9.0,
+        "url": "https://nordiskavin.se/store/stora-apassimentoladan"
       }
     ]
   },
   "Vinfolket": {
     "state": "live",
-    "count": 17,
+    "count": 14,
     "errors": [
       "woocommerce: HTTP 404 för https://vinfolket.se/wp-json/wc/store/v1/products?per_page=100&page=1"
     ],
-    "utan_flaskantal": 2,
+    "utan_flaskantal": 7,
     "exempel": [
       {
         "titel": "Santa Marias Guldkorn – 3-pack",
@@ -170,7 +193,7 @@
       {
         "titel": "Pinot Noir! – Vinpaket",
         "pris": 1297.0,
-        "flaskor": 2.0,
+        "flaskor": null,
         "url": "https://vinfolket.se/vinpaket/pinot-noir/"
       },
       {
@@ -182,16 +205,16 @@
       {
         "titel": "Winnica Adoria Vinpaket",
         "pris": 1298.0,
-        "flaskor": 2.0,
+        "flaskor": null,
         "url": "https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/"
       }
     ]
   },
   "Tidblom Wines": {
     "state": "live",
-    "count": 40,
+    "count": 38,
     "errors": [],
-    "utan_flaskantal": 28,
+    "utan_flaskantal": 29,
     "exempel": [
       {
         "titel": "Tidbloms mixlåda",
@@ -212,16 +235,16 @@
         "url": "https://tidblomwines.com/blandlador/spansk-blandlada/"
       },
       {
-        "titel": "Provflaskor",
-        "pris": 80.0,
-        "flaskor": null,
-        "url": "https://tidblomwines.com/italien/provflaskor/"
-      },
-      {
         "titel": "Prego Prego, 5,3%",
         "pris": 155.4,
-        "flaskor": 6.0,
+        "flaskor": null,
         "url": "https://tidblomwines.com/3-pack/prego-prego/"
+      },
+      {
+        "titel": "Glenwood Grand Duc Noblesse",
+        "pris": 210.0,
+        "flaskor": 3.0,
+        "url": "https://tidblomwines.com/sydafrika/sydafrikanska-roseviner/glenwood-grand-duc-noblesse/"
       }
     ]
   },
@@ -229,8 +252,8 @@
     "state": "kunde inte läsas",
     "count": 0,
     "errors": [
-      "woocommerce: The read operation timed out för https://www.ivinio.com/wp-json/wc/store/v1/products/categories?per_page=100&lang=sv",
-      "html: The read operation timed out för https://www.ivinio.com/sv/categorie-produit/blandade-provsmakningslador/"
+      "woocommerce: inga vinlådor hittades",
+      "html: inga vinlådor: 1 listningar, 67 länkar, 40 sidor, 9 med pris, 9 fel valuta"
     ],
     "utan_flaskantal": 0,
     "exempel": []
@@ -270,16 +293,16 @@
       {
         "titel": "Yllera lådan",
         "pris": 999.0,
-        "flaskor": 2.0,
+        "flaskor": 6.0,
         "url": "https://vinibutik.dk/products/spanien-6-1"
       }
     ]
   },
   "Gassås Wine": {
     "state": "live",
-    "count": 21,
+    "count": 15,
     "errors": [],
-    "utan_flaskantal": 13,
+    "utan_flaskantal": 6,
     "exempel": [
       {
         "titel": "Guigal -  Côte Rôtie Trilogy - LaLaLa 2019 [3pack]",
@@ -288,86 +311,104 @@
         "url": "https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack"
       },
       {
-        "titel": "Trälåda - ospecificerat [12 pac]",
-        "pris": 250.0,
-        "flaskor": null,
-        "url": "https://gassaswine.se/produkt/tralada-ospecificerat-12-pac"
-      },
-      {
-        "titel": "Trälåda - ospecificerat [1 pac]",
-        "pris": 250.0,
-        "flaskor": null,
-        "url": "https://gassaswine.se/produkt/tralada-ospecificerat-1-pac"
-      },
-      {
-        "titel": "Trälåda - ospecificerat [3 pac]",
-        "pris": 250.0,
-        "flaskor": null,
-        "url": "https://gassaswine.se/produkt/tralada-ospecificerat-3-pac"
-      },
-      {
         "titel": "Domäne Roland Chan 2022 - [mixed case 6-pac]",
         "pris": 4399.0,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://gassaswine.se/produkt/domane-roland-chan-mixed-case"
+      },
+      {
+        "titel": "Mixed Case - Brunello di Montalcino 2019",
+        "pris": 3575.0,
+        "flaskor": null,
+        "url": "https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019"
+      },
+      {
+        "titel": "Mixed Case - Rosso di Montalcino 2022",
+        "pris": 1924.0,
+        "flaskor": null,
+        "url": "https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022"
+      },
+      {
+        "titel": "Vina Errazuriz - Don Maximiano Veritical Box [3 bottles 2007- 2010 - 2012]",
+        "pris": 3299.0,
+        "flaskor": 3.0,
+        "url": "https://gassaswine.se/produkt/vina-errazuriz-don-maximiano-veritical-box-3-bottles-2007-2010-2012"
       }
     ]
   },
   "Fine Wine Service": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "shopify: HTTP 404 för https://finewineservice.se/products.json?limit=250&page=1",
-      "html: inga vinlådor: 1 listningar, 15 länkar, 15 sidor, 4 med pris, 0 fel valuta"
-    ],
-    "utan_flaskantal": 0,
-    "exempel": []
-  },
-  "Pompette": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "woocommerce: HTTP 404 för https://www.pompette.se/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "html: inga vinlådor: 1 listningar, 11 länkar, 11 sidor, 0 med pris, 0 fel valuta"
-    ],
-    "utan_flaskantal": 0,
-    "exempel": []
+    "state": "live",
+    "count": 166,
+    "errors": [],
+    "utan_flaskantal": 3,
+    "exempel": [
+      {
+        "titel": "2024 Burzi Langhe Nebbiolo ×6",
+        "pris": 1494.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2024-burzi-langhe-nebbiolo/"
+      },
+      {
+        "titel": "2024 Le Clotagnas La Peyne ×6",
+        "pris": 1494.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2024-le-clotagnas-la-peyne/"
+      },
+      {
+        "titel": "2023 Bindella Fossolupaio Rosso di Montepulciano ×6",
+        "pris": 1134.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2023-bindella-fossolupaio-rosso-di-montepulciano/"
+      },
+      {
+        "titel": "2022 Bindella Vino Nobile di Montepulciano ×6",
+        "pris": 1494.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2022-bindella-vino-nobile-di-montepulciano/"
+      },
+      {
+        "titel": "Swirl-lådan",
+        "pris": 1299.0,
+        "flaskor": null,
+        "url": "https://finewineservice.se/produkt/swirl-ladan/"
+      }
+    ]
   },
   "Vivino": {
     "state": "live",
-    "count": 72,
+    "count": 10,
     "errors": [],
     "utan_flaskantal": 0,
     "exempel": [
       {
-        "titel": "Belle Pente Chardonnay 2022 ×6",
-        "pris": 167.57999999999998,
+        "titel": "Brown Estate House of Brown Chardonnay 2022 ×6",
+        "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "https://hopcaskandbarrel.com/shop/product/belle-pente-chardonnay/6647c75e746807519c72ff0e?option-id=d3fff6586d09fbe37c9a4e52b3904f3a9117a54d087b05deff6aadd11fd6c3b3&utm_source=vivino&utm_medium=feed"
+        "url": "http://www.vivino.com/wines/170709764"
       },
       {
-        "titel": "Butterfield Station Firebaugh's Ferry Pinot Noir 2019 ×6",
-        "pris": 353.52,
+        "titel": "Madrigal Zinfandel 2019 ×6",
+        "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "https://www.socalws.com/products/butterfield-station-pinot-noir-088232005567"
+        "url": "http://www.vivino.com/wines/161236076"
       },
       {
-        "titel": "Magnificent Wine Riesling 2019 ×6",
-        "pris": 454.43999999999994,
+        "titel": "Ruth Lewandowski L. Stone Fox Hill Vineyard Zero Sangiovese 2021 ×6",
+        "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "https://hopcaskandbarrel.com/shop/product/the-magnificent-wine-co-riesling/6840e5adb46831261212a01c?option-id=d18083481e85d85d3b238e8087488ba4e14ba0ce005e57a2f0d409200251e3bc&utm_source=vivino&utm_medium=feed"
+        "url": "http://www.vivino.com/wines/174454401"
       },
       {
-        "titel": "Yalumba Shiraz - Viognier 2022 ×6",
-        "pris": 469.20000000000005,
+        "titel": "Cantina La-Vis Gewürztraminer 2021 ×6",
+        "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "https://buywinesonline.com/products/yalumba-y-series-shiraz-viognier-2022-750-ml"
+        "url": "http://www.vivino.com/wines/167866856"
       },
       {
-        "titel": "CK Mondavi Chardonnay 2023 ×6",
-        "pris": 469.20000000000005,
+        "titel": "Ménage à Trois Midnight Dark Red Blend 2021 ×6",
+        "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "https://buywinesonline.com/products/ck-mondavi-chardonnay-750-ml"
+        "url": "http://www.vivino.com/wines/167141803"
       }
     ]
   }
