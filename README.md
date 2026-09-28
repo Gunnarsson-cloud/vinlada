@@ -26,21 +26,37 @@ och moms inräknad, antingen via distanshandel eller privatimport.
 | [Vinoteket](https://vinoteket.se/attribut/vinlador) | HTML | från 799 kr | ca 99 kr |
 | [Winefinder](https://www.winefinder.se/vinlador) | HTML | från 1 200 kr | 99 kr |
 | [Supervin](https://www.supervin.se/vin/vinlador/) | HTML | från 1 000 kr | 59 kr under 600 kr, 29 kr under 1 000 kr |
-| [Philipson Wine](https://philipsonwine.se/vinlaador/vinlaador-med-6-flaskor) | HTML | från 1 295 kr | ca 99 kr |
-| [Nordiska Vin](https://nordiskavin.se/store/collections/blandlador) | Shopify/HTML | från 999 kr i tätort | okänd |
-| [Vinfolket](https://vinfolket.se/vinpaket/) | WooCommerce/HTML | från 800 kr | okänd |
-| [Tidblom Wines](https://tidblomwines.com/) | WooCommerce/HTML | – | 79 kr per låda |
+| [Philipson Wine](https://philipsonwine.se/vinlaador/vinlaador-med-6-flaskor) | JSON-flöde | från 1 295 kr | ca 99 kr |
+| [Nordiska Vin](https://nordiskavin.se/store/collections/blandlador) | HTML | från 999 kr i tätort | ca 99 kr |
+| [Vinfolket](https://vinfolket.se/vinpaket/) | HTML | från 800 kr | 79 kr |
+| [Tidblom Wines](https://tidblomwines.com/) | WooCommerce | – | 79 kr per låda |
 | [Wine Trade](https://winetrade.se/en/collections/vinlador) | Shopify | från 12 flaskor | 149 kr |
 | [Vinibutik](https://vinibutik.dk/) | Shopify | – | 99 kr (till utlämningsställe) |
 | [Gassås Wine](https://gassaswine.se/kategori/blandlador) | HTML | – | ca 169 kr |
-| [Fine Wine Service](https://finewineservice.se/) | Shopify/HTML | från 2 000 kr | okänd |
-| [Vivino](https://www.vivino.com/sv/) | Vivinos API | från 1 000 kr (äldre uppgift) | ca 59 kr |
+| [Fine Wine Service](https://finewineservice.se/viner/) | WooCommerce | från 2 000 kr | okänd |
+| [Vivino](https://www.vivino.com/sv/) | bara länk | – | – |
 
 Fraktvillkoren kontrollerades 2026-09-28. "Okänd" betyder att avgiften under gränsen för fri frakt inte gick att
 hitta. Sådana lådor visas bara med `--visa-okanda`. Fyll gärna i `fee` när du ser beloppet i kassan.
 
-Vivino säljer per flaska. Skriptet räknar därför om Vivinos priser till en "låda" om 6 flaskor av samma vin
-(`bundle_size` i `butiker.json`).
+Vivino visas bara som länk: från GitHubs servrar i USA visar Vivino utländska handlare, så priserna gäller
+inte leverans till Sverige. IVINIO är avstängd eftersom den bara visar priser i euro.
+
+Butiker som främst säljer enskilda flaskor (Fine Wine Service, Vinibutik, Tidblom, Winefinders outlet) visas
+som "enstaka viner ×6", alltså sex flaskor av samma vin.
+
+## Jämförelse med Systembolaget
+
+Varje enskilt vin söks upp på Systembolaget (`--stad Helsingborg`). Sidan visar Systembolagets pris, om vinet
+finns i lager i stadens butiker och om det blir billigare där än hos nätbutiken inklusive frakt. Matchningen
+kräver att producent och vinnamn stämmer; druva och område räcker inte. API-nyckeln hämtas från
+systembolaget.se, eller från miljövariabeln `SYSTEMBOLAGET_API_KEY` (egen nyckel från api-portal.systembolaget.se).
+
+## Automatisk körning
+
+`.github/workflows/hamta-vinlador.yml` kör hämtningen varje morgon på GitHubs servrar (som når alla butiker)
+och sparar resultatet i `docs/`: `index.html`, `vinlador.json`, `vinlador.csv` och `status.json` med
+hämtstatus per butik. Aktivera GitHub Pages från mappen `docs/` för att få sidan på en egen adress.
 
 Systembolaget finns inte med, eftersom de saknar öppet API. Deras hemleverans kostar 120 kr för det första paketet
 (högst 12 flaskor) och 80 kr per paket därefter. Att hämta i butik är gratis.
