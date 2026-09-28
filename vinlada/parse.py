@@ -58,6 +58,8 @@ _WINE_NOUN = (
     r"vinupplevelser|smagsoplevelser|wines\b|favoriter|årgångar(?:na)?|årgange)"
 )
 _NUM_WORD = r"\b(tre|fyra|fem|sex|sju|åtta|nio|tio|tolv|seks|otte)\b"
+# Inga av de mellanliggande orden får vara "olika" (= antal sorter).
+_NOT_KINDS = r"(?!(?:[a-zåäöæøé-]+\s+){0,3}?(?:olika|different|forskellige|skilda)\b)"
 _NUM = r"(?<![\d.,])(\d{1,2})(?![\d.,]\d)"
 
 _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
@@ -82,10 +84,11 @@ _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
     # "mix x 9" i URL:er
     (re.compile(r"\bmix\s*[x×]\s*(\d{1,2})\b", re.I), lambda m: int(m.group(1))),
     # "6 favoritviner", "12 noggrant utvalda vita viner", "6 av de bästa årgångarna"
-    (re.compile(_NUM + r"\s+(?:[a-zåäöæøé-]+\s+){0,3}" + _WINE_NOUN, re.I),
+    # ("3 olika viner" anger antal sorter, inte flaskor, och räknas inte här.)
+    (re.compile(_NUM + r"\s+" + _NOT_KINDS + r"(?:[a-zåäöæøé-]+\s+){0,3}" + _WINE_NOUN, re.I),
      lambda m: int(m.group(1))),
     # "sex röda favoriter", "tolv utvalda viner"
-    (re.compile(_NUM_WORD + r"\s+(?:[a-zåäöæøé-]+\s+){0,3}" + _WINE_NOUN, re.I),
+    (re.compile(_NUM_WORD + r"\s+" + _NOT_KINDS + r"(?:[a-zåäöæøé-]+\s+){0,3}" + _WINE_NOUN, re.I),
      lambda m: _NUMBER_WORDS[m.group(1).lower()]),
     # "(6st)", "låda (6 st)"
     (re.compile(r"\((\d{1,2})\s*st\.?\)", re.I), lambda m: int(m.group(1))),

@@ -10,7 +10,7 @@ from urllib.parse import urlencode, urljoin, urlsplit
 
 from .http import Fetcher, FetchError
 from .models import Offer
-from .parse import (clean_title, extract_links, guess_bottles, parse_price, product_from_html_price,
+from .parse import (bottles_from_text, clean_title, extract_links, guess_bottles, parse_price, product_from_html_price,
                     product_from_meta, products_from_jsonld)
 
 log = logging.getLogger(__name__)
@@ -60,6 +60,9 @@ def _title_ok(shop: dict, title: str, *descriptions: str) -> bool:
         return False
     if exclude_re and re.search(exclude_re, title, re.I):
         return False
+    if shop.get("bundle_singles"):
+        # Butiker som mest säljer enskilda viner: bara titeln får avgöra om det är en låda.
+        return bool(title_re) or bool(BOX_WORDS.search(title) or bottles_from_text(title)[0])
     return bool(title_re) or looks_like_box(title, guess_bottles(title, *descriptions)[0])
 
 

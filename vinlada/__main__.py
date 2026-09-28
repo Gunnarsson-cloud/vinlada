@@ -174,6 +174,9 @@ def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, 
             **status,
             "utan_flaskantal": sum(1 for o in found if o.bottles is None),
             "slut_i_lager": sum(1 for o in found if o.in_stock is False),
+            "fa_flaskor_exempel": [{"titel": o.title, "pris": o.price, "flaskor": o.bottles,
+                                    "text": o.description[:500]}
+                                   for o in found if o.bottles and o.bottles <= 3 and o.kind == "låda"][:8],
             "alkoholfria": sum(1 for o in found if o.alcohol_free),
             "utan_flaskantal_exempel": [{"titel": o.title, "url": o.url, "text": o.description[:400]}
                                         for o in found if o.bottles is None][:8],
