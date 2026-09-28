@@ -1,18 +1,11 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 16,
+    "count": 15,
     "errors": [],
     "utan_flaskantal": 0,
     "slut_i_lager": 0,
-    "fa_flaskor_exempel": [
-      {
-        "titel": "Dittvins 2 års XL födelsedagslåda 🥳🇸🇪",
-        "pris": 799.0,
-        "flaskor": 3.0,
-        "text": "Dittvins 2 års XL födelsedagslåda 🥳🇸🇪 Vi fyller 2 år, och du är inbjuden till festen! 🥳🍷 I anledning av vår födelsedag har vi satt ihop en extra stor XL vinlåda med 12 spännande viner, som är redo att göra firandet ännu bättre. Se fram emot en låda fylld med olika smakupplevelser, spännande flaskor och massor av möjligheter att hitta nya favoriter. Det finns vin för de mysiga vardagskvällarna, till middagen med vännerna och självklart för de stunder när det bara behövs något extra gott i glaset."
-      }
-    ],
+    "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": [
@@ -47,14 +40,14 @@
       {
         "titel": "Dittvins 2 års XL födelsedagslåda 🥳🇸🇪",
         "pris": 799.0,
-        "flaskor": 3.0,
+        "flaskor": 12.0,
         "url": "https://dittvin.se/products/dittvins-2-ars-fodelsedagslada",
         "text": "Dittvins 2 års XL födelsedagslåda 🥳🇸🇪 Vi fyller 2 år, och du är inbjuden till festen! 🥳🍷 I anledning av vår födelsedag har vi satt ihop en extra stor XL vinlåda med 12 spännande viner, som är redo att göra firandet ännu bättre. Se fram emot en låda f"
       },
       {
         "titel": "XL Lyxig vinlåda - Guld nivå 🏅🍷",
         "pris": 899.0,
-        "flaskor": 4.0,
+        "flaskor": 12.0,
         "url": "https://dittvin.se/products/xl-luksus-vinlada-guld-niva",
         "text": "XL Lyxig vinlåda - Guld nivå 🏅🍷 Denna smaklåda bjuder in dig på en spännande vinresa genom italienska klassiker, friska roséviner, eleganta bubblor och ett välvalt vitt vin. Här får du 12 flaskor med stor variation och massor av drickglädje: 1 × rödv"
       },
@@ -68,7 +61,7 @@
       {
         "titel": "XL vitvinslåda - En resa genom vitvinets värld❤️",
         "pris": 849.0,
-        "flaskor": 15.0,
+        "flaskor": 12.0,
         "url": "https://dittvin.se/products/xl-vitvinslada-en-resa-genom-vitvinets-varld",
         "text": "XL vitvinslåda - En resa genom vitvinets värld❤️ Denna smakpaket samlar 12 noggrant utvalda vita viner från några av Europas mest spännande vinområden och ger dig en härlig resa genom friskhet, frukt och finess. Här får du allt från krispiga, torra o"
       }
@@ -200,26 +193,43 @@
         "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Varje flaska av parcellvinet Commissaire är individuellt numrerad, då den totala produktionen uppgår till blott 1 333 flaskor. Förstautgåvan från 2024 av detta nya flaggskepp är så sällsynt att vinet inte ens finns med officiellt på Weingut Teschs egen"
       },
       {
+        "titel": "Pinot Noir världen runt Vinlåda",
+        "pris": 1239.95,
+        "flaskor": 2.0,
+        "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
+      },
+      {
         "titel": "3 x topprankade Champagner Vinlåda",
         "pris": 1359.95,
         "flaskor": 3.0,
         "text": ""
       },
       {
-        "titel": "Nyårslåda - Champagne",
-        "pris": 1409.95,
-        "flaskor": 2.0,
-        "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få lådor till salu! Nyårslådan med Champagne innehåller: 1 fl. G.H. Martel Champagne Premier Cru Cuvée"
-      },
-      {
         "titel": "Nyårslåda - Billiga Bubblor",
         "pris": 819.95,
         "flaskor": 3.0,
         "text": "Världens bästa Cava, historiens första TOP 100 Crémant de Bourgogne och sötmafyllda ICE-bubblor som är framställda som äkta Champagne. En nyårsvinlåda som bubblar av value for money. Aldrig har vi satt ihop en vinlåda med SÅ hög kvalitet till SÅ lågt pris! Här får du 3 olika mousserande viner som matchar nyårstal, middag och kransekaka kl. 24.00. SPARA 47 % - OBS. Observera att det bara finns ett fåtal vinlådor till salu! Nyårslådan med Billiga Bubblor innehåller: 1 fl. Villa Conchi Cava Imperia"
+      },
+      {
+        "titel": "Rosé Sensommarutrensning Vinlåda",
+        "pris": 1239.95,
+        "flaskor": 2.0,
+        "text": "Sol, havsbris, solkräm och vilda skogsbär… du kan nästan känna doften av härliga sommarminnen när du öppnar vinerna i denna låda. Supergoda roséer för att förgylla de sista stunderna i sensommarsolen. Sensommarens Rosé-lagerrensning! Vi har plockat de sista flaskorna på pallarna för att rensa upp innan rosésäsongen går mot sitt slut. I lådan hittar du några av årets största törstsläckare, restpartier till helt galna priser och läckra Prosecco-bubblor m.m. Rosévinlådan tar dig på en rundtur i mån"
+      },
+      {
+        "titel": "Sjat Festival Sommar Provlåda",
+        "pris": 1329.95,
+        "flaskor": 2.0,
+        "text": "Sjat-festivalens ultimata sommar-Vinlåda! Gör de bästa köpen till sommaren genom att utnyttja Sjat-festivalens lagerrensning. Vi har satt ihop en fantastiskt läcker Vinlåda fylld med godsaker. Se fram emot bedårande rosé från kundfavoriten Beyra, syndig Sylvaner från Grand Cru-producenten Gustave Lorentz och amforalagrad rosé från Amarone-producenten Zeni. I lådan hittar du också Pinot Noir-experten Markowitschs makalösa rosé, den okrönte kungen av ”value-for-money”, Rudi Rüttgers Feuermännchen "
       }
     ],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Nyårslåda - Champagne",
+        "url": "https://www.supervin.se/nyarslada-champagne",
+        "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få"
+      },
       {
         "titel": "Tesch Tasting Box 2020 & Live Provning",
         "url": "https://www.supervin.se/tesch-tasting-box-2020-live-provning",
@@ -234,11 +244,6 @@
         "titel": "Amarone-metoden Vinlåda",
         "url": "https://www.supervin.se/amarone-metoden-vinlada",
         "text": "Amarone är ljuvlig, men de flesta av oss har inte råd att dricka den varje dag. Men det finns råd för det: i denna Vinlåda får du sex olika topprecenserade rött viner, som alla är framställda enligt Amarone-metoden. Genom att torka druvorna före pressning koncentreras mustens rikedom och aromer, så man får ett mjukt, fylligt rött vin med massor av läckert mogen frukt. Vinlådan Amarone-metoden inne"
-      },
-      {
-        "titel": "Masso Antico Vinlåda – 1 Primitivo ICE 2023 och 5 Primitivo 2022",
-        "url": "https://www.supervin.se/masso-antico-vinlada-1-primitivo-ice-2023-och-5-primitivo-2022",
-        "text": "Den ultimata nya vinlådan för alla fans av Masso Anticos syditalienska Primitivo… Ett måste att prova med den vilda MASSO ICE-NYHETEN! Du känner säkert Masso Anticos Primitivo, som är ett av Danmarks mest populära rött vin. 99 poäng åtta år i rad säger allt. Och med rekordhöga 4,2 stjärnor på Vivino är årgången 2022 extra läcker. Du hittar 5 st i din vinlåda! Och inte minst - det kan vi lova (!) -"
       }
     ],
     "exempel": [
@@ -252,21 +257,21 @@
       {
         "titel": "Brunello Vinlåda",
         "pris": 3599.95,
-        "flaskor": 7.0,
+        "flaskor": 6.0,
         "url": "https://www.supervin.se/brunello-vinlada",
         "text": "Vinlådan är senast uppdaterad den 20-08-2026 Följ med på ”Giro di Brunello” – en Brunellorunda – med 6 viner från ett av Italiens mest lyxiga vindistrikt. Späckad med läckra Brunello-viner – och fortfarande till rekordlågt pris. Vinlådan innehåller: "
       },
       {
         "titel": "Champagne Vinlåda",
         "pris": 2259.95,
-        "flaskor": 11.0,
+        "flaskor": 6.0,
         "url": "https://www.supervin.se/champagne-vinlada",
         "text": "*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-6a16a45e-"
       },
       {
         "titel": "Spätburgunder Vinlåda",
         "pris": 1479.95,
-        "flaskor": 17.0,
+        "flaskor": 4.0,
         "url": "https://www.supervin.se/spatburgunder-vinlada",
         "text": "Vinlådan är senast uppdaterad den 27-06-2026 Ge dig ut på tysk och österrikisk upptäcktsfärd i den imponerande \"Spätburgunder-Vinlådan\"! Hitta saftiga, intensiva och komplexa Spätburgunder-viner (även kända som Pinot Noir) från några av de mest efter"
       },
@@ -280,7 +285,7 @@
       {
         "titel": "Bordeaux 2019 Vinlåda",
         "pris": 799.95,
-        "flaskor": 12.0,
+        "flaskor": 6.0,
         "url": "https://www.supervin.se/bordeaux-2019-vinlada",
         "text": "Bordeaux Vinlåda 2019 – 6 flaskor klassisk Bordeaux i toppform. Är du för klassisk Bordeaux med struktur, djup och elegans? Då träffar du mitt i prick med denna Vinlåda – en hyllning till Médoc & högerbredden och det historiska toppåret 2019, som fle"
       },
@@ -375,13 +380,6 @@
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
-        "titel": "Vinlåda Prisvärd Champagne 6 fl",
-        "pris": 1729.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
-        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
-      },
-      {
         "titel": "Vinlåda Premium Från Toscana 6 fl",
         "pris": 1519.95,
         "flaskor": 6.0,
@@ -394,6 +392,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-testvinnande-josh-cellars-6-fl",
         "text": "Best Buy från Josh Cellars inklusive \"Årets vinköp\" i Berlingske! Nu kan du prova vinerna i en samlad vinlåda."
+      },
+      {
+        "titel": "Vinlåda Vivino-favoriter 6 fl.",
+        "pris": 1089.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -517,7 +522,7 @@
     "state": "live",
     "count": 16,
     "errors": [],
-    "utan_flaskantal": 2,
+    "utan_flaskantal": 3,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
@@ -535,6 +540,11 @@
     ],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Rhône (Rån) Låda",
+        "url": "https://vinfolket.se/vinpaket/rhone-ran-lada/",
+        "text": "Nytt innehåller i vår Rån (Rhônr)- Låda Två flaskor Pecoulette Côtes du Rhône – ett mycket uppskattat vin från gäster och webbesökare (upprepat hyllat bland annat i Le Guide Hachette).Två flaskor Chardo Pour Flo – ett av våra absolut mest populära vita viner. Charddonay som fått ligga på sin jästfällning vilket ger en fin fyllighet i vinetTvå flaskor av det nya Syrah pour Toi. Spännande nyförvärv!"
+      },
       {
         "titel": "Sardinienpaket",
         "url": "https://vinfolket.se/vinpaket/sardinienpaket/",
@@ -564,7 +574,7 @@
       {
         "titel": "Pinot Noir! – Vinpaket",
         "pris": 1297.0,
-        "flaskor": 4.0,
+        "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/pinot-noir/",
         "text": "Den är mångas favoritdruva, mångas val när det kommer till röda viner.Eller som en del av våra bargäster brukar säga: ”jag tar en pino”.Så vi kände att det helt enkelt var läge för mer av – Pinot Noir!I denna låda får du fem olika varianter från druv"
       },
@@ -585,21 +595,21 @@
       {
         "titel": "Pink Passion - Rosépaket",
         "pris": 825.0,
-        "flaskor": 10.0,
+        "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/pink-passion-rosepaket/",
         "text": "Pink Passion: Vårt alltid lika populära vår- och sommarpaket!Fräscha, eleganta och i Sverige unika roséer för vårens första ljumma stunder. Fraktkostnad ingår i priset!Rosepaket Pink Passion = sex flaskor Två flaskor av Santa Maria La Palma Aragosta "
       },
       {
         "titel": "Rhône (Rån) Låda",
         "pris": 890.0,
-        "flaskor": 4.0,
+        "flaskor": null,
         "url": "https://vinfolket.se/vinpaket/rhone-ran-lada/",
         "text": "Nytt innehåller i vår Rån (Rhônr)- Låda Två flaskor Pecoulette Côtes du Rhône – ett mycket uppskattat vin från gäster och webbesökare (upprepat hyllat bland annat i Le Guide Hachette).Två flaskor Chardo Pour Flo – ett av våra absolut mest populära vi"
       },
       {
         "titel": "Drick som Romare – Vinpaket",
         "pris": 895.0,
-        "flaskor": 4.0,
+        "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/",
         "text": "Ja, vi är där! Vi är där nu. Vi ska äntligen till Rom. Eller i alla fall till utkanten av denna så märkvärdiga stad, i landskapet som heter Lazio.Vi säger helt enkelt välkommen – benvenuto – till producenten Parvus Arger! Där systrarna Alessia och Si"
       }
@@ -684,18 +694,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
