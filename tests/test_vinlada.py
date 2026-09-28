@@ -482,3 +482,27 @@ class StrictMatchTest(unittest.TestCase):
         from vinlada.systembolaget import match_score
         sb = {"producerName": "Bodegas Luzon", "productNameBold": "Altos de Luzon", "productNameThin": "Monastrell"}
         self.assertGreaterEqual(match_score("Luzon Altos De Luzon ×6", sb), 0.75)
+
+
+class MoreDescriptionCountTest(unittest.TestCase):
+    CASES = [
+        ("tre fylliga rödviner, en frisk rosé, ett livligt vitt vin och en elegant cremant.", 6),
+        ("3 fl. Couveys Pinot Noir och 3 fl. Couveys Chardonnay! Vinlådan innehåller: 3 fl. Couveys Pinot Noir 2024", 6),
+        ("Blandlåda med 2 olika cava: 3 flaskor Batllori Brut Reserva 3 flaskor Batllori Brut Nature", 6),
+        ("2xChianti D.O.C.G 1xVoltaccia 49 1x La Cappelle 1xVoltaccino Bianco 1x Voltaccino Rosato", 6),
+        ("som förenar tre flaskor från vardera av de två största franska vinregionerna", 6),
+        ("Tre lättdruckna favoriter för sol och mingel", None),
+    ]
+
+    def test_cases(self):
+        from vinlada.parse import bottles_from_description
+        for text, expected in self.CASES:
+            with self.subTest(text=text):
+                self.assertEqual(bottles_from_description(text)[0], expected)
+
+
+class TooShortNameTest(unittest.TestCase):
+    def test_two_word_name_with_generic_word_does_not_match_producer(self):
+        from vinlada.systembolaget import match_score
+        sb = {"producerName": "Prestige des Sacres", "productNameBold": "Prestige des Sacres", "productNameThin": "Brut"}
+        self.assertEqual(match_score("Brut Prestige ×6", sb), 0.0)

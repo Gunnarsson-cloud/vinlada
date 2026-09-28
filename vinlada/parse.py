@@ -63,6 +63,10 @@ _NOT_KINDS = r"(?!(?:[a-zåäöæøé-]+\s+){0,3}?(?:olika|different|forskellige
 _NUM = r"(?<![\d.,])(\d{1,2})(?![\d.,]\d)"
 
 _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
+    # "1 Grande Reserva och 5 Beyra Reserva", "3 fl. Pinot Noir och 3 fl. Chardonnay" -> 6
+    (re.compile(_NUM + r"\s+[^\d,;]{2,40}?\s+(?:och|and|og|&|\+)\s+(\d{1,2})\s+"
+                r"(?:fl\.?\s*|flaskor\s+|flasker\s+)?[A-ZÅÄÖÉ]"),
+     lambda m: int(m.group(1)) + int(m.group(2))),
     # "3x2 flaskor" -> 6
     (re.compile(_NUM + r"\s*[x×]\s*(\d{1,2})\s*" + _BOTTLE_WORD, re.I),
      lambda m: int(m.group(1)) * int(m.group(2))),
@@ -76,9 +80,6 @@ _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
     # "sexflaskorslåda", "tolv flaskor"
     (re.compile(r"\b(" + "|".join(_NUMBER_WORDS) + r")[\s-]*(?:flask|flaske|flasker)", re.I),
      lambda m: _NUMBER_WORDS[m.group(1).lower()]),
-    # "1 Grande Reserva och 5 Beyra Reserva" -> 6
-    (re.compile(_NUM + r"\s+[^\d,;]{2,40}?\s+(?:och|and|og|&|\+)\s+(\d{1,2})\s+[A-Za-zÅÄÖåäöÉé]", re.I),
-     lambda m: int(m.group(1)) + int(m.group(2))),
     # "3 x topprankade Champagner" (antal först i titeln)
     (re.compile(r"^\s*(\d{1,2})\s*[x×]\s+[A-Za-zÅÄÖåäö]", re.I), lambda m: int(m.group(1))),
     # "mix x 9" i URL:er
@@ -97,10 +98,25 @@ _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
 ]
 
 # "2x Clos Malverne Brut, 2x Florence, 2x Aaldering" – delposter som summeras.
-_ITEM = re.compile(r"(?<![\d.,])(\d{1,2})\s*[x×]\s+(?=[A-ZÅÄÖ])")
+_ITEM = re.compile(r"(?<![\d.,])(\d{1,2})\s*[x×]\s*(?=[A-ZÅÄÖ])")
+# "3 flaskor Batllori Brut Reserva 3 flaskor Batllori Brut Nature", "Två flaskor Pecoulette …"
+_ITEM_BOTTLES = re.compile(
+    r"(?<![\d.,])(\d{1,2}|en|ett|två|tre|fyra|fem|sex)\s+(?:st\.?\s+)?(?:flaskor|flaska|fl\.|flasker|flaske)\s+(?=[A-ZÅÄÖ])",
+    re.I)
+# "tre fylliga rödviner, en frisk rosé, ett livligt vitt vin och en elegant cremant"
+_COLOR_ITEM = re.compile(
+    r"\b(\d{1,2}|en|ett|två|tre|fyra|fem|sex)\s+(?:[a-zåäöé-]+\s+){0,2}"
+    r"(?:rödviner|rödvin|röda\s+viner|rosé(?:er|viner)?|vita?\s+viner|vitt\s+vin|vitviner|cremant|crémant|"
+    r"cava|prosecco|champagne|bubbel|mousserande\s+vin(?:er)?)\b", re.I)
+
+_NOUN_PATTERNS = {p for p, _ in _PATTERNS if "viner" in p.pattern and "favoriter" in p.pattern}
 
 _EACH = re.compile(_NUM + r"\s*(?:st\.?\s*)?" + _BOTTLE_WORD +
-                   r"\s+(?:av\s+varje|av\s+vardera|var\s+av|per\s+sort|of\s+each|af\s+hver)", re.I)
+                   r"\s+(?:av\s+varje|av\s+vardera|från\s+vardera|från\s+varje|var\s+av|per\s+sort|of\s+each|af\s+hver)",
+                   re.I)
+_EACH_WORD = re.compile(r"\b(två|tre|fyra|fem|sex)\s+" + _BOTTLE_WORD +
+                        r"\s+(?:av\s+varje|av\s+vardera|från\s+vardera|från\s+varje)", re.I)
+_OF_N = re.compile(r"(?:vardera|varje)\s+av\s+(?:de\s+)?(\d{1,2}|två|tre|fyra|fem|sex)\b", re.I)
 # Uppräkning efter "av varje;" – "Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo"
 _LIST_AFTER = re.compile(r"[;:]\s*([^.«»\n]{3,300})")
 _DISTINCT = re.compile(
@@ -158,12 +174,22 @@ def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
     if not text:
         return None, False
     text = _clean(text)
-    items = [int(m.group(1)) for m in _ITEM.finditer(text)]
-    if len(items) >= 2 and 2 <= sum(items) <= MAX_BOTTLES:
-        return float(sum(items)), False
-    each = _EACH.search(text)
+    for pattern in (_ITEM, _ITEM_BOTTLES, _COLOR_ITEM):
+        # Samma vin kan nämnas flera gånger ("Vinlådan innehåller: 3 fl. Couveys Pinot Noir …"):
+        # räkna varje namn (de närmast följande orden) en gång.
+        items: dict[str, int] = {}
+        for m in pattern.finditer(text):
+            name = " ".join(re.findall(r"[A-Za-zÅÄÖåäöé]+", text[m.end():m.end() + 40].lower())[:3])
+            items.setdefault(name or str(m.start()), _number(m.group(1)))
+        total = sum(items.values())
+        if len(items) >= 2 and 2 <= total <= MAX_BOTTLES:
+            return float(total), False
+    each = _EACH.search(text) or _EACH_WORD.search(text)
     if each:
-        per = int(each.group(1))
+        per = _number(each.group(1))
+        of_n = _OF_N.search(text, each.start())
+        if of_n and 2 <= per * _number(of_n.group(1)) <= MAX_BOTTLES:
+            return float(per * _number(of_n.group(1))), False
         distinct = _DISTINCT.search(text)
         if distinct:
             n = per * _number(distinct.group(1))
@@ -179,6 +205,8 @@ def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
     for pattern, convert in _PATTERNS:
         for match in pattern.finditer(text):
             n = convert(match)
+            if pattern in _NOUN_PATTERNS and n < 4:
+                continue  # "tre favoriter"/"tre viner" är ofta antal sorter, inte flaskor
             if MIN_BOTTLES <= n <= MAX_BOTTLES:
                 found.setdefault(match.start(), n)
     counts = [found[pos] for pos in sorted(found)]

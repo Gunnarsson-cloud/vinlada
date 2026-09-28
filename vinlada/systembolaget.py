@@ -99,7 +99,7 @@ def match_score(offer_title: str, p: dict) -> float:
         # Ett enda specifikt ord räcker bara om det är producenten och resten av namnet
         # också stämmer ("Sturm Pinot Grigio"), inte för "Brut Prestige".
         producer = _tokens(p.get("producerName", ""))
-        if not (specific <= producer and wanted <= have):
+        if not (specific <= producer and wanted <= have and len(wanted) >= 3):
             return 0.0
     score = overlap / len(wanted)
     # Straffa när Systembolagets namn har mycket som vi inte sökte på (annat vin från samma producent).
