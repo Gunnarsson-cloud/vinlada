@@ -51,21 +51,36 @@ _NUMBER_WORDS = {
     "nio": 9, "tio": 10, "tolv": 12, "arton": 18, "seks": 6, "otte": 8, "ni": 9,
 }
 
+# Ord som betyder "flaskor vin" i lådbeskrivningar: "6 favoritviner", "6 festliga smakupplevelser".
+_WINE_NOUN = (
+    r"(?:[a-zåäöæøé]*viner|[a-zåäöæø]*vine\b|[a-zåäöæø]*vinsorter|smak(?:s)?upplevelser|"
+    r"vinupplevelser|smagsoplevelser|wines\b)"
+)
+_NUM = r"(?<![\d.,])(\d{1,2})(?![\d.,]\d)"
+
 _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
     # "3x2 flaskor" -> 6
-    (re.compile(r"(?<!\d)(\d{1,2})\s*[x×]\s*(\d{1,2})\s*" + _BOTTLE_WORD, re.I),
+    (re.compile(_NUM + r"\s*[x×]\s*(\d{1,2})\s*" + _BOTTLE_WORD, re.I),
      lambda m: int(m.group(1)) * int(m.group(2))),
     # "6 x 75 cl"
-    (re.compile(r"(?<!\d)(\d{1,2})\s*[x×]\s*75\s*cl", re.I), lambda m: int(m.group(1))),
+    (re.compile(_NUM + r"\s*[x×]\s*75\s*cl", re.I), lambda m: int(m.group(1))),
     # "6 flaskor", "12 st. flaskor", "6 fl."
-    (re.compile(r"(?<!\d)(\d{1,2})\s*(?:st\.?|stk\.?)?\s*" + _BOTTLE_WORD, re.I),
+    (re.compile(_NUM + r"\s*(?:st\.?|stk\.?)?\s*" + _BOTTLE_WORD, re.I),
      lambda m: int(m.group(1))),
-    # "6-pack", "12 pak"
-    (re.compile(r"(?<!\d)(\d{1,2})[\s-]*(?:pack|pak)\b", re.I), lambda m: int(m.group(1))),
+    # "6-pack", "12 pak", "[6-pac]"
+    (re.compile(_NUM + r"[\s-]*(?:pack|pak|pac)\b", re.I), lambda m: int(m.group(1))),
     # "sexflaskorslåda", "tolv flaskor"
     (re.compile(r"\b(" + "|".join(_NUMBER_WORDS) + r")[\s-]*(?:flask|flaske|flasker)", re.I),
      lambda m: _NUMBER_WORDS[m.group(1).lower()]),
+    # "6 favoritviner", "6 festliga smakupplevelser", "12 särskilda rödviner"
+    (re.compile(_NUM + r"\s+(?:[a-zåäöæøé-]+\s+){0,2}" + _WINE_NOUN, re.I),
+     lambda m: int(m.group(1))),
 ]
+
+_EACH = re.compile(_NUM + r"\s*(?:st\.?\s*)?" + _BOTTLE_WORD + r"\s+(?:av\s+varje|av\s+vardera|per\s+sort|of\s+each|af\s+hver)", re.I)
+_DISTINCT = re.compile(
+    r"(?<![\d.,])(\d{1,2}|" + "|".join(_NUMBER_WORDS) + r")\s+(?:olika\s+|forskellige\s+|different\s+)?"
+    r"(?:viner|vinsorter|sorter|wines|vine)\b", re.I)
 
 _BIB = re.compile(r"bag[\s-]*in[\s-]*box|\bbib\b|\bbox\b|vinbox|\bboxvin", re.I)
 _LITERS = re.compile(r"(?<![\d.,])(\d{1,2}(?:[.,]\d{1,2})?)\s*(?:l|liter|litre|ltr)\b", re.I)
@@ -73,19 +88,11 @@ _LITERS = re.compile(r"(?<![\d.,])(\d{1,2}(?:[.,]\d{1,2})?)\s*(?:l|liter|litre|l
 MIN_BOTTLES, MAX_BOTTLES = 1, 48
 
 
-def bottles_from_text(text: str | None) -> tuple[float | None, bool]:
-    """Returnera (antal flaskor, uppskattat?) ur en titel eller beskrivning.
+def _clean(text: str) -> str:
+    return html.unescape(re.sub(r"<[^>]+>", " ", text))
 
-    Bag-in-box räknas om till 75 cl-flaskor och markeras som uppskattat.
-    """
-    if not text:
-        return None, False
-    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
-    for pattern, convert in _PATTERNS:
-        for match in pattern.finditer(text):
-            n = convert(match)
-            if MIN_BOTTLES <= n <= MAX_BOTTLES:
-                return float(n), False
+
+def _bag_in_box(text: str) -> tuple[float | None, bool]:
     if _BIB.search(text):
         m = _LITERS.search(text)
         if m:
@@ -95,16 +102,84 @@ def bottles_from_text(text: str | None) -> tuple[float | None, bool]:
     return None, False
 
 
+def bottles_from_text(text: str | None) -> tuple[float | None, bool]:
+    """Returnera (antal flaskor, uppskattat?) ur en titel.
+
+    Bag-in-box räknas om till 75 cl-flaskor och markeras som uppskattat.
+    """
+    if not text:
+        return None, False
+    text = _clean(text)
+    for pattern, convert in _PATTERNS:
+        for match in pattern.finditer(text):
+            n = convert(match)
+            if MIN_BOTTLES <= n <= MAX_BOTTLES:
+                return float(n), False
+    return _bag_in_box(text)
+
+
+def _number(token: str) -> int:
+    return int(token) if token.isdigit() else _NUMBER_WORDS[token.lower()]
+
+
+def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
+    """Flaskantal ur en längre produkttext, där delposter ofta räknas upp.
+
+    * "2 flaskor av varje" + "3 olika viner" -> 6
+    * "2 flaskor Barolo, 2 flaskor Barbaresco, 2 flaskor Langhe" -> 6
+    * "Lådan innehåller 6 flaskor: 3 röda och 3 vita" -> 6
+    * bara "2 flaskor av varje" utan antal viner -> okänt
+    """
+    if not text:
+        return None, False
+    text = _clean(text)
+    each = _EACH.search(text)
+    if each:
+        distinct = _DISTINCT.search(text)
+        if distinct:
+            n = int(each.group(1)) * _number(distinct.group(1))
+            if 2 <= n <= MAX_BOTTLES:
+                return float(n), False
+        text = _EACH.sub(" ", text)  # "N av varje" är inte lådans totala antal
+    found: dict[int, int] = {}  # position i texten -> antal (första mönstret vinner)
+    for pattern, convert in _PATTERNS:
+        for match in pattern.finditer(text):
+            n = convert(match)
+            if MIN_BOTTLES <= n <= MAX_BOTTLES:
+                found.setdefault(match.start(), n)
+    counts = [found[pos] for pos in sorted(found)]
+    if counts:
+        first = counts[0]
+        if first >= 3:
+            return float(first), False
+        if len(counts) >= 3 and max(counts) <= 3:
+            return float(sum(counts)), False
+        return None, False
+    return _bag_in_box(text)
+
+
 def guess_bottles(title: str | None, *descriptions: str | None) -> tuple[float | None, bool]:
-    """Titeln först, sedan beskrivningarna (där ensamma flaskor ignoreras)."""
+    """Titeln först, sedan beskrivningarna."""
     n, approx = bottles_from_text(title)
     if n is not None:
         return n, approx
     for desc in descriptions:
-        n, approx = bottles_from_text(desc)
+        n, approx = bottles_from_description(desc)
         if n is not None and n >= 2:
             return n, approx
     return None, False
+
+
+_TITLE_SUFFIX = re.compile(r"\s*(?:\||:\s*köp\b|–\s*köp\b).*$", re.I)
+
+
+def clean_title(title: str) -> str:
+    """Ta bort butiksnamn och säljfraser: "Köp X online | Butik" -> "X"."""
+    title = html.unescape(title).strip()
+    short = _TITLE_SUFFIX.sub("", title).strip()
+    short = re.sub(r"^köp\s+", "", short, flags=re.I)
+    short = re.sub(r"\s+online$", "", short, flags=re.I)
+    return (short[:1].upper() + short[1:]) if short else title
 
 
 # ---------------------------------------------------------------------------
@@ -274,6 +349,35 @@ def product_from_meta(page_html: str, base_url: str) -> dict | None:
         "price": price,
         "currency": meta.get("product:price:currency") or meta.get("og:price:currency")
         or meta.get("pricecurrency") or props.get("pricecurrency"),
+        "in_stock": None,
+        "url": base_url,
+    }
+
+
+_HTML_PRICE = re.compile(
+    r'class="[^"]*\bprice\b[^"]*"[^>]*>\s*(?:<[^>]+>\s*)*([\d\s\xa0.,]+?)\s*(?:kr|SEK|:-)', re.I)
+_H1 = re.compile(r"<h1[^>]*>(.*?)</h1>", re.I | re.S)
+
+
+def product_from_html_price(page_html: str, base_url: str) -> dict | None:
+    """Sista utväg för sidor utan strukturerad data: första elementet med klassen "price".
+
+    Används bara för butiker med html_price_fallback i butiker.json.
+    """
+    m = _HTML_PRICE.search(page_html)
+    if not m:
+        return None
+    price = parse_price(m.group(1))
+    if price is None or price <= 0:
+        return None
+    parser = parse_page(page_html)
+    h1 = _H1.search(page_html)
+    name = parser.meta.get("og:title") or (re.sub(r"<[^>]+>", " ", h1.group(1)) if h1 else parser.title)
+    return {
+        "name": html.unescape(re.sub(r"\s+", " ", name).strip()),
+        "description": html.unescape(parser.meta.get("og:description") or parser.meta.get("description") or ""),
+        "price": price,
+        "currency": "SEK",
         "in_stock": None,
         "url": base_url,
     }

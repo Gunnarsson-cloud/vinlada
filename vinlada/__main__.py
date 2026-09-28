@@ -35,6 +35,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--lista-smaker", action="store_true", help="visa kända smakprofiler och avsluta")
     p.add_argument("--max-pris", type=float, help="högsta totalpris inkl. frakt")
     p.add_argument("--max-per-flaska", type=float, help="högsta pris per flaska inkl. frakt")
+    p.add_argument("--alkoholfritt", action="store_true", help="ta med alkoholfria lådor")
     p.add_argument("--min-flaskor", type=float, default=0, help="minsta antal flaskor per låda")
     p.add_argument("--antal-lador", type=int, default=2,
                    help="pröva att köpa upp till N lådor för att nå fri frakt (standard 2)")
@@ -54,6 +55,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--ingen-cache", action="store_true", help="hämta allt på nytt")
     p.add_argument("--cache-timmar", type=float, default=6)
     p.add_argument("--ignorera-robots", action="store_true", help="strunta i robots.txt (eget ansvar)")
+    p.add_argument("--dump-dir", metavar="MAPP", help=argparse.SUPPRESS)  # felsökning av hämtare
     p.add_argument("-v", "--verbose", action="count", default=0)
     return p.parse_args(argv)
 
@@ -146,6 +148,9 @@ def main(argv: list[str] | None = None) -> int:
             print(exc, file=sys.stderr)
             return 2
 
+    if args.dump_dir:
+        from . import sources
+        sources.DUMP_DIR = args.dump_dir
     shops = load_shops(args)
     if not shops:
         print("Inga butiker matchar --butik.", file=sys.stderr)
@@ -154,6 +159,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Hämtar från {len(shops)} butiker …", file=sys.stderr)
     pairs, problems, statuses = collect(shops, args)
 
+    if not args.alkoholfritt:
+        pairs = [(o, s) for o, s in pairs if not o.alcohol_free]
     if args.farg:
         pairs = [(o, s) for o, s in pairs if taste.matches_color(o, args.farg)]
     if args.smak:

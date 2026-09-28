@@ -9,22 +9,31 @@ from urllib.parse import urlencode, urlsplit
 
 from .http import Fetcher, FetchError
 from .models import Offer
-from .parse import extract_links, guess_bottles, product_from_meta, products_from_jsonld
+from .parse import (clean_title, extract_links, guess_bottles, product_from_html_price,
+                    product_from_meta, products_from_jsonld)
 
 log = logging.getLogger(__name__)
 
 BOX_WORDS = re.compile(
-    r"l[åa]da|l[åa]dan|lådor|box|paket|kasse|pakke|smag|prov|mix|blandl|sampler|"
-    r"\d+\s*-?\s*pack|kollektion|selection|abonnemang|prenumeration",
+    r"l[åa]da|l[åa]dan|lådor|\bbox|paket|kasse|pakke|smagekasse|provl[åa]d|provsmakningsl|"
+    r"\bmix|blandl|sampler|\d+\s*-?\s*pac?k|kollektion|abonnemang|prenumeration|mixed case",
     re.I,
 )
+
+# Sådant som ser ut som lådor men inte är vin att dricka.
+NOT_WINE = re.compile(
+    r"trälåda|trälådor|tom\s+l[åa]da|ospecificerat|display\s*box|presentkort|gift\s*card|kartong|"
+    r"emballage|presentförpackning|korkskruv|karaff|vinglas|vinkyl|dekanter|vinhylla",
+    re.I,
+)
+ALCOHOL_FREE = re.compile(r"alkoholfri|alcohol[\s-]*free|\b0[,.]0\s*%|\bjuice\b|must\b|druvjuice", re.I)
 
 DEFAULT_LINK_EXCLUDE = re.compile(
     r"/(cart|varukorg|kassa|checkout|login|logga-in|konto|account|my-account|sok|search|"
     r"blog|blogs|magasin|pages|sida|policies|kontakt|om-oss|villkor|faq|vanliga-fragor|"
     r"wishlist|onskelista|compare|nyhetsbrev|newsletter|presentkort)(/|$|\?)"
     r"|\.(jpe?g|png|gif|webp|svg|pdf|css|js)(\?|$)"
-    r"|[?&](page|sort|order|filter|p)=",
+    r"|[?&](page|sort|order|filter|p|currencycode|activelanguageselection|loginaction|add-to-cart)=",
     re.I,
 )
 
@@ -37,6 +46,8 @@ def _title_ok(shop: dict, title: str, *descriptions: str) -> bool:
     """Är produkten en vinlåda enligt butikens filter (eller standardheuristiken)?"""
     title_re = shop.get("title_regex")
     exclude_re = shop.get("exclude_regex")
+    if NOT_WINE.search(title):
+        return False
     if title_re and not re.search(title_re, title, re.I):
         return False
     if exclude_re and re.search(exclude_re, title, re.I):
@@ -46,13 +57,41 @@ def _title_ok(shop: dict, title: str, *descriptions: str) -> bool:
 
 def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool | None,
                 *descriptions: str, note: str = "") -> Offer | None:
+    title = clean_title(title)
     if not _title_ok(shop, title, *descriptions):
-        return None
+        return _single_bottle_bundle(shop, title, url, price, in_stock, *descriptions)
     bottles, approx = guess_bottles(title, *descriptions)
-    description = " ".join(re.sub(r"<[^>]+>", " ", d or "") for d in descriptions)
+    if bottles and price / bottles < MIN_PRICE_PER_BOTTLE:
+        bottles, approx = None, False  # orimligt billigt – antalet är troligen feltolkat
+    description = _plain(*descriptions)
     return Offer(shop=shop["name"], title=title.strip(), url=url, price=price,
                  bottles=bottles, bottles_approx=approx, in_stock=in_stock, note=note,
-                 description=re.sub(r"\s+", " ", description).strip()[:3000])
+                 description=description,
+                 alcohol_free=bool(ALCOHOL_FREE.search(title) or ALCOHOL_FREE.search(description[:400])))
+
+
+# Svensk alkoholskatt + moms gör vin under ca 40 kr/flaska orimligt.
+MIN_PRICE_PER_BOTTLE = 40
+
+
+def _plain(*texts: str) -> str:
+    text = " ".join(re.sub(r"<[^>]+>", " ", t or "") for t in texts)
+    return re.sub(r"\s+", " ", text).strip()[:3000]
+
+
+def _single_bottle_bundle(shop: dict, title: str, url: str, price: float, in_stock: bool | None,
+                          *descriptions: str) -> Offer | None:
+    """Butiker som bara säljer per flaska: räkna som N flaskor av samma vin (bundle_singles)."""
+    n = shop.get("bundle_singles")
+    if not n or NOT_WINE.search(title) or price < MIN_PRICE_PER_BOTTLE or price > 1500:
+        return None
+    if re.search(r"magnum|1[,.]5\s*l|150\s*cl|37[,.]5\s*cl|halvflaska", title, re.I):
+        return None
+    description = _plain(*descriptions)
+    return Offer(shop=shop["name"], title=f"{title} ×{n}", url=url, price=price * n, bottles=float(n),
+                 in_stock=in_stock, note=f"säljs per flaska; räknat som {n} st",
+                 description=description,
+                 alcohol_free=bool(ALCOHOL_FREE.search(title)))
 
 
 # ---------------------------------------------------------------------------
@@ -213,6 +252,21 @@ def _offer_from_product(shop: dict, product: dict) -> Offer | None:
                        product.get("in_stock"), product.get("description", ""))
 
 
+DUMP_DIR: str | None = None  # sätts av --dump-dir; sparar sidor utan hittat pris för felsökning
+_dumped: dict[str, int] = {}
+
+
+def _dump(shop: dict, url: str, page: str) -> None:
+    if not DUMP_DIR or _dumped.get(shop["name"], 0) >= 3:
+        return
+    import os
+    _dumped[shop["name"]] = _dumped.get(shop["name"], 0) + 1
+    os.makedirs(DUMP_DIR, exist_ok=True)
+    name = re.sub(r"[^a-z0-9]+", "-", shop["name"].lower())
+    with open(os.path.join(DUMP_DIR, f"{name}-{_dumped[shop['name']]}.html"), "w", encoding="utf-8") as fh:
+        fh.write(f"<!-- {url} -->\n" + page[:300_000])
+
+
 def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
     offers: dict[str, Offer] = {}
     candidates: list[str] = []
@@ -226,6 +280,7 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
             listing_errors.append(exc)
             continue
         stats["listningar"] += 1
+        _dump(shop, listing, page)
         # Vissa listningssidor bäddar in hela produktlistan som JSON-LD.
         for product in products_from_jsonld(page, listing):
             if product["url"].rstrip("/") != listing.rstrip("/"):
@@ -259,7 +314,11 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
         products = products_from_jsonld(page, url)
         if not products:
             meta = product_from_meta(page, url)
+            if meta is None and shop.get("html_price_fallback"):
+                meta = product_from_html_price(page, url)
             products = [meta] if meta else []
+        if not products:
+            _dump(shop, url, page)
         for product in products[:1]:  # produktsidan beskriver en produkt
             product["url"] = url
             stats["med pris"] += 1
@@ -294,15 +353,27 @@ def fetch_vivino(shop: dict, fetcher: Fetcher) -> list[Offer]:
     offers: list[Offer] = []
     for page in range(1, opts.get("pages", 2) + 1):
         url = "https://www.vivino.com/api/explore/explore?" + urlencode(params + [("page", page)])
-        data = fetcher.get_json(url)
+        data = fetcher.get_json(url, headers=VIVINO_HEADERS)
         matches = (data or {}).get("explore_vintage", {}).get("matches", []) if isinstance(data, dict) else []
         if not matches:
             break
+        external = 0
         for match in matches:
             offer = _vivino_offer(shop, match, bundle)
             if offer:
                 offers.append(offer)
+            else:
+                external += 1
+        log.info("%s: sida %d, %d träffar, %d från externa handlare bortfiltrerade",
+                 shop["name"], page, len(matches), external)
+    if not offers:
+        raise FetchError("Vivino visade bara externa/utländska handlare (servern står utomlands)")
     return offers
+
+
+# Be Vivino om svensk marknad även när anropet görs från en utländsk server.
+VIVINO_HEADERS = {"Cookie": "country_code=SE; currency_code=SEK; language=sv; ship_to_country_code=SE",
+                  "Accept-Language": "sv-SE,sv;q=0.9"}
 
 
 def _vivino_offer(shop: dict, match: dict, bundle: int) -> Offer | None:
@@ -314,19 +385,22 @@ def _vivino_offer(shop: dict, match: dict, bundle: int) -> Offer | None:
     if not amount or currency != "SEK":
         return None
     volume = (price_info.get("bottle_type") or {}).get("volume_ml") or 750
+    if volume != 750:
+        return None  # magnum/halvflaska – jämförs inte mot 75 cl
     winery = (wine.get("winery") or {}).get("name", "")
     name = vintage.get("name") or f"{winery} {wine.get('name', '')} {vintage.get('year', '')}"
     rating = (vintage.get("statistics") or {}).get("ratings_average")
     url = price_info.get("url") or f"https://www.vivino.com/sv/w/{wine.get('id', '')}"
     if url.startswith("/"):
         url = "https://www.vivino.com" + url
+    if not urlsplit(url).netloc.endswith("vivino.com"):
+        return None  # extern handlare (ofta utländsk) som inte levererar till Sverige
     note = f"Vivino säljer per flaska; beräknat som {bundle} st"
     if rating:
         note += f", betyg {rating}"
     structure, description = _vivino_taste(vintage, wine)
     return Offer(shop=shop["name"], title=f"{name.strip()} ×{bundle}", url=url,
-                 price=float(amount) * bundle, bottles=round(bundle * volume / 750, 2),
-                 bottles_approx=volume != 750, in_stock=True, note=note,
+                 price=float(amount) * bundle, bottles=float(bundle), in_stock=True, note=note,
                  description=description, structure=structure, wine_type=wine.get("type_id"))
 
 

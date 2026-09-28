@@ -16,13 +16,15 @@ from urllib.parse import urlsplit
 log = logging.getLogger(__name__)
 
 USER_AGENT = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/128.0 Safari/537.36 vinlada-jamforare/0.1"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/140.0.0.0 Safari/537.36"
 )
 
 
 class FetchError(Exception):
-    pass
+    def __init__(self, message: str, status: int | None = None) -> None:
+        super().__init__(message)
+        self.status = status
 
 
 class Fetcher:
@@ -31,7 +33,7 @@ class Fetcher:
         cache_dir: Path | None = Path(".cache"),
         ttl_hours: float = 6,
         delay: float = 1.0,
-        timeout: float = 20,
+        timeout: float = 40,
         respect_robots: bool = True,
     ) -> None:
         self.cache_dir = cache_dir
@@ -88,13 +90,33 @@ class Fetcher:
             time.sleep(wait)
         self._last_request[host] = time.time()
 
-    def _raw_get(self, url: str, accept: str = "*/*") -> str:
+    def _raw_get(self, url: str, accept: str = "*/*", headers: dict[str, str] | None = None) -> str:
+        """GET med ett nytt försök vid timeout eller serverfel (5xx)."""
+        for attempt in (1, 2):
+            try:
+                return self._request(url, accept, headers)
+            except FetchError as exc:
+                retry = exc.status is None or exc.status >= 500
+                if attempt == 2 or not retry:
+                    raise
+                log.debug("försöker igen: %s", exc)
+                time.sleep(3)
+        raise AssertionError("unreachable")
+
+    def _request(self, url: str, accept: str, headers: dict[str, str] | None) -> str:
         self._throttle(urlsplit(url).netloc)
+        is_html = "html" in accept
         req = urllib.request.Request(url, headers={
             "User-Agent": USER_AGENT,
-            "Accept": accept,
-            "Accept-Language": "sv-SE,sv;q=0.9,en;q=0.5",
+            "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,"
+                       "image/webp,*/*;q=0.8") if is_html else accept,
+            "Accept-Language": "sv-SE,sv;q=0.9,en-US;q=0.6,en;q=0.5",
             "Accept-Encoding": "gzip",
+            "Sec-Fetch-Dest": "document" if is_html else "empty",
+            "Sec-Fetch-Mode": "navigate" if is_html else "cors",
+            "Sec-Fetch-Site": "none" if is_html else "same-origin",
+            "Upgrade-Insecure-Requests": "1",
+            **(headers or {}),
         })
         try:
             with urllib.request.urlopen(req, timeout=self.timeout) as resp:
@@ -104,23 +126,23 @@ class Fetcher:
                 charset = resp.headers.get_content_charset() or "utf-8"
                 return data.decode(charset, errors="replace")
         except urllib.error.HTTPError as exc:
-            raise FetchError(f"HTTP {exc.code} för {url}") from exc
+            raise FetchError(f"HTTP {exc.code} för {url}", status=exc.code) from exc
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             raise FetchError(f"{exc} för {url}") from exc
 
-    def get(self, url: str, accept: str = "text/html,*/*") -> str:
+    def get(self, url: str, accept: str = "text/html,*/*", headers: dict[str, str] | None = None) -> str:
         cached = self._from_cache(url)
         if cached is not None:
             return cached
         if not self.allowed(url):
             raise FetchError(f"robots.txt tillåter inte {url}")
         log.debug("GET %s", url)
-        body = self._raw_get(url, accept)
+        body = self._raw_get(url, accept, headers)
         self._to_cache(url, body)
         return body
 
-    def get_json(self, url: str) -> object:
-        body = self.get(url, accept="application/json")
+    def get_json(self, url: str, headers: dict[str, str] | None = None) -> object:
+        body = self.get(url, accept="application/json", headers=headers)
         try:
             return json.loads(body)
         except ValueError as exc:

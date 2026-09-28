@@ -5,9 +5,18 @@
       "name": "Dittvin",
       "url": "https://dittvin.se",
       "platform": "shopify",
-      "collections": ["vinlador", "erbjudanden"],
-      "listing_urls": ["https://dittvin.se/collections/vinlador"],
-      "shipping": {"fee": 189, "free_from": 695, "note": "Bring 1–3 vardagar"}
+      "collections": [
+        "vinlador",
+        "erbjudanden"
+      ],
+      "listing_urls": [
+        "https://dittvin.se/collections/vinlador"
+      ],
+      "shipping": {
+        "fee": 189,
+        "free_from": 695,
+        "note": "Bring 1–3 vardagar"
+      }
     },
     {
       "name": "Vinoteket",
@@ -18,21 +27,57 @@
         "https://vinoteket.se/attribut/vinprenumeration"
       ],
       "max_products": 50,
-      "shipping": {"fee": 99, "approx": true, "free_from": 799},
+      "shipping": {
+        "fee": 99,
+        "approx": true,
+        "free_from": 799
+      },
       "known_offers": [
-        {"title": "Vinlåda: Välkommen till Vinoteket (nya kunder)", "price": 699, "url": "https://vinoteket.se/valkommen-till-vinoteket-v1", "checked": "2026-09-28", "note": "ord. 903 kr"},
-        {"title": "Vinlåda: Höstfynd", "price": 999, "url": "https://vinoteket.se/semesterdeal", "checked": "2026-09-28", "note": "ord. 1 491 kr"},
-        {"title": "Vinlåda: Prisvärda Premiumviner, 8 flaskor", "price": 1499, "bottles": 8, "url": "https://vinoteket.se/prisvarda-premiumviner", "checked": "2026-09-28"},
-        {"title": "Vinprenumeration baslåda, 9 flaskor", "price": 999, "bottles": 9, "url": "https://vinoteket.se/attribut/vinprenumeration", "checked": "2026-09-28", "note": "prenumeration, kan pausas"}
+        {
+          "title": "Vinlåda: Välkommen till Vinoteket (nya kunder)",
+          "price": 699,
+          "url": "https://vinoteket.se/valkommen-till-vinoteket-v1",
+          "checked": "2026-09-28",
+          "note": "ord. 903 kr"
+        },
+        {
+          "title": "Vinlåda: Höstfynd",
+          "price": 999,
+          "url": "https://vinoteket.se/semesterdeal",
+          "checked": "2026-09-28",
+          "note": "ord. 1 491 kr"
+        },
+        {
+          "title": "Vinlåda: Prisvärda Premiumviner, 8 flaskor",
+          "price": 1499,
+          "bottles": 8,
+          "url": "https://vinoteket.se/prisvarda-premiumviner",
+          "checked": "2026-09-28"
+        },
+        {
+          "title": "Vinprenumeration baslåda, 9 flaskor",
+          "price": 999,
+          "bottles": 9,
+          "url": "https://vinoteket.se/attribut/vinprenumeration",
+          "checked": "2026-09-28",
+          "note": "prenumeration, kan pausas"
+        }
       ]
     },
     {
       "name": "Winefinder",
       "url": "https://www.winefinder.se",
       "platform": "html",
-      "listing_urls": ["https://www.winefinder.se/vinlador", "https://www.winefinder.se/outlet"],
-      "max_products": 50,
-      "shipping": {"fee": 99, "free_from": 1200, "note": "Airmee/Bring"}
+      "listing_urls": [
+        "https://www.winefinder.se/vinlador",
+        "https://www.winefinder.se/outlet"
+      ],
+      "max_products": 80,
+      "shipping": {
+        "fee": 99,
+        "free_from": 1200,
+        "note": "Airmee/Bring"
+      }
     },
     {
       "name": "Supervin",
@@ -44,9 +89,28 @@
       ],
       "exclude_regex": "presentförpackning|vinlåda för \\d+ (vin)?flaskor|trälåda|kartong",
       "max_products": 50,
-      "shipping": {"free_from": 1000, "tiers": [{"under": 600, "fee": 59}, {"under": 1000, "fee": 29}], "note": "2–5 vardagar"},
+      "shipping": {
+        "free_from": 1000,
+        "tiers": [
+          {
+            "under": 600,
+            "fee": 59
+          },
+          {
+            "under": 1000,
+            "fee": 29
+          }
+        ],
+        "note": "2–5 vardagar"
+      },
       "known_offers": [
-        {"title": "Chardonnay Vinlåda", "price": 879.95, "url": "https://www.supervin.se/chardonnay-vinlada", "checked": "2026-09-28", "note": "rea, ord. 1 899,95 kr"}
+        {
+          "title": "Chardonnay Vinlåda",
+          "price": 879.95,
+          "url": "https://www.supervin.se/chardonnay-vinlada",
+          "checked": "2026-09-28",
+          "note": "rea, ord. 1 899,95 kr"
+        }
       ]
     },
     {
@@ -58,51 +122,104 @@
         "https://philipsonwine.se/12-6"
       ],
       "max_products": 50,
-      "shipping": {"fee": 99, "approx": true, "free_from": 1295, "note": "kolla mängdrabatter (18 fl. för priset av 12)"}
+      "shipping": {
+        "fee": 99,
+        "approx": true,
+        "free_from": 1295,
+        "note": "kolla mängdrabatter (18 fl. för priset av 12)"
+      },
+      "html_price_fallback": true
     },
     {
       "name": "Nordiska Vin",
       "url": "https://nordiskavin.se",
       "platform": "shopify",
       "path_prefix": "/store",
-      "collections": ["blandlador"],
-      "listing_urls": ["https://nordiskavin.se/store/collections/blandlador"],
-      "shipping": {"fee": null, "free_from": 999, "note": "1 999 kr för fri frakt utanför tätort; Helsingborg räknas som tätort"},
+      "collections": [
+        "blandlador"
+      ],
+      "listing_urls": [
+        "https://nordiskavin.se/store/collections/blandlador"
+      ],
+      "shipping": {
+        "fee": 99,
+        "approx": true,
+        "free_from": 999,
+        "note": "69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee"
+      },
       "known_offers": [
-        {"title": "Blandlåda 9 flaskor", "price": 1149, "bottles": 9, "url": "https://nordiskavin.se/store/collections/blandlador", "checked": "2026-09-28", "note": "−20 %, ord. 1 431 kr"},
-        {"title": "Hjärtat av Toscana, 6 flaskor", "price": 799, "bottles": 6, "url": "https://nordiskavin.se/store/toskanaladan", "checked": "2026-09-28"}
+        {
+          "title": "Blandlåda 9 flaskor",
+          "price": 1149,
+          "bottles": 9,
+          "url": "https://nordiskavin.se/store/collections/blandlador",
+          "checked": "2026-09-28",
+          "note": "−20 %, ord. 1 431 kr"
+        },
+        {
+          "title": "Hjärtat av Toscana, 6 flaskor",
+          "price": 799,
+          "bottles": 6,
+          "url": "https://nordiskavin.se/store/toskanaladan",
+          "checked": "2026-09-28"
+        }
       ]
     },
     {
       "name": "Vinfolket",
       "url": "https://vinfolket.se",
       "platform": "woocommerce",
-      "listing_urls": ["https://vinfolket.se/vinpaket/"],
-      "shipping": {"fee": null, "free_from": 800}
+      "listing_urls": [
+        "https://vinfolket.se/vinpaket/"
+      ],
+      "shipping": {
+        "fee": 79,
+        "free_from": 800
+      }
     },
     {
       "name": "Tidblom Wines",
       "url": "https://tidblomwines.com",
       "platform": "woocommerce",
-      "listing_urls": ["https://tidblomwines.com/"],
-      "shipping": {"fee": 79, "per_box": true, "note": "5–7 dagar"}
+      "listing_urls": [
+        "https://tidblomwines.com/"
+      ],
+      "shipping": {
+        "fee": 79,
+        "per_box": true,
+        "note": "5–7 dagar"
+      }
     },
     {
       "name": "IVINIO",
       "url": "https://www.ivinio.com",
       "platform": "woocommerce",
       "woo_lang": "sv",
-      "woo_categories": ["blandade-provsmakningslador"],
-      "listing_urls": ["https://www.ivinio.com/sv/categorie-produit/blandade-provsmakningslador/"],
-      "shipping": {"fee": null}
+      "woo_categories": [
+        "blandade-provsmakningslador"
+      ],
+      "listing_urls": [
+        "https://www.ivinio.com/sv/categorie-produit/blandade-provsmakningslador/"
+      ],
+      "shipping": {
+        "fee": null
+      }
     },
     {
       "name": "Wine Trade",
       "url": "https://winetrade.se",
       "platform": "shopify",
-      "collections": ["vinlador"],
-      "listing_urls": ["https://winetrade.se/en/collections/vinlador"],
-      "shipping": {"fee": 149, "free_from_bottles": 12, "note": "naturvin, privatimport – kontrollera om priset redan inkluderar frakt"}
+      "collections": [
+        "vinlador"
+      ],
+      "listing_urls": [
+        "https://winetrade.se/en/collections/vinlador"
+      ],
+      "shipping": {
+        "fee": 149,
+        "free_from_bottles": 12,
+        "note": "naturvin, privatimport – kontrollera om priset redan inkluderar frakt"
+      }
     },
     {
       "name": "Vinibutik",
@@ -113,11 +230,36 @@
         "fee": null,
         "note": "49 kr till Sthlm/Gbg/Malmöregionen; Helsingborg okänt",
         "zones": [
-          {"postcode_prefixes": ["1"], "fee": 49, "note": "Stockholmsregionen"},
-          {"postcode_prefixes": ["40", "41", "42", "43"], "fee": 49, "note": "Göteborgsregionen"},
-          {"postcode_prefixes": ["20", "21", "22", "23"], "fee": 49, "note": "Malmöregionen"}
+          {
+            "postcode_prefixes": [
+              "1"
+            ],
+            "fee": 49,
+            "note": "Stockholmsregionen"
+          },
+          {
+            "postcode_prefixes": [
+              "40",
+              "41",
+              "42",
+              "43"
+            ],
+            "fee": 49,
+            "note": "Göteborgsregionen"
+          },
+          {
+            "postcode_prefixes": [
+              "20",
+              "21",
+              "22",
+              "23"
+            ],
+            "fee": 49,
+            "note": "Malmöregionen"
+          }
         ]
-      }
+      },
+      "bundle_singles": 6
     },
     {
       "name": "Gassås Wine",
@@ -127,28 +269,42 @@
         "https://gassaswine.se/kategori/blandlador",
         "https://gassaswine.se/kategori/utforsaljning-lager"
       ],
-      "shipping": {"fee": null, "note": "PostNord, leverans tors/sön"}
+      "shipping": {
+        "fee": null,
+        "note": "PostNord, leverans tors/sön, 14–21 dagar"
+      }
     },
     {
       "name": "Fine Wine Service",
       "url": "https://finewineservice.se",
-      "platform": "shopify",
-      "listing_urls": ["https://finewineservice.se/"],
-      "shipping": {"fee": null, "free_from": 2000}
-    },
-    {
-      "name": "Pompette",
-      "url": "https://www.pompette.se",
       "platform": "woocommerce",
-      "listing_urls": ["https://www.pompette.se/"],
-      "shipping": {"fee": null, "note": "naturvin, veckovisa släpp"}
+      "listing_urls": [
+        "https://finewineservice.se/viner/"
+      ],
+      "shipping": {
+        "fee": null,
+        "free_from": 2000
+      },
+      "bundle_singles": 6,
+      "max_products": 60
     },
     {
       "name": "Vivino",
       "url": "https://www.vivino.com/sv/",
       "platform": "vivino",
-      "vivino": {"bundle_size": 6, "price_range_min": 0, "price_range_max": 150, "min_rating": 3.5, "pages": 3},
-      "shipping": {"fee": 59, "approx": true, "free_from": 1000, "note": "äldre uppgift; kod VIBJUDERPAFRAKTEN har gett fri frakt på första ordern"}
+      "vivino": {
+        "bundle_size": 6,
+        "price_range_min": 0,
+        "price_range_max": 150,
+        "min_rating": 3.5,
+        "pages": 3
+      },
+      "shipping": {
+        "fee": 59,
+        "approx": true,
+        "free_from": 1000,
+        "note": "äldre uppgift; kod VIBJUDERPAFRAKTEN har gett fri frakt på första ordern"
+      }
     }
   ]
 }

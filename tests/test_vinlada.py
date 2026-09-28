@@ -18,14 +18,14 @@ class FakeFetcher:
         self.pages = pages
         self.requested = []
 
-    def get(self, url, accept=""):
+    def get(self, url, accept="", headers=None):
         self.requested.append(url)
         for key, body in self.pages.items():
             if url == key or (key.endswith("*") and url.startswith(key[:-1])):
                 return body if isinstance(body, str) else json.dumps(body)
         raise FetchError(f"HTTP 404 för {url}")
 
-    def get_json(self, url):
+    def get_json(self, url, headers=None):
         return json.loads(self.get(url))
 
 
@@ -200,7 +200,7 @@ class VivinoTest(unittest.TestCase):
         shop = {"name": "Vivino", "url": "https://www.vivino.com/sv/", "vivino": {"pages": 1}}
 
         class VivinoFetcher(FakeFetcher):
-            def get_json(self, url):
+            def get_json(self, url, headers=None):
                 q = parse_qs(urlsplit(url).query)
                 assert q["country_code"] == ["SE"] and q["currency_code"] == ["SEK"]
                 return {"explore_vintage": {"matches": [match]}}

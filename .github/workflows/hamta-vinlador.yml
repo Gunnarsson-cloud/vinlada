@@ -38,7 +38,7 @@ jobs:
           python -m vinlada -vv --visa-okanda --topp 0 \
             --html docs/index.html --html-fragment docs/artifact.html \
             --json docs/vinlador.json --csv docs/vinlador.csv \
-            --status docs/status.json 2> docs/logg.txt | tee docs/resultat.txt
+            --status docs/status.json --dump-dir docs/debug 2> docs/logg.txt | tee docs/resultat.txt
           tail -n 40 docs/logg.txt
 
       - name: Spara resultat

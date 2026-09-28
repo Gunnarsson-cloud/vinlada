@@ -19,6 +19,7 @@ class Offer:
     note: str = ""
     description: str = ""  # produkttext, används för smaksökning
     structure: dict[str, float] | None = None  # Vivinos smakprofil 1–5 (tannin, acidity, ...)
+    alcohol_free: bool = False
     wine_type: int | None = None  # Vivinos typ: 1 röd, 2 vit, 3 mousserande, 4 rosé
     taste_score: float = 0.0
     taste_matches: list[str] = field(default_factory=list)
