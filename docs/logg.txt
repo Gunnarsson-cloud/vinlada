@@ -1,478 +1,470 @@
 Hämtar från 13 butiker …
 DEBUG vinlada.http: GET https://www.supervin.se/vin/vinlador/
-DEBUG vinlada.http: GET https://philipsonwine.se/vinlaador/vinlaador-med-6-flaskor?feed=true&redirect=false&PageSize=200
-DEBUG vinlada.http: GET https://dittvin.se/meta.json
-DEBUG vinlada.http: GET https://nordiskavin.se/meta.json
 DEBUG vinlada.http: GET https://vinoteket.se/attribut/vinlador
+DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/blandlador
+DEBUG vinlada.http: GET https://dittvin.se/meta.json
+DEBUG vinlada.http: GET https://philipsonwine.se/vinlaador/vinlaador-med-6-flaskor?feed=true&redirect=false&PageSize=200
 DEBUG vinlada.http: GET https://www.winefinder.se/vinlador
 DEBUG vinlada.http: GET https://dittvin.se/collections/vinlador/products.json?limit=250&page=1
-DEBUG vinlada.http: GET https://www.supervin.se/erbjudanden/provsmakningsboxar-paketerbjudanden
 DEBUG vinlada.http: GET https://philipsonwine.se/vinlaador?feed=true&redirect=false&PageSize=200
 DEBUG vinlada.http: GET https://www.winefinder.se/outlet
-INFO vinlada.sources: Supervin: 155 kandidatlänkar, t.ex. ['https://www.supervin.se/bordeaux-krisladan', 'https://www.supervin.se/vit-bourgogne-vinlada', 'https://www.supervin.se/brunello-vinlada', 'https://www.supervin.se/champagne-vinlada', 'https://www.supervin.se/spatburgunder-vinlada', 'https://www.supervin.se/toscana-vinlada', 'https://www.supervin.se/bordeaux-2019-vinlada', 'https://www.supervin.se/chardonnay-vinlada']
-DEBUG vinlada.http: GET https://www.supervin.se/bordeaux-krisladan
-DEBUG vinlada.http: GET https://dittvin.se/collections/vinlador/products.json?limit=250&page=2
 DEBUG vinlada.http: GET https://vinoteket.se/attribut/vinprenumeration
-DEBUG vinlada.http: GET https://dittvin.se/collections/erbjudanden/products.json?limit=250&page=1
-DEBUG vinlada.http: GET https://www.supervin.se/vit-bourgogne-vinlada
-INFO vinlada.sources: Vinoteket: 407 kandidatlänkar, t.ex. ['https://vinoteket.se/pakkekalender-m-24-ol', 'https://vinoteket.se/kategori/vinpaket/filter?attribut=vinlador', 'https://vinoteket.se/hostens-stora-mixlada', 'https://vinoteket.se/vit-manad---mix-x-9', 'https://vinoteket.se/prisvarda-fyndviner-prenumeration-mix', 'https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix', 'https://vinoteket.se/vinotekets-favoriter-prenumeration-mix', 'https://vinoteket.se/exklusiva-viner-prenumeration-mix']
-DEBUG vinlada.http: GET https://vinoteket.se/pakkekalender-m-24-ol
-DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/blandlador/products.json?limit=250&page=1
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/vit-bourgogne-vinlada -> Vit Bourgogne Vinlåda 1719.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/brunello-vinlada
-  Dittvin            15 lådor
-DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/blandlador
-INFO vinlada.sources: Winefinder: 190 kandidatlänkar, t.ex. ['https://www.winefinder.se/saa-fungerar-det/', 'https://www.winefinder.se/fraagor-och-svar', 'https://www.winefinder.se/leverans-och-betalning', 'https://www.winefinder.se/trygg-e-handel', 'https://www.winefinder.se/registrera-dig', 'https://www.winefinder.se/vinbutik', 'https://www.winefinder.se/vinbutik/roda-viner', 'https://www.winefinder.se/vinbutik/frankrike?sType=2']
-DEBUG vinlada.http: GET https://www.winefinder.se/saa-fungerar-det/
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/pakkekalender-m-24-ol -> Ölkalender 24 x 33 cl 799.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinpaket/filter?attribut=vinlador
-DEBUG vinlada.http: GET https://vinfolket.se/wp-json/wc/store/v1/products?per_page=100&page=1
-DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=1
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/brunello-vinlada -> Brunello Vinlåda 3599.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/champagne-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/hostens-stora-mixlada
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/champagne-vinlada -> Champagne Vinlåda 2259.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/spatburgunder-vinlada
+DEBUG vinlada.http: GET https://dittvin.se/collections/vinlador/products.json?limit=250&page=2
 INFO vinlada.sources: Nordiska Vin: 55 kandidatlänkar, t.ex. ['https://nordiskavin.se/store/guider/basta-vita-vinladan-bestalla-hem-friska-och-smoriga-flaskor', 'https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot', 'https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada', 'https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten', 'https://nordiskavin.se/store/exklusiv-champagne-och-prosecco-blandlada', 'https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada-9-flaskor', 'https://nordiskavin.se/store/italienska-blanc-de-blancs-och-cuvee-12-pack-flaska', 'https://nordiskavin.se/store/fransk-och-italiensk-bubbellada']
 DEBUG vinlada.http: GET https://nordiskavin.se/store/guider/basta-vita-vinladan-bestalla-hem-friska-och-smoriga-flaskor
-INFO vinlada.sources: Vinfolket: 133 kandidatlänkar, t.ex. ['https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/', 'https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/', 'https://vinfolket.se/vinpaket/pinot-noir/', 'https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/', 'https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/', 'https://vinfolket.se/vinpaket/pink-passion-rosepaket/', 'https://vinfolket.se/vinpaket/rhone-ran-lada/', 'https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/']
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/hostens-stora-mixlada -> Höstens stora mixlåda 1199.0 kr (låda)
-DEBUG vinlada.http: GET https://vinoteket.se/vit-manad---mix-x-9
-DEBUG vinlada.http: GET https://www.winefinder.se/fraagor-och-svar
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/spatburgunder-vinlada -> Spätburgunder Vinlåda 1479.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/toscana-vinlada
 DEBUG vinlada.http: GET https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada
-DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=2
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/vit-manad---mix-x-9 -> Vinotekets vita & bubbel låda 1199.0 kr (låda)
-DEBUG vinlada.http: GET https://vinoteket.se/prisvarda-fyndviner-prenumeration-mix
-DEBUG vinlada.http: GET https://www.winefinder.se/leverans-och-betalning
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/ -> Santa Marias Guldkorn – 3-pack 750.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/toscana-vinlada -> Toscana Vinlåda 3869.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/bordeaux-2019-vinlada
+DEBUG vinlada.http: GET https://dittvin.se/collections/erbjudanden/products.json?limit=250&page=1
+INFO vinlada.sources: Vinoteket: 407 kandidatlänkar, t.ex. ['https://vinoteket.se/pakkekalender-m-24-ol', 'https://vinoteket.se/kategori/vinpaket/filter?attribut=vinlador', 'https://vinoteket.se/hostens-stora-mixlada', 'https://vinoteket.se/vit-manad---mix-x-9', 'https://vinoteket.se/prisvarda-fyndviner-prenumeration-mix', 'https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix', 'https://vinoteket.se/vinotekets-favoriter-prenumeration-mix', 'https://vinoteket.se/exklusiva-viner-prenumeration-mix']
+DEBUG vinlada.http: GET https://vinoteket.se/pakkekalender-m-24-ol
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/
+  Dittvin            15 lådor
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/pakkekalender-m-24-ol -> Ölkalender 24 x 33 cl 799.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinpaket/filter?attribut=vinlador
+INFO vinlada.sources: Winefinder: 190 kandidatlänkar, t.ex. ['https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941', 'https://www.winefinder.se/saa-fungerar-det/', 'https://www.winefinder.se/fraagor-och-svar', 'https://www.winefinder.se/leverans-och-betalning', 'https://www.winefinder.se/trygg-e-handel', 'https://www.winefinder.se/registrera-dig', 'https://www.winefinder.se/vinbutik', 'https://www.winefinder.se/vinbutik/roda-viner']
+DEBUG vinlada.http: GET https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada -> Köp guldbelönad Appassimento online | Bra pris och hemlevera 1649.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/ -> Då är rödvin grejen! – 12 flaskor 1675.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/pinot-noir/
-DEBUG vinlada.http: GET https://www.winefinder.se/trygg-e-handel
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/prisvarda-fyndviner-prenumeration-mix -> Prisvärda viner 999.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/bordeaux-2019-vinlada -> Bordeaux 2019 Vinlåda 799.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/chardonnay-vinlada
+DEBUG vinlada.http: GET https://vinoteket.se/hostens-stora-mixlada
+DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=1
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten -> Köp franska höstlådan 12-pack online | Bra pris och hemlever 1399.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/exklusiv-champagne-och-prosecco-blandlada
-DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=3
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/pinot-noir/ -> Pinot Noir! – Vinpaket 1297.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/
-DEBUG vinlada.http: GET https://www.winefinder.se/registrera-dig
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/chardonnay-vinlada -> Chardonnay Vinlåda 889.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/spanien-runt-vinlada-med-rodviner
+INFO vinlada.sources: Vinfolket: 133 kandidatlänkar, t.ex. ['https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/', 'https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/', 'https://vinfolket.se/vinpaket/pinot-noir/', 'https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/', 'https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/', 'https://vinfolket.se/vinpaket/pink-passion-rosepaket/', 'https://vinfolket.se/vinpaket/rhone-ran-lada/', 'https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/']
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941 -> Weingut Dr. Corvers-Kauter Terroir Riesling Case 2025: Köp o 199.0 kr (låda)
+DEBUG vinlada.http: GET https://www.winefinder.se/saa-fungerar-det/
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/hostens-stora-mixlada -> Höstens stora mixlåda 1199.0 kr (låda)
+DEBUG vinlada.http: GET https://vinoteket.se/vit-manad---mix-x-9
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/exklusiv-champagne-och-prosecco-blandlada -> Köp Exklusivt bubbel i 6-pack online | Fri hemleverans! 2189.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada-9-flaskor
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix -> Bästsäljare i en låda 1199.0 kr (låda)
-DEBUG vinlada.http: GET https://vinoteket.se/vinotekets-favoriter-prenumeration-mix
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/ -> Månadens Vinlåda - 6 flaskor 950.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/ -> Santa Marias Guldkorn – 3-pack 750.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/vit-manad---mix-x-9 -> Vinotekets vita & bubbel låda 1199.0 kr (låda)
+DEBUG vinlada.http: GET https://vinoteket.se/prisvarda-fyndviner-prenumeration-mix
+DEBUG vinlada.http: GET https://www.supervin.se/erbjudanden/provsmakningsboxar-paketerbjudanden
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/ -> Då är rödvin grejen! – 12 flaskor 1675.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/pinot-noir/
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada-9-flaskor -> Köp Bordeaux och Merlot Rödvinslåda | Hemleverans – Nordiska 995.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/italienska-blanc-de-blancs-och-cuvee-12-pack-flaska
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/spanien-runt-vinlada-med-rodviner -> Spanien runt: Vinlåda med rödviner 909.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/ripasso-vinlada
-DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=4
+DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=2
+DEBUG vinlada.http: GET https://www.winefinder.se/fraagor-och-svar
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/prisvarda-fyndviner-prenumeration-mix -> Prisvärda viner 999.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/italienska-blanc-de-blancs-och-cuvee-12-pack-flaska -> Köp bubbellåda 12-pack online | Bra pris och hemleverans! 1299.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/bundlelada
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/pinot-noir/ -> Pinot Noir! – Vinpaket 1297.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/
+DEBUG vinlada.http: GET https://www.winefinder.se/leverans-och-betalning
+DEBUG vinlada.sources: Vinoteket: HTTP 403 för https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix
+DEBUG vinlada.http: GET https://vinoteket.se/vinotekets-favoriter-prenumeration-mix
+DEBUG vinlada.http: GET https://www.winefinder.se/trygg-e-handel
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/bundlelada -> Köp Fransk Rödvinsmix Bordeaux och Rhône | Hemleverans – Nor 1599.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/appassimentoladan
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/ -> Månadens Vinlåda - 6 flaskor 950.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/
+DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=3
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/appassimentoladan -> Köp Appassimentolådan med röda viner online | Bra pris och h 749.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/fransk-bubbellada-12-pack-flaska
 DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/vinotekets-favoriter-prenumeration-mix -> Vinotekets favoriter 1499.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://vinoteket.se/exklusiva-viner-prenumeration-mix
 DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/ -> Winnica Adoria Vinpaket 1298.0 kr (låda)
 DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/pink-passion-rosepaket/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/italienska-blanc-de-blancs-och-cuvee-12-pack-flaska -> Köp bubbellåda 12-pack online | Bra pris och hemleverans! 1299.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/bundlelada
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/ripasso-vinlada -> Ripasso Vinlåda 909.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack
+DEBUG vinlada.http: GET https://www.winefinder.se/registrera-dig
 DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/exklusiva-viner-prenumeration-mix -> Exklusiva viner 2399.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://vinoteket.se/goda-viner-x12-prenumeration
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/fransk-bubbellada-12-pack-flaska -> Köp fransk bubbellåda 12-pack online | Bra pris och hemlever 1389.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik
 DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/pink-passion-rosepaket/ -> Pink Passion - Rosépaket 825.0 kr (låda)
 DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/rhone-ran-lada/
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/roda-viner
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/bundlelada -> Köp Fransk Rödvinsmix Bordeaux och Rhône | Hemleverans – Nor 1599.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/appassimentoladan
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack -> Tesch Riesling Karthäuser "Commissaire" Nahe 2024 3-pack 959.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay
+INFO vinlada.sources: Supervin: 155 kandidatlänkar, t.ex. ['https://www.supervin.se/bordeaux-krisladan', 'https://www.supervin.se/vit-bourgogne-vinlada', 'https://www.supervin.se/brunello-vinlada', 'https://www.supervin.se/champagne-vinlada', 'https://www.supervin.se/spatburgunder-vinlada', 'https://www.supervin.se/toscana-vinlada', 'https://www.supervin.se/bordeaux-2019-vinlada', 'https://www.supervin.se/chardonnay-vinlada']
+DEBUG vinlada.http: GET https://www.supervin.se/bordeaux-krisladan
+DEBUG vinlada.http: GET https://tidblomwines.com/wp-json/wc/store/v1/products?per_page=100&page=4
 DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/goda-viner-x12-prenumeration -> Goda viner x12 1499.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://vinoteket.se/prisvarda-roda-viner-prenumeration-rott
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada -> Köp roséviner i blandlåda online | Bra pris och hemleverans! 1095.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/exklusiv-prova-pa-lada-chardonnay-italiensk-bianco
 DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/rhone-ran-lada/ -> Rhône (Rån) Låda 890.0 kr (låda)
 DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/
 DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/prisvarda-roda-viner-prenumeration-rott -> Prisvärda röda viner 999.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://vinoteket.se/mustiga-roda-viner-prenumeration-rott
-DEBUG vinlada.http: GET https://winetrade.se/meta.json
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/appassimentoladan -> Köp Appassimentolådan med röda viner online | Bra pris och h 749.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/fransk-bubbellada-12-pack-flaska
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay -> Mix-vinlåda Pinot Noir & Chardonnay 969.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/ -> Drick som Romare – Vinpaket 895.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/sardinienpaket/
-DEBUG vinlada.http: GET https://winetrade.se/collections/vinlador/products.json?limit=250&page=1
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/fransk-bubbellada-12-pack-flaska -> Köp fransk bubbellåda 12-pack online | Bra pris och hemlever 1389.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada -> Rudi Rüttger Tour de Pfalz Vinlåda 989.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/beyra-vinlada-1-grande-reserva-och-5-beyra-reserva
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/mustiga-roda-viner-prenumeration-rott -> Mustiga röda viner 1199.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/roda-premiumviner-prenumeration-rott
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike?sType=2
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/sardinienpaket/ -> Sardinienpaket 970.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/latta-roda/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada -> Köp roséviner i blandlåda online | Bra pris och hemleverans! 1095.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/exklusiv-prova-pa-lada-chardonnay-italiensk-bianco
-DEBUG vinlada.http: GET https://winetrade.se/collections/vinlador/products.json?limit=250&page=2
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/beyra-vinlada-1-grande-reserva-och-5-beyra-reserva -> Beyra Vinlåda - 1 Grande Reserva och 5 Beyra Reserva 1019.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/grillladan-smaklada
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/roda-premiumviner-prenumeration-rott -> Röda premiumviner 1499.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/roda-viner-x-12-prenumeration
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/latta-roda/ -> Lätt Kylda Röda 898.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/champagnedax-vinpaket-6-flaskor/
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/exklusiv-prova-pa-lada-chardonnay-italiensk-bianco -> Köp exklusiv vitvinslåda Chardonnay & Sauvignon online | Bra 998.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/prisvard-fransk-pinot-noir-blandlada-8-flaskor
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/grillladan-smaklada -> Grilllådan Smaklåda 1079.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/sauvignon-blanc-vinlada
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/roda-viner-x-12-prenumeration -> Röda viner x12 1499.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/friska-fruktiga-vita-viner-prenumeration-vitt
-DEBUG vinlada.http: GET https://vinibutik.dk/meta.json
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien?sType=2
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/champagnedax-vinpaket-6-flaskor/ -> ChampagneDax Vinpaket 6 flaskor 2550.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/montepescini-parlor-fran-toscana/
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/ -> Drick som Romare – Vinpaket 895.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/sardinienpaket/
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/roda-viner
+DEBUG vinlada.http: GET https://winetrade.se/meta.json
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/prisvard-fransk-pinot-noir-blandlada-8-flaskor -> Köp Pinot Noir blandlåda 8 flaskor online | Bra pris och hem 929.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/stora-italienska-bianco-chardonnay-ladan
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/sauvignon-blanc-vinlada -> Sauvignon Blanc Vinlåda 1089.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/triple-threat-vinlada
-DEBUG vinlada.http: GET https://vinibutik.dk/products.json?limit=250&page=1
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/friska-fruktiga-vita-viner-prenumeration-vitt -> Friska & fruktiga vita viner 1199.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/vita-premiumviner-prenumeration-vitt
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/montepescini-parlor-fran-toscana/ -> Pärlor från Toscana 985.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/upptack-prosecco-vinpaket/
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/mustiga-roda-viner-prenumeration-rott -> Mustiga röda viner 1199.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/roda-premiumviner-prenumeration-rott
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/sardinienpaket/ -> Sardinienpaket 970.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/latta-roda/
+DEBUG vinlada.http: GET https://www.supervin.se/vit-bourgogne-vinlada
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/stora-italienska-bianco-chardonnay-ladan -> Köp Stora Italienska Bianco och Chardonnay-lådan online | Br 1599.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/rose-vitt-clairement-blandlada
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/triple-threat-vinlada -> Triple Threat Vinlåda 1139.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/vinlada-med-10-viner
-DEBUG vinlada.http: GET https://vinibutik.dk/products.json?limit=250&page=2
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/vita-premiumviner-prenumeration-vitt -> Vita premiumviner 1499.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/prisvart-bubbel-prenumeration-bubbel
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/upptack-prosecco-vinpaket/ -> Upptäck Prosecco – Vinpaket 850.0 kr (låda)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/nebbiolo-pa-olika-satt/
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien?sType=2
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/roda-premiumviner-prenumeration-rott -> Röda premiumviner 1499.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/roda-viner-x-12-prenumeration
+DEBUG vinlada.http: GET https://winetrade.se/collections/vinlador/products.json?limit=250&page=1
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/latta-roda/ -> Lätt Kylda Röda 898.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/champagnedax-vinpaket-6-flaskor/
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike?sType=2
+DEBUG vinlada.http: GET https://winetrade.se/collections/vinlador/products.json?limit=250&page=2
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/rose-vitt-clairement-blandlada -> Köp Rosé och vitt i blandlåda online | Bra pris och hemlever 699.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/stora-chiantiladan
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/vinlada-med-10-viner -> Vinlåda med 10 viner 1159.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/vm-2026-smaklada
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/prisvart-bubbel-prenumeration-bubbel -> Prisvärt bubbel 1199.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/premiumbubbel-prenumeration-bubbel
-DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/nebbiolo-pa-olika-satt/ -> Nebbiolo – på olika sätt 1995.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/prova-pa-paket/
-DEBUG vinlada.http: GET https://gassaswine.se/kategori/blandlador
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/champagnedax-vinpaket-6-flaskor/ -> ChampagneDax Vinpaket 6 flaskor 2550.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/montepescini-parlor-fran-toscana/
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/vit-bourgogne-vinlada -> Vit Bourgogne Vinlåda 1719.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/brunello-vinlada
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/roda-viner-x-12-prenumeration -> Röda viner x12 1499.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/friska-fruktiga-vita-viner-prenumeration-vitt
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/stora-chiantiladan -> Köp Stora Chianti-lådan online | Bra pris och hemleverans! 1498.99 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/vm-2026-smaklada -> VM 2026 Smaklåda 1229.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/rolland-galarreta-vinlada
-DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/premiumbubbel-prenumeration-bubbel -> Premiumbubbel 1699.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://vinoteket.se/alkoholfria-lada-prenumerationer
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/montepescini-parlor-fran-toscana/ -> Pärlor från Toscana 985.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/upptack-prosecco-vinpaket/
+DEBUG vinlada.http: GET https://vinibutik.dk/meta.json
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/friska-fruktiga-vita-viner-prenumeration-vitt -> Friska & fruktiga vita viner 1199.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/vita-premiumviner-prenumeration-vitt
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/brunello-vinlada -> Brunello Vinlåda 3599.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/champagne-vinlada
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/vita-premiumviner-prenumeration-vitt -> Vita premiumviner 1499.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/prisvart-bubbel-prenumeration-bubbel
+DEBUG vinlada.http: GET https://vinibutik.dk/products.json?limit=250&page=1
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/upptack-prosecco-vinpaket/ -> Upptäck Prosecco – Vinpaket 850.0 kr (låda)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/nebbiolo-pa-olika-satt/
+DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/nebbiolo-pa-olika-satt/ -> Nebbiolo – på olika sätt 1995.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/prova-pa-paket/
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien?sType=2
+DEBUG vinlada.http: GET https://nordiskavin.se/store/wines
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/prisvart-bubbel-prenumeration-bubbel -> Prisvärt bubbel 1199.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinibutik.dk/products.json?limit=250&page=2
+DEBUG vinlada.http: GET https://vinoteket.se/premiumbubbel-prenumeration-bubbel
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/champagne-vinlada -> Champagne Vinlåda 2259.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/spatburgunder-vinlada
 DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/prova-pa-paket/ -> Vinfolket Prova På Paket 925.0 kr (låda)
 DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/somrigt-vitt/
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/vita-viner
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/rolland-galarreta-vinlada -> Rolland & Galarreta Vinlåda 1239.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/pinot-noir-varlden-runt-vinlada
-DEBUG vinlada.http: GET https://gassaswine.se/kategori/utforsaljning-lager
+DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/premiumbubbel-prenumeration-bubbel -> Premiumbubbel 1699.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://vinoteket.se/alkoholfria-lada-prenumerationer
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/wines -> 12 flaskor Franskt bubbel - Brut 1188.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/prisvarda-flerpack-vin
+DEBUG vinlada.http: GET https://gassaswine.se/kategori/blandlador
 DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/somrigt-vitt/ -> Somrigt Vitt 925.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://vinfolket.se/vinpaket/en-lada-bubbel-tack/
 DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/alkoholfria-lada-prenumerationer -> Alkoholfria lådan 999.0 kr (låda)
 DEBUG vinlada.http: GET https://vinoteket.se/kundservice
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/pinot-noir-varlden-runt-vinlada -> Pinot Noir världen runt Vinlåda 1239.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/3-x-topprankade-champagner-vinlada
-DEBUG vinlada.http: GET https://nordiskavin.se/store/wines
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien?sType=2
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/spatburgunder-vinlada -> Spätburgunder Vinlåda 1479.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/toscana-vinlada
 DEBUG vinlada.http: GET https://vinoteket.se/kategori/julkalender
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike?sType=1
 DEBUG vinlada.sources: Vinfolket: https://vinfolket.se/vinpaket/en-lada-bubbel-tack/ -> En låda bubbel, tack! 1450.0 kr (låda)
 DEBUG vinlada.sources: Vinfolket: robots.txt tillåter inte https://vinfolket.se/my-favorites/
 DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/
-INFO vinlada.sources: Gassås Wine: 164 kandidatlänkar, t.ex. ['https://gassaswine.se/kategori/blandlador/%s/date/desc2', 'https://gassaswine.se/kategori/blandlador/2/date/desc', 'https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack', 'https://gassaswine.se/produkt/tralada-ospecificerat-12-pac', 'https://gassaswine.se/produkt/tralada-ospecificerat-1-pac', 'https://gassaswine.se/produkt/tralada-ospecificerat-3-pac', 'https://gassaswine.se/produkt/domane-roland-chan-mixed-case', 'https://gassaswine.se/produkt/domane-roland-chan-roland-chan-display-box-2022']
-DEBUG vinlada.http: GET https://gassaswine.se/kategori/blandlador/%s/date/desc2
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/3-x-topprankade-champagner-vinlada -> 3 x topprankade Champagner Vinlåda 1359.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/cremant-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/sasongens-viner
-DEBUG vinlada.sources: Gassås Wine: HTTP 400 för https://gassaswine.se/kategori/blandlador/%s/date/desc2
-DEBUG vinlada.http: GET https://gassaswine.se/kategori/blandlador/2/date/desc
-DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/franskt-rott-vin/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/wines -> 12 flaskor Franskt bubbel - Brut 1188.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/prisvarda-flerpack-vin
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/cremant-vinlada -> Crémant Vinlåda 1389.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/ribera-del-duero-vs-rioja-vinlada
-DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/italienskt-rott-vin/
-DEBUG vinlada.http: GET https://vinoteket.se/producent/bread-butter-wines
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien?sType=1
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/ribera-del-duero-vs-rioja-vinlada -> Ribera del Duero vs Rioja Vinlåda 1399.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/nyarslada-champagne
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/vin-till-skaldjur
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/collections/prisvarda-flerpack-vin -> Exklusiv Champagne och Prosecco 2189.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/rott-vin
-DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/spanskt-rott-vin/
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack -> Guigal -  Côte Rôtie Trilogy - LaLaLa 2019 [3pack] 14997.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-12-pac
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/nyarslada-champagne -> Nyårslåda - Champagne 1409.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/vinlada-med-bubbel-1-blanc-de-blancs-champagne-och-5-cremant-de-bourgogne
+DEBUG vinlada.http: GET https://gassaswine.se/kategori/utforsaljning-lager
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/collections/rott-vin -> 2019 Brunello di Montalcino San Biagio 399.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/vitt-vin
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/cava
-DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/tyskt-vin/
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/sydafrika?sType=1
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-12-pac -> Trälåda - ospecificerat [12 pac] 250.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-1-pac
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/vinlada-med-bubbel-1-blanc-de-blancs-champagne-och-5-cremant-de-bourgogne -> Vinlåda med bubbel - 1 Blanc de Blancs Champagne och 5 Créma 1429.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/vit-bourgogne-vs-vit-bordeaux-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/distrikt/amarone-della-valpolicella
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/sasongens-viner
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/toscana-vinlada -> Toscana Vinlåda 3869.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/bordeaux-2019-vinlada
+DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/franskt-rott-vin/
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/vita-viner
+INFO vinlada.sources: Gassås Wine: 164 kandidatlänkar, t.ex. ['https://gassaswine.se/kategori/blandlador/%s/date/desc2', 'https://gassaswine.se/kategori/blandlador/2/date/desc', 'https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack', 'https://gassaswine.se/produkt/tralada-ospecificerat-12-pac', 'https://gassaswine.se/produkt/tralada-ospecificerat-1-pac', 'https://gassaswine.se/produkt/tralada-ospecificerat-3-pac', 'https://gassaswine.se/produkt/domane-roland-chan-mixed-case', 'https://gassaswine.se/produkt/domane-roland-chan-roland-chan-display-box-2022']
+DEBUG vinlada.http: GET https://gassaswine.se/kategori/blandlador/%s/date/desc2
+DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/italienskt-rott-vin/
+DEBUG vinlada.sources: Gassås Wine: HTTP 400 för https://gassaswine.se/kategori/blandlador/%s/date/desc2
+DEBUG vinlada.http: GET https://gassaswine.se/kategori/blandlador/2/date/desc
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/collections/vitt-vin -> Riesling Sandgrub 1er cru 2024 239.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/rosevin
-DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/portugisiskt-rott-vin/
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-1-pac -> Trälåda - ospecificerat [1 pac] 250.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-3-pac
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/vit-bourgogne-vs-vit-bordeaux-vinlada -> Vit Bourgogne VS. Vit Bordeaux Vinlåda 1579.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/ziereisen-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/sveriges-favoriter
+DEBUG vinlada.http: GET https://vinoteket.se/producent/bread-butter-wines
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/bordeaux-2019-vinlada -> Bordeaux 2019 Vinlåda 799.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/chardonnay-vinlada
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/vin-till-skaldjur
+DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/spanskt-rott-vin/
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/collections/rosevin -> Toscana Rosé Leggermente Appassite 159.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/mousserande
-DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/polskt-vin/
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/rose-viner
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-3-pac -> Trälåda - ospecificerat [3 pac] 250.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/domane-roland-chan-mixed-case
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/ziereisen-vinlada -> Ziereisen Vinlåda 1659.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/giodo-la-quinta-vertikal-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/italienskt-rott-under-100-lappen
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike?sType=1
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack
+DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/tyskt-vin/
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/cava
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/collections/mousserande -> Brut Reserve Champagne 579.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store?chat=contact
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/domane-roland-chan-mixed-case -> Domäne Roland Chan 2022 - [mixed case 6-pac] 4399.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/domane-roland-chan-roland-chan-display-box-2022
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/giodo-la-quinta-vertikal-vinlada -> Giodo "La Quinta" vertikal vinlåda 3269.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/brunello-2017-vinlada
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/chardonnay-vinlada -> Chardonnay Vinlåda 889.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/spanien-runt-vinlada-med-rodviner
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack -> Guigal -  Côte Rôtie Trilogy - LaLaLa 2019 [3pack] 14997.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-12-pac
+DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/portugisiskt-rott-vin/
+DEBUG vinlada.http: GET https://vinoteket.se/distrikt/amarone-della-valpolicella
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-12-pac -> Trälåda - ospecificerat [12 pac] 250.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-1-pac
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien?sType=1
+DEBUG vinlada.http: GET https://vinfolket.se/rott-vin/polskt-vin/
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/sveriges-favoriter
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/spanien-runt-vinlada-med-rodviner -> Spanien runt: Vinlåda med rödviner 909.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/ripasso-vinlada
+DEBUG vinlada.http: GET https://nordiskavin.se/store?chat=order
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-1-pac -> Trälåda - ospecificerat [1 pac] 250.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-3-pac
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/
+DEBUG vinlada.http: GET https://vinoteket.se/italienskt-rott-under-100-lappen
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-3-pac -> Trälåda - ospecificerat [3 pac] 250.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/domane-roland-chan-mixed-case
+DEBUG vinlada.http: GET https://nordiskavin.se/store/viner/land/italien
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/sydafrika?sType=1
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/ripasso-vinlada -> Ripasso Vinlåda 909.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/franska-vita-viner/
 DEBUG vinlada.sources: Vinoteket: https://vinoteket.se/italienskt-rott-under-100-lappen -> Italienskt rött under hundringen 1199.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://vinoteket.se/attribut/nedsatt
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/franska-vita-viner/
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/domane-roland-chan-roland-chan-display-box-2022 -> Domäne Roland Chan - Roland Chan display box 2022 4399.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-6-eller-12-pac
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/brunello-2017-vinlada -> Brunello 2017 Vinlåda 4449.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/feudo-maccari-guarnaschelli-sultana-mixlada
-DEBUG vinlada.http: GET https://nordiskavin.se/store?chat=order
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/italienska-vita-viner/
-DEBUG vinlada.http: GET https://vinoteket.se/attribut/nyheter
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-6-eller-12-pac -> Trälåda - ospecificerat [6 pac] 250.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/feudo-maccari-guarnaschelli-sultana-mixlada -> Feudo Maccari Guarnaschelli & Sultana Mixlåda 4769.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/chateau-les-carmes-haut-brion-pessac-leognan-2018-2019-2020-i-tralada
-DEBUG vinlada.http: GET https://vinoteket.se/bastsaljare
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/spanska-vita-viner/
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner/?extRegion=399
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019 -> Mixed Case - Brunello di Montalcino 2019 3575.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/chateau-les-carmes-haut-brion-pessac-leognan-2018-2019-2020-i-tralada -> Chateau Les Carmes Haut-Brion Pessac-Léognan 2018, 2019, 202 15149.95 kr (filtrerad)
-DEBUG vinlada.http: GET https://www.supervin.se/val-de-france-ekologisk-mousserande-juice-smaklada
-DEBUG vinlada.http: GET https://nordiskavin.se/store/viner/land/italien
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/tyska-vita-viner/
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022 -> Mixed Case - Rosso di Montalcino 2022 1924.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/vina-errazuriz-don-maximiano-veritical-box-3-bottles-2007-2010-2012
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/val-de-france-ekologisk-mousserande-juice-smaklada -> Val de France ekologisk mousserande juice smaklåda 549.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/rose-lyckokasse-12-flaskor
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-rott-vin
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/domane-roland-chan-mixed-case -> Domäne Roland Chan 2022 - [mixed case 6-pac] 4399.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/domane-roland-chan-roland-chan-display-box-2022
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/viner/land/italien -> 2017 Brunello di Montalcino Riserva Altesino 1099.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/viner/land/frankrike
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/portugiska-vita-viner/
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/vina-errazuriz-don-maximiano-veritical-box-3-bottles-2007-2010-2012 -> Vina Errazuriz - Don Maximiano Veritical Box [3 bottles 2007 3299.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/mystery-box-no-3
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-vitt-vin
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-lyckokasse-12-flaskor -> Rosé Lyckolåda 12 flaskor 899.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/bibi-graetz-balocchi-di-colore-2020-limited-edition-vinlada
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner/?extRegion=491
-DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/polska-viner/
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/italienska-vita-viner/
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/domane-roland-chan-roland-chan-display-box-2022 -> Domäne Roland Chan - Roland Chan display box 2022 4399.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/tralada-ospecificerat-6-eller-12-pac
+DEBUG vinlada.http: GET https://vinoteket.se/attribut/nyheter
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack -> Tesch Riesling Karthäuser "Commissaire" Nahe 2024 3-pack 959.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/viner/land/frankrike -> 2011 Château Latour 1. Cru Pauillac 9899.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/collections/vin-outlet-utforsaljning
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mystery-box-no-3 -> Mystery Box no 3. 4999.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/mystery-box-no-2
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/bibi-graetz-balocchi-di-colore-2020-limited-edition-vinlada -> Bibi Graetz Balocchi di Colore 2020 Limited Edition Vinlåda 28689.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/tesch-tasting-box-2020-live-provning
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-bubbel
-DEBUG vinlada.http: GET https://vinfolket.se/mousserande-vin/
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/rose-viner
+DEBUG vinlada.http: GET https://vinoteket.se/bastsaljare
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/spanska-vita-viner/
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/tralada-ospecificerat-6-eller-12-pac -> Trälåda - ospecificerat [6 pac] 250.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/collections/vin-outlet-utforsaljning -> Toscana Rosé Leggermente Appassite 159.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/vin-online
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/tyska-vita-viner/
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019 -> Mixed Case - Brunello di Montalcino 2019 3575.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay -> Mix-vinlåda Pinot Noir & Chardonnay 969.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/portugiska-vita-viner/
+DEBUG vinlada.http: GET https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-rott-vin
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022 -> Mixed Case - Rosso di Montalcino 2022 1924.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/vina-errazuriz-don-maximiano-veritical-box-3-bottles-2007-2010-2012
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci -> Köp mousserande viner blandlåda online | Bra pris och hemlev 1399.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/franska-roda-favoriter
+DEBUG vinlada.http: GET https://vinfolket.se/vitt-vin/polska-viner/
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada -> Rudi Rüttger Tour de Pfalz Vinlåda 989.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/beyra-vinlada-1-grande-reserva-och-5-beyra-reserva
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-vitt-vin
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/franska-roda-favoriter -> Köp Franska Röda Favoriter | Hemleverans – Nordiska Vin 749.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/chardonnay-vita-favoriter-12-flaskor
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/vina-errazuriz-don-maximiano-veritical-box-3-bottles-2007-2010-2012 -> Vina Errazuriz - Don Maximiano Veritical Box [3 bottles 2007 3299.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/mystery-box-no-3
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner/?extRegion=399
+DEBUG vinlada.http: GET https://vinfolket.se/mousserande-vin/
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-bubbel
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mystery-box-no-3 -> Mystery Box no 3. 4999.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/mystery-box-no-2
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/chardonnay-vita-favoriter-12-flaskor -> Köp franska vita Chardonnay online | Bra pris och hemleveran 1299.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft
+DEBUG vinlada.http: GET https://vinfolket.se/mousserande-vin/franska-viner/
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/beyra-vinlada-1-grande-reserva-och-5-beyra-reserva -> Beyra Vinlåda - 1 Grande Reserva och 5 Beyra Reserva 1019.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/grillladan-smaklada
 DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mystery-box-no-2 -> Mystery Box no 2. 2999.0 kr (låda)
 DEBUG vinlada.http: GET https://gassaswine.se/produkt/mystery-box-no1
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/tesch-tasting-box-2020-live-provning -> Tesch Tasting Box 2020 & Live Provning 659.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/roseport-och-tonic-vinlada
 DEBUG vinlada.http: GET https://vinoteket.se/kategori/vinlador-rosevin
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner/?extRegion=403
-DEBUG vinlada.http: GET https://vinfolket.se/mousserande-vin/franska-viner/
-DEBUG vinlada.http: GET https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft -> Toscanas elegans & Appassimentos kraft | Hemleverans – Nordi 1449.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner/?extRegion=491
+DEBUG vinlada.http: GET https://vinfolket.se/mousserande-vin/italienska-viner/
 DEBUG vinlada.http: GET https://vinoteket.se/attribut/tralador-vin
 DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/mystery-box-no1 -> Mystery Box no 1. 1999.0 kr (låda)
 DEBUG vinlada.http: GET https://gassaswine.se/produkt/champagneladan-3-grand-cru-odlare
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/roseport-och-tonic-vinlada -> Roséport och Tonic Vinlåda 679.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/lykkekasse-6-fl
-DEBUG vinlada.http: GET https://vinfolket.se/mousserande-vin/italienska-viner/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci -> Köp mousserande viner blandlåda online | Bra pris och hemlev 1399.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/franska-roda-favoriter
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/champagneladan-3-grand-cru-odlare -> Champagnelådan - 3 Grand Cru Odlare 3499.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/champagneladan-premier-cru
-DEBUG vinlada.http: GET https://vinoteket.se/vintyp/rott-vin
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/lykkekasse-6-fl -> Lyckolåda 6 fl. 699.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/nyarslada-billiga-bubblor
-DEBUG vinlada.http: GET https://vinfolket.se/rose-vin/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/franska-roda-favoriter -> Köp Franska Röda Favoriter | Hemleverans – Nordiska Vin 749.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/chardonnay-vita-favoriter-12-flaskor
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extEco=3
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/champagneladan-premier-cru -> Champagnelådan - Premier Cru 3623.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/champagneladan-grand-cru
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/nyarslada-billiga-bubblor -> Nyårslåda - Billiga Bubblor 819.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/rose-2023-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/italienskt-rott-vin
-DEBUG vinlada.http: GET https://vinfolket.se/dessert-vin/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/chardonnay-vita-favoriter-12-flaskor -> Köp franska vita Chardonnay online | Bra pris och hemleveran 1299.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/champagneladan-grand-cru -> Champagnelådan - Grand Cru 6890.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/chteau-potensac-mixed-case-of-great-vintages
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-2023-vinlada -> Rosé 2023 Vinlåda 1019.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/black-box-12-st-mixlada
-DEBUG vinlada.http: GET https://vinoteket.se/land/frankrike?vintyp=rott-vin
-DEBUG vinlada.http: GET https://vinfolket.se/vinprovningar/
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft -> Toscanas elegans & Appassimentos kraft | Hemleverans – Nordi 1449.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/chteau-potensac-mixed-case-of-great-vintages -> Château Potensac - Mixed Case of Great Vintages 2999.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/blandlada-3pack-solaia-2006-2008-2016
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/black-box-12-st-mixlada -> Black Box 12 st Mixlåda 1119.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/rose-2022-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/spanskt-rott-vin
-DEBUG vinlada.http: GET https://vinfolket.se/vinregioner/
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone -> Köp Hållbar trio av vitt, Rosé och Côtes du Rhône online | B 999.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/franska-rodvinsfavoriter
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/blandlada-3pack-solaia-2006-2008-2016 -> Blandlåda [3pack] - Solaia - 2006 - 2008 - 2016 14098.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/blandlada-3pack-pavillon-blanc-du-chteau-margaux
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-2022-vinlada -> Rosé 2022 Vinlåda 1129.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/top-6-viner-2022-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/latt-rott-vin
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/pinot-noir
-DEBUG vinlada.http: GET https://vinfolket.se/vinregioner/frankrike/
+DEBUG vinlada.http: GET https://vinoteket.se/vintyp/rott-vin
+DEBUG vinlada.http: GET https://vinfolket.se/rose-vin/
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/champagneladan-3-grand-cru-odlare -> Champagnelådan - 3 Grand Cru Odlare 3499.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/champagneladan-premier-cru
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/franska-rodvinsfavoriter -> Köp Franska Rödavinsfavoriter online | Bra pris och hemlever 1389.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/chardonnay-vita-favoriter-8-flaskor
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/fylligt-rott-vin
-DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/blandlada-3pack-pavillon-blanc-du-chteau-margaux -> Blandlåda [3pack] - Pavillon Blanc du Château Margaux 11997.0 kr (låda)
-DEBUG vinlada.http: GET https://gassaswine.se/produkt/collectors-case-6pack-vit-bourgogne-fran-albert-bichot-2020
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/top-6-viner-2022-vinlada -> TOP 6 Viner 2022 Vinlåda 1169.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/vitt-vin-bubblor-vinlada
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/mousserande-viner/?extRegion=403
+DEBUG vinlada.http: GET https://vinfolket.se/dessert-vin/
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/italienskt-rott-vin
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/grillladan-smaklada -> Grilllådan Smaklåda 1079.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/sauvignon-blanc-vinlada
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/champagneladan-premier-cru -> Champagnelådan - Premier Cru 3623.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/champagneladan-grand-cru
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/chardonnay-vita-favoriter-8-flaskor -> Köp Chardonnay blandlåda online | Bra pris och hemleverans! 899.0 kr (låda)
 DEBUG vinlada.http: GET https://nordiskavin.se/store/shes-always-blanc-de-blanc?pack=6
+DEBUG vinlada.http: GET https://vinfolket.se/vinprovningar/
+DEBUG vinlada.http: GET https://vinoteket.se/land/frankrike?vintyp=rott-vin
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/champagneladan-grand-cru -> Champagnelådan - Grand Cru 6890.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/chteau-potensac-mixed-case-of-great-vintages
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/shes-always-blanc-de-blanc?pack=6 -> Köp She's Always Vino online | Bra pris & hemleverans! 119.08 kr (filtrerad)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/franskt-mingel-med-krispig-rose-flaska
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extEco=3
+DEBUG vinlada.http: GET https://vinfolket.se/vinregioner/
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/sauvignon-blanc-vinlada -> Sauvignon Blanc Vinlåda 1089.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/triple-threat-vinlada
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/spanskt-rott-vin
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/chteau-potensac-mixed-case-of-great-vintages -> Château Potensac - Mixed Case of Great Vintages 2999.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/blandlada-3pack-solaia-2006-2008-2016
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/franskt-mingel-med-krispig-rose-flaska -> Köp rosé Provence och Loire online | Bra pris och hemleveran 1315.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/friska-favoriter-sauvignon-loire-8-flaskor
+DEBUG vinlada.http: GET https://vinfolket.se/vinregioner/frankrike/
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/latt-rott-vin
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/blandlada-3pack-solaia-2006-2008-2016 -> Blandlåda [3pack] - Solaia - 2006 - 2008 - 2016 14098.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/blandlada-3pack-pavillon-blanc-du-chteau-margaux
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/friska-favoriter-sauvignon-loire-8-flaskor -> Köp vitt Sauvignon flerpack online | Bra pris och hemleveran 999.0 kr (låda)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/italienskt-under-hundringen
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/fylligt-rott-vin
 INFO vinlada.sources: Vinfolket: nådde max_products, fler länkar hoppas över
+DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/blandlada-3pack-pavillon-blanc-du-chteau-margaux -> Blandlåda [3pack] - Pavillon Blanc du Château Margaux 11997.0 kr (låda)
+DEBUG vinlada.http: GET https://gassaswine.se/produkt/collectors-case-6pack-vit-bourgogne-fran-albert-bichot-2020
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/triple-threat-vinlada -> Triple Threat Vinlåda 1139.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/vinlada-med-10-viner
+DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/italienskt-under-hundringen -> Upptäck fylliga italienare från tre regioner 679.0 kr (filtrerad)
+DEBUG vinlada.http: GET https://nordiskavin.se/store/top-producenter-fran-italien-och-frankrike
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/pinot-noir
+DEBUG vinlada.http: GET https://vinoteket.se/vintyp/vitt-vin
 DEBUG vinlada.sources: Gassås Wine: https://gassaswine.se/produkt/collectors-case-6pack-vit-bourgogne-fran-albert-bichot-2020 -> Collectors Case [3pack] - Vit Bourgogne från Albert Bichot 2 4999.0 kr (låda)
 DEBUG vinlada.sources: Gassås Wine: robots.txt tillåter inte https://gassaswine.se/account.php
 DEBUG vinlada.sources: Gassås Wine: robots.txt tillåter inte https://gassaswine.se/checkout.php
-DEBUG vinlada.http: GET https://gassaswine.se/manufacturers_own.php
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/vitt-vin-bubblor-vinlada -> Vitt vin & bubblor Vinlåda 1199.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/amarone-metoden-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/vintyp/vitt-vin
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/riesling
 DEBUG vinlada.http: GET https://finewineservice.se/wp-json/wc/store/v1/products?per_page=100&page=1
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/shes-always-blanc-de-blanc?pack=6 -> Köp She's Always Vino online | Bra pris & hemleverans! 119.08 kr (filtrerad)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/franskt-mingel-med-krispig-rose-flaska
-DEBUG vinlada.http: GET https://gassaswine.se/kategori/Vin
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/amarone-metoden-vinlada -> Amarone-metoden Vinlåda 1209.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/rose-sensommarutrensning-vinlada
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/torrt-vitt-vin
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/franskt-mingel-med-krispig-rose-flaska -> Köp rosé Provence och Loire online | Bra pris och hemleveran 1315.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/friska-favoriter-sauvignon-loire-8-flaskor
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-sensommarutrensning-vinlada -> Rosé Sensommarutrensning Vinlåda 1239.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/lykkekasse-12-fl
-DEBUG vinlada.http: GET https://vinoteket.se/druva/chardonnay
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/chardonnay
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/friska-favoriter-sauvignon-loire-8-flaskor -> Köp vitt Sauvignon flerpack online | Bra pris och hemleveran 999.0 kr (låda)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/italienskt-under-hundringen
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/lykkekasse-12-fl -> Lyckolåda 12 fl. 1299.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/masso-antico-vinlada-1-primitivo-ice-2023-och-5-primitivo-2022
-DEBUG vinlada.http: GET https://finewineservice.se/wp-json/wc/store/v1/products?per_page=100&page=2
-DEBUG vinlada.http: GET https://gassaswine.se/products_all/viner-pa-lager
-DEBUG vinlada.http: GET https://vinoteket.se/druva/sauvignon-blanc
-DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/italienskt-under-hundringen -> Upptäck fylliga italienare från tre regioner 679.0 kr (filtrerad)
-DEBUG vinlada.http: GET https://nordiskavin.se/store/top-producenter-fran-italien-och-frankrike
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/shiraz
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/masso-antico-vinlada-1-primitivo-ice-2023-och-5-primitivo-2022 -> Masso Antico Vinlåda – 1 Primitivo ICE 2023 och 5 Primitivo  1319.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/sjat-festival-sommar-provlada
-DEBUG vinlada.http: GET https://vinoteket.se/druva/riesling
+DEBUG vinlada.http: GET https://gassaswine.se/manufacturers_own.php
 DEBUG vinlada.sources: Nordiska Vin: https://nordiskavin.se/store/top-producenter-fran-italien-och-frankrike -> Köp Topproducenter Låda | Europa | Hemleverans – Nordiska Vi 1599.0 kr (låda)
 INFO vinlada.sources: Nordiska Vin: nådde max_products, fler länkar hoppas över
-DEBUG vinlada.http: GET https://www.vivino.com/api/explore/explore?country_code=SE&currency_code=SEK&language=sv&min_rating=3.5&order_by=price&order=asc&price_range_min=0&price_range_max=150&wine_type_ids%5B%5D=1&wine_type_ids%5B%5D=2&wine_type_ids%5B%5D=3&wine_type_ids%5B%5D=4&page=1
-DEBUG vinlada.http: GET https://gassaswine.se/kategori/bestallningssortiment-usa
-DEBUG vinlada.sources: Supervin: https://www.supervin.se/sjat-festival-sommar-provlada -> Sjat Festival Sommar Provlåda 1329.95 kr (låda)
-DEBUG vinlada.http: GET https://www.supervin.se/erbjudanden/provsmakningsboxar-paketerbjudanden?Products_se%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Merlot
-DEBUG vinlada.http: GET https://vinoteket.se/kategori/chablis
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/torrt-vitt-vin
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/vinlada-med-10-viner -> Vinlåda med 10 viner 1159.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/vm-2026-smaklada
+DEBUG vinlada.http: GET https://gassaswine.se/kategori/Vin
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/riesling
+DEBUG vinlada.http: GET https://vinoteket.se/druva/chardonnay
+DEBUG vinlada.sources: Vinoteket: HTTP 403 för https://vinoteket.se/druva/chardonnay
+DEBUG vinlada.http: GET https://vinoteket.se/druva/sauvignon-blanc
+DEBUG vinlada.http: GET https://finewineservice.se/wp-json/wc/store/v1/products?per_page=100&page=2
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/chardonnay
+DEBUG vinlada.http: GET https://gassaswine.se/products_all/viner-pa-lager
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/vm-2026-smaklada -> VM 2026 Smaklåda 1229.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/rolland-galarreta-vinlada
+DEBUG vinlada.http: GET https://vinoteket.se/druva/riesling
 DEBUG vinlada.http: GET https://finewineservice.se/wp-json/wc/store/v1/products?per_page=100&page=3
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/cabernet-sauvignon
-INFO vinlada.sources: Supervin: nådde max_products, fler länkar hoppas över
-INFO vinlada.sources: Vivino: sida 1, 24 träffar, 24 från externa handlare bortfiltrerade
-DEBUG vinlada.http: GET https://www.vivino.com/api/explore/explore?country_code=SE&currency_code=SEK&language=sv&min_rating=3.5&order_by=price&order=asc&price_range_min=0&price_range_max=150&wine_type_ids%5B%5D=1&wine_type_ids%5B%5D=2&wine_type_ids%5B%5D=3&wine_type_ids%5B%5D=4&page=2
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/shiraz
+DEBUG vinlada.http: GET https://gassaswine.se/kategori/bestallningssortiment-usa
+DEBUG vinlada.http: GET https://vinoteket.se/kategori/chablis
 DEBUG vinlada.http: GET https://finewineservice.se/wp-json/wc/store/v1/products?per_page=100&page=4
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/rolland-galarreta-vinlada -> Rolland & Galarreta Vinlåda 1239.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/pinot-noir-varlden-runt-vinlada
 DEBUG vinlada.http: GET https://vinoteket.se/vintyp/mousserande-vin-bubbel
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/vara-mest-salda-producenter
-INFO vinlada.sources: Vivino: sida 2, 24 träffar, 24 från externa handlare bortfiltrerade
-DEBUG vinlada.http: GET https://www.vivino.com/api/explore/explore?country_code=SE&currency_code=SEK&language=sv&min_rating=3.5&order_by=price&order=asc&price_range_min=0&price_range_max=150&wine_type_ids%5B%5D=1&wine_type_ids%5B%5D=2&wine_type_ids%5B%5D=3&wine_type_ids%5B%5D=4&page=3
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/cabernet-sauvignon
 DEBUG vinlada.http: GET https://vinoteket.se/region/champagne
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/merlot
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/bordeaux-viner
-INFO vinlada.sources: Vivino: sida 3, 24 träffar, 14 från externa handlare bortfiltrerade
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/pinot-noir-varlden-runt-vinlada -> Pinot Noir världen runt Vinlåda 1239.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/3-x-topprankade-champagner-vinlada
 DEBUG vinlada.http: GET https://vinoteket.se/kategori/cremant
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/druva/merlot
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/place-de-bordeaux
 INFO vinlada.sources: Vinoteket: nådde max_products, fler länkar hoppas över
-  Vinoteket          4 lådor
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=2
+  Vinoteket          3 lådor
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/3-x-topprankade-champagner-vinlada -> 3 x topprankade Champagner Vinlåda 1359.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/cremant-vinlada
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/super-tuscana
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=16
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=2
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/brunello-di-montalcino
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/cremant-vinlada -> Crémant Vinlåda 1389.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/ribera-del-duero-vs-rioja-vinlada
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/vip-horna
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=4
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=16
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/ribera-del-duero-vs-rioja-vinlada -> Ribera del Duero vs Rioja Vinlåda 1399.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/nyarslada-champagne
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/sott-vin
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/bjornes-magasin
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=6
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/nyarslada-champagne -> Nyårslåda - Champagne 1409.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/vinlada-med-bubbel-1-blanc-de-blancs-champagne-och-5-cremant-de-bourgogne
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=4
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/vinlagring-vinkallare
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/bordeaux
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?extKaraktar=6
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/vinlada-med-bubbel-1-blanc-de-blancs-champagne-och-5-cremant-de-bourgogne -> Vinlåda med bubbel - 1 Blanc de Blancs Champagne och 5 Créma 1429.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/vit-bourgogne-vs-vit-bordeaux-vinlada
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/maila-oss-vid-intresse
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/noga-utvalda-vintillbehor
-DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/bourgogne
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/bordeaux
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/vit-bourgogne-vs-vit-bordeaux-vinlada -> Vit Bourgogne VS. Vit Bordeaux Vinlåda 1579.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/ziereisen-vinlada
 DEBUG vinlada.http: GET https://gassaswine.se/kategori/rott-vin
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/ziereisen-vinlada -> Ziereisen Vinlåda 1659.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/giodo-la-quinta-vertikal-vinlada
 INFO vinlada.sources: Gassås Wine: nådde max_products, fler länkar hoppas över
+DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/bourgogne
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/giodo-la-quinta-vertikal-vinlada -> Giodo "La Quinta" vertikal vinlåda 3269.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/brunello-2017-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/champagne
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/brunello-2017-vinlada -> Brunello 2017 Vinlåda 4449.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/feudo-maccari-guarnaschelli-sultana-mixlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/languedoc-roussillon
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/feudo-maccari-guarnaschelli-sultana-mixlada -> Feudo Maccari Guarnaschelli & Sultana Mixlåda 4769.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/chateau-les-carmes-haut-brion-pessac-leognan-2018-2019-2020-i-tralada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike/rhone
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/chateau-les-carmes-haut-brion-pessac-leognan-2018-2019-2020-i-tralada -> Chateau Les Carmes Haut-Brion Pessac-Léognan 2018, 2019, 202 15149.95 kr (filtrerad)
+DEBUG vinlada.http: GET https://www.supervin.se/val-de-france-ekologisk-mousserande-juice-smaklada
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/val-de-france-ekologisk-mousserande-juice-smaklada -> Val de France ekologisk mousserande juice smaklåda 549.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/rose-lyckokasse-12-flaskor
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/frankrike
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-lyckokasse-12-flaskor -> Rosé Lyckolåda 12 flaskor 899.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/bibi-graetz-balocchi-di-colore-2020-limited-edition-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/bibi-graetz-balocchi-di-colore-2020-limited-edition-vinlada -> Bibi Graetz Balocchi di Colore 2020 Limited Edition Vinlåda 28689.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/tesch-tasting-box-2020-live-provning
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien/friuli-venezia%20giulia
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/tesch-tasting-box-2020-live-provning -> Tesch Tasting Box 2020 & Live Provning 659.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/roseport-och-tonic-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien/piemonte
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/roseport-och-tonic-vinlada -> Roséport och Tonic Vinlåda 679.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/lykkekasse-6-fl
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien/veneto
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/lykkekasse-6-fl -> Lyckolåda 6 fl. 699.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/nyarslada-billiga-bubblor
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/italien/toscana
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/nyarslada-billiga-bubblor -> Nyårslåda - Billiga Bubblor 819.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/rose-2023-vinlada
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-2023-vinlada -> Rosé 2023 Vinlåda 1019.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/black-box-12-st-mixlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien/castilla-y-leon
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/black-box-12-st-mixlada -> Black Box 12 st Mixlåda 1119.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/rose-2022-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien/catalonia
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-2022-vinlada -> Rosé 2022 Vinlåda 1129.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/top-6-viner-2022-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien/mallorca
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/top-6-viner-2022-vinlada -> TOP 6 Viner 2022 Vinlåda 1169.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/vitt-vin-bubblor-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/spanien/murcia
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/vitt-vin-bubblor-vinlada -> Vitt vin & bubblor Vinlåda 1199.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/amarone-metoden-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinradgivning
 DEBUG vinlada.http: GET https://www.winefinder.se/mat-och-vin
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/amarone-metoden-vinlada -> Amarone-metoden Vinlåda 1209.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/rose-sensommarutrensning-vinlada
 DEBUG vinlada.http: GET https://www.winefinder.se/winefinders-vinprovningar
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?sNewWines=true
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/rose-sensommarutrensning-vinlada -> Rosé Sensommarutrensning Vinlåda 1239.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/lykkekasse-12-fl
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?sPriceRange=60-200
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/lykkekasse-12-fl -> Lyckolåda 12 fl. 1299.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/masso-antico-vinlada-1-primitivo-ice-2023-och-5-primitivo-2022
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/masso-antico-vinlada-1-primitivo-ice-2023-och-5-primitivo-2022 -> Masso Antico Vinlåda – 1 Primitivo ICE 2023 och 5 Primitivo  1319.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/sjat-festival-sommar-provlada
 DEBUG vinlada.http: GET https://www.winefinder.se/vinbutik/?sWoodenbox=true
+DEBUG vinlada.sources: Supervin: https://www.supervin.se/sjat-festival-sommar-provlada -> Sjat Festival Sommar Provlåda 1329.95 kr (låda)
+DEBUG vinlada.http: GET https://www.supervin.se/erbjudanden/provsmakningsboxar-paketerbjudanden?Products_se%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Merlot
 DEBUG vinlada.http: GET https://www.winefinder.se/presentkort_upplevelser
 DEBUG vinlada.http: GET https://www.winefinder.se/winefindersvinbutik
 DEBUG vinlada.http: GET https://www.winefinder.se/cava
+INFO vinlada.sources: Supervin: nådde max_products, fler länkar hoppas över
 DEBUG vinlada.http: GET https://www.winefinder.se/prosecco
 DEBUG vinlada.http: GET https://www.winefinder.se/kampanjsidor/naturvin
 DEBUG vinlada.http: GET https://www.winefinder.se/mina-favoriter
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/eu/eu/gbg-goa-buteljer-fran-goteborg-6-wine-mechanics-a137671
 DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/eu/eu/gbg-goa-buteljer-fran-goteborg-6-wine-mechanics-a137671 -> Wine Mechanics GBG - Goa Buteljer från Göteborg! #6 : Köp on 269.0 kr (låda)
-DEBUG vinlada.http: GET https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941 -> Weingut Dr. Corvers-Kauter Terroir Riesling Case 2025: Köp o 199.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/pauillac/high-five-1995-2005-2015-chateau-lynch-bages-a137254
 DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/pauillac/high-five-1995-2005-2015-chateau-lynch-bages-a137254 -> Chateau Lynch Bages High Five 1995, 2005, 2015 : Köp online  3000.0 kr (filtrerad)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/pomerol/chateau-la-conseillante-vertikal-2015-2020-chteau-la-conseillante-a136473
@@ -488,34 +480,33 @@ DEBUG vinlada.http: GET https://www.winefinder.se/koepvillkor
 DEBUG vinlada.http: GET https://www.winefinder.se/cookies
 DEBUG vinlada.http: GET https://www.winefinder.se/kontaktuppgifter-utlaemningsstaellen/
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/chablis/chablis-domaine-vocoret-fils-2024-a137714
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/chablis/chablis-domaine-vocoret-fils-2024-a137714 -> Domaine Vocoret & Fils Chablis 2024: Köp online | Winefinder 299.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/chablis/chablis-domaine-vocoret-fils-2024-a137714 -> Domaine Vocoret & Fils Chablis 2024: Köp online | Winefinder 299.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/chablis/chablis-fort-1-cru-domaine-vocoret-fils-2024-a137724
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/chablis/chablis-fort-1-cru-domaine-vocoret-fils-2024-a137724 -> Domaine Vocoret & Fils Chablis Forêt 1. Cru 2024: Köp online 349.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/chablis/chablis-fort-1-cru-domaine-vocoret-fils-2024-a137724 -> Domaine Vocoret & Fils Chablis Forêt 1. Cru 2024: Köp online 349.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/australien/mclaren-vale/quarterback-de-lisio-wines-2021-khjh136102
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/australien/mclaren-vale/quarterback-de-lisio-wines-2021-khjh136102 -> De Lisio Wines Quarterback 2021: Köp online | Winefinder 209.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/australien/mclaren-vale/quarterback-de-lisio-wines-2021-khjh136102 -> De Lisio Wines Quarterback 2021: Köp online | Winefinder 209.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/bordeaux/chteau-marjosse-blanc-chteau-marjosse-2024-a136327
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/bordeaux/chteau-marjosse-blanc-chteau-marjosse-2024-a136327 -> Château Marjosse Château Marjosse Blanc 2024: Köp online | W 189.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/bordeaux/chteau-marjosse-blanc-chteau-marjosse-2024-a136327 -> Château Marjosse Château Marjosse Blanc 2024: Köp online | W 189.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/nya-zeeland/marlborough/pinot-noir-allan-scott-family-winemakers-2025-a137559
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/nya-zeeland/marlborough/pinot-noir-allan-scott-family-winemakers-2025-a137559 -> Allan Scott Family Winemakers Pinot Noir 2025: Köp online |  149.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/nya-zeeland/marlborough/pinot-noir-allan-scott-family-winemakers-2025-a137559 -> Allan Scott Family Winemakers Pinot Noir 2025: Köp online |  149.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/usa/sonoma-/head-high-pinot-noir-three-sticks-2023-khjh137757
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/usa/sonoma-/head-high-pinot-noir-three-sticks-2023-khjh137757 -> Three Sticks Head High Pinot Noir 2023: Köp online | Winefin 219.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/usa/sonoma-/head-high-pinot-noir-three-sticks-2023-khjh137757 -> Three Sticks Head High Pinot Noir 2023: Köp online | Winefin 219.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/provence/premire-rose-chteau-pigoudet-2025-a137638
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/provence/premire-rose-chteau-pigoudet-2025-a137638 -> Château Pigoudet Première Rosé 2025: Köp online | Winefinder 149.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/provence/premire-rose-chteau-pigoudet-2025-a137638 -> Château Pigoudet Première Rosé 2025: Köp online | Winefinder 149.0 kr (låda)
 DEBUG vinlada.http: GET https://www.winefinder.se/vin/frankrike/provence/princesse-chteau-pigoudet-2025-a137641
-DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/provence/princesse-chteau-pigoudet-2025-a137641 -> Château Pigoudet Princesse 2025: Köp online | Winefinder 169.0 kr (filtrerad)
+DEBUG vinlada.sources: Winefinder: https://www.winefinder.se/vin/frankrike/provence/princesse-chteau-pigoudet-2025-a137641 -> Château Pigoudet Princesse 2025: Köp online | Winefinder 169.0 kr (låda)
 INFO vinlada.sources: Winefinder: nådde max_products, fler länkar hoppas över
-  Winefinder         2 lådor
+  Winefinder         10 lådor
   Supervin           47 lådor
-  Philipson Wine     36 lådor
+  Philipson Wine     38 lådor
   Nordiska Vin       31 lådor
   Vinfolket          14 lådor
-  Tidblom Wines      38 lådor
+  Tidblom Wines      41 lådor
   Wine Trade         3 lådor
   Vinibutik          47 lådor
   Gassås Wine        15 lådor
   Fine Wine Service  166 lådor
-  Vivino             10 lådor
-Jämför 209 viner med Systembolaget i Helsingborg …
+Jämför 207 viner med Systembolaget i Helsingborg …
 DEBUG vinlada.http: GET https://www.systembolaget.se/
 DEBUG vinlada.http: GET https://www.systembolaget.se/_next/static/chunks/108-yosjoexzo.js
 DEBUG vinlada.http: GET https://www.systembolaget.se/_next/static/chunks/19xf544mqf9l5.js
@@ -528,17 +519,18 @@ DEBUG vinlada.http: GET https://www.systembolaget.se/_next/static/chunks/0z56smr
 DEBUG vinlada.http: GET https://www.systembolaget.se/_next/static/chunks/0ocbo4mz2p9qa.js
 DEBUG vinlada.http: GET https://www.systembolaget.se/_next/static/chunks/39rbrvqy938xw.js
 DEBUG vinlada.http: GET https://www.systembolaget.se/_next/static/chunks/0die258pw6_iz.js
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Domaine+Vocoret+%26+Fils+Chablis&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Domaine+Vocoret+%26+Fils+Chablis+For%C3%AAt+1.+Cru&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=De+Lisio+Wines+Quarterback&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Ch%C3%A2teau+Marjosse+Ch%C3%A2teau+Marjosse+Blanc&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Allan+Scott+Family+Winemakers+Pinot+Noir&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Three+Sticks+Head+High+Pinot+Noir&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Ch%C3%A2teau+Pigoudet+Premi%C3%A8re+Ros%C3%A9&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Ch%C3%A2teau+Pigoudet+Princesse&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Te%C3%B1o+un+Polbaso&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Smeraldi+Prosecco&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Ferdinand+Labarthe+Pinot+Noir+Reserve&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Langhe+Nebbiolo&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/sitesearch/site?q=Helsingborg&includePredictions=true
-INFO vinlada.systembolaget: Systembolaget: 4 butiker i Helsingborg: ['Helsingborg Söder', 'Drottninggatan 18', 'Berga', 'Råå']
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1240/36798410/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1243/36798410/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1244/36798410/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1242/36798410/
-DEBUG vinlada.systembolaget: Systembolaget: Langhe Nebbiolo 2019 ×6 -> Revello Fratelli – Fratelli Revello Langhe Nebbiolo 230.0 kr (0.75)
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Voiturette+Cabernet+Sauvignon&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Chardonnay+Sp%C3%A4tlese&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Zweigelt+Sp%C3%A4tlese&size=10&page=1&categoryLevel1=Vin
@@ -558,15 +550,11 @@ DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=C%C3%A1ndalo+Oak+aged+collection&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Berol+Vendimia+Seleccionada&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Appassimento+Rosso&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.systembolaget: Systembolaget: Langhe Nebbiolo 2021 ×6 -> Revello Fratelli – Fratelli Revello Langhe Nebbiolo 230.0 kr (0.75)
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Piemonte+Barbera&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1240/46669570/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1243/46669570/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1244/46669570/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1242/46669570/
-DEBUG vinlada.systembolaget: Systembolaget: Piemonte Barbera 2020 ×6 -> Oenoforos – Mario Solozzo Piemonte Barbera 109.0 kr (0.60)
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Chardonnay+Oak+edition&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Pago+de+Otazu&size=10&page=1&categoryLevel1=Vin
+DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/sitesearch/site?q=Helsingborg&includePredictions=true
+INFO vinlada.systembolaget: Systembolaget: 4 butiker i Helsingborg: ['Helsingborg Söder', 'Drottninggatan 18', 'Berga', 'Råå']
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1240/45435542/
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1243/45435542/
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1244/45435542/
@@ -574,11 +562,6 @@ DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/
 DEBUG vinlada.systembolaget: Systembolaget: Pago de Otazu 2020 ×6 -> Bodega Otazu – Pago De Otazu Tinto 334.0 kr (0.90)
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Macabeo+La+Villa+Real&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Pinot+Grigio&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1240/35910496/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1243/35910496/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1244/35910496/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1242/35910496/
-DEBUG vinlada.systembolaget: Systembolaget: Pinot Grigio 2022 ×6 -> Sturm – Sturm Pinot Grigio 220.0 kr (0.90)
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Benedictum+Selecci%C3%B3n&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Dardines+Reserva&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Belleza+Blossom+%28eko%29&size=10&page=1&categoryLevel1=Vin
@@ -727,20 +710,6 @@ DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Libert%C3%A9+Vigneron+Series+Grassl+Glass&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Cru+Vigneron+Series+Grassl+Glass&size=10&page=1&categoryLevel1=Vin
 DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Decanter+Vigneron+Series+Grassl+Glass&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Brown+Estate+House+of+Brown+Chardonnay&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Madrigal+Zinfandel&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Ruth+Lewandowski+L.+Stone+Fox+Hill+Vineyard+Zero+Sangiovese&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=19+Crimes+Red+Blend&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=19+Crimes+The+Banished+Dark+Red&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1240/13955353/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1243/13955353/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1244/13955353/
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/stockbalance/store/1242/13955353/
-DEBUG vinlada.systembolaget: Systembolaget: 19 Crimes The Banished Dark Red ×6 -> 19 Crimes – 19 Crimes The Banished Dark Red 139.0 kr (1.00)
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=M%C3%A9nage+%C3%A0+Trois+Midnight+Dark+Red+Blend&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=La+Marenca+Moscato+d%27Asti&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Cascina+Valle+Asinari+Moscato+d%27Asti&size=10&page=1&categoryLevel1=Vin
-DEBUG vinlada.http: GET https://api-extern.systembolaget.se/sb-api-ecommerce/v1/productsearch/search?textQuery=Cantina+La-Vis+Gew%C3%BCrztraminer&size=10&page=1&categoryLevel1=Vin
-  Systembolaget      7 av 209 hittade, 0 i lager i Helsingborg
+  Systembolaget      2 av 207 hittade, 0 i lager i Helsingborg
 
 HTML-sida sparad: docs/index.html
