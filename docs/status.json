@@ -67,12 +67,12 @@
     "state": "live",
     "count": 2,
     "errors": [],
-    "utan_flaskantal": 1,
+    "utan_flaskantal": 2,
     "exempel": [
       {
         "titel": "Wine Mechanics GBG - Goa Buteljer från Göteborg! #6",
         "pris": 269.0,
-        "flaskor": 6.0,
+        "flaskor": null,
         "url": "https://www.winefinder.se/vin/eu/eu/gbg-goa-buteljer-fran-goteborg-6-wine-mechanics-a137671"
       },
       {
@@ -122,13 +122,42 @@
     ]
   },
   "Philipson Wine": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "html: inga vinlådor: 2 listningar, 224 länkar, 50 sidor, 0 med pris, 0 fel valuta"
-    ],
-    "utan_flaskantal": 0,
-    "exempel": []
+    "state": "live",
+    "count": 36,
+    "errors": [],
+    "utan_flaskantal": 1,
+    "exempel": [
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl"
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
+        "flaskor": null,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada"
+      },
+      {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl"
+      },
+      {
+        "titel": "Vinlåda Vivino-favoriter 6 fl.",
+        "pris": 1089.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl"
+      },
+      {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl"
+      }
+    ]
   },
   "Nordiska Vin": {
     "state": "live",
@@ -214,7 +243,7 @@
     "state": "live",
     "count": 38,
     "errors": [],
-    "utan_flaskantal": 29,
+    "utan_flaskantal": 30,
     "exempel": [
       {
         "titel": "Tidbloms mixlåda",
@@ -248,16 +277,6 @@
       }
     ]
   },
-  "IVINIO": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "woocommerce: inga vinlådor hittades",
-      "html: inga vinlådor: 1 listningar, 67 länkar, 40 sidor, 9 med pris, 9 fel valuta"
-    ],
-    "utan_flaskantal": 0,
-    "exempel": []
-  },
   "Wine Trade": {
     "state": "live",
     "count": 3,
@@ -286,15 +305,39 @@
   },
   "Vinibutik": {
     "state": "live",
-    "count": 1,
+    "count": 47,
     "errors": [],
     "utan_flaskantal": 0,
     "exempel": [
       {
-        "titel": "Yllera lådan",
-        "pris": 999.0,
+        "titel": "Teño un Polbaso 2025 ×6",
+        "pris": 774.0,
         "flaskor": 6.0,
-        "url": "https://vinibutik.dk/products/spanien-6-1"
+        "url": "https://vinibutik.dk/products/teno-un-polbaso-2025"
+      },
+      {
+        "titel": "Abaco 2018 ×6",
+        "pris": 1674.0,
+        "flaskor": 6.0,
+        "url": "https://vinibutik.dk/products/abaco-2020"
+      },
+      {
+        "titel": "Smeraldi Prosecco ×6",
+        "pris": 834.0,
+        "flaskor": 6.0,
+        "url": "https://vinibutik.dk/products/smeraldi-prosecco"
+      },
+      {
+        "titel": "Ferdinand Labarthe Pinot Noir Reserve 2024 ×6",
+        "pris": 954.0,
+        "flaskor": 6.0,
+        "url": "https://vinibutik.dk/products/ferdinand-labarthe-pinot-noir-reserve-2023"
+      },
+      {
+        "titel": "Langhe Nebbiolo 2019 ×6",
+        "pris": 1074.0,
+        "flaskor": 6.0,
+        "url": "https://vinibutik.dk/products/langhe-nebbiolo-2019"
       }
     ]
   },
@@ -399,16 +442,182 @@
         "url": "http://www.vivino.com/wines/174454401"
       },
       {
-        "titel": "Cantina La-Vis Gewürztraminer 2021 ×6",
+        "titel": "19 Crimes Red Blend ×6",
         "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "http://www.vivino.com/wines/167866856"
+        "url": "http://www.vivino.com/wines/4867744"
       },
       {
-        "titel": "Ménage à Trois Midnight Dark Red Blend 2021 ×6",
+        "titel": "19 Crimes The Banished Dark Red ×6",
         "pris": 589.5600000000001,
         "flaskor": 6.0,
-        "url": "http://www.vivino.com/wines/167141803"
+        "url": "http://www.vivino.com/wines/146899027"
+      }
+    ]
+  },
+  "Systembolaget": {
+    "state": "live",
+    "count": 7,
+    "stats": {
+      "sokta": 209,
+      "hittade": 7,
+      "i_lager": 0,
+      "fel": 0
+    },
+    "stores": [
+      "Helsingborg Söder",
+      "Drottninggatan 18",
+      "Berga",
+      "Råå"
+    ],
+    "city": "Helsingborg",
+    "exempel": [
+      {
+        "vin": "Langhe Nebbiolo 2019 ×6",
+        "butik": "Vinibutik",
+        "sb": {
+          "name": "Revello Fratelli – Fratelli Revello Langhe Nebbiolo",
+          "number": "5109501",
+          "price": 230.0,
+          "vintage": null,
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/fratelli-revello-langhe-nebbiolo-5109501/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 0.75
+        }
+      },
+      {
+        "vin": "Langhe Nebbiolo 2021 ×6",
+        "butik": "Vinibutik",
+        "sb": {
+          "name": "Revello Fratelli – Fratelli Revello Langhe Nebbiolo",
+          "number": "5109501",
+          "price": 230.0,
+          "vintage": null,
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/fratelli-revello-langhe-nebbiolo-5109501/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 0.75
+        }
+      },
+      {
+        "vin": "Piemonte Barbera 2020 ×6",
+        "butik": "Vinibutik",
+        "sb": {
+          "name": "Oenoforos – Mario Solozzo Piemonte Barbera",
+          "number": "7558101",
+          "price": 109.0,
+          "vintage": null,
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/mario-solozzo-piemonte-barbera-7558101/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 0.6
+        }
+      },
+      {
+        "vin": "Pago de Otazu 2020 ×6",
+        "butik": "Vinibutik",
+        "sb": {
+          "name": "Bodega Otazu – Pago De Otazu Tinto",
+          "number": "7290701",
+          "price": 334.0,
+          "vintage": "2021",
+          "other_vintage": true,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/pago-de-otazu-tinto-7290701/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 0.9
+        }
+      },
+      {
+        "vin": "Pinot Grigio 2022 ×6",
+        "butik": "Vinibutik",
+        "sb": {
+          "name": "Sturm – Sturm Pinot Grigio",
+          "number": "5737001",
+          "price": 220.0,
+          "vintage": "2023",
+          "other_vintage": true,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/sturm-pinot-grigio-5737001/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 0.9
+        }
+      },
+      {
+        "vin": "2023 Hasher Marimist Chardonnay ×6",
+        "butik": "Fine Wine Service",
+        "sb": {
+          "name": "Hasher Family Estate – Hasher Marimist Chardonnay",
+          "number": "7397901",
+          "price": 441.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/hasher-marimist-chardonnay-7397901/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 0.8
+        }
+      },
+      {
+        "vin": "19 Crimes The Banished Dark Red ×6",
+        "butik": "Vivino",
+        "sb": {
+          "name": "19 Crimes – 19 Crimes The Banished Dark Red",
+          "number": "7002101",
+          "price": 139.0,
+          "vintage": "2021",
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/19-crimes-the-banished-dark-red-7002101/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "score": 1.0
+        }
       }
     ]
   }
