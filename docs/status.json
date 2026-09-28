@@ -3,19 +3,8 @@
     "state": "live",
     "count": 15,
     "errors": [],
-    "utan_flaskantal": 2,
-    "utan_flaskantal_exempel": [
-      {
-        "titel": "XL vitvinslåda - En resa genom vitvinets värld❤️",
-        "url": "https://dittvin.se/products/xl-vitvinslada-en-resa-genom-vitvinets-varld",
-        "text": "XL vitvinslåda - En resa genom vitvinets värld❤️ Denna smakpaket samlar 12 noggrant utvalda vita viner från några av Europas mest spännande vinområden och ger dig en härlig resa genom friskhet, frukt och finess. Här får du allt från krispiga, torra och eleganta viner till mjuka, aromatiska och lätt söta droppar, så det finns något för både vardag, middagsbjudningar och de speciella ögonblicken när"
-      },
-      {
-        "titel": "Lyxig italiensk vinlåda - guldnivå 🥇",
-        "url": "https://dittvin.se/products/italiensk-luksus-smagekasse-guld-niveau",
-        "text": "Lyxig italiensk vinlåda - guldnivå 🥇 Upptäck en smakrik resa genom Italien med denna noggrant utvalda vinlåda med sex röda favoriter, där varje flaska bjuder på sin egen personlighet, charm och karaktär. Här möts solmogna frukter, mjuka tanniner, kryddiga nyanser och elegant balans i en samling som passar lika bra till en lyxig middag som till en avslappnad kväll med goda vänner. Från fyllig Primi"
-      }
-    ],
+    "utan_flaskantal": 0,
+    "utan_flaskantal_exempel": [],
     "exempel": [
       {
         "titel": "XL födelsedagslåda - 12 särskilda rödviner 🍷🎁",
@@ -51,14 +40,19 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 3,
+    "count": 4,
     "errors": [],
-    "utan_flaskantal": 1,
+    "utan_flaskantal": 2,
     "utan_flaskantal_exempel": [
       {
         "titel": "Höstens stora mixlåda",
         "url": "https://vinoteket.se/hostens-stora-mixlada",
         "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
       }
     ],
     "exempel": [
@@ -73,12 +67,18 @@
         "pris": 1199.0,
         "flaskor": 9.0,
         "url": "https://vinoteket.se/vit-manad---mix-x-9"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix"
       }
     ]
   },
   "Winefinder": {
     "state": "live",
-    "count": 10,
+    "count": 8,
     "errors": [],
     "utan_flaskantal": 0,
     "utan_flaskantal_exempel": [],
@@ -119,13 +119,8 @@
     "state": "live",
     "count": 47,
     "errors": [],
-    "utan_flaskantal": 8,
+    "utan_flaskantal": 5,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Spätburgunder Vinlåda",
-        "url": "https://www.supervin.se/spatburgunder-vinlada",
-        "text": "Vinlådan är senast uppdaterad den 27-06-2026 Ge dig ut på tysk och österrikisk upptäcktsfärd i den imponerande \"Spätburgunder-Vinlådan\"! Hitta saftiga, intensiva och komplexa Spätburgunder-viner (även kända som Pinot Noir) från några av de mest eftertraktade områdena, bl.a. Pfalz och Baden. Vinerna i lådan kommer från vinproducenter med imponerande meritlistor. Markowitsch har slagit två kultviner"
-      },
       {
         "titel": "Pinot Noir världen runt Vinlåda",
         "url": "https://www.supervin.se/pinot-noir-varlden-runt-vinlada",
@@ -135,11 +130,6 @@
         "titel": "Nyårslåda - Champagne",
         "url": "https://www.supervin.se/nyarslada-champagne",
         "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få"
-      },
-      {
-        "titel": "Giodo \"La Quinta\" vertikal vinlåda",
-        "url": "https://www.supervin.se/giodo-la-quinta-vertikal-vinlada",
-        "text": "För första gången någonsin gör vi en \"GIODO La Quinta\" vertikal Vinlåda med 6 av de bästa årgångarna som ligger mellan 94–97 poäng. De flesta betyg är givna av de stora kritikerkanonerna Robert Parker, James Suckling och Decanter. Det här är ett unikt tillfälle att smaka Sangiovese-magin som springer ur GIODO Brunello‑läget, som just nu är på allas läppar... Carlo Ferrini är ett av vinvärldens het"
       },
       {
         "titel": "Tesch Tasting Box 2020 & Live Provning",
@@ -152,11 +142,6 @@
         "text": "Sommarens BÄSTA törstsläckare! Köp det färdigpackade setet som innehåller: 2 flaskor Delaforce Rosé Port 4 flaskor Fentimans Premium Indian Tonic 20 cl. och börja genast njuta av sommaren med ett svalt, saftigt glas i handen. Prova t.ex. en... PORT-TONIC! Den lättaste (och godaste) cocktail du någonsin har gjort. - En del Delaforce Rosé Port - En del Fentimans Premium Indian Tonic - Isbitar - Ev. "
       },
       {
-        "titel": "Amarone-metoden Vinlåda",
-        "url": "https://www.supervin.se/amarone-metoden-vinlada",
-        "text": "Amarone är ljuvlig, men de flesta av oss har inte råd att dricka den varje dag. Men det finns råd för det: i denna Vinlåda får du sex olika topprecenserade rött viner, som alla är framställda enligt Amarone-metoden. Genom att torka druvorna före pressning koncentreras mustens rikedom och aromer, så man får ett mjukt, fylligt rött vin med massor av läckert mogen frukt. Vinlådan Amarone-metoden inne"
-      },
-      {
         "titel": "Masso Antico Vinlåda – 1 Primitivo ICE 2023 och 5 Primitivo 2022",
         "url": "https://www.supervin.se/masso-antico-vinlada-1-primitivo-ice-2023-och-5-primitivo-2022",
         "text": "Den ultimata nya vinlådan för alla fans av Masso Anticos syditalienska Primitivo… Ett måste att prova med den vilda MASSO ICE-NYHETEN! Du känner säkert Masso Anticos Primitivo, som är ett av Danmarks mest populära rött vin. 99 poäng åtta år i rad säger allt. Och med rekordhöga 4,2 stjärnor på Vivino är årgången 2022 extra läcker. Du hittar 5 st i din vinlåda! Och inte minst - det kan vi lova (!) -"
@@ -166,7 +151,7 @@
       {
         "titel": "Vit Bourgogne Vinlåda",
         "pris": 1719.95,
-        "flaskor": 5.0,
+        "flaskor": 6.0,
         "url": "https://www.supervin.se/vit-bourgogne-vinlada"
       },
       {
@@ -184,7 +169,7 @@
       {
         "titel": "Spätburgunder Vinlåda",
         "pris": 1479.95,
-        "flaskor": null,
+        "flaskor": 4.0,
         "url": "https://www.supervin.se/spatburgunder-vinlada"
       },
       {
@@ -199,13 +184,8 @@
     "state": "live",
     "count": 38,
     "errors": [],
-    "utan_flaskantal": 3,
+    "utan_flaskantal": 2,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt möjlighet att uppleva hur husets stil utvecklas över tid, från mogna och nyanserade uttryck till yngre årgångars energi och struktur. Här finns bland"
-      },
       {
         "titel": "Limited Edition Collector's Case Kracher, 3x 100 Point Robert Parker",
         "url": "https://philipsonwine.se/produkter/limited-edition-collectors-case-kracher-3x-100-point-robert-parker",
@@ -227,7 +207,7 @@
       {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 1259.95,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada"
       },
       {
@@ -252,15 +232,10 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 31,
+    "count": 33,
     "errors": [],
-    "utan_flaskantal": 10,
+    "utan_flaskantal": 9,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
-        "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
-        "text": "Denna samling är skapad med sommarens alla sociala stunder i fokus där solen och gemenskapen står i centrum. Urvalet består av tre olika franska roséviner som tillsammans bildar den perfekta basen för"
-      },
       {
         "titel": "Smakfullt Rosépaket från Frankrike",
         "url": "https://nordiskavin.se/store/franska-rosefavoriter-loire-och-grenache-flaska",
@@ -295,13 +270,18 @@
         "titel": "Stora Chianti-lådan",
         "url": "https://nordiskavin.se/store/stora-chiantiladan",
         "text": "Beställ Stora Chianti-lådan smidigt på nätet. Se pris och lagerstatus. En exklusiv samling Chianti med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Mousserande viner blandlåda",
+        "url": "https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci",
+        "text": "Beställ mousserande viner blandlåda smidigt på nätet. Se pris och lagerstatus. Upptäck en krispig mix av fransk Blanc de Blancs och Prosecco med snabb hemleverans till dörren."
       }
     ],
     "exempel": [
       {
         "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
         "pris": 1049.0,
-        "flaskor": null,
+        "flaskor": 3.0,
         "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel"
       },
       {
@@ -317,30 +297,25 @@
         "url": "https://nordiskavin.se/store/italienska-bianco-chardonnay-blandlada"
       },
       {
+        "titel": "Italiensk guldbox med Appassimento från Puglia och Sicilien",
+        "pris": 1649.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada"
+      },
+      {
         "titel": "Fransk Brut - Krispigt och fräscht! 9 flaskor",
         "pris": 1099.0,
         "flaskor": 9.0,
         "url": "https://nordiskavin.se/store/franskt-brut-blandlada-9-flaskor"
-      },
-      {
-        "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
-        "pris": 1149.0,
-        "flaskor": 9.0,
-        "url": "https://nordiskavin.se/store/stora-apassimentoladan"
       }
     ]
   },
   "Vinfolket": {
     "state": "live",
-    "count": 14,
+    "count": 16,
     "errors": [],
-    "utan_flaskantal": 7,
+    "utan_flaskantal": 5,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Pinot Noir! – Vinpaket",
-        "url": "https://vinfolket.se/vinpaket/pinot-noir/",
-        "text": "Den är mångas favoritdruva, mångas val när det kommer till röda viner.Eller som en del av våra bargäster brukar säga: ”jag tar en pino”.Så vi kände att det helt enkelt var läge för mer av – Pinot Noir!I denna låda får du fem olika varianter från druvan:En flaska Adler Schnabler Pinot Nero 2016, Italien. Spännande Pinot Noir från Alto Adige.En flaska Chat*eau Noir, Tyskland. Spätburgunder – som dru"
-      },
       {
         "titel": "Winnica Adoria Vinpaket",
         "url": "https://vinfolket.se/vinpaket/winnica-adoria-vinpaket/",
@@ -365,11 +340,6 @@
         "titel": "Vinfolket Prova På Paket",
         "url": "https://vinfolket.se/vinpaket/prova-pa-paket/",
         "text": "Smaka på och hitta din vinstil. Ett vinpaket som talar sitt eget språk och tydligt visar att vin är vin och inte saft. Italien och Frankrike finns med i paketet. Välkommen till Vinfolket!I Prova På Paketet ingår sex exempel på våra omtyckta viner.* Zililani Machese di Lamosa Brut Franciacorta. Mousserande vin i världsklass. Gjord på ”Champagnemetoden”. * Terra Vizina Prosecco Millesimato Brut. Tor"
-      },
-      {
-        "titel": "En låda bubbel, tack!",
-        "url": "https://vinfolket.se/vinpaket/en-lada-bubbel-tack/",
-        "text": "En låda bubbel, tack!Vinfolkets populäraste vinpaket. Ett urval av en uppskattad Champagne och andra mousserande viner. Alltså, både högt och lågt. Druvan Chardonnay är ett inslag som garanterar torra och friska smaker.Vi börjar vår smakresa i Veneto med en Prosecco Brut från området\" runt Treviso i vinregionen Veneto: Fräsch och elegant på den klassiska Glera druvan.Vi tar oss raskt vidare till g"
       }
     ],
     "exempel": [
@@ -388,7 +358,7 @@
       {
         "titel": "Pinot Noir! – Vinpaket",
         "pris": 1297.0,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/pinot-noir/"
       },
       {
@@ -407,81 +377,81 @@
   },
   "Tidblom Wines": {
     "state": "live",
-    "count": 41,
+    "count": 108,
     "errors": [],
-    "utan_flaskantal": 32,
+    "utan_flaskantal": 11,
     "utan_flaskantal_exempel": [
       {
-        "titel": "Tidbloms mixlåda",
-        "url": "https://tidblomwines.com/blandlador/tidbloms-mixlada/",
-        "text": "TIDBLOMS MIXLÅDA &nbsp; &#8220;Härlig blandning med ett bubbel, ett friskt vitt vin och en matig rosé&#8221; Innehåll; Lite bubbel, ett friskt vitt vin och ett lättare lite ovanligt rött vin 2x Clos Malverne Brut, 100% Sauvignon Blanc 2x Florence by Aldering, 100% Chenin Blanc 2x Aaldering Pinotage Rosé, 100% Pinotage Mer information under respektive vin. Obs! Bilden stämmer inte alltid då innehål"
+        "titel": "Blandlåda Sangria Fiesta",
+        "url": "https://tidblomwines.com/blandlador/blandlada-sangria-fiesta/",
+        "text": "Äntligen är sommaren här och den här lådan är den perfekt mixade lådan för sommarens alla fester likväl som på tu man hand i solnedgången. Tinto de Verano – Sommarens röda på Spanska och det vi själva helst dricker när vi är i Spanien. Som Sangria men med citron, otroligt fräscht och läskande. Servera med mycket is och en citronskiva. Sangria – en riktig premium Sangria och en av de bästa vi någon"
       },
       {
-        "titel": "Tidbloms Pinotagelåda Aaldering",
-        "url": "https://tidblomwines.com/blandlador/tidbloms-pinotagelada-aaldering/",
-        "text": "1230 kr låda (6st) NYHET! &#8220;Pinotagelåda viner från Aaldering, vitt, rosé och rött&#8221; Innehåll Ny vingård i vårt sortiment! Aaldering Vinyards &amp; Wines i Devon valley, Stellenbosch. 4 olika viner, alla gjorda på Pinotage. Från samma vinstockar men behandlade på olika sätt. 2x Aaldering Estate Pinotage Rosé (100% Pinotage) Elegant lite matig rosé 2x Aaldering Estate Blanc De Noir (100% "
+        "titel": "Vitt & Rött Mixed",
+        "url": "https://tidblomwines.com/sydafrika/sydafrikanska-blandlador/vitt-rott-mixed/",
+        "text": ""
       },
       {
-        "titel": "Spansk blandlåda",
-        "url": "https://tidblomwines.com/blandlador/spansk-blandlada/",
-        "text": "Innehåll Innehållet kan ändras över tid beroende på tillgång. Bilden visar inte alltid aktuellt innehåll utan klicka på länkarna här under 4x Casa Igarza, från Bodegas Castana 2x Altos, från Bodega Luzon 2 exklusiva viner från södra Spanien i en låda! Importör; Patina Wine"
+        "titel": "Sydafrikanska Sommarlådan",
+        "url": "https://tidblomwines.com/blandlador/sydafrikanska-sommarladan/",
+        "text": "Avnjut vår Sydafrikanska sommarlåda, där vi erbjuder det fruktiga bubblet, lätta vita och smakrika rosé. Denna kombination är svår att slå samtidigt som du får mycket vin för pengarna."
       },
       {
-        "titel": "Prego Prego, 5,3%",
-        "url": "https://tidblomwines.com/3-pack/prego-prego/",
-        "text": "Allergener Innehåller: Kornmalt Smakbeskrivning Färg Oklar, ljus, gul färg. Doft Maltig doft med inslag av knäckebröd, tallkåda, örter och citrus. Smak Maltig smak med låg beska, inslag av knäckebröd, tallkåda, örter och citrusskal. &nbsp; Prego Prego, 5,3% Italiensk lager: Maltig smak med låg beska, inslag av knäckebröd, tallk å da, örter och citrusskal Köpes i minimum 6 pack."
+        "titel": "Blandlåda for the love of Seafood",
+        "url": "https://tidblomwines.com/blandlador/blandlada-for-the-love-of-seafood/",
+        "text": "Denna låda är en match made in heaven till alla sorters skaldjur. Batllori Brut Nature &#8211; en ljuvligt frisk, ung, torr och fräsch cava. Val de Meigas &#8211; Mjukt, elegant och fylligt med välbalanserad syra. Precis som en riktigt bra Albariño ska vara. Importör: Viña de Vida."
       },
       {
-        "titel": "Cantina Sedilesu – Ballu Tundu Cannonau Riserva",
-        "url": "https://tidblomwines.com/italien/italienska-roda-viner/cantina-sedilesu-ballu-tundu-cannonau-riserva-2/",
-        "text": "&nbsp; &#8220;Ett av Sardiniens bästa Cannonau viner&#8221; Område: Mamoiada, Nuoro, Sardinien Årgång: 2019 Druva: 100% Cannonau (Grenache) Doft: Mogen frukt och örtkryddor. Smak: Runt och fylligt i munnen med mjuka tanniner. Mörk frukt (plommon). Lagringspotential: Vinet vinner på lagring. Bör öppnas och luftas i god tid. Innehåll: Alkohol: 15,5 % Socker: 1,5 g/l Total syra: 5 g/l Passar till: Bi"
+        "titel": "Blandlåda Rosé Rosé!",
+        "url": "https://tidblomwines.com/blandlador/blandlada-rose-rose/",
+        "text": "Äntligen är rosésäsongen här och den här lådan innehåller allt du behöver för sköna kvällar på uteplatsen och romantiska stunder i solnedgången. Demuerte Rosé &#8211; Somrigt och härligt med jordgubbar, äpple, färska örter och hallonbåtar. Krispigt, runt och torrt men också fruktigt. Batllori Brut Rosé &#8211; fruktig, bubblig, charmig och alldeles underbar. Vald till Spaniens näst bästa rosécava "
       },
       {
-        "titel": "Can Feixes Corpinat Classic Brut",
-        "url": "https://tidblomwines.com/spanien/spanska-mousserande-viner/can-feixes-corpinat-classic-brut/",
-        "text": "Vinframställning Endast druvor från egna vingårdar används. Strikt urval av handplockade druvor, både i vingården och vid vineriet. Första pressningen av hela druvklasar sker med pneumatisk tankpress och musten klaras genom naturlig sedimentering och statisk dekantering. Musten jäser vid kontrollerad temperatur i rostfria ståltankar. Ekologiskt vin. Druvsorter 59% Parellada, 31% Macabeo och 10% Pi"
+        "titel": "Blandlåda Bordeaux La Demoiselle Rose La Demoiselle Blanc",
+        "url": "https://tidblomwines.com/frankrike/franska-blandlador/blandlada-bordeaux-la-demoiselle-rose-la-demoiselle-blanc/",
+        "text": "Importör: A Sip of Joy AB Producent: Château Amanieu d’Albret Region: Bordeuax, Frankrike &nbsp; La Demoiselle Damanieu 2023, AOC Bordeaux Blanc Druvor: 60% Sauvignon Gris, 40% Sauvignon Blanc La Rose Damanieu 2023, AOC Bordeaux Rosé Druvor: 60% Malbec, 40% Merlot"
       },
       {
-        "titel": "Can Feixes Corpinat Classic Brut Nature",
-        "url": "https://tidblomwines.com/spanien/spanska-mousserande-viner/can-feixes-corpinat-classic-brut-nature/",
-        "text": "Vinframställning Endast druvor från egna vingårdar används. Strikt urval av handplockade druvor, både i vingården och vid vineriet. Första pressningen av hela druvklasar sker med pneumatisk tankpress och musten klaras genom naturlig sedimentering och statisk dekantering. Musten jäser vid kontrollerad temperatur i rostfria ståltankar. Ekologiskt vin. Druvsorter 59% Parellada, 31% Macabeo och 10% Pi"
+        "titel": "Blandlåda Bailafieras The Bold Dancers",
+        "url": "https://tidblomwines.com/spanien/blandlada-bailafieras-the-bold-dancers/",
+        "text": "I denna vinlåda har vi samlat det allra bästa från Bailafieras – Deras mest exklusiva och lagrade viner. Perfekt för dig som vill upptäcka Bailafieras premiumviner och uppleva hur tid och omsorg förvandlar vin till ren njutning. Importör: Viña de Vida."
       },
       {
-        "titel": "Ahrens Black",
-        "url": "https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/ahrens-black/",
-        "text": "&nbsp; Tekniska detaljer Jäsning: Noggrann sortering före delvis avstjälkning med 20–30 % utvalda hela klasar. Naturlig jäsning i öppna kärl. Dagliga &#8220;punch-downs&#8221; och förlängd skalkontakt efter jäsning under CO₂-skydd. Lagring: 15–18 månader delvis i 300-liters franska ekfat (både nya och upp till fem år gamla) samt efter blandning i 1900-liters fransk ekfoudre. Vingårdar och jordmån "
+        "titel": "Staffans Sommarlåda",
+        "url": "https://tidblomwines.com/blandlador/staffans-sommarlada/",
+        "text": "Sommarens ankomst närmar sig, och vad vore mer passande än en sommarlåda från Staffan? Innehållande två vita Florence By Aaldering, två vita Aaldering Estate Chardonnay och två rosé Aaldering Estate Rosé. Njut av dessa högkvalitativa viner och låt sommaren börja på bästa möjliga sätt.&#8221;"
       }
     ],
     "exempel": [
       {
-        "titel": "Tidbloms mixlåda",
-        "pris": 1.09,
-        "flaskor": null,
-        "url": "https://tidblomwines.com/blandlador/tidbloms-mixlada/"
+        "titel": "Barahonda Panic Button ×6",
+        "pris": 672.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-panic-button/"
       },
       {
-        "titel": "Tidbloms Pinotagelåda Aaldering",
-        "pris": 1.14,
-        "flaskor": null,
-        "url": "https://tidblomwines.com/blandlador/tidbloms-pinotagelada-aaldering/"
+        "titel": "Lima Mayer Xato ×6",
+        "pris": 690.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/portugal/portugisiska-roda-viner/lima-mayer-xato/"
       },
       {
-        "titel": "Spansk blandlåda",
-        "pris": 2.74,
-        "flaskor": null,
-        "url": "https://tidblomwines.com/blandlador/spansk-blandlada/"
+        "titel": "Adegas Nessa ×6",
+        "pris": 714.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-vita-viner/adegas-nessa/"
       },
       {
-        "titel": "Prego Prego, 5,3%",
-        "pris": 155.4,
-        "flaskor": null,
-        "url": "https://tidblomwines.com/3-pack/prego-prego/"
+        "titel": "Bocopa alcanta crianza ×6",
+        "pris": 750.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/bocopa-alcanta-crianza/"
       },
       {
-        "titel": "Cantina Sedilesu – Ballu Tundu Cannonau Riserva",
-        "pris": 199.0,
-        "flaskor": null,
-        "url": "https://tidblomwines.com/italien/italienska-roda-viner/cantina-sedilesu-ballu-tundu-cannonau-riserva-2/"
+        "titel": "Maset cabernet sauvignon reserva ×6",
+        "pris": 750.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/maset-cabernet-sauvignon-reserva/"
       }
     ]
   },
@@ -489,13 +459,8 @@
     "state": "live",
     "count": 3,
     "errors": [],
-    "utan_flaskantal": 2,
+    "utan_flaskantal": 1,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Rosélåda!",
-        "url": "https://winetrade.se/products/roseladan",
-        "text": "Ett trepack med sommarens rosa viner; Filipa Pato 3B Rosé, Bairrada, Portugal Lokala druvorna Baga och Bical, traditionella metoden rosébubbel! Arnaud Combier, Rosé 2025, Vin de France En rosé på Grenache från södra Frankrike, torr och lätt bärig. Calvez Bobinet, PIAK! Rosé 2025, Loire, Frankrike Cabernet Franc, Pineau d’Aunis Chardonnay &amp; Sauvignon Blanc fruktigt och lite mer smakrikt rosé!"
-      },
       {
         "titel": "Höstlåda #1",
         "url": "https://winetrade.se/products/hostlada-1",
@@ -506,7 +471,7 @@
       {
         "titel": "Rosélåda!",
         "pris": 595.0,
-        "flaskor": null,
+        "flaskor": 3.0,
         "url": "https://winetrade.se/products/roseladan"
       },
       {
@@ -566,18 +531,8 @@
     "state": "live",
     "count": 15,
     "errors": [],
-    "utan_flaskantal": 6,
+    "utan_flaskantal": 4,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Mixed Case - Brunello di Montalcino 2019",
-        "url": "https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019",
-        "text": "« Mixed case Brunello di Montalcino - 1 flaska av varje; Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo »"
-      },
-      {
-        "titel": "Mixed Case - Rosso di Montalcino 2022",
-        "url": "https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022",
-        "text": "« Mixed case Rosso di Montalcino - 1 flaska av varje; Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo »"
-      },
       {
         "titel": "Champagnelådan - 3 Grand Cru Odlare",
         "url": "https://gassaswine.se/produkt/champagneladan-3-grand-cru-odlare",
@@ -615,13 +570,13 @@
       {
         "titel": "Mixed Case - Brunello di Montalcino 2019",
         "pris": 3575.0,
-        "flaskor": null,
+        "flaskor": 5.0,
         "url": "https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019"
       },
       {
         "titel": "Mixed Case - Rosso di Montalcino 2022",
         "pris": 1924.0,
-        "flaskor": null,
+        "flaskor": 5.0,
         "url": "https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022"
       },
       {
@@ -634,26 +589,10 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 166,
+    "count": 170,
     "errors": [],
-    "utan_flaskantal": 3,
-    "utan_flaskantal_exempel": [
-      {
-        "titel": "Swirl-lådan",
-        "url": "https://finewineservice.se/produkt/swirl-ladan/",
-        "text": "Swirl-lådan består av sex viner som vi har tagit fram tillsammans med Swirl och deras sommelier Marcus Henningsson. Swirl, som vi samarbetar med, är en vin-app där man kan man skanna vinetiketter och få strukturerad, tillförlitlig information, spara flaskor i ett eget digitalt vinbibliotek och få personliga rekommendationer baserade på just din smakprofil. Om du inte redan har appen, kan du bli pr"
-      },
-      {
-        "titel": "Prova-på-lådan",
-        "url": "https://finewineservice.se/produkt/prova-pa-ladan/",
-        "text": "Vi kallar denna vinlåda för ”prova-på-lådan” för att den kan passa såväl för dig som kan mycket om vin men som kanske är ny kund till oss och vill prova att göra en första beställning som för dig som kanske är i början av ditt vinintresse, eller för dig som bara vill få lite tips på olika viner att ta med till landet eller ge bort som present. Lådan består av tre vita och tre röda viner som är utv"
-      },
-      {
-        "titel": "Bourgognelådan med vin & pussel",
-        "url": "https://finewineservice.se/produkt/bourgogneladan-med-vin-pussel/",
-        "text": "Bourgognelådan med vin &amp; pussel består av utvalda viner från våra vinmakare i Bourgogne tillsammans med ett vinpussel från Water &amp; Wines och innehåller en flaska 2025 Domaine des Chaumes Chablis, en flaska 2023 Famille Morin Gamay, en flaska 2024 Marion Navoiseau Bourgogne Blanc och ett vinpussel Bourgogne från Water &amp; Wines. 2025 Domaine des Chaumes görs på Chardonnay-druvor från fler"
-      }
-    ],
+    "utan_flaskantal": 0,
+    "utan_flaskantal_exempel": [],
     "exempel": [
       {
         "titel": "2024 Burzi Langhe Nebbiolo ×6",
@@ -662,9 +601,9 @@
         "url": "https://finewineservice.se/produkt/2024-burzi-langhe-nebbiolo/"
       },
       {
-        "titel": "2024 Le Clotagnas La Peyne ×6",
-        "pris": 1494.0,
-        "flaskor": 6.0,
+        "titel": "2024 Le Clotagnas La Peyne",
+        "pris": 249.0,
+        "flaskor": 3.0,
         "url": "https://finewineservice.se/produkt/2024-le-clotagnas-la-peyne/"
       },
       {
@@ -682,7 +621,7 @@
       {
         "titel": "Swirl-lådan",
         "pris": 1299.0,
-        "flaskor": null,
+        "flaskor": 6.0,
         "url": "https://finewineservice.se/produkt/swirl-ladan/"
       }
     ]
@@ -698,7 +637,7 @@
     "state": "live",
     "count": 2,
     "stats": {
-      "sokta": 207,
+      "sokta": 256,
       "hittade": 2,
       "i_lager": 0,
       "fel": 0
@@ -710,6 +649,16 @@
       "Råå"
     ],
     "city": "Helsingborg",
+    "kontroll": {
+      "vara": "Masi Campofiorin",
+      "pris": 150.0,
+      "lager": {
+        "Helsingborg Söder": 0,
+        "1243": 0,
+        "Berga": 0,
+        "Råå": 13
+      }
+    },
     "lagersvar": [
       {
         "butik": "1240",
@@ -797,6 +746,7 @@
             "Råå": 0
           },
           "in_stock_city": false,
+          "in_store_assortment": false,
           "score": 0.9
         }
       },
@@ -818,6 +768,7 @@
             "Råå": 0
           },
           "in_stock_city": false,
+          "in_store_assortment": false,
           "score": 0.8
         }
       }
