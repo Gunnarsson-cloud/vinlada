@@ -506,3 +506,11 @@ class TooShortNameTest(unittest.TestCase):
         from vinlada.systembolaget import match_score
         sb = {"producerName": "Prestige des Sacres", "productNameBold": "Prestige des Sacres", "productNameThin": "Brut"}
         self.assertEqual(match_score("Brut Prestige ×6", sb), 0.0)
+
+
+class ExplicitTotalWinsTest(unittest.TestCase):
+    def test_explicit_total_beats_item_sum(self):
+        from vinlada.parse import bottles_from_description
+        text = ("Denna smakpaket samlar 12 noggrant utvalda vita viner från Europa. Här får du allt från "
+                "krispiga viner till tre aromatiska vita viner och en frisk rosé.")
+        self.assertEqual(bottles_from_description(text)[0], 12)

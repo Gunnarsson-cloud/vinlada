@@ -162,6 +162,7 @@ def write_json(quotes: list[Quote], path: str) -> None:
             "kontrollerad": o.checked, "smakpoang": o.taste_score, "smaktraffar": o.taste_matches,
             "kommentar": "; ".join(x for x in (q.shipping_note, o.note) if x),
             "systembolaget": o.systembolaget,
+            "beskrivning": o.description[:700],
         })
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)

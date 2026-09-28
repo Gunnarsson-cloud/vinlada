@@ -163,28 +163,76 @@ def _number(token: str) -> int:
     return int(token) if token.isdigit() else _NUMBER_WORDS[token.lower()]
 
 
+def _explicit_counts(text: str) -> list[int]:
+    """Antal i textordning från de vanliga mönstren ("6 flaskor", "12 viner", "3 fl. A och 3 fl. B")."""
+    found: dict[int, int] = {}  # position i texten -> antal (första mönstret vinner)
+    for pattern, convert in _PATTERNS:
+        for match in pattern.finditer(text):
+            n = convert(match)
+            if pattern in _NOUN_PATTERNS and n < 4:
+                continue  # "tre favoriter"/"tre viner" är ofta antal sorter, inte flaskor
+            if MIN_BOTTLES <= n <= MAX_BOTTLES:
+                found.setdefault(match.start(), n)
+    return [found[pos] for pos in sorted(found)]
+
+
+def _item_name(following: str) -> str:
+    """Vinets namn efter antalet: orden fram till första ord som inte börjar med versal.
+
+    "Couveys Pinot Noir och 3 fl." och "Couveys Pinot Noir 2024" ger båda "couveys pinot noir".
+    """
+    words = []
+    for word in re.findall(r"[^\s,.;:()\-–]+", following):
+        if not word[0].isupper():
+            break
+        words.append(word.lower())
+        if len(words) == 4:
+            break
+    return " ".join(words)
+
+
+def _item_sum(text: str) -> int | None:
+    """Summa av delposter ("2x A, 1x B", "3 flaskor A 3 flaskor B", "tre rödviner, en rosé …").
+
+    Bara poster inom ett avsnitt räknas, och samma vin (samma två följande ord) bara en gång.
+    """
+    for pattern in (_ITEM, _ITEM_BOTTLES, _COLOR_ITEM):
+        matches = list(pattern.finditer(text))
+        if len(matches) < 2:
+            continue
+        items: dict[str, int] = {}
+        for m in matches:
+            if m.start() - matches[0].start() > 300:
+                break  # en senare, separat uppräkning (t.ex. vinbeskrivningar längre ner)
+            name = _item_name(text[m.end():m.end() + 60])
+            items.setdefault(name or str(m.start()), _number(m.group(1)))
+        total = sum(items.values())
+        if len(items) >= 2 and 2 <= total <= MAX_BOTTLES:
+            return total
+    return None
+
+
 def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
     """Flaskantal ur en längre produkttext, där delposter ofta räknas upp.
 
-    * "2 flaskor av varje" + "3 olika viner" -> 6
+    Ordning: uttryckligt totalantal (minst 6) > summa av delposter > "N av varje" > första antal.
+
+    * "Samlar 12 noggrant utvalda vita viner" -> 12
     * "2 flaskor Barolo, 2 flaskor Barbaresco, 2 flaskor Langhe" -> 6
+    * "2 flaskor av varje" + "3 olika viner" -> 6
     * "Lådan innehåller 6 flaskor: 3 röda och 3 vita" -> 6
     * bara "2 flaskor av varje" utan antal viner -> okänt
     """
     if not text:
         return None, False
     text = _clean(text)
-    for pattern in (_ITEM, _ITEM_BOTTLES, _COLOR_ITEM):
-        # Samma vin kan nämnas flera gånger ("Vinlådan innehåller: 3 fl. Couveys Pinot Noir …"):
-        # räkna varje namn (de närmast följande orden) en gång.
-        items: dict[str, int] = {}
-        for m in pattern.finditer(text):
-            name = " ".join(re.findall(r"[A-Za-zÅÄÖåäöé]+", text[m.end():m.end() + 40].lower())[:3])
-            items.setdefault(name or str(m.start()), _number(m.group(1)))
-        total = sum(items.values())
-        if len(items) >= 2 and 2 <= total <= MAX_BOTTLES:
-            return float(total), False
     each = _EACH.search(text) or _EACH_WORD.search(text)
+    counts = _explicit_counts(_EACH.sub(" ", text) if each else text)
+    if counts and counts[0] >= 6:
+        return float(counts[0]), False
+    total = _item_sum(text)
+    if total:
+        return float(total), False
     if each:
         per = _number(each.group(1))
         of_n = _OF_N.search(text, each.start())
@@ -200,16 +248,6 @@ def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
             parts = [p for p in re.split(r",|&|\boch\b|\band\b|\s(?=(?:19|20)\d\d\b)", listed.group(1)) if p.strip()]
             if 2 <= len(parts) <= 24:
                 return float(per * len(parts)), False
-        text = _EACH.sub(" ", text)  # "N av varje" är inte lådans totala antal
-    found: dict[int, int] = {}  # position i texten -> antal (första mönstret vinner)
-    for pattern, convert in _PATTERNS:
-        for match in pattern.finditer(text):
-            n = convert(match)
-            if pattern in _NOUN_PATTERNS and n < 4:
-                continue  # "tre favoriter"/"tre viner" är ofta antal sorter, inte flaskor
-            if MIN_BOTTLES <= n <= MAX_BOTTLES:
-                found.setdefault(match.start(), n)
-    counts = [found[pos] for pos in sorted(found)]
     if counts:
         first = counts[0]
         if first >= 3:
