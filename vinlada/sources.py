@@ -17,14 +17,17 @@ log = logging.getLogger(__name__)
 
 BOX_WORDS = re.compile(
     r"l[åa]da|l[åa]dan|lådor|\bbox|paket|kasse|pakke|smagekasse|provl[åa]d|provsmakningsl|"
-    r"\bmix|blandl|sampler|\d+\s*-?\s*pac?k|kollektion|abonnemang|prenumeration|mixed case|\bcase\b",
+    r"\bmix|blandl|sampler|\d+\s*-?\s*pac?k|kollektion|abonnemang|prenumeration|mixed case|\bcase\b|"
+    r"vänner|venner|\btrio\b|\bduo\b",
     re.I,
 )
 
 # Sådant som ser ut som lådor men inte är vin att dricka.
 NOT_WINE = re.compile(
     r"trälåda|trälådor|tom\s+l[åa]da|ospecificerat|display\s*box|presentkort|gift\s*card|kartong|"
-    r"emballage|presentförpackning|korkskruv|karaff|vinglas|vinkyl|dekanter|vinhylla",
+    r"emballage|presentförpackning|korkskruv|karaff|vinglas|vinkyl|dekanter|vinhylla|"
+    r"neopren|väska|vinväska|axelrem|grassl|\bglas\b|\bglass\b|\(bok\)|\bbok\b|pussel|puslespil|"
+    r"\bgin\b|vodka|whisky|\brom\b|likör|snaps|isspand|kylväska|förkläde|t-shirt",
     re.I,
 )
 # Öl, cider m.m. som ibland ligger bland lådorna (t.ex. "3-pack").

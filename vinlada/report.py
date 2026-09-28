@@ -12,25 +12,32 @@ from .shipping import rule_for_postcode, shipping_cost
 
 
 def best_quote(offer: Offer, rule: dict, postcode: str, max_boxes: int = 1) -> Quote:
-    """Billigaste antal lådor (1..max_boxes) räknat i kr per flaska inkl. frakt.
+    """En låda, eller fler om det är det som ger fri frakt.
 
-    Två lådor kan bli billigare per flaska om de når gränsen för fri frakt.
+    Med fast fraktavgift blir fler lådor alltid lite billigare per flaska; det
+    räknas inte. Fler lådor väljs bara när frakten då blir gratis (eller först
+    då blir känd) och priset per flaska sjunker.
     """
     rule = rule_for_postcode(rule, postcode)
-    best: Quote | None = None
-    for boxes in range(1, max_boxes + 1):
+
+    def quote(boxes: int) -> Quote:
         subtotal = offer.price * boxes
         bottles = offer.bottles * boxes if offer.bottles else None
         cost, note = shipping_cost(rule, subtotal, bottles, boxes)
-        quote = Quote(offer, boxes, subtotal, cost, note)
-        if best is None:
-            best = quote
-        elif quote.per_bottle is not None and (
-            best.per_bottle is None or quote.per_bottle < best.per_bottle - 0.5
-        ):
-            best = quote
-    assert best is not None
-    return best
+        return Quote(offer, boxes, subtotal, cost, note)
+
+    single = quote(1)
+    if single.shipping == 0:
+        return single
+    for boxes in range(2, max_boxes + 1):
+        more = quote(boxes)
+        if more.shipping != 0:
+            continue
+        if single.per_bottle is None or (more.per_bottle is not None
+                                         and more.per_bottle < single.per_bottle - 0.5):
+            return more
+        break
+    return single
 
 
 def sort_key(q: Quote, by_taste: bool = False) -> tuple:

@@ -229,7 +229,7 @@
       "name": "Vinibutik",
       "url": "https://vinibutik.dk",
       "platform": "shopify",
-      "title_regex": "l[åa]da|kasse|pakke|box|smag|mix",
+      "title_regex": "l[åa]da|kasse|pakke|box|smag|mix|vänner|venner|kollektion",
       "shipping": {
         "fee": 99,
         "note": "till utlämningsställe (ej hemleverans), ca 4 vardagar"

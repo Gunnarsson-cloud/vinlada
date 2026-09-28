@@ -421,3 +421,17 @@ class DescriptionCountTest(unittest.TestCase):
         shop = {"name": "Tidblom", "url": "https://tidblomwines.com"}
         offer = _make_offer(shop, "Cannonau Riserva vinlåda", "u", 219, True, "Säljs i 6 flaskor")
         self.assertEqual((offer.price, offer.bottles, offer.kind), (219 * 6, 6.0, "flaska"))
+
+
+class BoxCountChoiceTest(unittest.TestCase):
+    def test_fixed_fee_without_free_shipping_keeps_one_box(self):
+        offer = Offer("Gassås Wine", "Guigal LaLaLa 3pack", "u", 14997, 3)
+        self.assertEqual(best_quote(offer, {"fee": 169}, "25221", max_boxes=2).boxes, 1)
+
+    def test_accessories_are_not_wine(self):
+        from vinlada.sources import _make_offer
+        shop = {"name": "Vinibutik", "url": "https://vinibutik.dk", "bundle_singles": 6}
+        for title in ("Vini röd neoprenväska till vinflaska", "Grassl Glass Elemental Champagne",
+                      "Common Ground (bok)", "Vinpussel Bordeaux 1000 bitar", "Mister M’s London Dry Gin"):
+            with self.subTest(title=title):
+                self.assertIsNone(_make_offer(shop, title, "u", 199, True, ""))
