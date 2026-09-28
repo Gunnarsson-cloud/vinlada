@@ -394,7 +394,7 @@
     "count": 108,
     "errors": [],
     "utan_flaskantal": 11,
-    "slut_i_lager": 108,
+    "slut_i_lager": 0,
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
@@ -458,16 +458,16 @@
         "url": "https://tidblomwines.com/spanien/spanska-vita-viner/adegas-nessa/"
       },
       {
-        "titel": "Maset cabernet sauvignon reserva ×6",
-        "pris": 750.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/maset-cabernet-sauvignon-reserva/"
-      },
-      {
         "titel": "Bocopa alcanta crianza ×6",
         "pris": 750.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/spanska-roda-viner/bocopa-alcanta-crianza/"
+      },
+      {
+        "titel": "Maset cabernet sauvignon reserva ×6",
+        "pris": 750.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/maset-cabernet-sauvignon-reserva/"
       }
     ]
   },
