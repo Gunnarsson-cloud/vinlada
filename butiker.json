@@ -191,7 +191,9 @@
         "per_box": true,
         "note": "5–7 dagar"
       },
-      "ignore_stock": true
+      "ignore_stock": true,
+      "price_is_per_bottle": "singles",
+      "bundle_singles": 6
     },
     {
       "name": "IVINIO",

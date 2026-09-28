@@ -445,3 +445,22 @@ class BottleSizeTest(unittest.TestCase):
         half = _make_offer(shop, "Smagekasse Kracher 37,5 cl (3 fl.)", "u", 1499.95, True, "")
         self.assertEqual((magnum.bottles, half.bottles), (6.0, 1.5))
         self.assertTrue(magnum.bottles_approx)
+
+
+class TidblomPricingTest(unittest.TestCase):
+    SHOP = {"name": "Tidblom Wines", "url": "u", "price_is_per_bottle": "singles", "bundle_singles": 6}
+
+    def test_box_price_from_text(self):
+        from vinlada.sources import _make_offer
+        o = _make_offer(self.SHOP, "Barolo Ravera cru D.O.C.G.", "u", 405, None, "405 kr flaska 2430 kr låda (6st)")
+        self.assertEqual((o.price, o.bottles), (2430.0, 6.0))
+
+    def test_single_price_times_six(self):
+        from vinlada.sources import _make_offer
+        o = _make_offer(self.SHOP, "Barolo Ravera cru", "u", 405, None, "Säljs i låda om 6 flaskor")
+        self.assertEqual((o.price, o.bottles, o.kind), (2430.0, 6.0, "flaska"))
+
+    def test_own_box_keeps_box_price(self):
+        from vinlada.sources import _make_offer
+        o = _make_offer(self.SHOP, "Spansk blandlåda", "u", 1290, None, "4x Casa Igarza 2x Altos")
+        self.assertEqual((o.price, o.bottles), (1290, 6.0))

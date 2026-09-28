@@ -177,7 +177,8 @@ def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, 
             "alkoholfria": sum(1 for o in found if o.alcohol_free),
             "utan_flaskantal_exempel": [{"titel": o.title, "url": o.url, "text": o.description[:400]}
                                         for o in found if o.bottles is None][:8],
-            "exempel": [{"titel": o.title, "pris": o.price, "flaskor": o.bottles, "url": o.url} for o in found[:5]],
+            "exempel": [{"titel": o.title, "pris": o.price, "flaskor": o.bottles, "url": o.url,
+                         "text": o.description[:250]} for o in found[:8]],
         }
     Path(path).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 

@@ -70,8 +70,22 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
         return None
     if not _title_ok(shop, title, *descriptions):
         return _single_bottle_bundle(shop, title, url, price, in_stock, *descriptions)
-    bottles, approx = guess_bottles(title, *descriptions, url=url)
-    if bottles is None and shop.get("price_is_per_bottle"):
+    # price_is_per_bottle: true = alla priser gäller en flaska (Winefinder),
+    # "singles" = bara produkter som inte är lådor (Tidblom: lådorna har lådpris).
+    per_bottle = shop.get("price_is_per_bottle")
+    if per_bottle == "singles":
+        per_bottle = not BOX_WORDS.search(title)
+    box = _box_price_in_text(*descriptions)
+    if box and box[0] > price:
+        # "405 kr/fl … 2430 kr låda (6st)": produktpriset gäller en flaska, lådpriset står i texten.
+        price, bottles, approx = box[0], float(box[1]), False
+        note = "; ".join(x for x in (note, "lådpris enligt produktsidan") if x)
+        per_bottle = False
+    elif box and abs(box[0] - price) < 1:
+        bottles, approx, per_bottle = float(box[1]), False, False  # priset är redan lådpriset
+    else:
+        bottles, approx = guess_bottles(title, *descriptions, url=url)
+    if bottles is None and per_bottle:
         # Pris per flaska men okänt antal: visa som enskilt vin ×N i stället för ett för lågt lådpris.
         return _single_bottle_bundle({**shop, "bundle_singles": shop.get("bundle_singles", 6)},
                                      title, url, price, in_stock, *descriptions)
@@ -79,9 +93,12 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
         factor = _bottle_size_factor(title)
         if factor != 1:
             bottles, approx = bottles * factor, True  # räkna om till 75 cl-flaskor
-    if bottles and shop.get("price_is_per_bottle"):
+    kind = "låda"
+    if bottles and per_bottle:
         # Butiken visar pris per flaska även för lådor (t.ex. Winefinder).
         price = price * bottles
+        if not BOX_WORDS.search(title):
+            kind = "flaska"  # N flaskor av samma vin
         note = "; ".join(x for x in (note, "butiken anger pris per flaska") if x)
     if bottles and price / bottles < MIN_PRICE_PER_BOTTLE:
         # Orimligt billigt för hela lådan: priset gäller troligen en flaska.
@@ -95,8 +112,25 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
     description = _plain(*descriptions)
     return Offer(shop=shop["name"], title=title.strip(), url=url, price=price,
                  bottles=bottles, bottles_approx=approx, in_stock=in_stock, note=note,
-                 description=description,
+                 description=description, kind=kind,
                  alcohol_free=bool(ALCOHOL_FREE.search(title) or ALCOHOL_FREE.search(description[:400])))
+
+
+_BOX_PRICE = re.compile(
+    r"(\d{1,2}[\s\xa0.]?\d{3}|\d{3,4})\s*(?:kr|:-|sek)\s*(?:/|per\s+)?\s*l[åa]da\s*\(\s*(\d{1,2})\s*(?:st|fl)",
+    re.I)
+
+
+def _box_price_in_text(*texts: str) -> tuple[float, int] | None:
+    """Lådpris och antal ur texter som "1230 kr låda (6st)"."""
+    for text in texts:
+        m = _BOX_PRICE.search(re.sub(r"<[^>]+>", " ", text or ""))
+        if m:
+            price = parse_price(m.group(1))
+            count = int(m.group(2))
+            if price and 2 <= count <= 48:
+                return price, count
+    return None
 
 
 def _bottle_size_factor(title: str) -> float:
