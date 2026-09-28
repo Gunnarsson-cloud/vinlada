@@ -67,6 +67,10 @@ def base_name(title: str) -> str:
     return re.sub(r"\s+", " ", title).strip(" -–,")
 
 
+def store_name(store: dict) -> str:
+    return store.get("alias") or store.get("displayName") or store.get("streetAddress") or str(store.get("siteId"))
+
+
 def product_name(p: dict) -> str:
     return " ".join(x for x in (p.get("productNameBold"), p.get("productNameThin")) if x)
 
@@ -144,7 +148,7 @@ class Systembolaget:
                 and not s.get("isAgent")
             ]
             log.info("Systembolaget: %d butiker i %s: %s", len(self._stores), self.city,
-                     [s.get("alias") or s.get("displayName") for s in self._stores])
+                     [store_name(s) for s in self._stores])
         return self._stores
 
     def search(self, text: str, size: int = 10) -> list[dict]:
@@ -172,7 +176,7 @@ class Systembolaget:
         if not products:
             return {"vara": query, "resultat": "hittades inte"}
         p = products[0]
-        stock = {s.get("alias") or s.get("siteId"): self.stock(str(s.get("siteId")), str(p.get("productId")))
+        stock = {store_name(s): self.stock(str(s.get("siteId")), str(p.get("productId")))
                  for s in self.stores()}
         return {"vara": product_name(p), "pris": p.get("price"), "lager": stock}
 
@@ -197,7 +201,7 @@ class Systembolaget:
             before = len(self.samples)
             n = self.stock(str(store.get("siteId")), str(best.get("productId")))
             if n is not None:
-                stock[store.get("alias") or store.get("displayName") or store.get("siteId")] = n
+                stock[store_name(store)] = n
             if len(self.samples) > before and isinstance(self.samples[-1].get("svar"), dict):
                 in_assortment |= bool(self.samples[-1]["svar"].get("isInStoreAssortment"))
         vintage = _vintage(offer.title)

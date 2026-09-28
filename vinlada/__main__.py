@@ -142,7 +142,8 @@ def compare_systembolaget(offers: list[Offer], args: argparse.Namespace, fetcher
     sb = Systembolaget(fetcher, city=args.stad)
     try:
         stats = sb.enrich(offers, limit=args.sb_max)
-        stores = [s.get("alias") or s.get("displayName") for s in sb.stores()]
+        from .systembolaget import store_name
+        stores = [store_name(s) for s in sb.stores()]
     except FetchError as exc:
         problems.append(f"Systembolaget: {exc}")
         statuses["Systembolaget"] = {"state": "kunde inte läsas", "count": 0, "errors": [str(exc)]}
@@ -172,6 +173,8 @@ def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, 
         report[name] = {
             **status,
             "utan_flaskantal": sum(1 for o in found if o.bottles is None),
+            "slut_i_lager": sum(1 for o in found if o.in_stock is False),
+            "alkoholfria": sum(1 for o in found if o.alcohol_free),
             "utan_flaskantal_exempel": [{"titel": o.title, "url": o.url, "text": o.description[:400]}
                                         for o in found if o.bottles is None][:8],
             "exempel": [{"titel": o.title, "pris": o.price, "flaskor": o.bottles, "url": o.url} for o in found[:5]],

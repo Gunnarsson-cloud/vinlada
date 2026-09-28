@@ -234,8 +234,11 @@ def fetch_woocommerce(shop: dict, fetcher: Fetcher) -> list[Offer]:
                 price = int(prices["price"]) / 10 ** int(prices.get("currency_minor_unit", 2))
             except (KeyError, TypeError, ValueError):
                 continue
+            # Butiker som beställer hem på begäran svarar "ej i lager" men går att köpa.
+            available = bool(product.get("is_in_stock") or product.get("is_on_backorder")
+                             or product.get("is_purchasable"))
             offer = _make_offer(shop, product.get("name", ""), product.get("permalink", base), price,
-                                product.get("is_in_stock"), product.get("short_description", ""),
+                                available, product.get("short_description", ""),
                                 product.get("description", ""))
             if offer:
                 offers.append(offer)
