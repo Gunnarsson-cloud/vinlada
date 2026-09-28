@@ -27,11 +27,13 @@ NOT_WINE = re.compile(
     r"trälåda|trälådor|tom\s+l[åa]da|ospecificerat|display\s*box|presentkort|gift\s*card|kartong|"
     r"emballage|presentförpackning|korkskruv|karaff|vinglas|vinkyl|dekanter|vinhylla|"
     r"neopren|väska|vinväska|axelrem|grassl|\bglas\b|\bglass\b|\(bok\)|\bbok\b|pussel|puslespil|"
-    r"\bgin\b|vodka|whisky|\brom\b|likör|snaps|isspand|kylväska|förkläde|t-shirt",
+    r"\bgin\b|vodka|whisky|\brom\b|likör|snaps|tequila|clase azul|mezcal|cognac|calvados|grappa|"
+    r"isspand|kylväska|förkläde|t-shirt",
     re.I,
 )
 # Öl, cider m.m. som ibland ligger bland lådorna (t.ex. "3-pack").
-NOT_WINE_TEXT = re.compile(r"kornmalt|\bhumle|\böl\b|\blager\b.{0,20}\b(öl|beska)|\bipa\b|\bcider\b|\bstout\b", re.I)
+NOT_WINE_TEXT = re.compile(r"kornmalt|\bhumle|\böl\b|\blager\b.{0,20}\b(öl|beska)|\bipa\b|\bcider\b|\bstout\b|"
+                           r"tequila|mezcal|\bagave", re.I)
 ALCOHOL_FREE = re.compile(r"alkoholfri|alcohol[\s-]*free|\b0[,.]0\s*%|\bjuice\b|must\b|druvjuice", re.I)
 
 DEFAULT_LINK_EXCLUDE = re.compile(
