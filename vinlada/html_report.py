@@ -320,7 +320,9 @@ code { font-family: var(--mono); font-size: .92em; background: var(--surface-2);
         var line = el("div", { cls: "sb" }, [
           el("span", { cls: "sb-label", text: "Systembolaget" }),
           link(o.sb.url, Math.round(o.sb.price) + " kr/fl" + (o.sb.otherVintage || o.sb.other_vintage ? " (annan årgång " + o.sb.vintage + ")" : "")),
-          el("span", { text: stock.length ? "i lager: " + stock.join(", ") : "ej i lager i " + data.sbCity + ", kan beställas till butik" })
+          el("span", { text: stock.length ? "i lager: " + stock.join(", ")
+            : (o.sb.in_store_assortment ? "slut i butikerna i " + data.sbCity + " just nu"
+               : "finns inte i butikerna i " + data.sbCity + " – beställs gratis till valfri butik") })
         ]);
         if (cheaper) line.appendChild(el("span", { cls: "pill cheaper", text: "billigare på Systembolaget" }));
         title.appendChild(line);

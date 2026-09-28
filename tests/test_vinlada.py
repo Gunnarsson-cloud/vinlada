@@ -386,3 +386,38 @@ class GenericNameTest(unittest.TestCase):
         p = {"producerName": "Sturm", "productNameBold": "Sturm", "productNameThin": "Pinot Grigio"}
         self.assertEqual(match_score("Pinot Grigio 2022 ×6", p), 0.0)
         self.assertGreater(match_score("Sturm Pinot Grigio 2022 ×6", p), 0.6)
+
+
+class DescriptionCountTest(unittest.TestCase):
+    CASES = [
+        ("2x Clos Malverne Brut, 100% Sauvignon Blanc 2x Florence, 2x Aaldering Pinotage", 6),
+        ("1230 kr låda (6st) NYHET!", 6),
+        ("Mixed case - 1 flaska av varje; Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo »", 5),
+        ("1 flaska var av följande årgångar; 2018 2016 2015 2010 2009 2006", 6),
+        ("Samlar 12 noggrant utvalda vita viner från Europa", 12),
+        ("En vinlåda med sex röda favoriter, där varje flaska", 6),
+        ("Två flaskor Pecoulette. Två flaskor Chardo Pour Flo. Två flaskor Domaine X.", 6),
+        ("Ett trepack med sommarens rosa viner", 3),
+    ]
+
+    def test_cases(self):
+        from vinlada.parse import bottles_from_description
+        for text, expected in self.CASES:
+            with self.subTest(text=text):
+                self.assertEqual(bottles_from_description(text)[0], expected)
+
+    def test_title_sum_and_url(self):
+        from vinlada.parse import bottles_from_text, guess_bottles
+        self.assertEqual(bottles_from_text("Beyra Vinlåda - 1 Grande Reserva och 5 Beyra Reserva")[0], 6)
+        self.assertEqual(guess_bottles("Chardonnay blandlåda", url="https://x.se/store/chardonnay-8-flaskor")[0], 8)
+
+    def test_beer_is_excluded(self):
+        from vinlada.sources import _make_offer
+        shop = {"name": "Tidblom", "url": "https://tidblomwines.com"}
+        self.assertIsNone(_make_offer(shop, "Prego Prego 3-pack", "u", 99, True, "Innehåller: Kornmalt"))
+
+    def test_too_cheap_box_becomes_price_per_bottle(self):
+        from vinlada.sources import _make_offer
+        shop = {"name": "Tidblom", "url": "https://tidblomwines.com"}
+        offer = _make_offer(shop, "Cannonau Riserva vinlåda", "u", 219, True, "Säljs i 6 flaskor")
+        self.assertEqual((offer.price, offer.bottles, offer.kind), (219 * 6, 6.0, "flaska"))

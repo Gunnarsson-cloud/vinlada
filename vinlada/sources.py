@@ -27,6 +27,8 @@ NOT_WINE = re.compile(
     r"emballage|presentförpackning|korkskruv|karaff|vinglas|vinkyl|dekanter|vinhylla",
     re.I,
 )
+# Öl, cider m.m. som ibland ligger bland lådorna (t.ex. "3-pack").
+NOT_WINE_TEXT = re.compile(r"kornmalt|\bhumle|\böl\b|\blager\b.{0,20}\b(öl|beska)|\bipa\b|\bcider\b|\bstout\b", re.I)
 ALCOHOL_FREE = re.compile(r"alkoholfri|alcohol[\s-]*free|\b0[,.]0\s*%|\bjuice\b|must\b|druvjuice", re.I)
 
 DEFAULT_LINK_EXCLUDE = re.compile(
@@ -59,6 +61,8 @@ def _title_ok(shop: dict, title: str, *descriptions: str) -> bool:
 def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool | None,
                 *descriptions: str, note: str = "") -> Offer | None:
     title = clean_title(title)
+    if NOT_WINE_TEXT.search(" ".join(d[:400] for d in descriptions if d)):
+        return None
     if not _title_ok(shop, title, *descriptions):
         return _single_bottle_bundle(shop, title, url, price, in_stock, *descriptions)
     bottles, approx = guess_bottles(title, *descriptions, url=url)
@@ -71,7 +75,14 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
         price = price * bottles
         note = "; ".join(x for x in (note, "butiken anger pris per flaska") if x)
     if bottles and price / bottles < MIN_PRICE_PER_BOTTLE:
-        bottles, approx = None, False  # orimligt billigt – antalet är troligen feltolkat
+        # Orimligt billigt för hela lådan: priset gäller troligen en flaska.
+        if price >= MIN_PRICE_PER_BOTTLE:
+            offer = _single_bottle_bundle({**shop, "bundle_singles": int(bottles)}, title, url, price,
+                                          in_stock, *descriptions)
+            if offer:
+                offer.note = f"priset gäller troligen per flaska; räknat som {int(bottles)} st"
+            return offer
+        return None
     description = _plain(*descriptions)
     return Offer(shop=shop["name"], title=title.strip(), url=url, price=price,
                  bottles=bottles, bottles_approx=approx, in_stock=in_stock, note=note,

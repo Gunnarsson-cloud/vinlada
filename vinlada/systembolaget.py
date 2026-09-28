@@ -160,11 +160,21 @@ class Systembolaget:
         except FetchError as exc:
             self.samples.append({"butik": store_id, "vara": product_id, "fel": str(exc)})
             return None
-        if len(self.samples) < 6:
-            self.samples.append({"butik": store_id, "vara": product_id, "svar": data})
+        self.samples.append({"butik": store_id, "vara": product_id, "svar": data})
+        del self.samples[:-40]  # behåll bara de senaste svaren
         if isinstance(data, dict) and data.get("stock") is not None:
             return int(data["stock"])
         return None
+
+    def control(self, query: str = "Masi Campofiorin") -> dict:
+        """Kontrollera lagerkollen mot ett vin som finns i nästan alla butiker."""
+        products = [p for p in self.search(query) if p.get("volume") == 750]
+        if not products:
+            return {"vara": query, "resultat": "hittades inte"}
+        p = products[0]
+        stock = {s.get("alias") or s.get("siteId"): self.stock(str(s.get("siteId")), str(p.get("productId")))
+                 for s in self.stores()}
+        return {"vara": product_name(p), "pris": p.get("price"), "lager": stock}
 
     # -- jämförelse -------------------------------------------------------------
 
@@ -182,10 +192,14 @@ class Systembolaget:
         if best is None or best_score < min_score:
             return None
         stock = {}
+        in_assortment = False
         for store in self.stores():
+            before = len(self.samples)
             n = self.stock(str(store.get("siteId")), str(best.get("productId")))
             if n is not None:
                 stock[store.get("alias") or store.get("displayName") or store.get("siteId")] = n
+            if len(self.samples) > before and isinstance(self.samples[-1].get("svar"), dict):
+                in_assortment |= bool(self.samples[-1]["svar"].get("isInStoreAssortment"))
         vintage = _vintage(offer.title)
         return {
             "name": f"{best.get('producerName', '')} – {product_name(best)}".strip(" –"),
@@ -197,6 +211,7 @@ class Systembolaget:
             "url": product_url(best),
             "stock": stock,
             "in_stock_city": any(n > 0 for n in stock.values()),
+            "in_store_assortment": in_assortment,
             "score": best_score,
         }
 

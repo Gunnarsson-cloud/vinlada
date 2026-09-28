@@ -49,13 +49,15 @@ _BOTTLE_WORD = r"(?:flaskor|flaska|flasker|flaske|flaschen|bottles?|bouteilles|b
 _NUMBER_WORDS = {
     "två": 2, "tre": 3, "fyra": 4, "fem": 5, "sex": 6, "sju": 7, "åtta": 8,
     "nio": 9, "tio": 10, "tolv": 12, "arton": 18, "seks": 6, "otte": 8, "ni": 9,
+    "en": 1, "ett": 1, "to": 2,
 }
 
 # Ord som betyder "flaskor vin" i lådbeskrivningar: "6 favoritviner", "6 festliga smakupplevelser".
 _WINE_NOUN = (
     r"(?:[a-zåäöæøé]*viner|[a-zåäöæø]*vine\b|[a-zåäöæø]*vinsorter|smak(?:s)?upplevelser|"
-    r"vinupplevelser|smagsoplevelser|wines\b)"
+    r"vinupplevelser|smagsoplevelser|wines\b|favoriter|årgångar(?:na)?|årgange)"
 )
+_NUM_WORD = r"\b(tre|fyra|fem|sex|sju|åtta|nio|tio|tolv|seks|otte)\b"
 _NUM = r"(?<![\d.,])(\d{1,2})(?![\d.,]\d)"
 
 _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
@@ -79,12 +81,25 @@ _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
     (re.compile(r"^\s*(\d{1,2})\s*[x×]\s+[A-Za-zÅÄÖåäö]", re.I), lambda m: int(m.group(1))),
     # "mix x 9" i URL:er
     (re.compile(r"\bmix\s*[x×]\s*(\d{1,2})\b", re.I), lambda m: int(m.group(1))),
-    # "6 favoritviner", "6 festliga smakupplevelser", "12 särskilda rödviner"
-    (re.compile(_NUM + r"\s+(?:[a-zåäöæøé-]+\s+){0,2}" + _WINE_NOUN, re.I),
+    # "6 favoritviner", "12 noggrant utvalda vita viner", "6 av de bästa årgångarna"
+    (re.compile(_NUM + r"\s+(?:[a-zåäöæøé-]+\s+){0,3}" + _WINE_NOUN, re.I),
      lambda m: int(m.group(1))),
+    # "sex röda favoriter", "tolv utvalda viner"
+    (re.compile(_NUM_WORD + r"\s+(?:[a-zåäöæøé-]+\s+){0,3}" + _WINE_NOUN, re.I),
+     lambda m: _NUMBER_WORDS[m.group(1).lower()]),
+    # "(6st)", "låda (6 st)"
+    (re.compile(r"\((\d{1,2})\s*st\.?\)", re.I), lambda m: int(m.group(1))),
+    # "trepack", "sexpack"
+    (re.compile(r"\b(tre|fyra|sex|tolv)[\s-]?pack", re.I), lambda m: _NUMBER_WORDS[m.group(1).lower()]),
 ]
 
-_EACH = re.compile(_NUM + r"\s*(?:st\.?\s*)?" + _BOTTLE_WORD + r"\s+(?:av\s+varje|av\s+vardera|per\s+sort|of\s+each|af\s+hver)", re.I)
+# "2x Clos Malverne Brut, 2x Florence, 2x Aaldering" – delposter som summeras.
+_ITEM = re.compile(r"(?<![\d.,])(\d{1,2})\s*[x×]\s+(?=[A-ZÅÄÖ])")
+
+_EACH = re.compile(_NUM + r"\s*(?:st\.?\s*)?" + _BOTTLE_WORD +
+                   r"\s+(?:av\s+varje|av\s+vardera|var\s+av|per\s+sort|of\s+each|af\s+hver)", re.I)
+# Uppräkning efter "av varje;" – "Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo"
+_LIST_AFTER = re.compile(r"[;:]\s*([^.«»\n]{3,300})")
 _DISTINCT = re.compile(
     r"(?<![\d.,])(\d{1,2}|" + "|".join(_NUMBER_WORDS) + r")\s+(?:olika\s+|forskellige\s+|different\s+)?"
     r"(?:viner|vinsorter|sorter|wines|vine)\b", re.I)
@@ -140,13 +155,22 @@ def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
     if not text:
         return None, False
     text = _clean(text)
+    items = [int(m.group(1)) for m in _ITEM.finditer(text)]
+    if len(items) >= 2 and 2 <= sum(items) <= MAX_BOTTLES:
+        return float(sum(items)), False
     each = _EACH.search(text)
     if each:
+        per = int(each.group(1))
         distinct = _DISTINCT.search(text)
         if distinct:
-            n = int(each.group(1)) * _number(distinct.group(1))
+            n = per * _number(distinct.group(1))
             if 2 <= n <= MAX_BOTTLES:
                 return float(n), False
+        listed = _LIST_AFTER.search(text, each.end())
+        if listed:
+            parts = [p for p in re.split(r",|&|\boch\b|\band\b|\s(?=(?:19|20)\d\d\b)", listed.group(1)) if p.strip()]
+            if 2 <= len(parts) <= 24:
+                return float(per * len(parts)), False
         text = _EACH.sub(" ", text)  # "N av varje" är inte lådans totala antal
     found: dict[int, int] = {}  # position i texten -> antal (första mönstret vinner)
     for pattern, convert in _PATTERNS:

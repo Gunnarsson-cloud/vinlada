@@ -149,8 +149,14 @@ def compare_systembolaget(offers: list[Offer], args: argparse.Namespace, fetcher
         return
     print(f"  Systembolaget      {stats['hittade']} av {stats['sokta']} hittade, "
           f"{stats['i_lager']} i lager i {args.stad}", file=sys.stderr)
+    try:
+        control = sb.control()
+    except FetchError as exc:
+        control = {"fel": str(exc)}
+    print(f"  Systembolaget      kontroll: {control}", file=sys.stderr)
     statuses["Systembolaget"] = {"state": "live", "count": stats["hittade"], "stats": stats,
-                                 "stores": stores, "city": args.stad, "lagersvar": sb.samples}
+                                 "stores": stores, "city": args.stad, "kontroll": control,
+                                 "lagersvar": sb.samples[:6]}
 
 
 def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, dict]]) -> None:
