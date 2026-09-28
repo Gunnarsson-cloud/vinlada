@@ -77,7 +77,8 @@
         "fee": 99,
         "free_from": 1200,
         "note": "Airmee/Bring"
-      }
+      },
+      "price_is_per_bottle": true
     },
     {
       "name": "Supervin",

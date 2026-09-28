@@ -369,3 +369,12 @@ class BundleSinglesTest(unittest.TestCase):
         offers = fetch_shopify(shop, fetcher)
         self.assertEqual([o.title for o in offers], ["Yllera Crianza 2020 ×6"])
         self.assertEqual((offers[0].price, offers[0].bottles, offers[0].kind), (774.0, 6.0, "flaska"))
+
+
+class PricePerBottleTest(unittest.TestCase):
+    def test_winefinder_box_price_is_per_bottle(self):
+        from vinlada.sources import _make_offer
+        shop = {"name": "Winefinder", "url": "https://www.winefinder.se", "price_is_per_bottle": True}
+        offer = _make_offer(shop, "Goa Buteljer från Göteborg! #6 – vinlåda", "u", 269.0, True,
+                            "Lådan innehåller 6 flaskor.")
+        self.assertEqual((offer.price, offer.bottles), (1614.0, 6.0))

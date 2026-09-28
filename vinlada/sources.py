@@ -62,6 +62,10 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
     if not _title_ok(shop, title, *descriptions):
         return _single_bottle_bundle(shop, title, url, price, in_stock, *descriptions)
     bottles, approx = guess_bottles(title, *descriptions)
+    if bottles and shop.get("price_is_per_bottle"):
+        # Butiken visar pris per flaska även för lådor (t.ex. Winefinder).
+        price = price * bottles
+        note = "; ".join(x for x in (note, "butiken anger pris per flaska") if x)
     if bottles and price / bottles < MIN_PRICE_PER_BOTTLE:
         bottles, approx = None, False  # orimligt billigt – antalet är troligen feltolkat
     description = _plain(*descriptions)
