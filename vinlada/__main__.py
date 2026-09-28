@@ -37,7 +37,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--max-per-flaska", type=float, help="högsta pris per flaska inkl. frakt")
     p.add_argument("--stad", default="Helsingborg", help="stad för Systembolagets lagerstatus")
     p.add_argument("--utan-systembolaget", action="store_true", help="hoppa över jämförelsen med Systembolaget")
-    p.add_argument("--sb-max", type=int, default=400, help="max antal viner att söka upp på Systembolaget")
+    p.add_argument("--sb-max", type=int, default=1000, help="max antal viner att söka upp på Systembolaget")
     p.add_argument("--alkoholfritt", action="store_true", help="ta med alkoholfria lådor")
     p.add_argument("--min-flaskor", type=float, default=0, help="minsta antal flaskor per låda")
     p.add_argument("--antal-lador", type=int, default=2,

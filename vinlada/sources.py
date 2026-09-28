@@ -28,7 +28,7 @@ NOT_WINE = re.compile(
     r"emballage|presentförpackning|korkskruv|karaff|vinglas|vinkyl|dekanter|vinhylla|"
     r"neopren|väska|vinväska|axelrem|grassl|\bglas\b|\bglass\b|\(bok\)|\bbok\b|pussel|puslespil|"
     r"\bgin\b|vodka|whisky|\brom\b|likör|snaps|tequila|clase azul|mezcal|cognac|calvados|grappa|"
-    r"isspand|kylväska|förkläde|t-shirt",
+    r"isspand|kylväska|förkläde|t-shirt|provflask",
     re.I,
 )
 # Öl, cider m.m. som ibland ligger bland lådorna (t.ex. "3-pack").

@@ -464,3 +464,21 @@ class TidblomPricingTest(unittest.TestCase):
         from vinlada.sources import _make_offer
         o = _make_offer(self.SHOP, "Spansk blandlåda", "u", 1290, None, "4x Casa Igarza 2x Altos")
         self.assertEqual((o.price, o.bottles), (1290, 6.0))
+
+
+class StrictMatchTest(unittest.TestCase):
+    def test_other_cuvee_from_same_producer_does_not_match(self):
+        from vinlada.systembolaget import match_score
+        sb = {"producerName": "Bell Cros (Skoglund Wine Estate S.L.)", "productNameBold": "Bell Cros",
+              "productNameThin": "Garnatxa"}
+        self.assertEqual(match_score("Bell Cros El Cami ×6", sb), 0.0)
+
+    def test_generic_name_with_one_specific_word_does_not_match(self):
+        from vinlada.systembolaget import match_score
+        sb = {"producerName": "Caillet Freres", "productNameBold": "Caillet Freres", "productNameThin": "Brut Prestige"}
+        self.assertEqual(match_score("Brut Prestige ×6", sb), 0.0)
+
+    def test_full_name_matches(self):
+        from vinlada.systembolaget import match_score
+        sb = {"producerName": "Bodegas Luzon", "productNameBold": "Altos de Luzon", "productNameThin": "Monastrell"}
+        self.assertGreaterEqual(match_score("Luzon Altos De Luzon ×6", sb), 0.75)

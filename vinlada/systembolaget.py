@@ -90,8 +90,17 @@ def match_score(offer_title: str, p: dict) -> float:
         return 0.0
     overlap = len(wanted & have)
     specific = wanted - GENERIC
-    if not specific or not (specific & have):
-        return 0.0  # bara druva/område gemensamt – troligen ett annat vin
+    # Alla specifika ord (producent, vinnamn) måste finnas, och minst två av dem:
+    # "Bell Cros El Cami" får inte matcha ett annat Bell Cros-vin, "Brut Prestige"
+    # inte en slumpvis producents Brut Prestige.
+    if not specific or not specific <= have:
+        return 0.0
+    if len(specific) == 1:
+        # Ett enda specifikt ord räcker bara om det är producenten och resten av namnet
+        # också stämmer ("Sturm Pinot Grigio"), inte för "Brut Prestige".
+        producer = _tokens(p.get("producerName", ""))
+        if not (specific <= producer and wanted <= have):
+            return 0.0
     score = overlap / len(wanted)
     # Straffa när Systembolagets namn har mycket som vi inte sökte på (annat vin från samma producent).
     score *= min(1.0, (overlap + 1) / len(have))
@@ -182,7 +191,7 @@ class Systembolaget:
 
     # -- jämförelse -------------------------------------------------------------
 
-    def find(self, offer: Offer, min_score: float = 0.6) -> dict | None:
+    def find(self, offer: Offer, min_score: float = 0.75) -> dict | None:
         query = base_name(offer.title)
         if len(_tokens(query)) < 2:
             return None  # för kort namn för att matcha säkert
