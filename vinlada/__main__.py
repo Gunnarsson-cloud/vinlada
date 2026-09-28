@@ -150,7 +150,7 @@ def compare_systembolaget(offers: list[Offer], args: argparse.Namespace, fetcher
     print(f"  Systembolaget      {stats['hittade']} av {stats['sokta']} hittade, "
           f"{stats['i_lager']} i lager i {args.stad}", file=sys.stderr)
     statuses["Systembolaget"] = {"state": "live", "count": stats["hittade"], "stats": stats,
-                                 "stores": stores, "city": args.stad}
+                                 "stores": stores, "city": args.stad, "lagersvar": sb.samples}
 
 
 def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, dict]]) -> None:
@@ -166,6 +166,8 @@ def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, 
         report[name] = {
             **status,
             "utan_flaskantal": sum(1 for o in found if o.bottles is None),
+            "utan_flaskantal_exempel": [{"titel": o.title, "url": o.url, "text": o.description[:400]}
+                                        for o in found if o.bottles is None][:8],
             "exempel": [{"titel": o.title, "pris": o.price, "flaskor": o.bottles, "url": o.url} for o in found[:5]],
         }
     Path(path).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")

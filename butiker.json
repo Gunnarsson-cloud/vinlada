@@ -78,7 +78,8 @@
         "free_from": 1200,
         "note": "Airmee/Bring"
       },
-      "price_is_per_bottle": true
+      "price_is_per_bottle": true,
+      "bundle_singles": 6
     },
     {
       "name": "Supervin",
@@ -138,11 +139,7 @@
     {
       "name": "Nordiska Vin",
       "url": "https://nordiskavin.se",
-      "platform": "shopify",
-      "path_prefix": "/store",
-      "collections": [
-        "blandlador"
-      ],
+      "platform": "html",
       "listing_urls": [
         "https://nordiskavin.se/store/collections/blandlador"
       ],
@@ -173,7 +170,7 @@
     {
       "name": "Vinfolket",
       "url": "https://vinfolket.se",
-      "platform": "woocommerce",
+      "platform": "html",
       "listing_urls": [
         "https://vinfolket.se/vinpaket/"
       ],
@@ -234,37 +231,8 @@
       "platform": "shopify",
       "title_regex": "l[åa]da|kasse|pakke|box|smag|mix",
       "shipping": {
-        "fee": null,
-        "note": "49 kr till Sthlm/Gbg/Malmöregionen; Helsingborg okänt",
-        "zones": [
-          {
-            "postcode_prefixes": [
-              "1"
-            ],
-            "fee": 49,
-            "note": "Stockholmsregionen"
-          },
-          {
-            "postcode_prefixes": [
-              "40",
-              "41",
-              "42",
-              "43"
-            ],
-            "fee": 49,
-            "note": "Göteborgsregionen"
-          },
-          {
-            "postcode_prefixes": [
-              "20",
-              "21",
-              "22",
-              "23"
-            ],
-            "fee": 49,
-            "note": "Malmöregionen"
-          }
-        ]
+        "fee": 99,
+        "note": "till utlämningsställe (ej hemleverans), ca 4 vardagar"
       },
       "bundle_singles": 6
     },
@@ -277,8 +245,9 @@
         "https://gassaswine.se/kategori/utforsaljning-lager"
       ],
       "shipping": {
-        "fee": null,
-        "note": "PostNord, leverans tors/sön, 14–21 dagar"
+        "fee": 169,
+        "approx": true,
+        "note": "169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar"
       }
     },
     {

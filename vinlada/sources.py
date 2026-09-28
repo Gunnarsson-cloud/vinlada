@@ -17,7 +17,7 @@ log = logging.getLogger(__name__)
 
 BOX_WORDS = re.compile(
     r"l[åa]da|l[åa]dan|lådor|\bbox|paket|kasse|pakke|smagekasse|provl[åa]d|provsmakningsl|"
-    r"\bmix|blandl|sampler|\d+\s*-?\s*pac?k|kollektion|abonnemang|prenumeration|mixed case",
+    r"\bmix|blandl|sampler|\d+\s*-?\s*pac?k|kollektion|abonnemang|prenumeration|mixed case|\bcase\b",
     re.I,
 )
 
@@ -61,7 +61,11 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
     title = clean_title(title)
     if not _title_ok(shop, title, *descriptions):
         return _single_bottle_bundle(shop, title, url, price, in_stock, *descriptions)
-    bottles, approx = guess_bottles(title, *descriptions)
+    bottles, approx = guess_bottles(title, *descriptions, url=url)
+    if bottles is None and shop.get("price_is_per_bottle"):
+        # Pris per flaska men okänt antal: visa som enskilt vin ×N i stället för ett för lågt lådpris.
+        return _single_bottle_bundle({**shop, "bundle_singles": shop.get("bundle_singles", 6)},
+                                     title, url, price, in_stock, *descriptions)
     if bottles and shop.get("price_is_per_bottle"):
         # Butiken visar pris per flaska även för lådor (t.ex. Winefinder).
         price = price * bottles

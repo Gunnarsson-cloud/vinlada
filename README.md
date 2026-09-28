@@ -30,12 +30,10 @@ och moms inräknad, antingen via distanshandel eller privatimport.
 | [Nordiska Vin](https://nordiskavin.se/store/collections/blandlador) | Shopify/HTML | från 999 kr i tätort | okänd |
 | [Vinfolket](https://vinfolket.se/vinpaket/) | WooCommerce/HTML | från 800 kr | okänd |
 | [Tidblom Wines](https://tidblomwines.com/) | WooCommerce/HTML | – | 79 kr per låda |
-| [IVINIO](https://www.ivinio.com/sv/categorie-produit/blandade-provsmakningslador/) | WooCommerce/HTML | – | okänd |
 | [Wine Trade](https://winetrade.se/en/collections/vinlador) | Shopify | från 12 flaskor | 149 kr |
-| [Vinibutik](https://vinibutik.dk/) | Shopify | – | 49 kr till Sthlm/Gbg/Malmö, annars okänd |
-| [Gassås Wine](https://gassaswine.se/kategori/blandlador) | HTML | – | okänd |
+| [Vinibutik](https://vinibutik.dk/) | Shopify | – | 99 kr (till utlämningsställe) |
+| [Gassås Wine](https://gassaswine.se/kategori/blandlador) | HTML | – | ca 169 kr |
 | [Fine Wine Service](https://finewineservice.se/) | Shopify/HTML | från 2 000 kr | okänd |
-| [Pompette](https://www.pompette.se/) | WooCommerce/HTML | – | okänd |
 | [Vivino](https://www.vivino.com/sv/) | Vivinos API | från 1 000 kr (äldre uppgift) | ca 59 kr |
 
 Fraktvillkoren kontrollerades 2026-09-28. "Okänd" betyder att avgiften under gränsen för fri frakt inte gick att

@@ -103,6 +103,7 @@ class Systembolaget:
         self.city = city
         self._key = api_key or os.environ.get("SYSTEMBOLAGET_API_KEY")
         self._stores: list[dict] | None = None
+        self.samples: list[dict] = []  # några råa lagersvar, för felsökning
 
     # -- åtkomst --------------------------------------------------------------
 
@@ -156,8 +157,11 @@ class Systembolaget:
     def stock(self, store_id: str, product_id: str) -> int | None:
         try:
             data = self._get(f"/stockbalance/store/{quote(store_id)}/{quote(product_id)}/")
-        except FetchError:
+        except FetchError as exc:
+            self.samples.append({"butik": store_id, "vara": product_id, "fel": str(exc)})
             return None
+        if len(self.samples) < 6:
+            self.samples.append({"butik": store_id, "vara": product_id, "svar": data})
         if isinstance(data, dict) and data.get("stock") is not None:
             return int(data["stock"])
         return None

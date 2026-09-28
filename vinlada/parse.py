@@ -72,6 +72,13 @@ _PATTERNS: list[tuple[re.Pattern[str], Any]] = [
     # "sexflaskorslåda", "tolv flaskor"
     (re.compile(r"\b(" + "|".join(_NUMBER_WORDS) + r")[\s-]*(?:flask|flaske|flasker)", re.I),
      lambda m: _NUMBER_WORDS[m.group(1).lower()]),
+    # "1 Grande Reserva och 5 Beyra Reserva" -> 6
+    (re.compile(_NUM + r"\s+[^\d,;]{2,40}?\s+(?:och|and|og|&|\+)\s+(\d{1,2})\s+[A-Za-zÅÄÖåäöÉé]", re.I),
+     lambda m: int(m.group(1)) + int(m.group(2))),
+    # "3 x topprankade Champagner" (antal först i titeln)
+    (re.compile(r"^\s*(\d{1,2})\s*[x×]\s+[A-Za-zÅÄÖåäö]", re.I), lambda m: int(m.group(1))),
+    # "mix x 9" i URL:er
+    (re.compile(r"\bmix\s*[x×]\s*(\d{1,2})\b", re.I), lambda m: int(m.group(1))),
     # "6 favoritviner", "6 festliga smakupplevelser", "12 särskilda rödviner"
     (re.compile(_NUM + r"\s+(?:[a-zåäöæøé-]+\s+){0,2}" + _WINE_NOUN, re.I),
      lambda m: int(m.group(1))),
@@ -158,11 +165,22 @@ def bottles_from_description(text: str | None) -> tuple[float | None, bool]:
     return _bag_in_box(text)
 
 
-def guess_bottles(title: str | None, *descriptions: str | None) -> tuple[float | None, bool]:
-    """Titeln först, sedan beskrivningarna."""
+def url_words(url: str) -> str:
+    """"…/chardonnay-vita-favoriter-8-flaskor" -> "chardonnay vita favoriter 8 flaskor"."""
+    path = re.sub(r"^https?://[^/]+", "", url or "").split("?")[0]
+    last = [p for p in path.split("/") if p][-1:] or [""]
+    return re.sub(r"[-_]+", " ", last[0])
+
+
+def guess_bottles(title: str | None, *descriptions: str | None, url: str = "") -> tuple[float | None, bool]:
+    """Titeln först, sedan URL:en, sedan beskrivningarna."""
     n, approx = bottles_from_text(title)
     if n is not None:
         return n, approx
+    if url:
+        n, approx = bottles_from_text(url_words(url))
+        if n is not None and n >= 2:
+            return n, approx
     for desc in descriptions:
         n, approx = bottles_from_description(desc)
         if n is not None and n >= 2:
