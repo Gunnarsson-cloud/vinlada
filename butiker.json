@@ -190,7 +190,8 @@
         "fee": 79,
         "per_box": true,
         "note": "5–7 dagar"
-      }
+      },
+      "ignore_stock": true
     },
     {
       "name": "IVINIO",

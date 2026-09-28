@@ -435,3 +435,13 @@ class BoxCountChoiceTest(unittest.TestCase):
                       "Common Ground (bok)", "Vinpussel Bordeaux 1000 bitar", "Mister M’s London Dry Gin"):
             with self.subTest(title=title):
                 self.assertIsNone(_make_offer(shop, title, "u", 199, True, ""))
+
+
+class BottleSizeTest(unittest.TestCase):
+    def test_magnum_and_half_bottles(self):
+        from vinlada.sources import _make_offer
+        shop = {"name": "Philipson Wine", "url": "u"}
+        magnum = _make_offer(shop, "Vinlåda Haut-Médoc Magnum 2019 3 fl", "u", 2519.9, True, "")
+        half = _make_offer(shop, "Smagekasse Kracher 37,5 cl (3 fl.)", "u", 1499.95, True, "")
+        self.assertEqual((magnum.bottles, half.bottles), (6.0, 1.5))
+        self.assertTrue(magnum.bottles_approx)

@@ -75,6 +75,10 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
         # Pris per flaska men okänt antal: visa som enskilt vin ×N i stället för ett för lågt lådpris.
         return _single_bottle_bundle({**shop, "bundle_singles": shop.get("bundle_singles", 6)},
                                      title, url, price, in_stock, *descriptions)
+    if bottles:
+        factor = _bottle_size_factor(title)
+        if factor != 1:
+            bottles, approx = bottles * factor, True  # räkna om till 75 cl-flaskor
     if bottles and shop.get("price_is_per_bottle"):
         # Butiken visar pris per flaska även för lådor (t.ex. Winefinder).
         price = price * bottles
@@ -93,6 +97,15 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
                  bottles=bottles, bottles_approx=approx, in_stock=in_stock, note=note,
                  description=description,
                  alcohol_free=bool(ALCOHOL_FREE.search(title) or ALCOHOL_FREE.search(description[:400])))
+
+
+def _bottle_size_factor(title: str) -> float:
+    """Magnum = två 75 cl-flaskor, halvflaska = en halv."""
+    if re.search(r"magnum|1[,.]5\s*l\b|150\s*cl", title, re.I):
+        return 2.0
+    if re.search(r"37[,.]5\s*cl|375\s*ml|halvflask", title, re.I):
+        return 0.5
+    return 1.0
 
 
 # Svensk alkoholskatt + moms gör 75 cl vin under ca 55 kr orimligt (då är det små flaskor eller fel antal).
@@ -239,6 +252,8 @@ def fetch_woocommerce(shop: dict, fetcher: Fetcher) -> list[Offer]:
             # Butiker som beställer hem på begäran svarar "ej i lager" men går att köpa.
             available = bool(product.get("is_in_stock") or product.get("is_on_backorder")
                              or product.get("is_purchasable"))
+            if shop.get("ignore_stock"):
+                available = None  # butikens lagerflaggor stämmer inte med vad som går att köpa
             offer = _make_offer(shop, product.get("name", ""), product.get("permalink", base), price,
                                 available, product.get("short_description", ""),
                                 product.get("description", ""))
