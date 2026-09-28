@@ -1,0 +1,53 @@
+name: Hämta vinlådor
+
+# Kör hämtarna på GitHubs körare (fri internetåtkomst) och sparar resultatet i docs/.
+on:
+  schedule:
+    - cron: "43 4 * * *" # varje morgon ca 06:43 svensk tid
+  workflow_dispatch:
+  push:
+    paths:
+      - "vinlada/**"
+      - "butiker.json"
+      - ".github/workflows/hamta-vinlador.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hamta-vinlador
+  cancel-in-progress: false
+
+jobs:
+  hamta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tester
+        run: python -m unittest discover -s tests
+
+      - name: Hämta vinlådor
+        run: |
+          mkdir -p docs
+          python -m vinlada -vv --visa-okanda --topp 0 \
+            --html docs/index.html --html-fragment docs/artifact.html \
+            --json docs/vinlador.json --csv docs/vinlador.csv \
+            --status docs/status.json 2> docs/logg.txt | tee docs/resultat.txt
+          tail -n 40 docs/logg.txt
+
+      - name: Spara resultat
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Uppdatera vinlådor $(date -u +%F) [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -141,7 +141,7 @@ class ShopifyTest(unittest.TestCase):
     def test_sek_shop(self):
         shop = {"name": "Dittvin", "url": "https://dittvin.se", "collections": ["vinlador"]}
         fetcher = FakeFetcher({
-            "https://dittvin.se/cart.js": {"currency": "SEK"},
+            "https://dittvin.se/meta.json": {"currency": "SEK"},
             "https://dittvin.se/collections/vinlador/products.json?limit=250&page=1": self.PRODUCTS,
             "https://dittvin.se/collections/vinlador/products.json?limit=250&page=2": {"products": []},
         })
@@ -153,14 +153,24 @@ class ShopifyTest(unittest.TestCase):
     def test_foreign_currency_uses_product_js(self):
         shop = {"name": "Vinibutik", "url": "https://vinibutik.dk", "market_prefix": "/sv"}
         fetcher = FakeFetcher({
-            "https://vinibutik.dk/sv/cart.js": {"currency": "DKK"},
+            "https://vinibutik.dk/meta.json": {"currency": "DKK"},
+            "https://vinibutik.dk/sv/cart.js?currency=SEK": {"currency": "SEK"},
             "https://vinibutik.dk/products.json?limit=250&page=1": self.PRODUCTS,
             "https://vinibutik.dk/products.json?limit=250&page=2": {"products": []},
-            "https://vinibutik.dk/sv/products/xl-intro.js": {"variants": [{"id": 1, "price": 149900, "available": True}]},
-            "https://vinibutik.dk/sv/products/korkskruv.js": {"variants": [{"id": 2, "price": 9900}]},
+            "https://vinibutik.dk/sv/products/xl-intro.js?currency=SEK": {"variants": [{"id": 1, "price": 149900, "available": True}]},
         })
         offers = fetch_shopify(shop, fetcher)
         self.assertEqual(offers[0].price, 1499.0)
+        self.assertNotIn("https://vinibutik.dk/sv/products/korkskruv.js?currency=SEK", fetcher.requested)
+
+    def test_foreign_currency_without_sek_is_rejected(self):
+        shop = {"name": "Vinibutik", "url": "https://vinibutik.dk"}
+        fetcher = FakeFetcher({
+            "https://vinibutik.dk/meta.json": {"currency": "DKK"},
+            "https://vinibutik.dk/cart.js?currency=SEK": {"currency": "DKK"},
+        })
+        with self.assertRaises(FetchError):
+            fetch_shopify(shop, fetcher)
 
 
 class WooCommerceTest(unittest.TestCase):

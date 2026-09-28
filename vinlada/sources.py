@@ -33,17 +33,22 @@ def looks_like_box(title: str, bottles: float | None) -> bool:
     return (bottles is not None and bottles >= 2) or bool(BOX_WORDS.search(title))
 
 
-def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool | None,
-                *descriptions: str, note: str = "") -> Offer | None:
-    bottles, approx = guess_bottles(title, *descriptions)
+def _title_ok(shop: dict, title: str, *descriptions: str) -> bool:
+    """Är produkten en vinlåda enligt butikens filter (eller standardheuristiken)?"""
     title_re = shop.get("title_regex")
     exclude_re = shop.get("exclude_regex")
     if title_re and not re.search(title_re, title, re.I):
-        return None
+        return False
     if exclude_re and re.search(exclude_re, title, re.I):
+        return False
+    return bool(title_re) or looks_like_box(title, guess_bottles(title, *descriptions)[0])
+
+
+def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool | None,
+                *descriptions: str, note: str = "") -> Offer | None:
+    if not _title_ok(shop, title, *descriptions):
         return None
-    if not title_re and not looks_like_box(title, bottles):
-        return None
+    bottles, approx = guess_bottles(title, *descriptions)
     description = " ".join(re.sub(r"<[^>]+>", " ", d or "") for d in descriptions)
     return Offer(shop=shop["name"], title=title.strip(), url=url, price=price,
                  bottles=bottles, bottles_approx=approx, in_stock=in_stock, note=note,
@@ -55,27 +60,34 @@ def _make_offer(shop: dict, title: str, url: str, price: float, in_stock: bool |
 # ---------------------------------------------------------------------------
 
 
-def _shopify_currency(shop: dict, fetcher: Fetcher, prefix: str) -> str | None:
-    base = shop["url"].rstrip("/")
-    for path in (f"{prefix}/cart.js", "/meta.json"):
-        try:
-            data = fetcher.get_json(base + path)
-        except FetchError:
-            continue
-        if isinstance(data, dict) and data.get("currency"):
-            return str(data["currency"]).upper()
+def _shopify_currency(shop: dict, fetcher: Fetcher, path: str) -> str | None:
+    try:
+        data = fetcher.get_json(shop["url"].rstrip("/") + path)
+    except FetchError:
+        return None
+    if isinstance(data, dict):
+        shop_data = data.get("shop") if isinstance(data.get("shop"), dict) else data
+        if shop_data.get("currency"):
+            return str(shop_data["currency"]).upper()
     return None
 
 
 def fetch_shopify(shop: dict, fetcher: Fetcher) -> list[Offer]:
+    """products.json ger priser i butikens grundvaluta, oberoende av besökarens land.
+
+    Är grundvalutan inte SEK hämtas varje låda via product.js med ?currency=SEK,
+    men bara om butiken bekräftar att den kan visa SEK.
+    """
     base = shop["url"].rstrip("/")
     prefix = shop.get("path_prefix", "")
     market = shop.get("market_prefix", prefix)
-    currency = _shopify_currency(shop, fetcher, market)
-    use_product_js = bool(currency and currency != "SEK")
+    base_currency = _shopify_currency(shop, fetcher, "/meta.json")
+    use_product_js = base_currency not in (None, "SEK")
     if use_product_js:
-        log.info("%s: grundvaluta %s – hämtar SEK-priser per produkt via %s",
-                 shop["name"], currency, market or "/")
+        presentment = _shopify_currency(shop, fetcher, f"{market}/cart.js?currency=SEK")
+        if presentment != "SEK":
+            raise FetchError(f"priser i {base_currency}, butiken visar inte SEK ({presentment})")
+        log.info("%s: grundvaluta %s – hämtar SEK-priser per produkt", shop["name"], base_currency)
     offers: list[Offer] = []
     seen: set[str] = set()
     for handle in shop.get("collections") or [None]:
@@ -89,6 +101,8 @@ def fetch_shopify(shop: dict, fetcher: Fetcher) -> list[Offer]:
                 if product["handle"] in seen:
                     continue
                 seen.add(product["handle"])
+                if not _title_ok(shop, product["title"], product.get("body_html") or ""):
+                    continue
                 offers.extend(_shopify_product_offers(shop, fetcher, product, use_product_js))
     return offers
 
@@ -102,7 +116,7 @@ def _shopify_product_offers(shop: dict, fetcher: Fetcher, product: dict,
     cents = False
     if use_product_js:
         try:
-            data = fetcher.get_json(url + ".js")
+            data = fetcher.get_json(url + ".js?currency=SEK")
             variants = data.get("variants", []) if isinstance(data, dict) else []
             cents = True  # .js-endpointen anger priser i ören
         except FetchError as exc:
@@ -203,6 +217,7 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
     offers: dict[str, Offer] = {}
     candidates: list[str] = []
     listing_errors: list[FetchError] = []
+    stats = {"listningar": 0, "länkar": 0, "sidor": 0, "med pris": 0, "fel valuta": 0}
     for listing in shop.get("listing_urls", []):
         try:
             page = fetcher.get(listing)
@@ -210,6 +225,7 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
             log.info("%s: %s", shop["name"], exc)
             listing_errors.append(exc)
             continue
+        stats["listningar"] += 1
         # Vissa listningssidor bäddar in hela produktlistan som JSON-LD.
         for product in products_from_jsonld(page, listing):
             if product["url"].rstrip("/") != listing.rstrip("/"):
@@ -220,6 +236,11 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
 
     if listing_errors and len(listing_errors) == len(shop.get("listing_urls", [])):
         raise listing_errors[0]
+
+    # Länkar som ser ut som lådor först, så att menylänkar inte äter upp budgeten.
+    candidates.sort(key=lambda u: 0 if BOX_WORDS.search(urlsplit(u).path) else 1)
+    stats["länkar"] = len(candidates)
+    log.info("%s: %d kandidatlänkar, t.ex. %s", shop["name"], len(candidates), candidates[:8])
 
     budget = shop.get("max_products", 40)
     for url in candidates:
@@ -234,15 +255,23 @@ def fetch_html(shop: dict, fetcher: Fetcher) -> list[Offer]:
         except FetchError as exc:
             log.debug("%s: %s", shop["name"], exc)
             continue
+        stats["sidor"] += 1
         products = products_from_jsonld(page, url)
         if not products:
             meta = product_from_meta(page, url)
             products = [meta] if meta else []
         for product in products[:1]:  # produktsidan beskriver en produkt
             product["url"] = url
+            stats["med pris"] += 1
+            if (product.get("currency") or "SEK").upper() != "SEK":
+                stats["fel valuta"] += 1
             offer = _offer_from_product(shop, product)
+            log.debug("%s: %s -> %s %s kr %s", shop["name"], url, product["name"][:60],
+                      product["price"], "(låda)" if offer else "(filtrerad)")
             if offer:
                 offers[offer.url] = offer
+    if not offers:
+        raise FetchError("inga vinlådor: " + ", ".join(f"{v} {k}" for k, v in stats.items()))
     return list(offers.values())
 
 

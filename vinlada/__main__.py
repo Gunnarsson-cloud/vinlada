@@ -49,7 +49,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--csv", metavar="FIL", help="spara resultatet som CSV")
     p.add_argument("--json", metavar="FIL", help="spara resultatet som JSON")
     p.add_argument("--html", metavar="FIL", help="spara en klickbar HTML-sida med lådor och butiker")
-    p.add_argument("--html-fragment", action="store_true", help=argparse.SUPPRESS)
+    p.add_argument("--html-fragment", metavar="FIL", help="som --html men utan <html>/<head> (för inbäddning)")
+    p.add_argument("--status", metavar="FIL", help="spara hämtstatus och fel per butik som JSON")
     p.add_argument("--ingen-cache", action="store_true", help="hämta allt på nytt")
     p.add_argument("--cache-timmar", type=float, default=6)
     p.add_argument("--ignorera-robots", action="store_true", help="strunta i robots.txt (eget ansvar)")
@@ -107,7 +108,8 @@ def collect(shops: list[dict], args: argparse.Namespace
             else:
                 status = f"{len(found)} lådor" if found else "inget hämtat"
                 print(f"  {shop['name']:<18} {status}", file=sys.stderr)
-                statuses[shop["name"]] = {"state": "live" if found else "kunde inte läsas", "count": len(found)}
+                statuses[shop["name"]] = {"state": "live" if found else "kunde inte läsas",
+                                          "count": len(found), "errors": errors}
                 if not found:
                     problems.append(f"{shop['name']}: " + " | ".join(errors))
             offers += [(o, shop) for o in found]
@@ -115,6 +117,19 @@ def collect(shops: list[dict], args: argparse.Namespace
                 live_urls = {o.url for o in found}
                 offers += [(o, shop) for o in known_offers(shop) if o.url not in live_urls]
     return offers, problems, statuses
+
+
+def write_status(path: str, statuses: dict[str, dict], pairs: list[tuple[Offer, dict]]) -> None:
+    """Diagnos per butik: hur många lådor som hittades och vilka fel som uppstod."""
+    report = {}
+    for name, status in statuses.items():
+        found = [o for o, _ in pairs if o.shop == name and o.source == "live"]
+        report[name] = {
+            **status,
+            "utan_flaskantal": sum(1 for o in found if o.bottles is None),
+            "exempel": [{"titel": o.title, "pris": o.price, "flaskor": o.bottles, "url": o.url} for o in found[:5]],
+        }
+    Path(path).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -184,10 +199,14 @@ def main(argv: list[str] | None = None) -> int:
         write_csv(rows(quotes), args.csv)
     if args.json:
         write_json(quotes, args.json)
+    html_quotes = [q for q in with_unknown if q in quotes or q.per_bottle is None]
     if args.html:
-        html_quotes = [q for q in with_unknown if q in quotes or q.per_bottle is None]
-        write_html(args.html, html_quotes, shops, statuses, args.postnummer, not args.html_fragment)
+        write_html(args.html, html_quotes, shops, statuses, args.postnummer, standalone=True)
         print(f"\nHTML-sida sparad: {args.html}", file=sys.stderr)
+    if args.html_fragment:
+        write_html(args.html_fragment, html_quotes, shops, statuses, args.postnummer, standalone=False)
+    if args.status:
+        write_status(args.status, statuses, pairs)
     return 0
 
 
