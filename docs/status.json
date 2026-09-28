@@ -4,6 +4,8 @@
     "count": 15,
     "errors": [],
     "utan_flaskantal": 0,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": [
       {
@@ -43,6 +45,8 @@
     "count": 4,
     "errors": [],
     "utan_flaskantal": 2,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Höstens stora mixlåda",
@@ -78,9 +82,11 @@
   },
   "Winefinder": {
     "state": "live",
-    "count": 8,
+    "count": 10,
     "errors": [],
     "utan_flaskantal": 0,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": [
       {
@@ -120,6 +126,8 @@
     "count": 47,
     "errors": [],
     "utan_flaskantal": 5,
+    "slut_i_lager": 16,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Pinot Noir världen runt Vinlåda",
@@ -185,6 +193,8 @@
     "count": 38,
     "errors": [],
     "utan_flaskantal": 2,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Limited Edition Collector's Case Kracher, 3x 100 Point Robert Parker",
@@ -232,10 +242,17 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 33,
+    "count": 35,
     "errors": [],
-    "utan_flaskantal": 9,
+    "utan_flaskantal": 11,
+    "slut_i_lager": 1,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
+        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
+        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
+      },
       {
         "titel": "Smakfullt Rosépaket från Frankrike",
         "url": "https://nordiskavin.se/store/franska-rosefavoriter-loire-och-grenache-flaska",
@@ -270,11 +287,6 @@
         "titel": "Stora Chianti-lådan",
         "url": "https://nordiskavin.se/store/stora-chiantiladan",
         "text": "Beställ Stora Chianti-lådan smidigt på nätet. Se pris och lagerstatus. En exklusiv samling Chianti med snabb hemleverans till dörren."
-      },
-      {
-        "titel": "Mousserande viner blandlåda",
-        "url": "https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci",
-        "text": "Beställ mousserande viner blandlåda smidigt på nätet. Se pris och lagerstatus. Upptäck en krispig mix av fransk Blanc de Blancs och Prosecco med snabb hemleverans till dörren."
       }
     ],
     "exempel": [
@@ -315,6 +327,8 @@
     "count": 16,
     "errors": [],
     "utan_flaskantal": 5,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Winnica Adoria Vinpaket",
@@ -380,6 +394,8 @@
     "count": 108,
     "errors": [],
     "utan_flaskantal": 11,
+    "slut_i_lager": 108,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Blandlåda Sangria Fiesta",
@@ -442,16 +458,16 @@
         "url": "https://tidblomwines.com/spanien/spanska-vita-viner/adegas-nessa/"
       },
       {
-        "titel": "Bocopa alcanta crianza ×6",
-        "pris": 750.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/bocopa-alcanta-crianza/"
-      },
-      {
         "titel": "Maset cabernet sauvignon reserva ×6",
         "pris": 750.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/spanska-roda-viner/maset-cabernet-sauvignon-reserva/"
+      },
+      {
+        "titel": "Bocopa alcanta crianza ×6",
+        "pris": 750.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/bocopa-alcanta-crianza/"
       }
     ]
   },
@@ -460,6 +476,8 @@
     "count": 3,
     "errors": [],
     "utan_flaskantal": 1,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Höstlåda #1",
@@ -490,9 +508,11 @@
   },
   "Vinibutik": {
     "state": "live",
-    "count": 47,
+    "count": 44,
     "errors": [],
     "utan_flaskantal": 0,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": [
       {
@@ -532,6 +552,8 @@
     "count": 15,
     "errors": [],
     "utan_flaskantal": 4,
+    "slut_i_lager": 1,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
         "titel": "Champagnelådan - 3 Grand Cru Odlare",
@@ -589,9 +611,11 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 170,
+    "count": 151,
     "errors": [],
     "utan_flaskantal": 0,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": [
       {
@@ -630,6 +654,8 @@
     "state": "bara länk",
     "count": 0,
     "utan_flaskantal": 0,
+    "slut_i_lager": 0,
+    "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": []
   },
@@ -637,7 +663,7 @@
     "state": "live",
     "count": 2,
     "stats": {
-      "sokta": 256,
+      "sokta": 240,
       "hittade": 2,
       "i_lager": 0,
       "fel": 0
@@ -654,7 +680,7 @@
       "pris": 150.0,
       "lager": {
         "Helsingborg Söder": 0,
-        "1243": 0,
+        "Drottninggatan 18": 0,
         "Berga": 0,
         "Råå": 13
       }
