@@ -401,13 +401,6 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda Vivino-favoriter 6 fl.",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -434,6 +427,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-testvinnande-josh-cellars-6-fl",
         "text": "Best Buy från Josh Cellars inklusive \"Årets vinköp\" i Berlingske! Nu kan du prova vinerna i en samlad vinlåda."
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       }
     ]
   },
@@ -656,7 +656,7 @@
   },
   "Tidblom Wines": {
     "state": "live",
-    "count": 380,
+    "count": 379,
     "errors": [],
     "utan_flaskantal": 11,
     "slut_i_lager": 0,
@@ -739,13 +739,6 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Provflaskor ×6",
-        "pris": 480.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/italien/provflaskor/",
-        "text": "Endast provflaskor för ägare."
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
@@ -779,6 +772,13 @@
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/spanska-roda-viner/alcanta-crianza/",
         "text": "Bocopa Alcanta Crianza Alkohol: 14% Druva: Monastrell, Tempranillo Land: Spanien Årgång: 2022 Utseende: Mörkröd Doft: Fruktig, söt med inslag av vinbär Smak: Den unika smaken av detta vin speglar det bästa av druvorna Monastrell och Tempranillo. Lagr"
+      },
+      {
+        "titel": "Barahonda Panic Button ×6",
+        "pris": 672.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-panic-button/",
+        "text": "112 kr 672 kr låda (6st) Område: Yecla, Spanien Årgång: 2020 Druva: Monastrelll Utseende: Körsbärsröd Doft: Koncentrerad, tät och har en bra aromatisk karaktär Smak: Intensiv med mogen frukt, frisk och söt känsla, bra kropp och balans Lagringspotenti"
       }
     ]
   },
@@ -1111,7 +1111,7 @@
     "state": "live",
     "count": 17,
     "stats": {
-      "sokta": 400,
+      "sokta": 540,
       "hittade": 17,
       "i_lager": 1,
       "fel": 0
@@ -1304,7 +1304,7 @@
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
-            "Berga": 6,
+            "Berga": 5,
             "Råå": 0
           },
           "in_stock_city": true,
@@ -1376,28 +1376,6 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 1.0
-        }
-      },
-      {
-        "vin": "Adegas Gran Vinum ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Adegas Gran Vinum – Mar de viñas Albariño",
-          "number": "5133301",
-          "price": 149.0,
-          "vintage": "2022",
-          "other_vintage": false,
-          "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/mar-de-vinas-albarino-5133301/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 0.667
         }
       },
       {
@@ -1530,6 +1508,28 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 1.0
+        }
+      },
+      {
+        "vin": "Brut Prestige ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Prestige des Sacres – Prestige des Sacres Brut",
+          "number": "7780101",
+          "price": 421.0,
+          "vintage": null,
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/prestige-des-sacres-brut-7780101/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 0.75
         }
       }
     ]
