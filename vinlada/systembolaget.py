@@ -31,6 +31,22 @@ _STOP = {
 }
 
 
+# Druvor, områden och stilord: räcker inte ensamma för att säga att det är samma vin.
+GENERIC = {
+    "nebbiolo", "langhe", "barbera", "piemonte", "alba", "asti", "barolo", "barbaresco", "dolcetto",
+    "pinot", "grigio", "gris", "noir", "blanc", "bianco", "rosso", "tinto", "blanco", "chardonnay",
+    "sauvignon", "cabernet", "merlot", "syrah", "shiraz", "grenache", "garnacha", "tempranillo",
+    "riesling", "malbec", "zinfandel", "primitivo", "sangiovese", "montepulciano", "chianti",
+    "classico", "rioja", "crianza", "reserva", "gran", "ribera", "duero", "toscana", "sicilia",
+    "puglia", "veneto", "valpolicella", "ripasso", "amarone", "appassimento", "prosecco", "cava",
+    "champagne", "brut", "cremant", "bordeaux", "bourgogne", "cotes", "rhone", "provence", "douro",
+    "vinho", "verde", "mosel", "pfalz", "rheingau", "napa", "valley", "superiore", "riserva",
+    "negroamaro", "nero", "avola", "vermentino", "gruner", "veltliner", "chenin", "viognier",
+    "moscato", "muscat", "rose", "rosato", "cuvee", "selection", "reserve", "old", "vines", "vieilles",
+    "vignes", "vino", "cru", "grand", "premier", "estate", "family", "doc", "igp", "sur", "lie",
+}
+
+
 def _tokens(text: str) -> set[str]:
     text = unicodedata.normalize("NFKD", text.lower())
     text = "".join(c for c in text if not unicodedata.combining(c))
@@ -69,6 +85,9 @@ def match_score(offer_title: str, p: dict) -> float:
     if not wanted or not have:
         return 0.0
     overlap = len(wanted & have)
+    specific = wanted - GENERIC
+    if not specific or not (specific & have):
+        return 0.0  # bara druva/område gemensamt – troligen ett annat vin
     score = overlap / len(wanted)
     # Straffa när Systembolagets namn har mycket som vi inte sökte på (annat vin från samma producent).
     score *= min(1.0, (overlap + 1) / len(have))

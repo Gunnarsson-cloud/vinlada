@@ -298,7 +298,7 @@
     {
       "name": "Vivino",
       "url": "https://www.vivino.com/sv/",
-      "platform": "vivino",
+      "platform": "manual",
       "vivino": {
         "bundle_size": 6,
         "price_range_min": 0,
@@ -310,7 +310,7 @@
         "fee": 59,
         "approx": true,
         "free_from": 1000,
-        "note": "äldre uppgift; kod VIBJUDERPAFRAKTEN har gett fri frakt på första ordern"
+        "note": "Priserna kan inte hämtas automatiskt: från GitHubs server i USA visar Vivino utländska handlare. Öppna Vivino och sök själv."
       }
     }
   ]

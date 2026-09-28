@@ -111,7 +111,9 @@ def collect(shops: list[dict], args: argparse.Namespace, fetcher: Fetcher
     # En tråd per butik; Fetcher pausar mellan anrop till samma värd.
     with ThreadPoolExecutor(max_workers=6) as pool:
         for shop, found, errors in pool.map(run, shops):
-            if args.offline or shop.get("platform") == "manual":
+            if shop.get("platform") == "manual":
+                statuses[shop["name"]] = {"state": "bara länk", "count": 0}
+            elif args.offline:
                 statuses[shop["name"]] = {"state": "ej hämtad", "count": 0}
             else:
                 status = f"{len(found)} lådor" if found else "inget hämtat"

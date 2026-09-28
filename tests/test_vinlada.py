@@ -271,7 +271,7 @@ class ConfigTest(unittest.TestCase):
         config = json.loads((Path(__file__).parent.parent / "butiker.json").read_text(encoding="utf-8"))
         names = set()
         for shop in config["butiker"]:
-            self.assertIn(shop.get("platform", "html"), FETCHERS)
+            self.assertIn(shop.get("platform", "html"), {*FETCHERS, "manual"})
             self.assertNotIn(shop["name"], names)
             names.add(shop["name"])
             self.assertIn("shipping", shop)
@@ -378,3 +378,11 @@ class PricePerBottleTest(unittest.TestCase):
         offer = _make_offer(shop, "Goa Buteljer från Göteborg! #6 – vinlåda", "u", 269.0, True,
                             "Lådan innehåller 6 flaskor.")
         self.assertEqual((offer.price, offer.bottles), (1614.0, 6.0))
+
+
+class GenericNameTest(unittest.TestCase):
+    def test_grape_and_region_alone_do_not_match(self):
+        from vinlada.systembolaget import match_score
+        p = {"producerName": "Sturm", "productNameBold": "Sturm", "productNameThin": "Pinot Grigio"}
+        self.assertEqual(match_score("Pinot Grigio 2022 ×6", p), 0.0)
+        self.assertGreater(match_score("Sturm Pinot Grigio 2022 ×6", p), 0.6)
