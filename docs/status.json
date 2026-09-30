@@ -184,7 +184,7 @@
     "count": 46,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 15,
+    "slut_i_lager": 16,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -277,7 +277,7 @@
       },
       {
         "titel": "Toscana Vinlåda",
-        "pris": 1559.95,
+        "pris": 3869.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/toscana-vinlada",
         "text": "Vinlådan är uppdaterad 20/8-2026 I Danmark dricker vi inte mer vin bara för att priserna i Bordeaux faller drastiskt. Vi dricker helt enkelt mer Bordeaux istället för något annat. Därför är de toskanska mästerverken just nu försäljningsmässigt pressa"
@@ -307,7 +307,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 39,
+    "count": 37,
     "errors": [],
     "utan_flaskantal": 2,
     "slut_i_lager": 0,
@@ -323,12 +323,6 @@
         "pris": 3659.95,
         "flaskor": 3.0,
         "text": "Tenuta San Guido — Den kompletta familjen från Bolgheri Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri, Toscana, som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia — husets flaggskepp och det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker — är inte bara ett vin. Det är ett monument över va"
-      },
-      {
-        "titel": "Vinlåda Lyxig Vintage Champagne 3 fl",
-        "pris": 3719.95,
-        "flaskor": 3.0,
-        "text": "En enestående smagekasse, skabt til den kræsne champagneelsker, med tre ikoniske vintage champagner fra nogle af Champagnes mest prestigefyldte huse: 2013 Charles Heidsieck, 2008 Le Mesnil Grand Cru og 2015 Bollinger La Grande Année. Hver flaske repræsenterer ikke blot en stor årgang, men også sin egen særlige fortolkning af områdets uforlignelige elegance, dybde og karakter. Denne eksklusive samling inviterer på en raffineret rejse gennem tre legendariske vintageudtryk, hvor præcision, kompleks"
       },
       {
         "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
@@ -352,6 +346,13 @@
     ],
     "exempel": [
       {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+      },
+      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -366,32 +367,11 @@
         "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
-      },
-      {
         "titel": "Vinlåda - Testvinnande Josh Cellars 6 fl",
         "pris": 1039.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-testvinnande-josh-cellars-6-fl",
         "text": "Best Buy från Josh Cellars inklusive \"Årets vinköp\" i Berlingske! Nu kan du prova vinerna i en samlad vinlåda."
-      },
-      {
-        "titel": "Vinlåda Premium Från Toscana 6 fl",
-        "pris": 1519.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-premium-fraan-toscana-6-fl",
-        "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
       },
       {
         "titel": "Vinlåda Vivino-favoriter 6 fl.",
@@ -401,11 +381,25 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
+        "titel": "Vinlåda Prisvärd Champagne 6 fl",
+        "pris": 1729.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
+        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Vinlåda Premium Från Toscana 6 fl",
+        "pris": 1519.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-premium-fraan-toscana-6-fl",
+        "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
       }
     ]
   },
@@ -1084,7 +1078,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 13
+        "Råå": 12
       }
     },
     "lagersvar": [
@@ -1258,7 +1252,7 @@
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
-            "Berga": 5,
+            "Berga": 3,
             "Råå": 0
           },
           "in_stock_city": true,
