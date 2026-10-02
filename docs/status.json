@@ -1,7 +1,7 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 19,
+    "count": 16,
     "errors": [],
     "utan_flaskantal": 0,
     "slut_i_lager": 1,
@@ -59,11 +59,11 @@
         "text": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder Upplev en utsökt samling av viner med vår provningslåda, som presenterar fem fylliga rödviner och en frisk vitvin. Varje vin är noggrant utvald för att erbjuda en rad smakupplevelser, f"
       },
       {
-        "titel": "Dittvins födelsedagslåda - 6 favoritviner",
-        "pris": 469.0,
-        "flaskor": 6.0,
-        "url": "https://dittvin.se/products/dittvins-s-fodelsedagslada-6-favoritviner",
-        "text": "Dittvins födelsedagslåda - 6 favoritviner Vi på Dittvin har födelsedag, och det firar vi självklart med god vin i glaset 🥳🍷 I denna speciella födelsedagslåda har vi samlat 6 av våra favoritviner, som var och en är utvalda för sin goda smak, karaktär "
+        "titel": "XL Lyxig vinlåda - Guld nivå 🏅🍷",
+        "pris": 899.0,
+        "flaskor": 12.0,
+        "url": "https://dittvin.se/products/xl-luksus-vinlada-guld-niva",
+        "text": "XL Lyxig vinlåda - Guld nivå 🏅🍷 Denna smaklåda bjuder in dig på en spännande vinresa genom italienska klassiker, friska roséviner, eleganta bubblor och ett välvalt vitt vin. Här får du 12 flaskor med stor variation och massor av drickglädje: 1 × rödv"
       }
     ]
   },
@@ -184,7 +184,7 @@
     "count": 46,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 17,
+    "slut_i_lager": 16,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -355,20 +355,6 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
-      },
-      {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -395,12 +381,26 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-premium-fraan-toscana-6-fl",
         "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
+      },
+      {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       }
     ]
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 29,
+    "count": 30,
     "errors": [],
     "utan_flaskantal": 11,
     "slut_i_lager": 2,
@@ -569,10 +569,10 @@
       },
       {
         "titel": "Månadens Vinlåda - 6 flaskor",
-        "pris": 950.0,
+        "pris": 995.0,
         "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/",
-        "text": "NYHET: Septembers månads vinlåda är här! – innehållande sex flaskor. 950 kr inkl frakt!* Fattoria Montepescini Chianti. Vår lilla pärla från Toscana och familjegården söder om Siena. Inte långt ifrån Montalcino, och mer prisvärt ...* Parvus Ager Rosa"
+        "text": "NYHET: Oktobers månads vinlåda är här! – innehållande sex flaskor. 995 kr inkl frakt!* 1 flaska Fattoria Montepescini \"Levante\" Här en \"supertoscana\" som påminner om ett bra vin från Montalcino vilket även ligger några kullar bort från denna lilla vi"
       },
       {
         "titel": "Winnica Adoria Vinpaket",
@@ -1056,7 +1056,7 @@
     "stats": {
       "sokta": 538,
       "hittade": 16,
-      "i_lager": 1,
+      "i_lager": 0,
       "fel": 0
     },
     "stores": [
@@ -1247,10 +1247,10 @@
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
-            "Berga": 1,
+            "Berga": 0,
             "Råå": 0
           },
-          "in_stock_city": true,
+          "in_stock_city": false,
           "in_store_assortment": false,
           "score": 1.0
         }
