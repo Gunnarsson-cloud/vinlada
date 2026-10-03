@@ -6,12 +6,12 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
  1 | Dittvin        | XL födelsedagslåda - 12 särskilda rödvi… |   12 |    799 |     0 |    799 |    67 |                                    | live           
  2 | Dittvin        | XL vitvinslåda - En resa genom vitvinet… |   12 |    849 |     0 |    849 |    71 |                                    | live           
  3 | Dittvin        | XL Höstfavoriter - 12 utvalda viner til… |   12 |    869 |     0 |    869 |    72 |                                    | live           
- 4 | Supervin       | 2× Rosé Lyckolåda 12 flaskor             |   24 |  1 800 |     0 |  1 800 |    75 |                                    | live           
- 5 | Tidblom Wines  | Castaño Dominio Espinal Rosado ×6        |    6 |    414 |    79 |    493 |    82 |                                    | live           
- 6 | Dittvin        | 2× Dittvins bubbellåda- 6 festliga smak… |   12 |    998 |     0 |    998 |    83 |                                    | live           
- 7 | Dittvin        | 2× Dittvins Höstfavoriter - 6 utvalda v… |   12 |    998 |     0 |    998 |    83 |                                    | live           
- 8 | Dittvin        | 2× Pronto vinlådan – Smaken av Italien … |   12 |  1 078 |     0 |  1 078 |    90 |                                    | live           
- 9 | Dittvin        | 2× Fantini vinlåda (Det hemliga erbjuda… |   12 |  1 098 |     0 |  1 098 |    92 |                                    | live           
+ 4 | Dittvin        | XL Lyxig vinlåda - Guld nivå 🏅🍷          |   12 |    899 |     0 |    899 |    75 |                                    | live           
+ 5 | Supervin       | 2× Rosé Lyckolåda 12 flaskor             |   24 |  1 800 |     0 |  1 800 |    75 |                                    | live           
+ 6 | Tidblom Wines  | Castaño Dominio Espinal Rosado ×6        |    6 |    414 |    79 |    493 |    82 |                                    | live           
+ 7 | Dittvin        | 2× Dittvins bubbellåda- 6 festliga smak… |   12 |    998 |     0 |    998 |    83 |                                    | live           
+ 8 | Dittvin        | 2× Dittvins Höstfavoriter - 6 utvalda v… |   12 |    998 |     0 |    998 |    83 |                                    | live           
+ 9 | Dittvin        | 2× Pronto vinlådan – Smaken av Italien … |   12 |  1 078 |     0 |  1 078 |    90 |                                    | live           
 10 | Dittvin        | 2× Dittvins vitvinslåda - 6 vitviner fr… |   12 |  1 098 |     0 |  1 098 |    92 |                                    | live           
 11 | Philipson Wine | 2× Vinlåda Mystery Box Utförsäljning 9 … |   18 |  1 700 |     0 |  1 700 |    94 |                                    | live           
 12 | Dittvin        | 2× Italienska pärlor - En vinlåda med d… |   12 |  1 138 |     0 |  1 138 |    95 |                                    | live           
@@ -218,24 +218,24 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 213 | Fine Wine Ser… | 2× 2022 Thörle Riesling Spätlese ×6      |   12 |  2 268 |     0 |  2 268 |   189 |                                    | live           
 214 | Tidblom Wines  | Bell Cros La Colina ×6                   |    6 |  1 068 |    79 |  1 147 |   191 |                                    | live           
 215 | Supervin       | Triple Threat Vinlåda                    |    6 |  1 150 |     0 |  1 150 |   192 |                                    | live           
-216 | Tidblom Wines  | Glenwood Unoaked Chardonnay ×6           |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-217 | Tidblom Wines  | Elgin Vintners Sauvignon Blanc ×6        |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-218 | Tidblom Wines  | Rainbow´s End Chenin Blanc ×6            |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-219 | Tidblom Wines  | El Lagar De Isilla Gestacion ×6          |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-220 | Tidblom Wines  | Clos Malverne Ellie Mcc ×6               |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-221 | Tidblom Wines  | Sangria Rita ×6                          |    6 |  1 074 |    79 |  1 153 |   192 | 200 kr (beställs till butik)       | live           
-222 | Tidblom Wines  | Diefenhardt Riesling Trocken 2023 VDP G… |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-223 | Tidblom Wines  | Elgin Vinters Belle Amie Rosé ×6         |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
-224 | Tidblom Wines  | Eris Spurmante Brut ×6                   |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+216 | Tidblom Wines  | Elgin Vintners Sauvignon Blanc ×6        |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+217 | Tidblom Wines  | Rainbow´s End Chenin Blanc ×6            |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+218 | Tidblom Wines  | El Lagar De Isilla Gestacion ×6          |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+219 | Tidblom Wines  | Clos Malverne Ellie Mcc ×6               |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+220 | Tidblom Wines  | Sangria Rita ×6                          |    6 |  1 074 |    79 |  1 153 |   192 | 200 kr (beställs till butik)       | live           
+221 | Tidblom Wines  | Diefenhardt Riesling Trocken 2023 VDP G… |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+222 | Tidblom Wines  | Elgin Vinters Belle Amie Rosé ×6         |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+223 | Tidblom Wines  | Eris Spurmante Brut ×6                   |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
+224 | Tidblom Wines  | Glenwood Unoaked Chardonnay ×6           |    6 |  1 074 |    79 |  1 153 |   192 |                                    | live           
 225 | Tidblom Wines  | Artisan Zweigelt Rosé Frizzante ×6       |    6 |  1 080 |    79 |  1 159 |   193 |                                    | live           
 226 | Dittvin        | XL smaken av höst - Guld nivå 🍂🍷         |    5 |    969 |     0 |    969 |   194 |                                    | live           
 227 | Vinibutik      | Langhe Nebbiolo 2019 ×6                  |    6 |  1 074 |    99 |  1 173 |   196 |                                    | live           
 228 | Vinibutik      | Langhe Nebbiolo 2021 ×6                  |    6 |  1 074 |    99 |  1 173 |   196 |                                    | live           
-229 | Tidblom Wines  | Artisan Heideboden rot ×6                |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
-230 | Tidblom Wines  | Maset Clos Vilo ×6                       |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
-231 | Tidblom Wines  | Artisan Blaufränkisch Alte Reben ×6      |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
-232 | Tidblom Wines  | Artisan Heideboden Weiss ×6              |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
-233 | Tidblom Wines  | Cantina Santadi Pedraia ×6               |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
+229 | Tidblom Wines  | Maset Clos Vilo ×6                       |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
+230 | Tidblom Wines  | Artisan Blaufränkisch Alte Reben ×6      |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
+231 | Tidblom Wines  | Artisan Heideboden Weiss ×6              |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
+232 | Tidblom Wines  | Cantina Santadi Pedraia ×6               |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
+233 | Tidblom Wines  | Artisan Heideboden rot ×6                |    6 |  1 110 |    79 |  1 189 |   198 |                                    | live           
 234 | Winefinder     | 2× Weingut Dr. Corvers-Kauter Terroir R… |   12 |  2 388 |     0 |  2 388 |   199 |                                    | live           
 235 | Fine Wine Ser… | 2× 2024 Régis et Sylvain Muscadet Sèvre… |   12 |  2 388 |     0 |  2 388 |   199 |                                    | live           
 236 | Fine Wine Ser… | 2× 2025 Régis et Sylvain Sauvignon Blan… |   12 |  2 388 |     0 |  2 388 |   199 |                                    | live           
@@ -252,26 +252,26 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 247 | Fine Wine Ser… | 2× Bourgognelådan                        |   12 |  2 398 |     0 |  2 398 |   200 |                                    | live           
 248 | Fine Wine Ser… | 2× Franska vitvinslådan                  |   12 |  2 398 |     0 |  2 398 |   200 |                                    | live           
 249 | Tidblom Wines  | Elgin Vintners Syrah ×6                  |    6 |  1 128 |    79 |  1 207 |   201 |                                    | live           
-250 | Tidblom Wines  | Post House Stamp Of Chenin ×6            |    6 |  1 134 |    79 |  1 213 |   202 | 251 kr (beställs till butik)       | live           
-251 | Tidblom Wines  | Bailafieras Guardian of the forbidden f… |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-252 | Tidblom Wines  | Bailafieras Fiera de la Rosa ×6          |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-253 | Tidblom Wines  | Willi Haag Riesling trocken 2022  VDP G… |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-254 | Tidblom Wines  | Martingala Fiera de la Noche ×6          |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-255 | Tidblom Wines  | Maset Mas Vilo ×6                        |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-256 | Tidblom Wines  | Florence By Aaldering Chenin Blanc ×6    |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-257 | Tidblom Wines  | Alicia I Josep CLASS 2023 ×6             |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
-258 | Tidblom Wines  | Rejadorada Novellum ×6                   |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+250 | Tidblom Wines  | Bailafieras Guardian of the forbidden f… |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+251 | Tidblom Wines  | Bailafieras Fiera de la Rosa ×6          |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+252 | Tidblom Wines  | Willi Haag Riesling trocken 2022  VDP G… |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+253 | Tidblom Wines  | Martingala Fiera de la Noche ×6          |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+254 | Tidblom Wines  | Maset Mas Vilo ×6                        |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+255 | Tidblom Wines  | Florence By Aaldering Chenin Blanc ×6    |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+256 | Tidblom Wines  | Alicia I Josep CLASS 2023 ×6             |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+257 | Tidblom Wines  | Rejadorada Novellum ×6                   |    6 |  1 134 |    79 |  1 213 |   202 |                                    | live           
+258 | Tidblom Wines  | Post House Stamp Of Chenin ×6            |    6 |  1 134 |    79 |  1 213 |   202 | 251 kr (beställs till butik)       | live           
 259 | Tidblom Wines  | Castaño Solanera ×6                      |    6 |  1 140 |    79 |  1 219 |   203 |                                    | live           
 260 | Tidblom Wines  | Bell Cros One Off #6 ×6                  |    6 |  1 140 |    79 |  1 219 |   203 |                                    | live           
 261 | Philipson Wine | 2× Vinlåda Chablis & Vänner 6 fl         |   12 |  2 460 |     0 |  2 460 |   205 |                                    | live           
-262 | Tidblom Wines  | Blandlåda Demuerte Summer                |    6 |  1 154 |    79 |  1 233 |   206 |                                    | live           
-263 | Tidblom Wines  | Blandlåda Batllori Duo Delights          |    6 |  1 154 |    79 |  1 233 |   206 |                                    | live           
+262 | Tidblom Wines  | Blandlåda Batllori Duo Delights          |    6 |  1 154 |    79 |  1 233 |   206 |                                    | live           
+263 | Tidblom Wines  | Blandlåda Demuerte Summer                |    6 |  1 154 |    79 |  1 233 |   206 |                                    | live           
 264 | Vinibutik      | Chardonnay Oak edition 2023 ×6           |    6 |  1 134 |    99 |  1 233 |   206 |                                    | live           
 265 | Supervin       | Rolland & Galarreta Vinlåda              |    6 |  1 240 |     0 |  1 240 |   207 |                                    | live           
 266 | Tidblom Wines  | Hunawihr Schoenenbourg Grand Cru ×6      |    6 |  1 170 |    79 |  1 249 |   208 |                                    | live           
 267 | Winefinder     | De Lisio Wines Quarterback 2021 ×6       |    6 |  1 254 |     0 |  1 254 |   209 |                                    | live           
-268 | Tidblom Wines  | Blandlåda Batllori Perfect Harmony       |    6 |  1 174 |    79 |  1 253 |   209 |                                    | live           
-269 | Tidblom Wines  | Blandlåda Demuerte Summer Grill          |    6 |  1 174 |    79 |  1 253 |   209 |                                    | live           
+268 | Tidblom Wines  | Blandlåda Demuerte Summer Grill          |    6 |  1 174 |    79 |  1 253 |   209 |                                    | live           
+269 | Tidblom Wines  | Blandlåda Batllori Perfect Harmony       |    6 |  1 174 |    79 |  1 253 |   209 |                                    | live           
 270 | Fine Wine Ser… | 2× 2022 Thörle Riesling Saulheim Kalkst… |   12 |  2 508 |     0 |  2 508 |   209 |                                    | live           
 271 | Fine Wine Ser… | 2× 2023 Josef Fischer Grüner Veltliner … |   12 |  2 508 |     0 |  2 508 |   209 |                                    | live           
 272 | Philipson Wine | 2× Château La Tour de By 50 års Jubileu… |   12 |  2 520 |     0 |  2 520 |   210 |                                    | live           
@@ -317,19 +317,19 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 312 | Fine Wine Ser… | 2× 2023 Famille Morin Chiroubles Vieill… |   12 |  2 748 |     0 |  2 748 |   229 |                                    | live           
 313 | Fine Wine Ser… | 2× 2025 Domaine des Chaumes Chablis ×6   |   12 |  2 748 |     0 |  2 748 |   229 |                                    | live           
 314 | Fine Wine Ser… | 2× 2024 Ugo Lequio Moscato d’Asti ×6     |   12 |  2 748 |     0 |  2 748 |   229 |                                    | live           
-315 | Tidblom Wines  | Diefenhardt Martinsthat J.D. Riesling t… |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-316 | Tidblom Wines  | Bailafieras King of the night ×6         |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-317 | Tidblom Wines  | Elgin Vintners The Century ×6            |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-318 | Tidblom Wines  | Ravazzi Chianti D.O.C.G. 2023 ×6         |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-319 | Tidblom Wines  | Batllori Brut Rosé ×6                    |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-320 | Tidblom Wines  | Rejadorada Sango ×6                      |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-321 | Tidblom Wines  | Demuerte One ×6                          |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-322 | Tidblom Wines  | Batllori Brut Reserva ×6                 |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-323 | Tidblom Wines  | Glenwood Chardonnay vs ×6                |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-324 | Tidblom Wines  | Rainbow´s End Syrah ×6                   |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-325 | Tidblom Wines  | Batllori Brut Nature Reserva ×6          |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-326 | Tidblom Wines  | Barbera Del Monferato DOC ×6             |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
-327 | Tidblom Wines  | Nardi Chianti Classico DOCG 2021 ×6      |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+315 | Tidblom Wines  | Elgin Vintners The Century ×6            |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+316 | Tidblom Wines  | Ravazzi Chianti D.O.C.G. 2023 ×6         |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+317 | Tidblom Wines  | Batllori Brut Rosé ×6                    |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+318 | Tidblom Wines  | Rejadorada Sango ×6                      |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+319 | Tidblom Wines  | Demuerte One ×6                          |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+320 | Tidblom Wines  | Batllori Brut Reserva ×6                 |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+321 | Tidblom Wines  | Glenwood Chardonnay vs ×6                |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+322 | Tidblom Wines  | Rainbow´s End Syrah ×6                   |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+323 | Tidblom Wines  | Batllori Brut Nature Reserva ×6          |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+324 | Tidblom Wines  | Barbera Del Monferato DOC ×6             |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+325 | Tidblom Wines  | Nardi Chianti Classico DOCG 2021 ×6      |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+326 | Tidblom Wines  | Diefenhardt Martinsthat J.D. Riesling t… |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
+327 | Tidblom Wines  | Bailafieras King of the night ×6         |    6 |  1 314 |    79 |  1 393 |   232 |                                    | live           
 328 | Supervin       | Crémant Vinlåda                          |    6 |  1 400 |     0 |  1 400 |   233 |                                    | live           
 329 | Supervin       | Ribera del Duero vs Rioja Vinlåda        |    6 |  1 400 |     0 |  1 400 |   233 |                                    | live           
 330 | Tidblom Wines  | Lobner Ried Rochusberg Grüner Veltliner… |    6 |  1 320 |    79 |  1 399 |   233 |                                    | live           
@@ -346,8 +346,8 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 341 | Tidblom Wines  | ELGIN VINTNERS PINOT NOIR ×6             |    6 |  1 356 |    79 |  1 435 |   239 |                                    | live           
 342 | Fine Wine Ser… | 2× 2023 Marion Navoiseau Bourgogne Roug… |   12 |  2 868 |     0 |  2 868 |   239 |                                    | live           
 343 | Tidblom Wines  | Post House Merry Widow ×6                |    6 |  1 374 |    79 |  1 453 |   242 | 281 kr (beställs till butik)       | live           
-344 | Tidblom Wines  | Twenty Twelve Pink 2023 ×6               |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
-345 | Tidblom Wines  | Prosecco Extra Dry Millesimato D.O.C.G … |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
+344 | Tidblom Wines  | Prosecco Extra Dry Millesimato D.O.C.G … |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
+345 | Tidblom Wines  | Twenty Twelve Pink 2023 ×6               |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 346 | Tidblom Wines  | Pietro Rinaldi Vino Rosato Alfi ×6       |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 347 | Tidblom Wines  | Florence By Aaldering Cape Blend ×6      |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 348 | Tidblom Wines  | Aaldering Estate Pinotage Rosé ×6        |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
@@ -356,8 +356,8 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 351 | Tidblom Wines  | Mollet ×6                                |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 352 | Tidblom Wines  | Clos Malverne Auret ×6                   |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 353 | Tidblom Wines  | Pere Seda Brut Natur ×6                  |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
-354 | Tidblom Wines  | Twenty Twelve White 2023 ×6              |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
-355 | Tidblom Wines  | Aaldering Pinotage Blanc ×6              |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
+354 | Tidblom Wines  | Aaldering Pinotage Blanc ×6              |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
+355 | Tidblom Wines  | Twenty Twelve White 2023 ×6              |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 356 | Tidblom Wines  | Post House Bulls Eye ×6                  |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 357 | Tidblom Wines  | Val De Meigas ×6                         |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
 358 | Tidblom Wines  | La Cresta Castino ×6                     |    6 |  1 374 |    79 |  1 453 |   242 |                                    | live           
@@ -386,31 +386,31 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 381 | Tidblom Wines  | Artisan Sankt Laurent Ried Kaiserberg ×6 |    6 |  1 428 |    79 |  1 507 |   251 |                                    | live           
 382 | Tidblom Wines  | Artisan Neusiedlersee Dac Reserve ×6     |    6 |  1 428 |    79 |  1 507 |   251 |                                    | live           
 383 | Tidblom Wines  | Artisan Halbturn White ×6                |    6 |  1 428 |    79 |  1 507 |   251 |                                    | live           
-384 | Tidblom Wines  | Voltaccia 49 – Toscana 2020/2021 ×6      |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-385 | Tidblom Wines  | Aaldering Estate Chardonnay ×6           |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-386 | Tidblom Wines  | Prosecco Rosé ×6                         |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-387 | Tidblom Wines  | Rainbow´s End Merlot ×6                  |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-388 | Tidblom Wines  | Voltaccia 49 – Toscana 2020/2021 ×6      |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-389 | Tidblom Wines  | Aaldering Estate Chardonnay ×6           |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-390 | Tidblom Wines  | Willi Haag “Grauschiefer” Riesling troc… |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-391 | Tidblom Wines  | Post House Penny Black ×6                |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-392 | Tidblom Wines  | Double bubble DOC ×6                     |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-393 | Tidblom Wines  | Cal Pla Mas D’en Compte Blanc Crianca ×6 |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-394 | Tidblom Wines  | I Sodi Chianti Classico DOCG 2021 ×6     |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-395 | Tidblom Wines  | Post House Missing Virgin ×6             |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
-396 | Tidblom Wines  | Pico Cuadro Vendimia ×6                  |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+384 | Tidblom Wines  | Aaldering Estate Chardonnay ×6           |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+385 | Tidblom Wines  | Willi Haag “Grauschiefer” Riesling troc… |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+386 | Tidblom Wines  | Bailafieras Origen ×6                    |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+387 | Tidblom Wines  | Rainbow´s End Cabernet Sauvignon ×6      |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+388 | Tidblom Wines  | Prosecco Rosé ×6                         |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+389 | Tidblom Wines  | Rainbow´s End Merlot ×6                  |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+390 | Tidblom Wines  | Voltaccia 49 – Toscana 2020/2021 ×6      |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+391 | Tidblom Wines  | Aaldering Estate Chardonnay ×6           |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+392 | Tidblom Wines  | Willi Haag “Grauschiefer” Riesling troc… |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+393 | Tidblom Wines  | Post House Penny Black ×6                |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+394 | Tidblom Wines  | Double bubble DOC ×6                     |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+395 | Tidblom Wines  | Cal Pla Mas D’en Compte Blanc Crianca ×6 |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
+396 | Tidblom Wines  | I Sodi Chianti Classico DOCG 2021 ×6     |    6 |  1 434 |    79 |  1 513 |   252 |                                    | live           
 397 | Philipson Wine | Vinlåda Premium Från Toscana 6 fl        |    6 |  1 520 |     0 |  1 520 |   253 |                                    | live           
 398 | Tidblom Wines  | Artisan Neusiedlersee Dac Beerenauslese… |    6 |  1 440 |    79 |  1 519 |   253 |                                    | live           
 399 | Vinibutik      | Ad Libitum Maturana Blanca 2022 (eko) ×6 |    6 |  1 434 |    99 |  1 533 |   256 |                                    | live           
 400 | Tidblom Wines  | Vini Contini i Giganti Bianco ×6         |    6 |  1 464 |    79 |  1 543 |   257 |                                    | live           
 401 | Tidblom Wines  | Seghesio Barbera d´Alba DOC La Chiesa ×6 |    6 |  1 470 |    79 |  1 549 |   258 |                                    | live           
-402 | Tidblom Wines  | Glenwood Grand Duc Semillon-Sauvignon B… |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
-403 | Tidblom Wines  | Alicia I Josep IROIK 2023 ×6             |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
-404 | Tidblom Wines  | Demuerte Cava ×6                         |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
-405 | Tidblom Wines  | Celler Cal Pla Red 2021 ×6               |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
-406 | Tidblom Wines  | Ravazzi Chianti Riserva D.O.C.G. 2021 ×6 |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
-407 | Tidblom Wines  | Diefenhardt Martinsthaler Wildsau Riesl… |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
-408 | Tidblom Wines  | Martoccia Rosso Di Montalcino DOC 2023 … |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+402 | Tidblom Wines  | Martoccia Rosso Di Montalcino DOC 2023 … |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+403 | Tidblom Wines  | Glenwood Grand Duc Semillon-Sauvignon B… |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+404 | Tidblom Wines  | Alicia I Josep IROIK 2023 ×6             |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+405 | Tidblom Wines  | Demuerte Cava ×6                         |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+406 | Tidblom Wines  | Celler Cal Pla Red 2021 ×6               |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+407 | Tidblom Wines  | Ravazzi Chianti Riserva D.O.C.G. 2021 ×6 |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
+408 | Tidblom Wines  | Diefenhardt Martinsthaler Wildsau Riesl… |    6 |  1 494 |    79 |  1 573 |   262 |                                    | live           
 409 | Tidblom Wines  | Cantina Sedilesu – Mamuthone Cannonau ×6 |    6 |  1 500 |    79 |  1 579 |   263 |                                    | live           
 410 | Gassås Wine    | Mystery Box no 2.                        |   12 |  2 999 |   169 |  3 168 |   264 |                                    | live           
 411 | Supervin       | Vit Bourgogne VS. Vit Bordeaux Vinlåda   |    6 |  1 590 |     0 |  1 590 |   265 |                                    | live           
@@ -418,15 +418,15 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 413 | Tidblom Wines  | Château Clos Grand Cru ×6                |    6 |  1 530 |    79 |  1 609 |   268 |                                    | live           
 414 | Winefinder     | Wine Mechanics GBG - Goa Buteljer från … |    6 |  1 614 |     0 |  1 614 |   269 |                                    | live           
 415 | Philipson Wine | Vinlåda Guigal – Ikonen från Rhône 9 fl  |    9 |  2 420 |     0 |  2 420 |   269 |                                    | live           
-416 | Tidblom Wines  | Rainbow´s End Cabernet Franc ×6          |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-417 | Tidblom Wines  | Arliz Borgo Dei Posseri ×6               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-418 | Tidblom Wines  | Pomona Chianti Classico DOCG 2021 ×6     |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-419 | Tidblom Wines  | Rosé Piemonte Rosato Brut DOC ×6         |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-420 | Tidblom Wines  | Vignobles David – Le Mourre de l’lsle ×6 |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-421 | Tidblom Wines  | Aaldering Estate Shiraz ×6               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-422 | Tidblom Wines  | Diamant ×6                               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-423 | Tidblom Wines  | Aaldering Estate Lady M ×6               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
-424 | Tidblom Wines  | Castaño Sierra Alta ×6                   |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+416 | Tidblom Wines  | Aaldering Estate Lady M ×6               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+417 | Tidblom Wines  | Castaño Sierra Alta ×6                   |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+418 | Tidblom Wines  | Rainbow´s End Cabernet Franc ×6          |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+419 | Tidblom Wines  | Arliz Borgo Dei Posseri ×6               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+420 | Tidblom Wines  | Pomona Chianti Classico DOCG 2021 ×6     |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+421 | Tidblom Wines  | Rosé Piemonte Rosato Brut DOC ×6         |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+422 | Tidblom Wines  | Vignobles David – Le Mourre de l’lsle ×6 |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+423 | Tidblom Wines  | Aaldering Estate Shiraz ×6               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
+424 | Tidblom Wines  | Diamant ×6                               |    6 |  1 554 |    79 |  1 633 |   272 |                                    | live           
 425 | Tidblom Wines  | Cantina Santadi Rocca Rubia ×6           |    6 |  1 560 |    79 |  1 639 |   273 |                                    | live           
 426 | Supervin       | Ziereisen Vinlåda                        |    6 |  1 660 |     0 |  1 660 |   277 |                                    | live           
 427 | Supervin       | Ziereisen Vinlåda                        |    6 |  1 660 |     0 |  1 660 |   277 |                                    | live           
@@ -437,13 +437,13 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 432 | Tidblom Wines  | Post House Treskilling Yellow ×6         |    6 |  1 620 |    79 |  1 699 |   283 |                                    | live           
 433 | Philipson Wine | Vinlåda Prisvärd Champagne 6 fl          |    6 |  1 730 |     0 |  1 730 |   288 |                                    | live           
 434 | Vinfolket      | En låda bubbel, tack!                    |    5 |  1 450 |     0 |  1 450 |   290 |                                    | live           
-435 | Tidblom Wines  | Blanca Terra Foravila ×6                 |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
-436 | Tidblom Wines  | Bailafieras Fiera del Destino ×6         |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
-437 | Tidblom Wines  | Elgin Vintners Sandstone ×6              |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
-438 | Tidblom Wines  | Blanca Terra Orígens ×6                  |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
-439 | Tidblom Wines  | Blanca Terra Son Roca ×6                 |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
-440 | Tidblom Wines  | Elgin Vintners Ponthuis Pinot Noir ×6    |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
-441 | Tidblom Wines  | Demuerte Classic ×6                      |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+435 | Tidblom Wines  | Elgin Vintners Ponthuis Pinot Noir ×6    |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+436 | Tidblom Wines  | Demuerte Classic ×6                      |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+437 | Tidblom Wines  | Blanca Terra Foravila ×6                 |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+438 | Tidblom Wines  | Bailafieras Fiera del Destino ×6         |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+439 | Tidblom Wines  | Elgin Vintners Sandstone ×6              |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+440 | Tidblom Wines  | Blanca Terra Orígens ×6                  |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
+441 | Tidblom Wines  | Blanca Terra Son Roca ×6                 |    6 |  1 674 |    79 |  1 753 |   292 |                                    | live           
 442 | Vinibutik      | Pago de Otazu 2020 ×6                    |    6 |  1 650 |    99 |  1 749 |   292 | 334 kr (beställs till butik)       | live           
 443 | Vinibutik      | Abaco 2018 ×6                            |    6 |  1 674 |    99 |  1 773 |   296 |                                    | live           
 444 | Tidblom Wines  | Vini contini I giganti rosso ×6          |    6 |  1 710 |    79 |  1 789 |   298 |                                    | live           
@@ -454,8 +454,8 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 449 | Fine Wine Ser… | 2× 2024 Clos de Somméré Saint-Véran Au … |   12 |  3 588 |     0 |  3 588 |   299 |                                    | live           
 450 | Fine Wine Ser… | 2× 2018 Ugo Lequio Barbera D’Alba Galli… |   12 |  3 588 |     0 |  3 588 |   299 |                                    | live           
 451 | Fine Wine Ser… | 2× 2022 Wineslut White ×6                |   12 |  3 588 |     0 |  3 588 |   299 |                                    | live           
-452 | Tidblom Wines  | Tenute Olbios – Lupus In Fabula, DOCG ×6 |    6 |  1 728 |    79 |  1 807 |   301 |                                    | live           
-453 | Tidblom Wines  | Tenute Olbios In Vino Veritas ×6         |    6 |  1 728 |    79 |  1 807 |   301 |                                    | live           
+452 | Tidblom Wines  | Tenute Olbios In Vino Veritas ×6         |    6 |  1 728 |    79 |  1 807 |   301 |                                    | live           
+453 | Tidblom Wines  | Tenute Olbios – Lupus In Fabula, DOCG ×6 |    6 |  1 728 |    79 |  1 807 |   301 |                                    | live           
 454 | Tidblom Wines  | Taninai ala borgo dei posseri ×6         |    6 |  1 734 |    79 |  1 813 |   302 |                                    | live           
 455 | Tidblom Wines  | Le Cappelle – Toscana ×6                 |    6 |  1 734 |    79 |  1 813 |   302 |                                    | live           
 456 | Tidblom Wines  | Post House Holy Grail Malbec Reserve ×6  |    6 |  1 734 |    79 |  1 813 |   302 |                                    | live           
@@ -466,22 +466,22 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 461 | Tidblom Wines  | Seghesio Barolo DOCG Castelleto ×6       |    6 |  1 770 |    79 |  1 849 |   308 |                                    | live           
 462 | Tidblom Wines  | Luzon Por Ti ×6                          |    6 |  1 770 |    79 |  1 849 |   308 |                                    | live           
 463 | Fine Wine Ser… | 2× 2022 Wineslut Red ×6                  |   12 |  3 708 |     0 |  3 708 |   309 |                                    | live           
-464 | Tidblom Wines  | Tre roveri Nizza ×6                      |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-465 | Tidblom Wines  | Tre Roveri Nizza ×6                      |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-466 | Tidblom Wines  | Perinet Likka ×6                         |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-467 | Tidblom Wines  | Batllori Brut Nature Gran Reserva ×6     |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-468 | Tidblom Wines  | Post House Stormy Hope ×6                |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-469 | Tidblom Wines  | Can Feixes Corpinat Classic Brut ×6      |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-470 | Tidblom Wines  | Cabernet Sauvignon 2017 ×6               |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-471 | Tidblom Wines  | Can Feixes Corpinat Classic Brut Nature… |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-472 | Tidblom Wines  | Rosignol ×6                              |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
-473 | Tidblom Wines  | Nizza Silvano DOCG 2017 ×6               |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+464 | Tidblom Wines  | Nizza Silvano DOCG 2017 ×6               |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+465 | Tidblom Wines  | Tre roveri Nizza ×6                      |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+466 | Tidblom Wines  | Tre Roveri Nizza ×6                      |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+467 | Tidblom Wines  | Perinet Likka ×6                         |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+468 | Tidblom Wines  | Batllori Brut Nature Gran Reserva ×6     |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+469 | Tidblom Wines  | Post House Stormy Hope ×6                |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+470 | Tidblom Wines  | Can Feixes Corpinat Classic Brut ×6      |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+471 | Tidblom Wines  | Cabernet Sauvignon 2017 ×6               |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+472 | Tidblom Wines  | Can Feixes Corpinat Classic Brut Nature… |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
+473 | Tidblom Wines  | Rosignol ×6                              |    6 |  1 794 |    79 |  1 873 |   312 |                                    | live           
 474 | Tidblom Wines  | I Sodi Vinsanto Chiani Classico DOC 201… |    6 |  1 800 |    79 |  1 879 |   313 |                                    | live           
 475 | Supervin       | 2× Tesch Riesling Karthäuser "Commissai… |    6 |  1 920 |     0 |  1 920 |   320 |                                    | live           
 476 | Philipson Wine | Vinlåda Prisbelönad Brunello 4 fl        |    4 |  1 300 |     0 |  1 300 |   325 |                                    | live           
 477 | Tidblom Wines  | Demuerte Gold ×6                         |    6 |  1 914 |    79 |  1 993 |   332 |                                    | live           
-478 | Tidblom Wines  | Clos Dominic Petó 2021 ×6                |    6 |  1 914 |    79 |  1 993 |   332 |                                    | live           
-479 | Tidblom Wines  | Prosecco Superiore D.O.C.G ×6            |    6 |  1 914 |    79 |  1 993 |   332 |                                    | live           
+478 | Tidblom Wines  | Prosecco Superiore D.O.C.G ×6            |    6 |  1 914 |    79 |  1 993 |   332 |                                    | live           
+479 | Tidblom Wines  | Clos Dominic Petó 2021 ×6                |    6 |  1 914 |    79 |  1 993 |   332 |                                    | live           
 480 | Tidblom Wines  | Barahonda Summum ×6                      |    6 |  1 950 |    79 |  2 029 |   338 |                                    | live           
 481 | Philipson Wine | Vinlåda Upptäck Barolo 6 fl              |    6 |  2 050 |     0 |  2 050 |   342 |                                    | live           
 482 | Tidblom Wines  | Willi Haag Brauneberger Juffer-Sonnenuh… |    6 |  1 974 |    79 |  2 053 |   342 |                                    | live           
@@ -492,10 +492,10 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 487 | Fine Wine Ser… | 2020 Ugo Lequio Barbaresco ×6            |    6 |  2 094 |     0 |  2 094 |   349 |                                    | live           
 488 | Tidblom Wines  | Pomona Chianti Classico 2020 DOCG Riser… |    6 |  2 034 |    79 |  2 113 |   352 |                                    | live           
 489 | Fine Wine Ser… | 2022 Josef Fischer Grüner Veltliner Sma… |    6 |  2 154 |     0 |  2 154 |   359 |                                    | live           
-490 | Tidblom Wines  | Rainbow´s End Family Reserve ×6          |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
-491 | Tidblom Wines  | Celler Cal Pla Mas Dén Compte 2017 ×6    |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
-492 | Tidblom Wines  | I Sodi Chiani Classico DOCG 2019 Riserv… |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
-493 | Tidblom Wines  | Clos Dominic Vinyes Baixes 2021 ×6       |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
+490 | Tidblom Wines  | Clos Dominic Vinyes Baixes 2021 ×6       |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
+491 | Tidblom Wines  | Rainbow´s End Family Reserve ×6          |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
+492 | Tidblom Wines  | Celler Cal Pla Mas Dén Compte 2017 ×6    |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
+493 | Tidblom Wines  | I Sodi Chiani Classico DOCG 2019 Riserv… |    6 |  2 094 |    79 |  2 173 |   362 |                                    | live           
 494 | Nordiska Vin   | Exklusivt bubbel i 6-pack                |    6 |  2 189 |     0 |  2 189 |   365 |                                    | live           
 495 | Vinibutik      | Family Reserve 2017 ×6                   |    6 |  2 094 |    99 |  2 193 |   366 |                                    | live           
 496 | Tidblom Wines  | Peñafiel Miros Crianza ×6                |    6 |  2 130 |    79 |  2 209 |   368 |                                    | live           
@@ -510,9 +510,9 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 505 | Fine Wine Ser… | 2021 Bindella I Quadri Vino Nobile di M… |    6 |  2 274 |     0 |  2 274 |   379 |                                    | live           
 506 | Fine Wine Ser… | 2022 Josef Fischer Riesling Smaragd Kre… |    6 |  2 274 |     0 |  2 274 |   379 |                                    | live           
 507 | Fine Wine Ser… | 2022 Hocus Pocus ×6                      |    6 |  2 274 |     0 |  2 274 |   379 |                                    | live           
-508 | Tidblom Wines  | Nizza Silvano Riserva Ca Boscarone ×6    |    6 |  2 214 |    79 |  2 293 |   382 |                                    | live           
-509 | Tidblom Wines  | Nardi Chianti Classico 2021 DOCG Riserv… |    6 |  2 214 |    79 |  2 293 |   382 |                                    | live           
-510 | Tidblom Wines  | Tenute Olbios – Bisso Spumante D.O.C.G.… |    6 |  2 214 |    79 |  2 293 |   382 |                                    | live           
+508 | Tidblom Wines  | Tenute Olbios – Bisso Spumante D.O.C.G.… |    6 |  2 214 |    79 |  2 293 |   382 |                                    | live           
+509 | Tidblom Wines  | Nizza Silvano Riserva Ca Boscarone ×6    |    6 |  2 214 |    79 |  2 293 |   382 |                                    | live           
+510 | Tidblom Wines  | Nardi Chianti Classico 2021 DOCG Riserv… |    6 |  2 214 |    79 |  2 293 |   382 |                                    | live           
 511 | Tidblom Wines  | Barolo DOGC i tre pais ×6                |    6 |  2 274 |    79 |  2 353 |   392 |                                    | live           
 512 | Tidblom Wines  | Lima Mayer 2 Tintos ×6                   |    6 |  2 280 |    79 |  2 359 |   393 |                                    | live           
 513 | Tidblom Wines  | El Lagar De Isilla San Juan ×6           |    6 |  2 280 |    79 |  2 359 |   393 |                                    | live           
@@ -523,8 +523,8 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 518 | Fine Wine Ser… | 2021 Cassagne et Vitailles Nimalaya ×6   |    6 |  2 394 |     0 |  2 394 |   399 |                                    | live           
 519 | Fine Wine Ser… | 2019 Franck Massard Huellas Blanco ×6    |    6 |  2 394 |     0 |  2 394 |   399 |                                    | live           
 520 | Fine Wine Ser… | 2020 Cassagne et Vitailles Nimalaya ×6   |    6 |  2 394 |     0 |  2 394 |   399 |                                    | live           
-521 | Tidblom Wines  | Es Fangar Elements 2014 ×6               |    6 |  2 334 |    79 |  2 413 |   402 |                                    | live           
-522 | Tidblom Wines  | QBQ 2019 ×6                              |    6 |  2 334 |    79 |  2 413 |   402 |                                    | live           
+521 | Tidblom Wines  | QBQ 2019 ×6                              |    6 |  2 334 |    79 |  2 413 |   402 |                                    | live           
+522 | Tidblom Wines  | Es Fangar Elements 2014 ×6               |    6 |  2 334 |    79 |  2 413 |   402 |                                    | live           
 523 | Tidblom Wines  | Vini contini barrile ×6                  |    6 |  2 340 |    79 |  2 419 |   403 |                                    | live           
 524 | Tidblom Wines  | Vini Contini Barrile ×6                  |    6 |  2 364 |    79 |  2 443 |   407 |                                    | live           
 525 | Tidblom Wines  | Piave melanotte D.O.G.C. ×6              |    6 |  2 370 |    79 |  2 449 |   408 |                                    | live           
@@ -532,12 +532,12 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 527 | Tidblom Wines  | The Ahrens Family Seventy ×6             |    6 |  2 394 |    79 |  2 473 |   412 |                                    | live           
 528 | Tidblom Wines  | Demuerte Deluxe ×6                       |    6 |  2 394 |    79 |  2 473 |   412 |                                    | live           
 529 | Vinibutik      | Champagne Pascal Machet Tradition - Pre… |    6 |  2 394 |    99 |  2 493 |   416 |                                    | live           
-530 | Tidblom Wines  | Barolo Gabutti cru D.O.C.G. ×6           |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
-531 | Tidblom Wines  | Barolo Ravera cru D.O.C.G. ×6            |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
-532 | Tidblom Wines  | Barolo Monvigliero cru D.O.C.G. ×6       |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
-533 | Tidblom Wines  | Barolo Perno cru D.O.C.G. ×6             |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
-534 | Tidblom Wines  | Barolo Ravera cru D.O.C.G. ×6            |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
-535 | Tidblom Wines  | Barolo Monvigliero cru D.O.C.G. ×6       |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
+530 | Tidblom Wines  | Barolo Rocche di Castiglione cru D.O.C.… |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
+531 | Tidblom Wines  | Barolo Parussi cru D.O.C.G. ×6           |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
+532 | Tidblom Wines  | Barolo Gabutti cru D.O.C.G. ×6           |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
+533 | Tidblom Wines  | Barolo Ravera cru D.O.C.G. ×6            |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
+534 | Tidblom Wines  | Barolo Rocche di Castiglione cru D.O.C.… |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
+535 | Tidblom Wines  | Barolo Parussi cru D.O.C.G. ×6           |    6 |  2 430 |    79 |  2 509 |   418 |                                    | live           
 536 | Gassås Wine    | Mixed Case - Rosso di Montalcino 2022    |    5 |  1 924 |   169 |  2 093 |   419 |                                    | live           
 537 | Fine Wine Ser… | 2023 Hasher Ernest Pinot Noir ×6         |    6 |  2 514 |     0 |  2 514 |   419 |                                    | live           
 538 | Tidblom Wines  | The Ahrens Family Koffieklip Ovc ×6      |    6 |  2 454 |    79 |  2 533 |   422 |                                    | live           
@@ -546,10 +546,10 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 541 | Fine Wine Ser… | 2022 Cassagne et Vitailles Nimalaya ×6   |    6 |  2 574 |     0 |  2 574 |   429 |                                    | live           
 542 | Fine Wine Ser… | M.V. Frerejean Frères Grande Réserve Br… |    6 |  2 574 |     0 |  2 574 |   429 |                                    | live           
 543 | Gassås Wine    | Mystery Box no 3.                        |   12 |  4 999 |   169 |  5 168 |   431 |                                    | live           
-544 | Tidblom Wines  | Demuerte Organic ×6                      |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
-545 | Tidblom Wines  | Alicia I Josep Tentiber 2019 ×6          |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
-546 | Tidblom Wines  | The Ahrens Kwarts Die Paarl ×6           |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
-547 | Tidblom Wines  | Blanca Terra Ses Planes ×6               |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
+544 | Tidblom Wines  | Alicia I Josep Tentiber 2019 ×6          |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
+545 | Tidblom Wines  | The Ahrens Kwarts Die Paarl ×6           |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
+546 | Tidblom Wines  | Blanca Terra Ses Planes ×6               |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
+547 | Tidblom Wines  | Demuerte Organic ×6                      |    6 |  2 514 |    79 |  2 593 |   432 |                                    | live           
 548 | Vinfolket      | Winnica Adoria Vinpaket                  |    3 |  1 298 |     0 |  1 298 |   433 |                                    | live           
 549 | Tidblom Wines  | Barolo DOGC Piangalardo ×6               |    6 |  2 550 |    79 |  2 629 |   438 |                                    | live           
 550 | Tidblom Wines  | Broccardo DOCG San Giovanni 2018 ×6      |    6 |  2 574 |    79 |  2 653 |   442 |                                    | live           
@@ -563,8 +563,8 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 558 | Tidblom Wines  | Blanca Terra Terra Dolça ×6              |    6 |  2 694 |    79 |  2 773 |   462 |                                    | live           
 559 | Tidblom Wines  | Castaño Casa Igarza ×6                   |    6 |  2 700 |    79 |  2 779 |   463 |                                    | live           
 560 | Tidblom Wines  | Castaño Casa Igarza ×6                   |    6 |  2 700 |    79 |  2 779 |   463 |                                    | live           
-561 | Tidblom Wines  | Barolo DOGC Bricco San Pietro riserva ×6 |    6 |  2 754 |    79 |  2 833 |   472 |                                    | live           
-562 | Tidblom Wines  | Martoccia Brunello di Montalcino DOCG 2… |    6 |  2 754 |    79 |  2 833 |   472 |                                    | live           
+561 | Tidblom Wines  | Martoccia Brunello di Montalcino DOCG 2… |    6 |  2 754 |    79 |  2 833 |   472 |                                    | live           
+562 | Tidblom Wines  | Barolo DOGC Bricco San Pietro riserva ×6 |    6 |  2 754 |    79 |  2 833 |   472 |                                    | live           
 563 | Fine Wine Ser… | 2019 Ugo Lequio Barbaresco Gallina ×6    |    6 |  2 874 |     0 |  2 874 |   479 |                                    | live           
 564 | Tidblom Wines  | Bruno Roulot Zéro Dosage ×6              |    6 |  2 814 |    79 |  2 893 |   482 | 535 kr (beställs till butik)       | live           
 565 | Tidblom Wines  | Boizel brut réserve champagne ×6         |    6 |  2 814 |    79 |  2 893 |   482 |                                    | live           
@@ -583,22 +583,22 @@ Vinlådor till 25221, sorterat på kr/flaska inkl. frakt
 578 | Fine Wine Ser… | 2016 Ugo Lequio Barbaresco Gallina ×6    |    6 |  2 994 |     0 |  2 994 |   499 |                                    | live           
 579 | Tidblom Wines  | Cantina Santadi Terre Brune ×6           |    6 |  2 928 |    79 |  3 007 |   501 |                                    | live           
 580 | Tidblom Wines  | Ahrens Black ×6                          |    6 |  2 970 |    79 |  3 049 |   508 |                                    | live           
-581 | Tidblom Wines  | Blanca Terra FEBRER SELECCIÓ ×6          |    6 |  2 994 |    79 |  3 073 |   512 |                                    | live           
-582 | Tidblom Wines  | Clos Dominic Vinyes Altes 2022 ×6        |    6 |  2 994 |    79 |  3 073 |   512 |                                    | live           
+581 | Tidblom Wines  | Clos Dominic Vinyes Altes 2022 ×6        |    6 |  2 994 |    79 |  3 073 |   512 |                                    | live           
+582 | Tidblom Wines  | Blanca Terra FEBRER SELECCIÓ ×6          |    6 |  2 994 |    79 |  3 073 |   512 |                                    | live           
 583 | Tidblom Wines  | Barolo D.O.C. G. Monvigliero ×6          |    6 |  3 000 |    79 |  3 079 |   513 |                                    | live           
 584 | Fine Wine Ser… | 2021 Cassagne et Vitailles Les Chausmes… |    6 |  3 174 |     0 |  3 174 |   529 |                                    | live           
-585 | Tidblom Wines  | Bruno Roulot Millésime 2018 ×6           |    6 |  3 150 |    79 |  3 229 |   538 | 740 kr (beställs till butik)       | live           
+585 | Tidblom Wines  | Bruno Roulot Millésime 2018 ×6           |    6 |  3 150 |    79 |  3 229 |   538 | 584 kr (beställs till butik)       | live           
 586 | Supervin       | Giodo "La Quinta" vertikal vinlåda       |    6 |  3 280 |     0 |  3 280 |   547 |                                    | live           
 587 | Philipson Wine | Einaudi Collectors Case Barolo Vintage … |    6 |  3 290 |     0 |  3 290 |   548 |                                    | live           
 588 | Tidblom Wines  | Barolo DOCG ×6                           |    6 |  3 210 |    79 |  3 289 |   548 |                                    | live           
-589 | Tidblom Wines  | Bruno Roulot Blanc de Blancs ×6          |    6 |  3 234 |    79 |  3 313 |   552 | 683 kr (beställs till butik)       | live           
-590 | Tidblom Wines  | Champagne Cuvée Prestige 6020 ×6         |    6 |  3 234 |    79 |  3 313 |   552 |                                    | live           
+589 | Tidblom Wines  | Champagne Cuvée Prestige 6020 ×6         |    6 |  3 234 |    79 |  3 313 |   552 |                                    | live           
+590 | Tidblom Wines  | Bruno Roulot Blanc de Blancs ×6          |    6 |  3 234 |    79 |  3 313 |   552 | 683 kr (beställs till butik)       | live           
 591 | Fine Wine Ser… | 2022 Joy Fantastic Syrah ×6              |    6 |  3 414 |     0 |  3 414 |   569 |                                    | live           
 592 | Fine Wine Ser… | 2022 Cassagne et Vitailles Les Chausmes… |    6 |  3 474 |     0 |  3 474 |   579 |                                    | live           
 593 | Fine Wine Ser… | 2020 Le Blanc de Fontenil ×6             |    6 |  3 474 |     0 |  3 474 |   579 |                                    | live           
-594 | Tidblom Wines  | Boizel brut rosé ×6                      |    6 |  3 414 |    79 |  3 493 |   582 |                                    | live           
-595 | Tidblom Wines  | Sordo Barolo “Villero” – 16 ×6           |    6 |  3 414 |    79 |  3 493 |   582 |                                    | live           
-596 | Tidblom Wines  | Pico Maccario Barolo 2018 ×6             |    6 |  3 414 |    79 |  3 493 |   582 |                                    | live           
+594 | Tidblom Wines  | Sordo Barolo “Villero” – 16 ×6           |    6 |  3 414 |    79 |  3 493 |   582 |                                    | live           
+595 | Tidblom Wines  | Pico Maccario Barolo 2018 ×6             |    6 |  3 414 |    79 |  3 493 |   582 |                                    | live           
+596 | Tidblom Wines  | Boizel brut rosé ×6                      |    6 |  3 414 |    79 |  3 493 |   582 |                                    | live           
 597 | Tidblom Wines  | Brut Prestige ×6                         |    6 |  3 450 |    79 |  3 529 |   588 |                                    | live           
 598 | Fine Wine Ser… | 2019 Cassagne et Vitailles Les Chausmes… |    6 |  3 594 |     0 |  3 594 |   599 |                                    | live           
 599 | Fine Wine Ser… | 2018 Domaine de Pallus Chinon La Croix … |    6 |  3 594 |     0 |  3 594 |   599 |                                    | live           

@@ -1,10 +1,10 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 16,
+    "count": 15,
     "errors": [],
     "utan_flaskantal": 0,
-    "slut_i_lager": 1,
+    "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
@@ -22,13 +22,6 @@
         "flaskor": 12.0,
         "url": "https://dittvin.se/products/xl-fodelsedagslada-12-sarskilda-rodviner",
         "text": "XL födelsedagslåda - 12 särskilda rödviner 🍷🎁 Det finns alltid en bra anledning att skåla, och med denna födelsedagslåda får du 12 noggrant utvalda rödviner som är redo att göra firandet ännu bättre. Vi har samlat en varierad blandning av rödviner so"
-      },
-      {
-        "titel": "Fantini vinlåda (Det hemliga erbjudandet)🍷🇮🇹",
-        "pris": 549.0,
-        "flaskor": 6.0,
-        "url": "https://dittvin.se/products/fantini-vinlada-det-hemliga-erbjudandet",
-        "text": "Fantini kassen 🍷🇮🇹 Upplev en exklusiv smakresa genom Italien med Fantini Kassen, där 6 noggrant utvalda viner bjuder in dig att utforska olika vinområden, druvsorter och smakupplevelser. Kassen innehåller två friska vita viner, en elegant rosé och tr"
       },
       {
         "titel": "XL smaken av höst - Guld nivå 🍂🍷",
@@ -64,6 +57,13 @@
         "flaskor": 12.0,
         "url": "https://dittvin.se/products/xl-luksus-vinlada-guld-niva",
         "text": "XL Lyxig vinlåda - Guld nivå 🏅🍷 Denna smaklåda bjuder in dig på en spännande vinresa genom italienska klassiker, friska roséviner, eleganta bubblor och ett välvalt vitt vin. Här får du 12 flaskor med stor variation och massor av drickglädje: 1 × rödv"
+      },
+      {
+        "titel": "XL Intro vinlåda - 6 särskilda smakupplevelser 🍷🍇",
+        "pris": 799.0,
+        "flaskor": 6.0,
+        "url": "https://dittvin.se/products/xl-intro-vinlada-12-sarskilda-smaksupplevelser",
+        "text": "XL Intro vinlåda - 6 särskilda smakupplevelser 🍷🍇 Denna smakpaket är skapat för dig som vill ha en spännande och mångsidig vinupplevelse samlad i en låda. Här får du 6 noggrant utvalda viner med både friskhet, frukt och fyllighet – perfekt för att ut"
       }
     ]
   },
@@ -341,6 +341,20 @@
     ],
     "exempel": [
       {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
+        "titel": "Vinlåda - Testvinnande Josh Cellars 6 fl",
+        "pris": 1039.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-testvinnande-josh-cellars-6-fl",
+        "text": "Best Buy från Josh Cellars inklusive \"Årets vinköp\" i Berlingske! Nu kan du prova vinerna i en samlad vinlåda."
+      },
+      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
@@ -355,11 +369,11 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
@@ -367,13 +381,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda - Testvinnande Josh Cellars 6 fl",
-        "pris": 1039.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-testvinnande-josh-cellars-6-fl",
-        "text": "Best Buy från Josh Cellars inklusive \"Årets vinköp\" i Berlingske! Nu kan du prova vinerna i en samlad vinlåda."
       },
       {
         "titel": "Vinlåda Premium Från Toscana 6 fl",
@@ -388,13 +395,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
-      },
-      {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       }
     ]
   },
@@ -572,7 +572,7 @@
         "pris": 995.0,
         "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/manadens-vinlada-6-flaskor/",
-        "text": "NYHET: Oktobers månads vinlåda är här! – innehållande sex flaskor. 995 kr inkl frakt!* 1 flaska Fattoria Montepescini \"Levante\" Här en \"supertoscana\" som påminner om ett bra vin från Montalcino vilket även ligger några kullar bort från denna lilla vi"
+        "text": "NYHET: Oktober månads vinlåda är här! – innehållande sex flaskor. 995 kronor inklusive frakt!* En flaska Fattoria Montepescini ”Levante”. En underbar ”supertoscana” som påminner om ett bra vin från Montalcino, vilket för övrigt ligger några kullar bo"
       },
       {
         "titel": "Winnica Adoria Vinpaket",
@@ -1073,7 +1073,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 12
+        "Råå": 10
       }
     },
     "lagersvar": [
@@ -1414,12 +1414,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7229601",
-          "price": 740.0,
+          "number": "7761701",
+          "price": 584.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
