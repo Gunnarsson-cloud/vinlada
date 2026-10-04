@@ -69,9 +69,9 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 4,
+    "count": 2,
     "errors": [],
-    "utan_flaskantal": 2,
+    "utan_flaskantal": 1,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -80,11 +80,6 @@
         "titel": "Höstens stora mixlåda",
         "url": "https://vinoteket.se/hostens-stora-mixlada",
         "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
       }
     ],
     "exempel": [
@@ -101,13 +96,6 @@
         "flaskor": 9.0,
         "url": "https://vinoteket.se/vit-manad---mix-x-9",
         "text": "Vi fyller månaden med vin!"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
       }
     ]
   },
@@ -184,7 +172,7 @@
     "count": 46,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 16,
+    "slut_i_lager": 18,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -307,7 +295,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 36,
+    "count": 35,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -348,11 +336,11 @@
         "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
-        "titel": "Vinlåda - Testvinnande Josh Cellars 6 fl",
-        "pris": 1039.95,
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-testvinnande-josh-cellars-6-fl",
-        "text": "Best Buy från Josh Cellars inklusive \"Årets vinköp\" i Berlingske! Nu kan du prova vinerna i en samlad vinlåda."
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
@@ -362,11 +350,25 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
+        "titel": "Vinlåda Premium Från Toscana 6 fl",
+        "pris": 1519.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-premium-fraan-toscana-6-fl",
+        "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
+      },
+      {
         "titel": "Vinlåda Vivino-favoriter 6 fl.",
         "pris": 1089.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
+      },
+      {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -376,25 +378,11 @@
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
+        "titel": "Vinlåda Prisvärd Champagne 6 fl",
+        "pris": 1729.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda Premium Från Toscana 6 fl",
-        "pris": 1519.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-premium-fraan-toscana-6-fl",
-        "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
-      },
-      {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
+        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
       }
     ]
   },
@@ -606,9 +594,9 @@
   },
   "Tidblom Wines": {
     "state": "live",
-    "count": 379,
+    "count": 377,
     "errors": [],
-    "utan_flaskantal": 10,
+    "utan_flaskantal": 2,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
@@ -616,12 +604,6 @@
         "pris": 619.0,
         "flaskor": 3.0,
         "text": "I denna vinlåda har vi samlat det allra bästa från Bailafieras – Deras mest exklusiva och lagrade viner. Perfekt för dig som vill upptäcka Bailafieras premiumviner och uppleva hur tid och omsorg förvandlar vin till ren njutning. Importör: Viña de Vida."
-      },
-      {
-        "titel": "Blandlåda Batllori Crème De La Crème",
-        "pris": 1374.0,
-        "flaskor": 2.0,
-        "text": "I denna blandlåda har vi samlat de allra bästa från Batllori. Här finns allt du behöver för livets alla festliga tillfällen. Batllori Brut Rosé &#8211; fruktig, bubblig, charmig och alldeles underbar. Vald till Spaniens näst bästa rosécava 2023. Batllori Brut Nature Reserva &#8211; en komplex cava, rik på smaker med ett långt och aptitretande avslut. Olivé Batllori Brut Nature Gran Reserva &#8211; en välstrukturerad och komplex cava, intensiv, ren och torr. Precis som en riktigt bra cava ska var"
       }
     ],
     "alkoholfria": 0,
@@ -635,36 +617,6 @@
         "titel": "Vitt & Rött Mixed",
         "url": "https://tidblomwines.com/sydafrika/sydafrikanska-blandlador/vitt-rott-mixed/",
         "text": ""
-      },
-      {
-        "titel": "Sydafrikanska Sommarlådan",
-        "url": "https://tidblomwines.com/blandlador/sydafrikanska-sommarladan/",
-        "text": "Avnjut vår Sydafrikanska sommarlåda, där vi erbjuder det fruktiga bubblet, lätta vita och smakrika rosé. Denna kombination är svår att slå samtidigt som du får mycket vin för pengarna."
-      },
-      {
-        "titel": "Blandlåda for the love of Seafood",
-        "url": "https://tidblomwines.com/blandlador/blandlada-for-the-love-of-seafood/",
-        "text": "Denna låda är en match made in heaven till alla sorters skaldjur. Batllori Brut Nature &#8211; en ljuvligt frisk, ung, torr och fräsch cava. Val de Meigas &#8211; Mjukt, elegant och fylligt med välbalanserad syra. Precis som en riktigt bra Albariño ska vara. Importör: Viña de Vida."
-      },
-      {
-        "titel": "Blandlåda Rosé Rosé!",
-        "url": "https://tidblomwines.com/blandlador/blandlada-rose-rose/",
-        "text": "Äntligen är rosésäsongen här och den här lådan innehåller allt du behöver för sköna kvällar på uteplatsen och romantiska stunder i solnedgången. Demuerte Rosé &#8211; Somrigt och härligt med jordgubbar, äpple, färska örter och hallonbåtar. Krispigt, runt och torrt men också fruktigt. Batllori Brut Rosé &#8211; fruktig, bubblig, charmig och alldeles underbar. Vald till Spaniens näst bästa rosécava "
-      },
-      {
-        "titel": "Blandlåda Bordeaux La Demoiselle Rose La Demoiselle Blanc",
-        "url": "https://tidblomwines.com/frankrike/franska-blandlador/blandlada-bordeaux-la-demoiselle-rose-la-demoiselle-blanc/",
-        "text": "Importör: A Sip of Joy AB Producent: Château Amanieu d’Albret Region: Bordeuax, Frankrike &nbsp; La Demoiselle Damanieu 2023, AOC Bordeaux Blanc Druvor: 60% Sauvignon Gris, 40% Sauvignon Blanc La Rose Damanieu 2023, AOC Bordeaux Rosé Druvor: 60% Malbec, 40% Merlot"
-      },
-      {
-        "titel": "Blandlåda Bailafieras The Bold Dancers",
-        "url": "https://tidblomwines.com/spanien/blandlada-bailafieras-the-bold-dancers/",
-        "text": "I denna vinlåda har vi samlat det allra bästa från Bailafieras – Deras mest exklusiva och lagrade viner. Perfekt för dig som vill upptäcka Bailafieras premiumviner och uppleva hur tid och omsorg förvandlar vin till ren njutning. Importör: Viña de Vida."
-      },
-      {
-        "titel": "Staffans Sommarlåda",
-        "url": "https://tidblomwines.com/blandlador/staffans-sommarlada/",
-        "text": "Sommarens ankomst närmar sig, och vad vore mer passande än en sommarlåda från Staffan? Innehållande två vita Florence By Aaldering, två vita Aaldering Estate Chardonnay och två rosé Aaldering Estate Rosé. Njut av dessa högkvalitativa viner och låt sommaren börja på bästa möjliga sätt.&#8221;"
       }
     ],
     "exempel": [
@@ -718,11 +670,11 @@
         "text": "Bocopa Alcanta Crianza Alkohol: 14% Druva: Monastrell, Tempranillo Land: Spanien Årgång: 2022 Utseende: Mörkröd Doft: Fruktig, söt med inslag av vinbär Smak: Den unika smaken av detta vin speglar det bästa av druvorna Monastrell och Tempranillo. Lagr"
       },
       {
-        "titel": "Barahonda Panic Button ×6",
-        "pris": 672.0,
+        "titel": "GEMIN SPUMANTE BIANCO CUVÈE EXTRA DRY ×6",
+        "pris": 654.0,
         "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-panic-button/",
-        "text": "112 kr 672 kr låda (6st) Område: Yecla, Spanien Årgång: 2020 Druva: Monastrelll Utseende: Körsbärsröd Doft: Koncentrerad, tät och har en bra aromatisk karaktär Smak: Intensiv med mogen frukt, frisk och söt känsla, bra kropp och balans Lagringspotenti"
+        "url": "https://tidblomwines.com/prosecco/gemin-spumante-bianco-cuvee-extra-dry/",
+        "text": "Charmatjäst spumante med intensiv doft av mogen persika och gyllene äpple. Extra Dry, 16 gram socker – och prisvärd. Till skillnad från husets DOCG-viner är den här en spumante gjord på Glera från Veneto i stort, jäst i autoklav i minst 30 dagar enli"
       }
     ]
   },
@@ -1052,10 +1004,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 16,
+    "count": 17,
     "stats": {
-      "sokta": 538,
-      "hittade": 16,
+      "sokta": 561,
+      "hittade": 17,
       "i_lager": 0,
       "fel": 0
     },
@@ -1222,6 +1174,28 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
@@ -1451,28 +1425,6 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 1.0
-        }
-      },
-      {
-        "vin": "Pago de Otazu 2020 ×6",
-        "butik": "Vinibutik",
-        "sb": {
-          "name": "Bodega Otazu – Pago De Otazu Tinto",
-          "number": "7290701",
-          "price": 334.0,
-          "vintage": "2021",
-          "other_vintage": true,
-          "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/pago-de-otazu-tinto-7290701/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 0.9
         }
       }
     ]
