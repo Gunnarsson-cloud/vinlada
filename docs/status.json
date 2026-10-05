@@ -11,7 +11,7 @@
     "exempel": [
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 679.0,
+        "pris": 525.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -69,9 +69,9 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 2,
+    "count": 4,
     "errors": [],
-    "utan_flaskantal": 1,
+    "utan_flaskantal": 2,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -80,6 +80,11 @@
         "titel": "Höstens stora mixlåda",
         "url": "https://vinoteket.se/hostens-stora-mixlada",
         "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
       }
     ],
     "exempel": [
@@ -96,6 +101,13 @@
         "flaskor": 9.0,
         "url": "https://vinoteket.se/vit-manad---mix-x-9",
         "text": "Vi fyller månaden med vin!"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
       }
     ]
   },
@@ -169,7 +181,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 46,
+    "count": 45,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 18,
@@ -190,7 +202,7 @@
         "titel": "3 x topprankade Champagner Vinlåda",
         "pris": 1369.95,
         "flaskor": 3.0,
-        "text": ""
+        "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
       },
       {
         "titel": "Nyårslåda - Billiga Bubblor",
@@ -295,7 +307,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 35,
+    "count": 36,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -329,6 +341,13 @@
     ],
     "exempel": [
       {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+      },
+      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -341,13 +360,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
         "titel": "Vinlåda Premium Från Toscana 6 fl",
@@ -388,18 +400,13 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 30,
+    "count": 31,
     "errors": [],
     "utan_flaskantal": 11,
     "slut_i_lager": 2,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Kompletta franska lådan för höstens middagar",
-        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
-        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
-      },
       {
         "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
         "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
@@ -411,14 +418,14 @@
         "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
       },
       {
-        "titel": "Smakfullt Rosépaket från Frankrike",
-        "url": "https://nordiskavin.se/store/franska-rosefavoriter-loire-och-grenache-flaska",
-        "text": "Denna blandlåda kombinerar det bästa av två franska världar för att erbjuda en bredd av sommarens mest populära stilar. Vi har valt ut krispiga viner från den svala Loire-dalen och fylligare toner frå"
-      },
-      {
         "titel": "Stora höstlådan, Bordeaux och Merlot",
         "url": "https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot",
         "text": "När du ska beställa vin till säsongens alla bjudningar är denna blandlåda ett självklart val. Vi har handplockat viner som förenar kraften hos Bordeaux med mjukheten i Merlot. Kombinationen bygger på"
+      },
+      {
+        "titel": "Kompletta franska lådan för höstens middagar",
+        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
+        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
       },
       {
         "titel": "Appassimentolådan med röda viner",
@@ -434,16 +441,14 @@
         "titel": "Stora Chianti-lådan",
         "url": "https://nordiskavin.se/store/stora-chiantiladan",
         "text": "Beställ Stora Chianti-lådan smidigt på nätet. Se pris och lagerstatus. En exklusiv samling Chianti med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Mousserande viner blandlåda",
+        "url": "https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci",
+        "text": "Beställ mousserande viner blandlåda smidigt på nätet. Se pris och lagerstatus. Upptäck en krispig mix av fransk Blanc de Blancs och Prosecco med snabb hemleverans till dörren."
       }
     ],
     "exempel": [
-      {
-        "titel": "Kompletta franska lådan för höstens middagar",
-        "pris": 1399.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
-        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
-      },
       {
         "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
         "pris": 1049.0,
@@ -473,13 +478,6 @@
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
       },
       {
-        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
-        "pris": 999.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
-        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
-      },
-      {
         "titel": "Fransk Brut - Krispigt och fräscht! 9 flaskor",
         "pris": 1099.0,
         "flaskor": 9.0,
@@ -492,6 +490,20 @@
         "flaskor": 9.0,
         "url": "https://nordiskavin.se/store/stora-apassimentoladan",
         "text": "Den här lådan är skapad för dig som gillar mjuka, fylliga och generösa röda viner. Appassimento är en klassisk italiensk metod där druvorna får torka före vinifiering, vilket ger mer koncentration, ru"
+      },
+      {
+        "titel": "Fransk och italiensk bubbellåda",
+        "pris": 1389.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/fransk-och-italiensk-bubbellada",
+        "text": "Vi har valt ut tolv flaskor krispigt mousserande vin för sociala stunder. Det är prisvärt att köpa vin i färdiga paket. Beställ vin redan idag till vårens festligheter.Vad den innehåller Lådan erbjude"
+      },
+      {
+        "titel": "Fransk Brut - Krispigt och fräscht! Stora lådan, 12 flaskor",
+        "pris": 1439.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/franskt-brut-blandlada",
+        "text": "Vi har satt ihop denna låda för dig som vill köpa vin med krispiga bubblor från Frankrike. Här möts eleganta mousserande viner som passar perfekt till festliga skålar och trevliga middagar med nära vä"
       }
     ]
   },
@@ -1004,10 +1016,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 17,
+    "count": 16,
     "stats": {
       "sokta": 561,
-      "hittade": 17,
+      "hittade": 16,
       "i_lager": 0,
       "fel": 0
     },
@@ -1174,28 +1186,6 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 1.0
-        }
-      },
-      {
-        "vin": "Luzon Altos De Luzon ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
-          "number": "9508701",
-          "price": 170.0,
-          "vintage": "2023",
-          "other_vintage": false,
-          "assortment": "Tillfälligt sortiment",
-          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
@@ -1425,6 +1415,28 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 1.0
+        }
+      },
+      {
+        "vin": "Pago de Otazu 2020 ×6",
+        "butik": "Vinibutik",
+        "sb": {
+          "name": "Bodega Otazu – Pago De Otazu Tinto",
+          "number": "7290701",
+          "price": 334.0,
+          "vintage": "2021",
+          "other_vintage": true,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/pago-de-otazu-tinto-7290701/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 0.9
         }
       }
     ]
