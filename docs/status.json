@@ -181,10 +181,10 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 45,
+    "count": 44,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 18,
+    "slut_i_lager": 17,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -277,7 +277,7 @@
       },
       {
         "titel": "Toscana Vinlåda",
-        "pris": 3889.95,
+        "pris": 1599.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/toscana-vinlada",
         "text": "Vinlådan är uppdaterad 20/8-2026 I Danmark dricker vi inte mer vin bara för att priserna i Bordeaux faller drastiskt. Vi dricker helt enkelt mer Bordeaux istället för något annat. Därför är de toskanska mästerverken just nu försäljningsmässigt pressa"
@@ -307,7 +307,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 36,
+    "count": 37,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -348,6 +348,13 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -374,13 +381,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -647,18 +647,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -932,7 +932,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 150,
+    "count": 148,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1018,7 +1018,7 @@
     "state": "live",
     "count": 16,
     "stats": {
-      "sokta": 561,
+      "sokta": 559,
       "hittade": 16,
       "i_lager": 0,
       "fel": 0
