@@ -1,17 +1,37 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 15,
+    "count": 16,
     "errors": [],
-    "utan_flaskantal": 0,
+    "utan_flaskantal": 1,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [],
+    "utan_flaskantal_exempel": [
+      {
+        "titel": "XL vitvinslåda 🍾🥂",
+        "url": "https://dittvin.se/products/xl-vitvinslada",
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Marqués de Berol - Blanco Seco - 2025 Sol de Castillas - Semi Söt - 11% Don Barroso Bianco - 2022 Les Sonnailles - Blanc Moell"
+      }
+    ],
     "exempel": [
       {
+        "titel": "XL Rödvinsvinlåda",
+        "pris": 849.0,
+        "flaskor": 12.0,
+        "url": "https://dittvin.se/products/xl-rodvinsvinlada",
+        "text": "XL Rödvinsvinlåda Upptäck en utvald samling av 12 fantastiska rödviner som bjuder på en mångfald av smaker och stilar. Från den fruktiga elegansen av Marques de Berol Tinto Seco och den semisöta charmen i Sol de Castilla, till den klassiska strukture"
+      },
+      {
+        "titel": "XL vitvinslåda 🍾🥂",
+        "pris": 889.0,
+        "flaskor": null,
+        "url": "https://dittvin.se/products/xl-vitvinslada",
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillf"
+      },
+      {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 525.0,
+        "pris": 519.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -50,20 +70,6 @@
         "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-hostfavoriter-6-utvalda-viner-till-hostens-mysiga-stunder",
         "text": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder Upplev en utsökt samling av viner med vår provningslåda, som presenterar fem fylliga rödviner och en frisk vitvin. Varje vin är noggrant utvald för att erbjuda en rad smakupplevelser, f"
-      },
-      {
-        "titel": "XL Lyxig vinlåda - Guld nivå 🏅🍷",
-        "pris": 899.0,
-        "flaskor": 12.0,
-        "url": "https://dittvin.se/products/xl-luksus-vinlada-guld-niva",
-        "text": "XL Lyxig vinlåda - Guld nivå 🏅🍷 Denna smaklåda bjuder in dig på en spännande vinresa genom italienska klassiker, friska roséviner, eleganta bubblor och ett välvalt vitt vin. Här får du 12 flaskor med stor variation och massor av drickglädje: 1 × rödv"
-      },
-      {
-        "titel": "XL Intro vinlåda - 6 särskilda smakupplevelser 🍷🍇",
-        "pris": 799.0,
-        "flaskor": 6.0,
-        "url": "https://dittvin.se/products/xl-intro-vinlada-12-sarskilda-smaksupplevelser",
-        "text": "XL Intro vinlåda - 6 särskilda smakupplevelser 🍷🍇 Denna smakpaket är skapat för dig som vill ha en spännande och mångsidig vinupplevelse samlad i en låda. Här får du 6 noggrant utvalda viner med både friskhet, frukt och fyllighet – perfekt för att ut"
       }
     ]
   },
@@ -97,7 +103,7 @@
       },
       {
         "titel": "Vinotekets vita & bubbel låda",
-        "pris": 1199.0,
+        "pris": 1159.0,
         "flaskor": 9.0,
         "url": "https://vinoteket.se/vit-manad---mix-x-9",
         "text": "Vi fyller månaden med vin!"
@@ -181,10 +187,10 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 44,
+    "count": 45,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 17,
+    "slut_i_lager": 16,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -194,13 +200,13 @@
       },
       {
         "titel": "Pinot Noir världen runt Vinlåda",
-        "pris": 1249.95,
+        "pris": 1239.95,
         "flaskor": 2.0,
         "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
       },
       {
         "titel": "3 x topprankade Champagner Vinlåda",
-        "pris": 1369.95,
+        "pris": 1359.95,
         "flaskor": 3.0,
         "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
       },
@@ -212,13 +218,13 @@
       },
       {
         "titel": "Rosé Sensommarutrensning Vinlåda",
-        "pris": 1249.95,
+        "pris": 1239.95,
         "flaskor": 2.0,
         "text": "Sol, havsbris, solkräm och vilda skogsbär… du kan nästan känna doften av härliga sommarminnen när du öppnar vinerna i denna låda. Supergoda roséer för att förgylla de sista stunderna i sensommarsolen. Sensommarens Rosé-lagerrensning! Vi har plockat de sista flaskorna på pallarna för att rensa upp innan rosésäsongen går mot sitt slut. I lådan hittar du några av årets största törstsläckare, restpartier till helt galna priser och läckra Prosecco-bubblor m.m. Rosévinlådan tar dig på en rundtur i mån"
       },
       {
         "titel": "Sjat Festival Sommar Provlåda",
-        "pris": 1339.95,
+        "pris": 1329.95,
         "flaskor": 2.0,
         "text": "Sjat-festivalens ultimata sommar-Vinlåda! Gör de bästa köpen till sommaren genom att utnyttja Sjat-festivalens lagerrensning. Vi har satt ihop en fantastiskt läcker Vinlåda fylld med godsaker. Se fram emot bedårande rosé från kundfavoriten Beyra, syndig Sylvaner från Grand Cru-producenten Gustave Lorentz och amforalagrad rosé från Amarone-producenten Zeni. I lådan hittar du också Pinot Noir-experten Markowitschs makalösa rosé, den okrönte kungen av ”value-for-money”, Rudi Rüttgers Feuermännchen "
       }
@@ -249,35 +255,35 @@
     "exempel": [
       {
         "titel": "Vit Bourgogne Vinlåda",
-        "pris": 1729.95,
+        "pris": 1719.95,
         "flaskor": 5.0,
         "url": "https://www.supervin.se/vit-bourgogne-vinlada",
         "text": "Meursault, Monopolmarks-Chablis, Pouilly-Fuissé och mycket mer! Denna vita bourgogne-Vinlåda har allt. 6 olika lyxiga vita viner från världens mest populära vinområde till ett pris som slår all konkurrens på marknaden. I en låda full av bourgogne-ska"
       },
       {
         "titel": "Brunello Vinlåda",
-        "pris": 3619.95,
+        "pris": 3589.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/brunello-vinlada",
         "text": "Vinlådan är senast uppdaterad den 20-08-2026 Följ med på ”Giro di Brunello” – en Brunellorunda – med 6 viner från ett av Italiens mest lyxiga vindistrikt. Späckad med läckra Brunello-viner – och fortfarande till rekordlågt pris. Vinlådan innehåller: "
       },
       {
         "titel": "Champagne Vinlåda",
-        "pris": 2269.95,
+        "pris": 2249.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/champagne-vinlada",
         "text": "*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-6a16a45e-"
       },
       {
         "titel": "Spätburgunder Vinlåda",
-        "pris": 1479.95,
+        "pris": 1469.95,
         "flaskor": 4.0,
         "url": "https://www.supervin.se/spatburgunder-vinlada",
         "text": "Vinlådan är senast uppdaterad den 27-06-2026 Ge dig ut på tysk och österrikisk upptäcktsfärd i den imponerande \"Spätburgunder-Vinlådan\"! Hitta saftiga, intensiva och komplexa Spätburgunder-viner (även kända som Pinot Noir) från några av de mest efter"
       },
       {
         "titel": "Toscana Vinlåda",
-        "pris": 1599.95,
+        "pris": 1589.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/toscana-vinlada",
         "text": "Vinlådan är uppdaterad 20/8-2026 I Danmark dricker vi inte mer vin bara för att priserna i Bordeaux faller drastiskt. Vi dricker helt enkelt mer Bordeaux istället för något annat. Därför är de toskanska mästerverken just nu försäljningsmässigt pressa"
@@ -291,7 +297,7 @@
       },
       {
         "titel": "Chardonnay Vinlåda",
-        "pris": 889.95,
+        "pris": 879.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/chardonnay-vinlada",
         "text": "Vinlådan er senest opdateret den 24-05-2026 Är du förtjust i Chardonnay – eller nyfiken på druvans många uttryck? Då är denna vinlåda ett riktigt fynd! Här får du 6 kritikerrosade Chardonnay-viner från både klassiska och överraskande ursprung – alla "
@@ -307,7 +313,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 37,
+    "count": 39,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -348,11 +354,18 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
+        "titel": "Vinlåda Brunello 6 fl",
+        "pris": 1819.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+        "url": "https://philipsonwine.se/produkter/vinlaada-brunello-6-fl",
+        "text": "6 topprecenserade kundfavoriter från en av världens mest exklusiva regioner - Brunello - sammanställda av våra vinexperter till ett OTROLIGT pris. Ett riktigt måste-köp för vinnörden!"
+      },
+      {
+        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
+        "pris": 949.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
+        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
       },
       {
         "titel": "Vinlåda Casas del Bosque 6 fl",
@@ -376,33 +389,26 @@
         "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
       },
       {
-        "titel": "Vinlåda Vivino-favoriter 6 fl.",
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
         "pris": 1089.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
-        "titel": "Vinlåda Prisvärd Champagne 6 fl",
-        "pris": 1729.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
-        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       }
     ]
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 31,
+    "count": 28,
     "errors": [],
-    "utan_flaskantal": 11,
+    "utan_flaskantal": 10,
     "slut_i_lager": 2,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -411,6 +417,11 @@
         "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
         "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
         "text": "Denna samling är skapad med sommarens alla sociala stunder i fokus där solen och gemenskapen står i centrum. Urvalet består av tre olika franska roséviner som tillsammans bildar den perfekta basen för"
+      },
+      {
+        "titel": "Internationell fyndlåda med utvalda viner",
+        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
+        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
       },
       {
         "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
@@ -436,11 +447,6 @@
         "titel": "Roséviner i blandlåda",
         "url": "https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada",
         "text": "Beställ roséviner från Provence och Toscana smidigt på nätet. Se pris och lagerstatus. Upptäck noga utvalda roséviner från Frankrike och Italien med snabb hemleverans till dörren."
-      },
-      {
-        "titel": "Stora Chianti-lådan",
-        "url": "https://nordiskavin.se/store/stora-chiantiladan",
-        "text": "Beställ Stora Chianti-lådan smidigt på nätet. Se pris och lagerstatus. En exklusiv samling Chianti med snabb hemleverans till dörren."
       },
       {
         "titel": "Mousserande viner blandlåda",
@@ -1016,10 +1022,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 16,
+    "count": 15,
     "stats": {
       "sokta": 559,
-      "hittade": 16,
+      "hittade": 15,
       "i_lager": 0,
       "fel": 0
     },
@@ -1242,28 +1248,6 @@
         }
       },
       {
-        "vin": "Post House Stamp Of Chenin ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Post House Vineyards – Post House Stamp of Chenin",
-          "number": "5047801",
-          "price": 251.0,
-          "vintage": "2019",
-          "other_vintage": false,
-          "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/post-house-stamp-of-chenin-5047801/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 1.0
-        }
-      },
-      {
         "vin": "Post House Black Mail ×6",
         "butik": "Tidblom Wines",
         "sb": {
@@ -1437,6 +1421,28 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 0.9
+        }
+      },
+      {
+        "vin": "2023 Hasher Marimist Chardonnay ×6",
+        "butik": "Fine Wine Service",
+        "sb": {
+          "name": "Hasher Family Estate – Hasher Marimist Chardonnay",
+          "number": "7397901",
+          "price": 441.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/hasher-marimist-chardonnay-7397901/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 0.8
         }
       }
     ]
