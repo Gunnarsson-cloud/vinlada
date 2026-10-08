@@ -11,7 +11,7 @@
       {
         "titel": "XL vitvinslåda 🍾🥂",
         "url": "https://dittvin.se/products/xl-vitvinslada",
-        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Marqués de Berol - Blanco Seco - 2025 Sol de Castillas - Semi Söt - 11% Don Barroso Bianco - 2022 Les Sonnailles - Blanc Moell"
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Marqués de Berol - Blanco Seco - 2025 Les Sonnailles - Blanc Moelleux - 11% Del av Les Sonnailles serien - Guld Don Barroso Bi"
       }
     ],
     "exempel": [
@@ -187,7 +187,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 45,
+    "count": 44,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 16,
@@ -354,6 +354,27 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
         "titel": "Vinlåda Brunello 6 fl",
         "pris": 1819.95,
         "flaskor": 6.0,
@@ -368,20 +389,6 @@
         "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
         "titel": "Vinlåda Premium Från Toscana 6 fl",
         "pris": 1519.95,
         "flaskor": 6.0,
@@ -394,13 +401,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       }
     ]
   },
@@ -408,16 +408,11 @@
     "state": "live",
     "count": 28,
     "errors": [],
-    "utan_flaskantal": 10,
-    "slut_i_lager": 2,
+    "utan_flaskantal": 9,
+    "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
-        "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
-        "text": "Denna samling är skapad med sommarens alla sociala stunder i fokus där solen och gemenskapen står i centrum. Urvalet består av tre olika franska roséviner som tillsammans bildar den perfekta basen för"
-      },
       {
         "titel": "Internationell fyndlåda med utvalda viner",
         "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
@@ -452,16 +447,14 @@
         "titel": "Mousserande viner blandlåda",
         "url": "https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci",
         "text": "Beställ mousserande viner blandlåda smidigt på nätet. Se pris och lagerstatus. Upptäck en krispig mix av fransk Blanc de Blancs och Prosecco med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Smakfullt Rosépaket från Frankrike",
+        "url": "https://nordiskavin.se/store/franska-rosefavoriter-loire-och-grenache-flaska",
+        "text": "Beställ Franska Roséfavoriter smidigt på nätet. Se pris och lagerstatus. En prisvärd blandlåda med utvald rosé från Loire och Sydfrankrike med snabb hemleverans till dörren."
       }
     ],
     "exempel": [
-      {
-        "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
-        "pris": 1049.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
-        "text": "Denna samling är skapad med sommarens alla sociala stunder i fokus där solen och gemenskapen står i centrum. Urvalet består av tre olika franska roséviner som tillsammans bildar den perfekta basen för"
-      },
       {
         "titel": "Sauvignon och Chenin Blanc duo från Frankrike - 12 flaskor",
         "pris": 1499.0,
@@ -484,13 +477,6 @@
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
       },
       {
-        "titel": "Fransk Brut - Krispigt och fräscht! 9 flaskor",
-        "pris": 1099.0,
-        "flaskor": 9.0,
-        "url": "https://nordiskavin.se/store/franskt-brut-blandlada-9-flaskor",
-        "text": "Vi har satt ihop denna låda för dig som vill köpa vin med krispiga bubblor från Frankrike. Här möts eleganta mousserande viner som passar perfekt till festliga skålar och trevliga middagar med nära vä"
-      },
-      {
         "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
         "pris": 1149.0,
         "flaskor": 9.0,
@@ -498,18 +484,32 @@
         "text": "Den här lådan är skapad för dig som gillar mjuka, fylliga och generösa röda viner. Appassimento är en klassisk italiensk metod där druvorna får torka före vinifiering, vilket ger mer koncentration, ru"
       },
       {
-        "titel": "Fransk och italiensk bubbellåda",
-        "pris": 1389.0,
-        "flaskor": 12.0,
-        "url": "https://nordiskavin.se/store/fransk-och-italiensk-bubbellada",
-        "text": "Vi har valt ut tolv flaskor krispigt mousserande vin för sociala stunder. Det är prisvärt att köpa vin i färdiga paket. Beställ vin redan idag till vårens festligheter.Vad den innehåller Lådan erbjude"
+        "titel": "Internationell fyndlåda med utvalda viner",
+        "pris": 1299.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
+        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
       },
       {
-        "titel": "Fransk Brut - Krispigt och fräscht! Stora lådan, 12 flaskor",
-        "pris": 1439.0,
+        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
+        "pris": 999.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
+        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
+      },
+      {
+        "titel": "Stora höstlådan, Bordeaux och Merlot",
+        "pris": 1299.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot",
+        "text": "När du ska beställa vin till säsongens alla bjudningar är denna blandlåda ett självklart val. Vi har handplockat viner som förenar kraften hos Bordeaux med mjukheten i Merlot. Kombinationen bygger på"
+      },
+      {
+        "titel": "Vår stora Appassimentolåda, 12 flaskor",
+        "pris": 1399.0,
         "flaskor": 12.0,
-        "url": "https://nordiskavin.se/store/franskt-brut-blandlada",
-        "text": "Vi har satt ihop denna låda för dig som vill köpa vin med krispiga bubblor från Frankrike. Här möts eleganta mousserande viner som passar perfekt till festliga skålar och trevliga middagar med nära vä"
+        "url": "https://nordiskavin.se/store/storsta-appassimento-ammone",
+        "text": "Vi har satt samman denna låda för att hylla den italienska traditionen av fylliga och generösa viner. Genom att kombinera kraften från Puglia får du en upplevelse av vad appassimento-metoden kan åstad"
       }
     ]
   },
@@ -653,18 +653,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Maset Mim ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/maset-mim/",
-        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
         "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
+      },
+      {
+        "titel": "Maset Mim ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/maset-mim/",
+        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -938,7 +938,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 148,
+    "count": 152,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1024,7 +1024,7 @@
     "state": "live",
     "count": 15,
     "stats": {
-      "sokta": 559,
+      "sokta": 563,
       "hittade": 15,
       "i_lager": 0,
       "fel": 0
