@@ -286,7 +286,7 @@
         "pris": 1589.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/toscana-vinlada",
-        "text": "Vinlådan är uppdaterad 20/8-2026 I Danmark dricker vi inte mer vin bara för att priserna i Bordeaux faller drastiskt. Vi dricker helt enkelt mer Bordeaux istället för något annat. Därför är de toskanska mästerverken just nu försäljningsmässigt pressa"
+        "text": "Vinlådan är uppdaterad 20/8-2026 I Danmark dricker vi inte mer vin för att priserna i Bordeaux sjunker drastiskt. Vi dricker bara mer Bordeaux istället för något annat. Därför är de toscanska mästerverken just nu försäljningsmässigt pressade av all u"
       },
       {
         "titel": "Bordeaux 2019 Vinlåda",
@@ -313,7 +313,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 39,
+    "count": 40,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -347,6 +347,13 @@
     ],
     "exempel": [
       {
+        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
+        "pris": 949.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
+        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
+      },
+      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
@@ -354,18 +361,18 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 1259.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
         "titel": "Vinlåda Casas del Bosque 6 fl",
@@ -380,13 +387,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-brunello-6-fl",
         "text": "6 topprecenserade kundfavoriter från en av världens mest exklusiva regioner - Brunello - sammanställda av våra vinexperter till ett OTROLIGT pris. Ett riktigt måste-köp för vinnörden!"
-      },
-      {
-        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
-        "pris": 949.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
-        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
       },
       {
         "titel": "Vinlåda Premium Från Toscana 6 fl",
@@ -406,7 +406,7 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 28,
+    "count": 27,
     "errors": [],
     "utan_flaskantal": 9,
     "slut_i_lager": 3,
@@ -414,14 +414,14 @@
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
       {
-        "titel": "Internationell fyndlåda med utvalda viner",
-        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
-        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
-      },
-      {
         "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
         "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
         "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
+      },
+      {
+        "titel": "Internationell fyndlåda med utvalda viner",
+        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
+        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
       },
       {
         "titel": "Stora höstlådan, Bordeaux och Merlot",
@@ -477,6 +477,13 @@
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
       },
       {
+        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
+        "pris": 999.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
+        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
+      },
+      {
         "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
         "pris": 1149.0,
         "flaskor": 9.0,
@@ -489,13 +496,6 @@
         "flaskor": null,
         "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
         "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
-      },
-      {
-        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
-        "pris": 999.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
-        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
       },
       {
         "titel": "Stora höstlådan, Bordeaux och Merlot",
@@ -1022,10 +1022,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 15,
+    "count": 16,
     "stats": {
       "sokta": 563,
-      "hittade": 15,
+      "hittade": 16,
       "i_lager": 0,
       "fel": 0
     },
@@ -1043,7 +1043,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 10
+        "Råå": 8
       }
     },
     "lagersvar": [
@@ -1192,6 +1192,28 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
@@ -1421,28 +1443,6 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 0.9
-        }
-      },
-      {
-        "vin": "2023 Hasher Marimist Chardonnay ×6",
-        "butik": "Fine Wine Service",
-        "sb": {
-          "name": "Hasher Family Estate – Hasher Marimist Chardonnay",
-          "number": "7397901",
-          "price": 441.0,
-          "vintage": "2023",
-          "other_vintage": false,
-          "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/hasher-marimist-chardonnay-7397901/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 0.8
         }
       }
     ]
