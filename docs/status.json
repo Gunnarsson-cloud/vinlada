@@ -190,7 +190,7 @@
     "count": 44,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 16,
+    "slut_i_lager": 17,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -325,16 +325,16 @@
         "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
       },
       {
-        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
-        "pris": 3659.95,
-        "flaskor": 3.0,
-        "text": "Tenuta San Guido — Den kompletta familjen från Bolgheri Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri, Toscana, som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia — husets flaggskepp och det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker — är inte bara ett vin. Det är ett monument över va"
-      },
-      {
         "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
         "pris": 1499.95,
         "flaskor": 1.5,
         "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
+      },
+      {
+        "titel": "2021 Guigal Côte-Rôtie LaLa's Wooden Case 3 btls",
+        "pris": 15229.95,
+        "flaskor": 3.0,
+        "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
       }
     ],
     "alkoholfria": 0,
@@ -346,6 +346,13 @@
       }
     ],
     "exempel": [
+      {
+        "titel": "Vinlåda Brunello 6 fl",
+        "pris": 1819.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-brunello-6-fl",
+        "text": "6 topprecenserade kundfavoriter från en av världens mest exklusiva regioner - Brunello - sammanställda av våra vinexperter till ett OTROLIGT pris. Ett riktigt måste-köp för vinnörden!"
+      },
       {
         "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
         "pris": 949.95,
@@ -361,20 +368,6 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
-      },
-      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -382,11 +375,11 @@
         "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
-        "titel": "Vinlåda Brunello 6 fl",
-        "pris": 1819.95,
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-brunello-6-fl",
-        "text": "6 topprecenserade kundfavoriter från en av världens mest exklusiva regioner - Brunello - sammanställda av våra vinexperter till ett OTROLIGT pris. Ett riktigt måste-köp för vinnörden!"
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
         "titel": "Vinlåda Premium Från Toscana 6 fl",
@@ -401,6 +394,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
+      },
+      {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       }
     ]
   },
@@ -477,18 +477,25 @@
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
       },
       {
-        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
-        "pris": 999.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
-        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
-      },
-      {
         "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
         "pris": 1149.0,
         "flaskor": 9.0,
         "url": "https://nordiskavin.se/store/stora-apassimentoladan",
         "text": "Den här lådan är skapad för dig som gillar mjuka, fylliga och generösa röda viner. Appassimento är en klassisk italiensk metod där druvorna får torka före vinifiering, vilket ger mer koncentration, ru"
+      },
+      {
+        "titel": "Fransk Bubbellåda med Chardonnay. 12 flaskor glädje!",
+        "pris": 1389.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/fransk-bubbellada-12-pack-flaska",
+        "text": "Vi har samlat två prisvärda franska favoriter i en härlig blandlåda för fest och mingel. Kombinationen av frisk fruktighet och Terra Vitis-certifierad hantverkstradition ger perfekta bubblor till varj"
+      },
+      {
+        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
+        "pris": 999.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
+        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
       },
       {
         "titel": "Internationell fyndlåda med utvalda viner",
@@ -498,18 +505,11 @@
         "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
       },
       {
-        "titel": "Stora höstlådan, Bordeaux och Merlot",
-        "pris": 1299.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot",
-        "text": "När du ska beställa vin till säsongens alla bjudningar är denna blandlåda ett självklart val. Vi har handplockat viner som förenar kraften hos Bordeaux med mjukheten i Merlot. Kombinationen bygger på"
-      },
-      {
-        "titel": "Vår stora Appassimentolåda, 12 flaskor",
-        "pris": 1399.0,
+        "titel": "Toscanas elegans & Appassimentos kraft 12 flaskor",
+        "pris": 1449.0,
         "flaskor": 12.0,
-        "url": "https://nordiskavin.se/store/storsta-appassimento-ammone",
-        "text": "Vi har satt samman denna låda för att hylla den italienska traditionen av fylliga och generösa viner. Genom att kombinera kraften från Puglia får du en upplevelse av vad appassimento-metoden kan åstad"
+        "url": "https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft",
+        "text": "Denna låda är noggrant sammansatt för dig som uppskattar den italienska hantverkstraditionen där kraft möter finess. Vi har valt att kombinera den strama elegansen från Toscana med den generösa och fy"
       }
     ]
   },
@@ -1022,10 +1022,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 16,
+    "count": 15,
     "stats": {
       "sokta": 563,
-      "hittade": 16,
+      "hittade": 15,
       "i_lager": 0,
       "fel": 0
     },
@@ -1043,7 +1043,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 8
+        "Råå": 6
       }
     },
     "lagersvar": [
@@ -1192,28 +1192,6 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 1.0
-        }
-      },
-      {
-        "vin": "Luzon Altos De Luzon ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
-          "number": "9508701",
-          "price": 170.0,
-          "vintage": "2023",
-          "other_vintage": false,
-          "assortment": "Tillfälligt sortiment",
-          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
@@ -1443,6 +1421,28 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 0.9
+        }
+      },
+      {
+        "vin": "2023 Hasher Marimist Chardonnay ×6",
+        "butik": "Fine Wine Service",
+        "sb": {
+          "name": "Hasher Family Estate – Hasher Marimist Chardonnay",
+          "number": "7397901",
+          "price": 441.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/hasher-marimist-chardonnay-7397901/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 0.8
         }
       }
     ]
