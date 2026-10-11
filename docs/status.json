@@ -74,48 +74,17 @@
     ]
   },
   "Vinoteket": {
-    "state": "live",
-    "count": 4,
-    "errors": [],
-    "utan_flaskantal": 2,
+    "state": "kunde inte läsas",
+    "count": 0,
+    "errors": [
+      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
+    ],
+    "utan_flaskantal": 0,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ],
-    "exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Vinotekets vita & bubbel låda",
-        "pris": 1159.0,
-        "flaskor": 9.0,
-        "url": "https://vinoteket.se/vit-manad---mix-x-9",
-        "text": "Vi fyller månaden med vin!"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ]
+    "utan_flaskantal_exempel": [],
+    "exempel": []
   },
   "Winefinder": {
     "state": "live",
@@ -347,6 +316,13 @@
     ],
     "exempel": [
       {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
         "titel": "Vinlåda Brunello 6 fl",
         "pris": 1819.95,
         "flaskor": 6.0,
@@ -368,11 +344,18 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
@@ -387,28 +370,14 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-premium-fraan-toscana-6-fl",
         "text": "Vinlåda Premium från Toscana är för dig som vill fördjupa dig i några av områdets främsta producenter. En noggrant utvald låda som garanterar stora vinupplevelser från Toscana – med imponerande kvalitet och ett ovanligt starkt värde för pengarna."
-      },
-      {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       }
     ]
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 27,
+    "count": 25,
     "errors": [],
-    "utan_flaskantal": 9,
+    "utan_flaskantal": 7,
     "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -417,11 +386,6 @@
         "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
         "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
         "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
-      },
-      {
-        "titel": "Internationell fyndlåda med utvalda viner",
-        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
-        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
       },
       {
         "titel": "Stora höstlådan, Bordeaux och Merlot",
@@ -498,18 +462,18 @@
         "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
       },
       {
-        "titel": "Internationell fyndlåda med utvalda viner",
-        "pris": 1299.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
-        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
-      },
-      {
         "titel": "Toscanas elegans & Appassimentos kraft 12 flaskor",
         "pris": 1449.0,
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft",
         "text": "Denna låda är noggrant sammansatt för dig som uppskattar den italienska hantverkstraditionen där kraft möter finess. Vi har valt att kombinera den strama elegansen från Toscana med den generösa och fy"
+      },
+      {
+        "titel": "Stora höstlådan, Bordeaux och Merlot",
+        "pris": 1299.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot",
+        "text": "När du ska beställa vin till säsongens alla bjudningar är denna blandlåda ett självklart val. Vi har handplockat viner som förenar kraften hos Bordeaux med mjukheten i Merlot. Kombinationen bygger på"
       }
     ]
   },
@@ -1022,10 +986,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 15,
+    "count": 14,
     "stats": {
       "sokta": 563,
-      "hittade": 15,
+      "hittade": 14,
       "i_lager": 0,
       "fel": 0
     },
@@ -1192,28 +1156,6 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 1.0
-        }
-      },
-      {
-        "vin": "Luzon Altos De Luzon ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
-          "number": "9508701",
-          "price": 170.0,
-          "vintage": "2023",
-          "other_vintage": false,
-          "assortment": "Tillfälligt sortiment",
-          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
