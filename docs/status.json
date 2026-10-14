@@ -183,35 +183,35 @@
     "count": 42,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 18,
+    "slut_i_lager": 17,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
-        "pris": 959.95,
+        "pris": 949.95,
         "flaskor": 3.0,
         "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Varje flaska av parcellvinet Commissaire är individuellt numrerad, då den totala produktionen uppgår till blott 1 333 flaskor. Förstautgåvan från 2024 av detta nya flaggskepp är så sällsynt att vinet inte ens finns med officiellt på Weingut Teschs egen"
       },
       {
         "titel": "3 x topprankade Champagner Vinlåda",
-        "pris": 1359.95,
+        "pris": 1349.95,
         "flaskor": 3.0,
         "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
       },
       {
         "titel": "Nyårslåda - Billiga Bubblor",
-        "pris": 819.95,
+        "pris": 809.95,
         "flaskor": 3.0,
         "text": "Världens bästa Cava, historiens första TOP 100 Crémant de Bourgogne och sötmafyllda ICE-bubblor som är framställda som äkta Champagne. En nyårsvinlåda som bubblar av value for money. Aldrig har vi satt ihop en vinlåda med SÅ hög kvalitet till SÅ lågt pris! Här får du 3 olika mousserande viner som matchar nyårstal, middag och kransekaka kl. 24.00. SPARA 47 % - OBS. Observera att det bara finns ett fåtal vinlådor till salu! Nyårslådan med Billiga Bubblor innehåller: 1 fl. Villa Conchi Cava Imperia"
       },
       {
         "titel": "Rosé Sensommarutrensning Vinlåda",
-        "pris": 1239.95,
+        "pris": 1229.95,
         "flaskor": 2.0,
         "text": "Sol, havsbris, solkräm och vilda skogsbär… du kan nästan känna doften av härliga sommarminnen när du öppnar vinerna i denna låda. Supergoda roséer för att förgylla de sista stunderna i sensommarsolen. Sensommarens Rosé-lagerrensning! Vi har plockat de sista flaskorna på pallarna för att rensa upp innan rosésäsongen går mot sitt slut. I lådan hittar du några av årets största törstsläckare, restpartier till helt galna priser och läckra Prosecco-bubblor m.m. Rosévinlådan tar dig på en rundtur i mån"
       },
       {
         "titel": "Sjat Festival Sommar Provlåda",
-        "pris": 1329.95,
+        "pris": 1319.95,
         "flaskor": 2.0,
         "text": "Sjat-festivalens ultimata sommar-Vinlåda! Gör de bästa köpen till sommaren genom att utnyttja Sjat-festivalens lagerrensning. Vi har satt ihop en fantastiskt läcker Vinlåda fylld med godsaker. Se fram emot bedårande rosé från kundfavoriten Beyra, syndig Sylvaner från Grand Cru-producenten Gustave Lorentz och amforalagrad rosé från Amarone-producenten Zeni. I lådan hittar du också Pinot Noir-experten Markowitschs makalösa rosé, den okrönte kungen av ”value-for-money”, Rudi Rüttgers Feuermännchen "
       }
@@ -242,21 +242,21 @@
     "exempel": [
       {
         "titel": "Vit Bourgogne Vinlåda",
-        "pris": 1719.95,
+        "pris": 1709.95,
         "flaskor": 5.0,
         "url": "https://www.supervin.se/vit-bourgogne-vinlada",
         "text": "Meursault, Monopolmarks-Chablis, Pouilly-Fuissé och mycket mer! Denna vita bourgogne-Vinlåda har allt. 6 olika lyxiga vita viner från världens mest populära vinområde till ett pris som slår all konkurrens på marknaden. I en låda full av bourgogne-ska"
       },
       {
         "titel": "Brunello Vinlåda",
-        "pris": 1639.95,
+        "pris": 3569.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/brunello-vinlada",
         "text": "Vinlådan är senast uppdaterad den 20-08-2026 Följ med på ”Giro di Brunello” – en Brunellorunda – med 6 viner från ett av Italiens mest lyxiga vindistrikt. Späckad med läckra Brunello-viner – och fortfarande till rekordlågt pris. Vinlådan innehåller: "
       },
       {
         "titel": "Champagne Vinlåda",
-        "pris": 2249.95,
+        "pris": 2239.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/champagne-vinlada",
         "text": "*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-6a16a45e-"
@@ -270,7 +270,7 @@
       },
       {
         "titel": "Toscana Vinlåda",
-        "pris": 1589.95,
+        "pris": 1579.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/toscana-vinlada",
         "text": "Vinlådan är uppdaterad 20/8-2026 I Danmark dricker vi inte mer vin för att priserna i Bordeaux sjunker drastiskt. Vi dricker bara mer Bordeaux istället för något annat. Därför är de toscanska mästerverken just nu försäljningsmässigt pressade av all u"
@@ -291,7 +291,7 @@
       },
       {
         "titel": "Spanien runt: Vinlåda med rödviner",
-        "pris": 909.95,
+        "pris": 899.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/spanien-runt-vinlada-med-rodviner",
         "text": "Ribera del Duero, Rioja och Navarra… Det är de tre mest hypade vinområdena i Spanien vi ska besöka i denna nya Vinlåda, som innehåller 6 olika flaskor med toppomdömen massor . Låt oss börja på toppen hos Ribera del Dueros nya kultförklarade producent"
@@ -310,6 +310,12 @@
         "pris": 3739.95,
         "flaskor": 3.0,
         "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
+      },
+      {
+        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
+        "pris": 3659.95,
+        "flaskor": 3.0,
+        "text": "Tenuta San Guido — Den kompletta familjen från Bolgheri Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri, Toscana, som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia — husets flaggskepp och det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker — är inte bara ett vin. Det är ett monument över va"
       },
       {
         "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
@@ -334,25 +340,11 @@
     ],
     "exempel": [
       {
-        "titel": "Vinlåda Brunello 6 fl",
-        "pris": 1819.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-brunello-6-fl",
-        "text": "6 topprecenserade kundfavoriter från en av världens mest exklusiva regioner - Brunello - sammanställda av våra vinexperter till ett OTROLIGT pris. Ett riktigt måste-köp för vinnörden!"
-      },
-      {
         "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
         "pris": 949.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
         "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
-      },
-      {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
         "titel": "Vinlåda Casas del Bosque 6 fl",
@@ -367,6 +359,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
         "titel": "Vinlåda Vivino-favoriter 6 fl",
@@ -388,6 +387,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
+        "titel": "Vinlåda Prisvärd Champagne 6 fl",
+        "pris": 1729.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
+        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
       }
     ]
   },
@@ -452,6 +458,13 @@
         "text": "Vi har satt ihop den här lådan med ett enda mål, att du ska ha det perfekta vinet redo för sommarens alla stunder. Här hittar du tre olika roséviner som alla är som gjorda för lata dagar i solen och l"
       },
       {
+        "titel": "Prisvärd italiensk blandlåda med friska bubblor",
+        "pris": 1299.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/italienska-blanc-de-blancs-och-cuvee-12-pack-flaska",
+        "text": "Vi har valt tre italienska mousserande viner för dig som vill köpa vin till fest och middagar. Lådan kombinerar en fruktig Cuvée med två eleganta Blanc de Blancs.Vad den innehållerLådan innehåller Dac"
+      },
+      {
         "titel": "Sauvignon och Chenin Blanc duo från Frankrike - 12 flaskor",
         "pris": 1499.0,
         "flaskor": 12.0,
@@ -485,13 +498,6 @@
         "flaskor": 9.0,
         "url": "https://nordiskavin.se/store/stora-apassimentoladan",
         "text": "Den här lådan är skapad för dig som gillar mjuka, fylliga och generösa röda viner. Appassimento är en klassisk italiensk metod där druvorna får torka före vinifiering, vilket ger mer koncentration, ru"
-      },
-      {
-        "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
-        "pris": 999.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
-        "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
       }
     ]
   },
@@ -920,7 +926,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 152,
+    "count": 151,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1004,10 +1010,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 15,
+    "count": 14,
     "stats": {
-      "sokta": 562,
-      "hittade": 15,
+      "sokta": 561,
+      "hittade": 14,
       "i_lager": 0,
       "fel": 0
     },
@@ -1025,7 +1031,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 18
+        "Råå": 16
       }
     },
     "lagersvar": [
@@ -1170,32 +1176,10 @@
           "name": "Quintas de Melgaco – QM Alvarinho Vinhas Velhas",
           "number": "7461801",
           "price": 229.0,
-          "vintage": "2023",
+          "vintage": "2024",
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 1.0
-        }
-      },
-      {
-        "vin": "Luzon Altos De Luzon ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
-          "number": "9508701",
-          "price": 170.0,
-          "vintage": "2023",
-          "other_vintage": false,
-          "assortment": "Tillfälligt sortiment",
-          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
