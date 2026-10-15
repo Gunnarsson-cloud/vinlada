@@ -11,7 +11,7 @@
       {
         "titel": "XL vitvinslåda 🍾🥂",
         "url": "https://dittvin.se/products/xl-vitvinslada",
-        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Tenuta Tonia - Pinot Grigio - 2025 - 12% Tilldelad guldmedalj Gilbert &amp; Gaillard Romain Duvernay - Vin de France - Blanc -"
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: WHT - Bianco - 2024 - 11% Tilldelad guldmedalj vid Gilbert &amp; Gaillard Tilldelad silvermedalj vid London Tasteting Award Pr"
       }
     ],
     "exempel": [
@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 519.0,
+        "pris": 525.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -75,7 +75,7 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 3,
+    "count": 4,
     "errors": [],
     "utan_flaskantal": 2,
     "slut_i_lager": 0,
@@ -100,6 +100,13 @@
         "flaskor": null,
         "url": "https://vinoteket.se/hostens-stora-mixlada",
         "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Vinotekets vita & bubbel låda",
+        "pris": 1159.0,
+        "flaskor": 9.0,
+        "url": "https://vinoteket.se/vit-manad---mix-x-9",
+        "text": "Vi fyller månaden med vin!"
       },
       {
         "titel": "Bästsäljare i en låda",
@@ -180,17 +187,11 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 42,
+    "count": 43,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 17,
+    "slut_i_lager": 19,
     "fa_flaskor_exempel": [
-      {
-        "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
-        "pris": 949.95,
-        "flaskor": 3.0,
-        "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Varje flaska av parcellvinet Commissaire är individuellt numrerad, då den totala produktionen uppgår till blott 1 333 flaskor. Förstautgåvan från 2024 av detta nya flaggskepp är så sällsynt att vinet inte ens finns med officiellt på Weingut Teschs egen"
-      },
       {
         "titel": "3 x topprankade Champagner Vinlåda",
         "pris": 1349.95,
@@ -226,7 +227,7 @@
       {
         "titel": "Tesch Tasting Box 2020 & Live Provning",
         "url": "https://www.supervin.se/tesch-tasting-box-2020-live-provning",
-        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Riesling‑producenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den fantastiska nya årgången 2020. Praktisk info: Se eller återse provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 provflaskor samt ett elegant häfte som introducerar dig till lådans enskilda vin"
+        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Rieslingproducenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den imponerande nya årgången 2020. Praktisk info: Titta på eller se om provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 smakflaskor samt ett elegant häfte som introducerar dig till lådans single-v"
       },
       {
         "titel": "Black Box 12 st Mixlåda",
@@ -306,16 +307,16 @@
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
-        "titel": "Vinlåda Tenuta San Guido Sassicaia 100 P Med Familj 3 fl",
-        "pris": 3739.95,
-        "flaskor": 3.0,
-        "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
-      },
-      {
         "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
         "pris": 3659.95,
         "flaskor": 3.0,
         "text": "Tenuta San Guido — Den kompletta familjen från Bolgheri Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri, Toscana, som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia — husets flaggskepp och det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker — är inte bara ett vin. Det är ett monument över va"
+      },
+      {
+        "titel": "Vinlåda Tenuta San Guido Sassicaia 100 P Med Familj 3 fl",
+        "pris": 3739.95,
+        "flaskor": 3.0,
+        "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
       },
       {
         "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
@@ -340,20 +341,6 @@
     ],
     "exempel": [
       {
-        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
-        "pris": 949.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
-        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
-      },
-      {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 1259.95,
         "flaskor": 6.0,
@@ -361,11 +348,11 @@
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
+        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
+        "pris": 949.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
+        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
       },
       {
         "titel": "Vinlåda Vivino-favoriter 6 fl",
@@ -380,6 +367,20 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -641,18 +642,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Maset Mim ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/maset-mim/",
-        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
         "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
+      },
+      {
+        "titel": "Maset Mim ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/maset-mim/",
+        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -1010,10 +1011,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 14,
+    "count": 15,
     "stats": {
-      "sokta": 561,
-      "hittade": 14,
+      "sokta": 560,
+      "hittade": 15,
       "i_lager": 0,
       "fel": 0
     },
@@ -1031,7 +1032,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 16
+        "Råå": 15
       }
     },
     "lagersvar": [
@@ -1180,6 +1181,28 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
