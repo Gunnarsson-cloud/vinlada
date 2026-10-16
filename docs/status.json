@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 525.0,
+        "pris": 519.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -237,7 +237,7 @@
       {
         "titel": "Amarone-metoden Vinlåda",
         "url": "https://www.supervin.se/amarone-metoden-vinlada",
-        "text": "Amarone är ljuvlig, men de flesta av oss har inte råd att dricka den varje dag. Men det finns råd för det: i denna Vinlåda får du sex olika topprecenserade rött viner, som alla är framställda enligt Amarone-metoden. Genom att torka druvorna före pressning koncentreras mustens rikedom och aromer, så man får ett mjukt, fylligt rött vin med massor av läckert mogen frukt. Vinlådan Amarone-metoden inne"
+        "text": "Amarone är underbar, men de flesta av oss har inte råd att dricka den varje dag. Men det finns en lösning: i denna Vinlåda får du sex olika topprecenserade röda viner, som alla är framställda enligt Amarone-metoden. Genom att torka druvorna innan pressning koncentreras mustens rikedom och aromer, så får man ett mjukt, fylligt rödvin med massor av läcker mogen frukt. Amarone-metoden Vinlådan innehå"
       }
     ],
     "exempel": [
@@ -341,6 +341,13 @@
     ],
     "exempel": [
       {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 1259.95,
         "flaskor": 6.0,
@@ -362,25 +369,18 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
-      },
-      {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+      },
+      {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -504,11 +504,17 @@
   },
   "Vinfolket": {
     "state": "live",
-    "count": 16,
+    "count": 17,
     "errors": [],
     "utan_flaskantal": 3,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
+      {
+        "titel": "Champagnens Dag Paket 2",
+        "pris": 1495.0,
+        "flaskor": 3.0,
+        "text": "Champagnens dag – Paket 2. En flaska Chaumont Blanc de Blanc Brut. Grand Cru-by i Montagne de Reims. Allt man kan förvänta sig av en BdB. Årgång 2021.En flaska Louis Nicaise Brut Millisime 2020. Årgångschampagne som kan drickas nu eller lagras i några år.En flaska Louis Nicaise Reserve Brut. Instegschampagne från Nicaise. Redan här visar vinmakaren Clements upp vad han kan åstadkomma!"
+      },
       {
         "titel": "Santa Marias Guldkorn – 3-pack",
         "pris": 750.0,
@@ -520,6 +526,12 @@
         "pris": 1298.0,
         "flaskor": 3.0,
         "text": "Har du provat Polen som vinland? Vi har satt ihop ett paket med viner från vår senaste producent, Adoria. Vingården producerar eleganta, torra och strukterarde viner. Adoria är en av Polens absolut bästa och internationellt mest prisade vingårdar.I detta intressanta och får sägas exotiska välkomstpaket finner du:2 flaskor Pinot Noir av riktigt bra klass.2 flaskor Chardonnay, med lite känsla av Chablis.1 flaska Riesling , torr och elegant!1 flaska Baccus, som är Polens \"egen\" druva och som ger li"
+      },
+      {
+        "titel": "Champagnens Dag Paket 1",
+        "pris": 1495.0,
+        "flaskor": 2.0,
+        "text": "Champagnens dag – paket 1. En flaska Chaumont Blanc de Noir Extra Brut. Grand Cru-by i Montagne de Reims. Torr och fräsch Pinot Noir!En flaska Michel Littiere Blanc de Meunier. 100 procent Meunier ifrån byn Œuilly längs med Marnefloden.En flaska Louis Nicaise Rosé Brut. Vår mycket prisade vinmakare Clements fina Roséchampagne från byn Hautvillers."
       }
     ],
     "alkoholfria": 0,
@@ -541,6 +553,13 @@
       }
     ],
     "exempel": [
+      {
+        "titel": "Champagnens Dag Paket 2",
+        "pris": 1495.0,
+        "flaskor": 3.0,
+        "url": "https://vinfolket.se/vinpaket/champagnens-dag-paket-2/",
+        "text": "Champagnens dag – Paket 2. En flaska Chaumont Blanc de Blanc Brut. Grand Cru-by i Montagne de Reims. Allt man kan förvänta sig av en BdB. Årgång 2021.En flaska Louis Nicaise Brut Millisime 2020. Årgångschampagne som kan drickas nu eller lagras i någr"
+      },
       {
         "titel": "Santa Marias Guldkorn – 3-pack",
         "pris": 750.0,
@@ -589,13 +608,6 @@
         "flaskor": null,
         "url": "https://vinfolket.se/vinpaket/rhone-ran-lada/",
         "text": "Nytt innehåller i vår Rån (Rhônr)- Låda Två flaskor Pecoulette Côtes du Rhône – ett mycket uppskattat vin från gäster och webbesökare (upprepat hyllat bland annat i Le Guide Hachette).Två flaskor Chardo Pour Flo – ett av våra absolut mest populära vi"
-      },
-      {
-        "titel": "Drick som Romare – Vinpaket",
-        "pris": 895.0,
-        "flaskor": 6.0,
-        "url": "https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/",
-        "text": "Ja, vi är där! Vi är där nu. Vi ska äntligen till Rom. Eller i alla fall till utkanten av denna så märkvärdiga stad, i landskapet som heter Lazio.Vi säger helt enkelt välkommen – benvenuto – till producenten Parvus Arger! Där systrarna Alessia och Si"
       }
     ]
   },
@@ -642,18 +654,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
