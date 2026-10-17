@@ -11,7 +11,7 @@
       {
         "titel": "XL vitvinslåda 🍾🥂",
         "url": "https://dittvin.se/products/xl-vitvinslada",
-        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: WHT - Bianco - 2024 - 11% Tilldelad guldmedalj vid Gilbert &amp; Gaillard Tilldelad silvermedalj vid London Tasteting Award Pr"
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Tenuta Tonia - Pinot Grigio - 2025 - 12% Tilldelad guldmedalj Gilbert &amp; Gaillard Romain Duvernay - Vin de France - Blanc -"
       }
     ],
     "exempel": [
@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 519.0,
+        "pris": 525.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -187,7 +187,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 43,
+    "count": 42,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 19,
@@ -227,7 +227,7 @@
       {
         "titel": "Tesch Tasting Box 2020 & Live Provning",
         "url": "https://www.supervin.se/tesch-tasting-box-2020-live-provning",
-        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Rieslingproducenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den imponerande nya årgången 2020. Praktisk info: Titta på eller se om provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 smakflaskor samt ett elegant häfte som introducerar dig till lådans single-v"
+        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Riesling‑producenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den fantastiska nya årgången 2020. Praktisk info: Se eller återse provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 provflaskor samt ett elegant häfte som introducerar dig till lådans enskilda vin"
       },
       {
         "titel": "Black Box 12 st Mixlåda",
@@ -237,7 +237,7 @@
       {
         "titel": "Amarone-metoden Vinlåda",
         "url": "https://www.supervin.se/amarone-metoden-vinlada",
-        "text": "Amarone är underbar, men de flesta av oss har inte råd att dricka den varje dag. Men det finns en lösning: i denna Vinlåda får du sex olika topprecenserade röda viner, som alla är framställda enligt Amarone-metoden. Genom att torka druvorna innan pressning koncentreras mustens rikedom och aromer, så får man ett mjukt, fylligt rödvin med massor av läcker mogen frukt. Amarone-metoden Vinlådan innehå"
+        "text": "Amarone är ljuvlig, men de flesta av oss har inte råd att dricka den varje dag. Men det finns råd för det: i denna Vinlåda får du sex olika topprecenserade rött viner, som alla är framställda enligt Amarone-metoden. Genom att torka druvorna före pressning koncentreras mustens rikedom och aromer, så man får ett mjukt, fylligt rött vin med massor av läckert mogen frukt. Vinlådan Amarone-metoden inne"
       }
     ],
     "exempel": [
@@ -341,13 +341,6 @@
     ],
     "exempel": [
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 1259.95,
         "flaskor": 6.0,
@@ -362,18 +355,18 @@
         "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
       },
       {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+      },
+      {
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
@@ -390,6 +383,13 @@
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
         "titel": "Vinlåda Prisvärd Champagne 6 fl",
         "pris": 1729.95,
         "flaskor": 6.0,
@@ -403,7 +403,7 @@
     "count": 31,
     "errors": [],
     "utan_flaskantal": 7,
-    "slut_i_lager": 3,
+    "slut_i_lager": 4,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -939,7 +939,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 151,
+    "count": 150,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1025,7 +1025,7 @@
     "state": "live",
     "count": 15,
     "stats": {
-      "sokta": 560,
+      "sokta": 559,
       "hittade": 15,
       "i_lager": 0,
       "fel": 0
@@ -1044,7 +1044,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 15
+        "Råå": 14
       }
     },
     "lagersvar": [
@@ -1363,12 +1363,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7761701",
-          "price": 584.0,
+          "number": "7229601",
+          "price": 740.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
