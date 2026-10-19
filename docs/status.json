@@ -11,7 +11,7 @@
       {
         "titel": "XL vitvinslåda 🍾🥂",
         "url": "https://dittvin.se/products/xl-vitvinslada",
-        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Tenuta Tonia - Pinot Grigio - 2025 - 12% Tilldelad guldmedalj Gilbert &amp; Gaillard Romain Duvernay - Vin de France - Blanc -"
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Les Sonnailles - Blanc Moelleux - 11% Del av Les Sonnailles serien - Guld Don Barroso Bianco - 2022 Sol de Castillas - Semi Sö"
       }
     ],
     "exempel": [
@@ -187,11 +187,17 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 42,
+    "count": 43,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 19,
     "fa_flaskor_exempel": [
+      {
+        "titel": "Pinot Noir världen runt Vinlåda",
+        "pris": 1229.95,
+        "flaskor": 2.0,
+        "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
+      },
       {
         "titel": "3 x topprankade Champagner Vinlåda",
         "pris": 1349.95,
@@ -341,18 +347,11 @@
     ],
     "exempel": [
       {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
-        "pris": 949.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
-        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
@@ -383,11 +382,18 @@
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
+        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
+        "pris": 949.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
+        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
         "titel": "Vinlåda Prisvärd Champagne 6 fl",
@@ -400,10 +406,10 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 31,
+    "count": 29,
     "errors": [],
     "utan_flaskantal": 7,
-    "slut_i_lager": 4,
+    "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -445,18 +451,18 @@
     ],
     "exempel": [
       {
-        "titel": "She's Always Blanc de Blancs, 6-pack",
-        "pris": 749.0,
-        "flaskor": 6.0,
-        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
-        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
-      },
-      {
         "titel": "Stora rosélådan från södra Frankrike och Loire - Provence-stil 12 flaskor",
         "pris": 1315.0,
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/franskt-mingel-med-krispig-rose-flaska",
         "text": "Vi har satt ihop den här lådan med ett enda mål, att du ska ha det perfekta vinet redo för sommarens alla stunder. Här hittar du tre olika roséviner som alla är som gjorda för lata dagar i solen och l"
+      },
+      {
+        "titel": "She's Always Blanc de Blancs, 6-pack",
+        "pris": 749.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
+        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
       },
       {
         "titel": "Prisvärd italiensk blandlåda med friska bubblor",
@@ -480,6 +486,13 @@
         "text": "Denna blandlåda är sammansatt för dig som vill upptäcka eleganta och uppfriskande vita viner från utvalda europeiska vingårdar. Vi har handplockat tre olika stilar som kompletterar varandra perfekt fö"
       },
       {
+        "titel": "Eleganta bubblor och Sauvignon Blanc",
+        "pris": 1299.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/sauvignon-blanc-och-bubbel-blandlada",
+        "text": "Vi har satt ihop denna kombination för dig som vill köpa vin med balanserad friskhet och bubblande elegans. Lådan skapar en mångsidig samling för livets alla fina stunder.Vad den innehåller Sex flasko"
+      },
+      {
         "titel": "Italiensk guldbox med Appassimento från Puglia och Sicilien",
         "pris": 1649.0,
         "flaskor": 12.0,
@@ -492,13 +505,6 @@
         "flaskor": null,
         "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
         "text": "Denna samling är skapad med sommarens alla sociala stunder i fokus där solen och gemenskapen står i centrum. Urvalet består av tre olika franska roséviner som tillsammans bildar den perfekta basen för"
-      },
-      {
-        "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
-        "pris": 1149.0,
-        "flaskor": 9.0,
-        "url": "https://nordiskavin.se/store/stora-apassimentoladan",
-        "text": "Den här lådan är skapad för dig som gillar mjuka, fylliga och generösa röda viner. Appassimento är en klassisk italiensk metod där druvorna får torka före vinifiering, vilket ger mer koncentration, ru"
       }
     ]
   },
@@ -1351,12 +1357,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7229601",
-          "price": 740.0,
+          "number": "7761701",
+          "price": 584.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
