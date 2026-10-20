@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 525.0,
+        "pris": 519.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -187,10 +187,10 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 43,
+    "count": 41,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 19,
+    "slut_i_lager": 16,
     "fa_flaskor_exempel": [
       {
         "titel": "Pinot Noir världen runt Vinlåda",
@@ -256,10 +256,10 @@
       },
       {
         "titel": "Brunello Vinlåda",
-        "pris": 3569.95,
+        "pris": 1729.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/brunello-vinlada",
-        "text": "Vinlådan är senast uppdaterad den 20-08-2026 Följ med på ”Giro di Brunello” – en Brunellorunda – med 6 viner från ett av Italiens mest lyxiga vindistrikt. Späckad med läckra Brunello-viner – och fortfarande till rekordlågt pris. Vinlådan innehåller: "
+        "text": "provsmakningslådan uppdaterades senast den 19-10-2026 Följ med på ”Giro di Brunello” – en rundtur i Brunello – med 6 viner från ett av Italiens mest exklusiva vinområden. Fullspäckad med läckra Brunello-viner - och fortfarande till rekordlågt pris. P"
       },
       {
         "titel": "Champagne Vinlåda",
@@ -368,6 +368,20 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 1259.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
+        "pris": 949.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
+        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
+      },
+      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -382,20 +396,6 @@
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
-        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
-        "pris": 949.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
-        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
-      },
-      {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
         "titel": "Vinlåda Prisvärd Champagne 6 fl",
         "pris": 1729.95,
         "flaskor": 6.0,
@@ -406,9 +406,9 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 29,
+    "count": 32,
     "errors": [],
-    "utan_flaskantal": 7,
+    "utan_flaskantal": 9,
     "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -437,6 +437,11 @@
         "titel": "Roséviner i blandlåda",
         "url": "https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada",
         "text": "Beställ roséviner från Provence och Toscana smidigt på nätet. Se pris och lagerstatus. Upptäck noga utvalda roséviner från Frankrike och Italien med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Bordeaux Klassisk Rödvinslåda",
+        "url": "https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada",
+        "text": "Beställ Bordeaux Klassisk Rödvinslåda online. En prisvärd vinlåda med mjuka röda viner från Bordeaux och södra Frankrike. Smidig hemleverans i hela Sverige. Se pris och köp här!"
       },
       {
         "titel": "Mousserande viner blandlåda",
@@ -486,6 +491,13 @@
         "text": "Denna blandlåda är sammansatt för dig som vill upptäcka eleganta och uppfriskande vita viner från utvalda europeiska vingårdar. Vi har handplockat tre olika stilar som kompletterar varandra perfekt fö"
       },
       {
+        "titel": "Toscanas elegans & Appassimentos kraft 12 flaskor",
+        "pris": 1449.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/toscanas-elegans-appassimentos-kraft",
+        "text": "Denna låda är noggrant sammansatt för dig som uppskattar den italienska hantverkstraditionen där kraft möter finess. Vi har valt att kombinera den strama elegansen från Toscana med den generösa och fy"
+      },
+      {
         "titel": "Eleganta bubblor och Sauvignon Blanc",
         "pris": 1299.0,
         "flaskor": 6.0,
@@ -498,13 +510,6 @@
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada",
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
-      },
-      {
-        "titel": "Ljusa och friska Rosélådan, Provence-stil, Loire och Pays d'Oc",
-        "pris": 1049.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/blandlada-rose-for-sol-och-mingel",
-        "text": "Denna samling är skapad med sommarens alla sociala stunder i fokus där solen och gemenskapen står i centrum. Urvalet består av tre olika franska roséviner som tillsammans bildar den perfekta basen för"
       }
     ]
   },
@@ -648,18 +653,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -933,7 +938,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 150,
+    "count": 152,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -969,6 +974,13 @@
         "text": "Luna a Vallocaia görs på 100% Grechetto-druvor från vingården Camparone. Efter att druvorna handplockats sker alkoholjäsningen på ståltank. Lagring sker i fyra månader på ståltank och i två månader på flaska. Vinet har en halmgul färg och en intensiv"
       },
       {
+        "titel": "2023 Bindella Ardore ×6",
+        "pris": 1314.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2023-bindella-ardore/",
+        "text": "Bindella Ardore görs på en blandning av Cabernet Franc, Merlot och Cabernet Sauvignon från vingårdarna Vallocaia, Camparone och Santa Maria. Efter att druvorna handplockats sker alkoholjäsningen separat för varje druvsort på ståltank tillsammans med "
+      },
+      {
         "titel": "2023 Bindella Fossolupaio Rosso di Montepulciano ×6",
         "pris": 1134.0,
         "flaskor": 6.0,
@@ -983,25 +995,18 @@
         "text": "Vino Nobile di Montepulciano görs på 85% Sangiovese och 15% Canaiolo, Colorino och Mammolo från vingårdarna Vallocaia, Camparone och Casalte. Efter att druvorna handplockats sker alkoholjäsningen på ståltank tillsammans med 15-20 dagars maceration av"
       },
       {
+        "titel": "2019 Bindella Dolce Sinfonia Vin Santo di Montepulciano ×6",
+        "pris": 2214.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2019-bindella-dolce-sinfonia-vin-santo-di-montepulciano-doc/",
+        "text": "Dolce Sinfonia Vin Santo di Montepulciano är ett sött vin som görs på 100% Sangiovese-druvor från vingårdarna Vallocaia och Camparone. Efter att druvorna torkats sker alkoholjäsningen på 50 och 100 L ekfat. Lagring sker i tre år på samma ekfat och i "
+      },
+      {
         "titel": "Swirl-lådan",
         "pris": 1299.0,
         "flaskor": 6.0,
         "url": "https://finewineservice.se/produkt/swirl-ladan/",
         "text": "Swirl-lådan består av sex viner som vi har tagit fram tillsammans med Swirl och deras sommelier Marcus Henningsson. Swirl, som vi samarbetar med, är en vin-app där man kan man skanna vinetiketter och få strukturerad, tillförlitlig information, spara "
-      },
-      {
-        "titel": "2023 Cerbaiona Gramattica ×6",
-        "pris": 2274.0,
-        "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2023-cerbaiona-gramattica/",
-        "text": "Detta Vino de Tavola är ett nytt vin som kultproducenten Cerbaiona börjat producera istället för den Sangiovese IGT som man tidigare gjorde under Diego Molinaris ledning. M.V. Cerbaiona Grammatica är gjort på 97% Sangiovese från Cerbaiona i Montalcin"
-      },
-      {
-        "titel": "2024 Ugo Lequio Langhe Nebbiolo ×6",
-        "pris": 1494.0,
-        "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2024-ugo-lequio-langhe-nebbiolo/",
-        "text": "Langhe Nebbiolo DOC görs på 100% Nebbiolo från den anrika vingården Gallina i Neive, där vinmakaren Ugo Lequio har ett livslångt kontrakt på sex hektar mitt i den bästa delen. Efter alkoholjäsningen, som sker i rostfria-tankar där även macerationen s"
       }
     ]
   },
@@ -1019,7 +1024,7 @@
     "state": "live",
     "count": 15,
     "stats": {
-      "sokta": 559,
+      "sokta": 561,
       "hittade": 15,
       "i_lager": 0,
       "fel": 0
