@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 519.0,
+        "pris": 525.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -75,13 +75,23 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 2,
+    "count": 5,
     "errors": [],
-    "utan_flaskantal": 1,
-    "slut_i_lager": 1,
+    "utan_flaskantal": 3,
+    "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "url": "https://vinoteket.se/hostens-stora-mixlada",
+        "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Cava i en låda",
+        "url": "https://vinoteket.se/cava-i-en-lada",
+        "text": "Cava - spanskt lyxbubbel gjort på traditionell metod"
+      },
       {
         "titel": "Bästsäljare i en låda",
         "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
@@ -89,6 +99,27 @@
       }
     ],
     "exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/hostens-stora-mixlada",
+        "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Vinotekets vita & bubbel låda",
+        "pris": 1159.0,
+        "flaskor": 9.0,
+        "url": "https://vinoteket.se/vit-manad---mix-x-9",
+        "text": "Vi fyller månaden med vin!"
+      },
+      {
+        "titel": "Cava i en låda",
+        "pris": 1099.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/cava-i-en-lada",
+        "text": "Cava - spanskt lyxbubbel gjort på traditionell metod"
+      },
       {
         "titel": "Bästsäljare i en låda",
         "pris": 1199.0,
@@ -293,7 +324,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 37,
+    "count": 36,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -333,11 +364,11 @@
     ],
     "exempel": [
       {
-        "titel": "Vinlåda Pinot Noir – utvalda favoriter 6 fl",
-        "pris": 949.95,
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-pinot-noir-utvalda-favoriter-6-fl",
-        "text": "Upptäck pinot noir – en av världens mest eleganta och gastronomiska druvor – i en noggrant sammansatt vinlåda med uttryck från flera olika regioner. Här får du en unik möjlighet att utforska druvans mångsidighet: från svala, finstämda och mineraliska"
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
@@ -354,11 +385,11 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
@@ -366,13 +397,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -387,15 +411,22 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vardagsfavoriter-6-fl-1",
         "text": "Vinlåda Vardagsfavoriter 6 fl Sex handplockade flaskor, sex olika stilar — alla utvalda för att göra vardagen lite godare. Med Vardagsfavoriter får du sex flaskor med fokus på smak, mångsidighet och stor drickglädje — viner som gör det enkelt att hit"
+      },
+      {
+        "titel": "Vinlåda Upptäck Pinot Noir 6 fl",
+        "pris": 819.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-upptack-pinot-noir-6-fl-2",
+        "text": "Det finns knappast en druva som väcker samma vördnad bland vinälskare som pinot noir. Nyckfull, skör och svår att odla – men när den lyckas ger den viner av en skönhet som få andra druvor kan matcha: sammetslen fruktighet, silkeslen tanninstruktur oc"
       }
     ]
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 30,
+    "count": 29,
     "errors": [],
     "utan_flaskantal": 10,
-    "slut_i_lager": 2,
+    "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -501,7 +532,7 @@
   },
   "Vinfolket": {
     "state": "live",
-    "count": 15,
+    "count": 16,
     "errors": [],
     "utan_flaskantal": 3,
     "slut_i_lager": 0,
@@ -546,6 +577,13 @@
         "text": "Vinnare – igen! Cannonau-reservan Redit, med den djupt lilaröda färgen, som upprepat samlat på sig guldmedaljer vid olika tävlingar, senast hyllad av bland annat Mundus Vini. Det firas med detta kalaspris på dels vinnaren – dels bubbel från samma pro"
       },
       {
+        "titel": "Polvanera Marchesana Prova på paket",
+        "pris": 885.0,
+        "flaskor": 6.0,
+        "url": "https://vinfolket.se/vinpaket/polvanera-marchesana-prova-pa-paket/",
+        "text": "Ett paket om sex flaskor från vår alldeles färska och spännande producent från södra Italien, där två vita viner och fyra röda ingår. Bland annat ett på traktens ursprungsdruva Primitivo ... Övriga röda druvor är Susumaniello och Aglianico – och de v"
+      },
+      {
         "titel": "Då är rödvin grejen! – 12 flaskor",
         "pris": 1675.0,
         "flaskor": 12.0,
@@ -586,13 +624,6 @@
         "flaskor": null,
         "url": "https://vinfolket.se/vinpaket/rhone-ran-lada/",
         "text": "Nytt innehåller i vår Rån (Rhônr)- Låda Två flaskor Pecoulette Côtes du Rhône – ett mycket uppskattat vin från gäster och webbesökare (upprepat hyllat bland annat i Le Guide Hachette).Två flaskor Chardo Pour Flo – ett av våra absolut mest populära vi"
-      },
-      {
-        "titel": "Drick som Romare – Vinpaket",
-        "pris": 895.0,
-        "flaskor": 6.0,
-        "url": "https://vinfolket.se/vinpaket/drick-som-romare-vinpaket/",
-        "text": "Ja, vi är där! Vi är där nu. Vi ska äntligen till Rom. Eller i alla fall till utkanten av denna så märkvärdiga stad, i landskapet som heter Lazio.Vi säger helt enkelt välkommen – benvenuto – till producenten Parvus Arger! Där systrarna Alessia och Si"
       }
     ]
   },
@@ -639,18 +670,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Maset Mim ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/maset-mim/",
-        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
         "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
+      },
+      {
+        "titel": "Maset Mim ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/maset-mim/",
+        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -1008,10 +1039,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 14,
+    "count": 15,
     "stats": {
       "sokta": 560,
-      "hittade": 14,
+      "hittade": 15,
       "i_lager": 0,
       "fel": 0
     },
@@ -1029,7 +1060,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 13
+        "Råå": 12
       }
     },
     "lagersvar": [
@@ -1178,6 +1209,28 @@
           "other_vintage": false,
           "assortment": "Ordervaror",
           "url": "https://www.systembolaget.se/produkt/vin/qm-alvarinho-vinhas-velhas-7461801/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
