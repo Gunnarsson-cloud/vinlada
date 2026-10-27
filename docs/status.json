@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 525.0,
+        "pris": 499.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -199,63 +199,64 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 44,
+    "count": 45,
     "errors": [],
-    "utan_flaskantal": 5,
-    "slut_i_lager": 2,
+    "utan_flaskantal": 4,
+    "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
-        "titel": "3 x topprankade Champagner Vinlåda",
-        "pris": 2129.95,
-        "flaskor": 3.0,
-        "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
-      },
-      {
-        "titel": "Pinot Noir världen runt Vinlåda",
-        "pris": 2659.95,
-        "flaskor": 2.0,
-        "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
-      },
-      {
         "titel": "Klassiker Röd Vinlåda",
-        "pris": 2689.95,
+        "pris": 1189.95,
         "flaskor": 2.0,
         "text": "Provlådan uppdaterades senast den 21-10-2026 Barolo, Brunello, Bordeaux, Châteauneuf-du-Pape, Ribera del Duero OCH Bourgogne. Ja, du läste rätt. Världens mest berömda och klassiska vinområden, kända för kvalitet, prestige och inte minst astronomiskt höga priser i många fall… Nu är de samlade i en och samma provlåda - men till ett äkta SUPERVIN-PRIS! Aldrig tidigare har en provlåda av den här kalibern varit möjlig. Här får du de allra mest prisvärda vinerna med toppbetyg till de allra bästa prise"
       },
       {
+        "titel": "Pinot Noir världen runt Vinlåda",
+        "pris": 1229.95,
+        "flaskor": 2.0,
+        "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
+      },
+      {
+        "titel": "3 x topprankade Champagner Vinlåda",
+        "pris": 1339.95,
+        "flaskor": 3.0,
+        "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
+      },
+      {
+        "titel": "Vit Bourgogne VS. Vit Bordeaux Vinlåda",
+        "pris": 1689.95,
+        "flaskor": 3.0,
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Vad tycker du är bäst - Vitt vin från Bordeaux eller Bourgogne? Det låter vi dig avgöra med vår första provlåda någonsin som förenar tre flaskor från var och en av de två största franska vinregionerna. Inspirationen till den här provlådan kommer från en upplevelse där jag närmast fick en rejäl utskällning av ägaren på Château Malartic i Bordeaux, när jag med stor beundran i rösten föreslog deras vita vin som \"ett perfekt alternativ till vit bourgogne\""
+      },
+      {
         "titel": "Bourgogne- och Champagnelådan",
-        "pris": 2909.95,
+        "pris": 1869.95,
         "flaskor": 2.0,
         "text": "Provlådan uppdaterades senast den 21-10-2026 En provlåda fylld med Champagne och Bourgogne, JA TACK! – 6 olika flaskor från två av världens mest eftertraktade vinområden. Och se bara vad du får med i den här nya provlådan… Du får världens överlägset mest populära och ikoniska Champagne, Moët & Chandon Imperial Brut. Med starkt sällskap av Martel Prestige Brut med 95 poäng och \"TOPLISTET - BEDSTE BOBLER: Champagne under 200 kroner\" hos Flaskehalsen. Vi fortsätter vidare till Bourgogne, där du kan"
       },
       {
-        "titel": "Vit Bourgogne VS. Vit Bordeaux Vinlåda",
-        "pris": 3029.95,
-        "flaskor": 3.0,
-        "text": "Provlådan uppdaterades senast den 21-10-2026 Vad tycker du är bäst - Vitt vin från Bordeaux eller Bourgogne? Det låter vi dig avgöra med vår första provlåda någonsin som förenar tre flaskor från var och en av de två största franska vinregionerna. Inspirationen till den här provlådan kommer från en upplevelse där jag närmast fick en rejäl utskällning av ägaren på Château Malartic i Bordeaux, när jag med stor beundran i rösten föreslog deras vita vin som \"ett perfekt alternativ till vit bourgogne\""
+        "titel": "Champagne Premium Vinlåda",
+        "pris": 3649.95,
+        "flaskor": 2.0,
+        "text": "Går du alltid den extra milen för att få en extraordinär vinupplevelse? – Då är den här lådan med bubbel något för dig! Inte vilket bubbel som helst, utan världens bästa bubbel Champagne! Ge dig i kast med en förstklassig Champagne-provlåda med vintage, Premier Cru och Grand Cru Champagne i långa banor! Prova en makalös Champagne som kan få även den största Champagne-kritikern att bli knäsvag. Är du nybörjare och vill lära dig mer om den underbara värld som är Champagne, eller är du väl bekant m"
       }
     ],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Nyårslåda - Champagne",
-        "url": "https://www.supervin.se/nyarslada-champagne",
-        "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få"
-      },
       {
         "titel": "Prisvärd Pinot Noir Vinlåda",
         "url": "https://www.supervin.se/prisvard-pinot-noir-vinlada",
         "text": "Denna provlåda uppdaterades senast den 20-10-2026 Det här är den... Pinot Noir-provlådan som ger allra mest för pengarna. Vi har plockat ut våra bästa Pinot Noir-köp och satt ihop en provlåda med så stor besparing att recensenterna fruktar för producenternas affärer . Härligt saftig, elegant och bärfylld Pinot som trotsar allt dagens prat om att Pinot Noir av hög kvalitet måste kosta +100 kronor f"
       },
       {
-        "titel": "TOP 6 Vinlåda 2026",
-        "url": "https://www.supervin.se/top-6-vinlada-2026",
-        "text": "Vinlådan uppdaterades senast den 20-10-2026 Top 6 Vinlåda, vad är det? Här får du en noga utvald blandning av vit Bourgogne, en mousserande kundfavorit, 99-poängs Primitivo, Brunello i världsklass, Provence-rosé och topp-Bordeaux. Vad har de alla gemensamt? De är absoluta storsäljare – och kundernas klara favoriter. Priset är pressat i botten. Nu kan du prova alla de topprankade favoriterna på en "
-      },
-      {
         "titel": "Jul Vinlåda",
         "url": "https://www.supervin.se/jul-vinlada",
         "text": "Julmaten är alltid ett kärt minne för många, och till den ska det förstås serveras fantastiskt vin! Vi har satt ihop en härlig provlåda som hjälper dig med dryckerna genom hela juldagen och kvällen. Chateauneuf-du-Pape och Amarone till ankan är alltid ett säkert kort. En härlig LBV till ris à la malta, och ett glas bubbel för att släcka törsten. Bättre blir det inte! Allt till ett fördelaktigt, ri"
+      },
+      {
+        "titel": "Nyårslåda - Champagne",
+        "url": "https://www.supervin.se/nyarslada-champagne",
+        "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få"
       },
       {
         "titel": "Röd Bourgogne Vinlåda",
@@ -265,66 +266,66 @@
     ],
     "exempel": [
       {
-        "titel": "Kräftskiva Vinlåda",
-        "pris": 999.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/kraftskiva-vinlada",
-        "text": "Gör dig redo för långa sommarkvällar, lyktor och massor av dilldoftande kräftor! Kräftskiva Favoriter är sammansatt för Sveriges kanske mysigaste tradition – med viner som lyfter hela upplevelsen från första tuggan till sista glaset. Här får du krisp"
-      },
-      {
-        "titel": "Bordeaux krislådan",
-        "pris": 2929.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/bordeaux-krisladan",
-        "text": "Provlådan uppdaterades senast den 19-10-2026 Vi har efter hand haft många olika versioner av den här provlådan under de senaste 2 åren, då Bordeaux-krisen har härjat. Slutsåld gång på gång, men nu har vi satt ihop vad som nog är den mest otroliga låd"
-      },
-      {
-        "titel": "Pomerol Party Vinlåda",
-        "pris": 1579.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/pomerol-party-vinlada",
-        "text": "Provningslådan uppdaterades senast den 21-10-2026 Poppa korken! Detta Pomerol Party har härmed börjat! Vi har samlat våra allra mest prisvärda Pomerol-viner och lagt dem i en provningslåda till ett riktigt vasst pris! Pomerol från den spännande årgån"
-      },
-      {
-        "titel": "Vit Bourgogne Vinlåda",
-        "pris": 1709.95,
-        "flaskor": 5.0,
-        "url": "https://www.supervin.se/vit-bourgogne-vinlada",
-        "text": "Meursault, Monopolmarks-Chablis, Pouilly-Fuissé och mycket mer! Denna vita bourgogne-Vinlåda har allt. 6 olika lyxiga vita viner från världens mest populära vinområde till ett pris som slår all konkurrens på marknaden. I en låda full av bourgogne-ska"
-      },
-      {
-        "titel": "Brunello Vinlåda",
-        "pris": 1729.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/brunello-vinlada",
-        "text": "provsmakningslådan uppdaterades senast den 19-10-2026 Följ med på ”Giro di Brunello” – en rundtur i Brunello – med 6 viner från ett av Italiens mest exklusiva vinområden. Fullspäckad med läckra Brunello-viner - och fortfarande till rekordlågt pris. P"
-      },
-      {
-        "titel": "Champagne Vinlåda",
-        "pris": 2229.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/champagne-vinlada",
-        "text": "*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-6a16a45e-"
-      },
-      {
         "titel": "Vitt vin & bubblor Vinlåda",
-        "pris": 1129.95,
+        "pris": 579.95,
         "flaskor": 9.0,
         "url": "https://www.supervin.se/vitt-vin-bubblor-vinlada",
         "text": "Vinlådan uppdaterades senast den 21-10-2026 Härligt vitt vin och fantastiska bubblor – vad mer kan man önska sig?! Vilken härlig vinlåda vi har satt ihop… Lådan är fylld med topprankade vita viner och lyxiga bubblor till helt otroliga priser. Vinerna"
       },
       {
+        "titel": "Best Value Box (Vinlåda)",
+        "pris": 749.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/best-value-box-vinlada",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Best Value Box – Enklare än så blir det inte. Våra bästa viner för pengarna, samlade på ett och samma ställe. Vill du skämma bort dig själv eller en vinälskare med sex stjärnspäckade viner av överraskande "
+      },
+      {
+        "titel": "Ripasso Vinlåda",
+        "pris": 759.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/ripasso-vinlada",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Ripasso Provlåda – 6 flaskor lyx till vardagspris Här får du en enastående möjlighet att smaka tre av marknadens mest hyllade Valpolicella Ripasso – och spara stort! Denna provlåda innehåller 6 flaskor top"
+      },
+      {
+        "titel": "Smaklåda Spanska läckerheter",
+        "pris": 769.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/smaklada-spanska-lackerheter",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Spanskt Rödvin Provlåda – 6 topprecenserade flaskor med stor smak och litet pris. Letar du efter spanskt rödvin i världsklass – utan att betala överpris? Då har du hittat helt rätt med den här provlådan! H"
+      },
+      {
         "titel": "Italiensk vinlåda",
-        "pris": 1659.95,
+        "pris": 799.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/italiensk-vinlada",
         "text": "Provlådan uppdaterades senast den 21-10-2026 Italienskt rödvin provlåda – 6 flaskor till fyndpris och toppbetyg. Älskar du italienskt rödvin med massor av karaktär, charm och kraft? Då är den här provlådan ett fynd för finsmakare! Här får du 6 kritik"
+      },
+      {
+        "titel": "Chardonnay Vinlåda",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/chardonnay-vinlada",
+        "text": "Vinlådan er senest opdateret den 24-05-2026 Är du förtjust i Chardonnay – eller nyfiken på druvans många uttryck? Då är denna vinlåda ett riktigt fynd! Här får du 6 kritikerrosade Chardonnay-viner från både klassiska och överraskande ursprung – alla "
+      },
+      {
+        "titel": "Spanien runt: Vinlåda med rödviner",
+        "pris": 899.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/spanien-runt-vinlada-med-rodviner",
+        "text": "Ribera del Duero, Rioja och Navarra… Det är de tre mest hypade vinområdena i Spanien vi ska besöka i denna nya Vinlåda, som innehåller 6 olika flaskor med toppomdömen massor . Låt oss börja på toppen hos Ribera del Dueros nya kultförklarade producent"
+      },
+      {
+        "titel": "Spansk Vinlåda",
+        "pris": 939.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/spansk-vinlada",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Spanien runt! Prova de populära rödvinerna från Rioja & Ribera del Duero, samt Spaniens svar på stor, lyxigt fatkryddig Meursault... Provlådan innehåller: 2 fl. Labastida 1786 Rioja 2021 \"94 poäng. Rioja R"
       }
     ]
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 36,
+    "count": 37,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -352,6 +353,12 @@
         "pris": 15229.95,
         "flaskor": 3.0,
         "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
+      },
+      {
+        "titel": "La Grande Année 2015 + 2018 (2 fl.)",
+        "pris": 3279.95,
+        "flaskor": 2.0,
+        "text": ""
       }
     ],
     "alkoholfria": 0,
@@ -970,6 +977,13 @@
     ],
     "exempel": [
       {
+        "titel": "Vinprovning med Caterina Burzi 16 november ×6",
+        "pris": 2100.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/vinprovning-med-burzi-16-november/",
+        "text": "Välkomna att prova viner från vår producent Burzi i La Morra i Piemonte i Italien! Måndagen den 16 november kl 18.00-19.30 ordnar vi en provning på At Six, Brunkebergstorg 6, i Stockholm då du får möjlighet att prova sex olika viner från vår vinmakar"
+      },
+      {
         "titel": "2024 Burzi Langhe Nebbiolo ×6",
         "pris": 1494.0,
         "flaskor": 6.0,
@@ -1017,13 +1031,6 @@
         "flaskor": 6.0,
         "url": "https://finewineservice.se/produkt/2019-bindella-dolce-sinfonia-vin-santo-di-montepulciano-doc/",
         "text": "Dolce Sinfonia Vin Santo di Montepulciano är ett sött vin som görs på 100% Sangiovese-druvor från vingårdarna Vallocaia och Camparone. Efter att druvorna torkats sker alkoholjäsningen på 50 och 100 L ekfat. Lagring sker i tre år på samma ekfat och i "
-      },
-      {
-        "titel": "Swirl-lådan",
-        "pris": 1299.0,
-        "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/swirl-ladan/",
-        "text": "Swirl-lådan består av sex viner som vi har tagit fram tillsammans med Swirl och deras sommelier Marcus Henningsson. Swirl, som vi samarbetar med, är en vin-app där man kan man skanna vinetiketter och få strukturerad, tillförlitlig information, spara "
       }
     ]
   },
