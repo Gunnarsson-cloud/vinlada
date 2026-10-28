@@ -11,7 +11,7 @@
       {
         "titel": "XL vitvinslåda 🍾🥂",
         "url": "https://dittvin.se/products/xl-vitvinslada",
-        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Tenuta Tonia - Pinot Grigio - 2025 - 12% Tilldelad guldmedalj Gilbert &amp; Gaillard Romain Duvernay - Vin de France - Blanc -"
+        "text": "XL vitvinslåda 🍾🥂 Upplev vårt imponerande utbud av 12 olika vita viner, som var och en erbjuder unika smakupplevelser och karaktärer. Från den friska och fruktiga Marqués de Berol till den lätt söta Sol de Castillas, finns det ett vin för varje tillfälle. Lådan innehåller: Wild Beast - Chenin Blanc - Antirtle - 2024 - 12,5% Tenuta Tonia - Pinot Grigio - 2025 - 12% Tilldelad guldmedalj Gilbert &amp"
       }
     ],
     "exempel": [
@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 499.0,
+        "pris": 505.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -75,23 +75,13 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 5,
+    "count": 2,
     "errors": [],
-    "utan_flaskantal": 3,
+    "utan_flaskantal": 1,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Cava i en låda",
-        "url": "https://vinoteket.se/cava-i-en-lada",
-        "text": "Cava - spanskt lyxbubbel gjort på traditionell metod"
-      },
       {
         "titel": "Bästsäljare i en låda",
         "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
@@ -99,27 +89,6 @@
       }
     ],
     "exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Vinotekets vita & bubbel låda",
-        "pris": 1159.0,
-        "flaskor": 9.0,
-        "url": "https://vinoteket.se/vit-manad---mix-x-9",
-        "text": "Vi fyller månaden med vin!"
-      },
-      {
-        "titel": "Cava i en låda",
-        "pris": 1099.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/cava-i-en-lada",
-        "text": "Cava - spanskt lyxbubbel gjort på traditionell metod"
-      },
       {
         "titel": "Bästsäljare i en låda",
         "pris": 1199.0,
@@ -199,7 +168,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 45,
+    "count": 44,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 0,
@@ -280,13 +249,6 @@
         "text": "Provlådan uppdaterades senast den 21-10-2026 Best Value Box – Enklare än så blir det inte. Våra bästa viner för pengarna, samlade på ett och samma ställe. Vill du skämma bort dig själv eller en vinälskare med sex stjärnspäckade viner av överraskande "
       },
       {
-        "titel": "Ripasso Vinlåda",
-        "pris": 759.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/ripasso-vinlada",
-        "text": "Provlådan uppdaterades senast den 21-10-2026 Ripasso Provlåda – 6 flaskor lyx till vardagspris Här får du en enastående möjlighet att smaka tre av marknadens mest hyllade Valpolicella Ripasso – och spara stort! Denna provlåda innehåller 6 flaskor top"
-      },
-      {
         "titel": "Smaklåda Spanska läckerheter",
         "pris": 769.95,
         "flaskor": 6.0,
@@ -320,12 +282,19 @@
         "flaskor": 6.0,
         "url": "https://www.supervin.se/spansk-vinlada",
         "text": "Provlådan uppdaterades senast den 21-10-2026 Spanien runt! Prova de populära rödvinerna från Rioja & Ribera del Duero, samt Spaniens svar på stor, lyxigt fatkryddig Meursault... Provlådan innehåller: 2 fl. Labastida 1786 Rioja 2021 \"94 poäng. Rioja R"
+      },
+      {
+        "titel": "Riesling Vinlåda",
+        "pris": 949.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/riesling-vinlada",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Riesling Provlåda – 6 stjärnskott från Tyskland, Österrike och Frankrike. Gillar du krispig syra, blommiga aromer och mineralisk elegans? Då är denna Riesling Provlåda ett sant paradis! Här får du 6 toppre"
       }
     ]
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 37,
+    "count": 38,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -430,10 +399,10 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 30,
+    "count": 31,
     "errors": [],
-    "utan_flaskantal": 10,
-    "slut_i_lager": 3,
+    "utan_flaskantal": 11,
+    "slut_i_lager": 2,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -487,13 +456,6 @@
         "text": "Vi har satt ihop den här lådan med ett enda mål, att du ska ha det perfekta vinet redo för sommarens alla stunder. Här hittar du tre olika roséviner som alla är som gjorda för lata dagar i solen och l"
       },
       {
-        "titel": "She's Always Blanc de Blancs, 6-pack",
-        "pris": 749.0,
-        "flaskor": 6.0,
-        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
-        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
-      },
-      {
         "titel": "Fylliga Italienska Fiano Bianco och Chardonnay 9 flaskor",
         "pris": 1199.0,
         "flaskor": 9.0,
@@ -502,10 +464,31 @@
       },
       {
         "titel": "Italiensk guldbox med Appassimento från Puglia och Sicilien",
-        "pris": 1649.0,
+        "pris": 1699.0,
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada",
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
+      },
+      {
+        "titel": "Bubbellåda med Chardonnay och Blanc de Blancs",
+        "pris": 699.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/bubbellada-mousserande-favoriter-6-pack",
+        "text": "Att samla vänner kring kylda glas ska vara enkelt. Vi valde ut dessa tre mousserande viner för att skapa en prisvärd blandlåda fylld med fräschör till alla skålar och mingel. Franska Roche Mazet bär m"
+      },
+      {
+        "titel": "She's Always Blanc de Blancs, 6-pack",
+        "pris": 749.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
+        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
+      },
+      {
+        "titel": "Eleganta bubblor och Sauvignon Blanc",
+        "pris": 1188.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/sauvignon-blanc-och-bubbel-blandlada",
+        "text": "Vi har satt ihop denna kombination för dig som vill köpa vin med balanserad friskhet och bubblande elegans. Lådan skapar en mångsidig samling för livets alla fina stunder.Vad den innehåller Sex flasko"
       },
       {
         "titel": "Kompletta franska lådan för höstens middagar",
@@ -520,20 +503,6 @@
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/appassimento-blandlada-98p-duca-di-saragnano",
         "text": "Denna blandlåda är skapad för dig som älskar fylliga och generösa italienska rödviner. Vi har valt ut tre fantastiska viner från Duca di Saragnano där den hyllade Passone möter eleganta leggermente ap"
-      },
-      {
-        "titel": "Fransk Brut - Krispigt och fräscht! 9 flaskor",
-        "pris": 1099.0,
-        "flaskor": 9.0,
-        "url": "https://nordiskavin.se/store/franskt-brut-blandlada-9-flaskor",
-        "text": "Vi har satt ihop denna låda för dig som vill köpa vin med krispiga bubblor från Frankrike. Här möts eleganta mousserande viner som passar perfekt till festliga skålar och trevliga middagar med nära vä"
-      },
-      {
-        "titel": "Stora höstlådan, Bordeaux och Merlot",
-        "pris": 1299.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot",
-        "text": "När du ska beställa vin till säsongens alla bjudningar är denna blandlåda ett självklart val. Vi har handplockat viner som förenar kraften hos Bordeaux med mjukheten i Merlot. Kombinationen bygger på"
       }
     ]
   },
@@ -592,10 +561,10 @@
       },
       {
         "titel": "Då är rödvin grejen! – 12 flaskor",
-        "pris": 1675.0,
+        "pris": 1725.0,
         "flaskor": 12.0,
         "url": "https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/",
-        "text": "Då är rödvin grejen! – tolv flaskor. I paketet ingår två flaskor vardera av följande toppdryck, totalt alltså tolv buteljer. * Cascere Valeggia ”Detai”. Fylig och generös Barbera. Passar bra till svampmackan eller grytan.* Parvus Ager Roma Rosso Pizz"
+        "text": "Då är rödvin grejen! – tolv flaskor. I paketet ingår två flaskor vardera av följande toppdryck, totalt alltså tolv buteljer. * Cascere Valeggia Barbera Superiore ”Per Ingrid”. Fylig och generös Barbera. Passar bra till svampmackan eller grytan. Vinet"
       },
       {
         "titel": "Pinot Noir! – Vinpaket",
@@ -962,7 +931,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 151,
+    "count": 149,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1048,7 +1017,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 560,
+      "sokta": 558,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
@@ -1067,7 +1036,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 12
+        "Råå": 11
       }
     },
     "lagersvar": [
