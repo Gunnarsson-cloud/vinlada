@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 505.0,
+        "pris": 499.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -74,29 +74,17 @@
     ]
   },
   "Vinoteket": {
-    "state": "live",
-    "count": 2,
-    "errors": [],
-    "utan_flaskantal": 1,
+    "state": "kunde inte läsas",
+    "count": 0,
+    "errors": [
+      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
+    ],
+    "utan_flaskantal": 0,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [
-      {
-        "titel": "Bästsäljare i en låda",
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ],
-    "exempel": [
-      {
-        "titel": "Bästsäljare i en låda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ]
+    "utan_flaskantal_exempel": [],
+    "exempel": []
   },
   "Winefinder": {
     "state": "live",
@@ -168,7 +156,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 44,
+    "count": 42,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 0,
@@ -190,12 +178,6 @@
         "pris": 1339.95,
         "flaskor": 3.0,
         "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
-      },
-      {
-        "titel": "Vit Bourgogne VS. Vit Bordeaux Vinlåda",
-        "pris": 1689.95,
-        "flaskor": 3.0,
-        "text": "Provlådan uppdaterades senast den 21-10-2026 Vad tycker du är bäst - Vitt vin från Bordeaux eller Bourgogne? Det låter vi dig avgöra med vår första provlåda någonsin som förenar tre flaskor från var och en av de två största franska vinregionerna. Inspirationen till den här provlådan kommer från en upplevelse där jag närmast fick en rejäl utskällning av ägaren på Château Malartic i Bordeaux, när jag med stor beundran i rösten föreslog deras vita vin som \"ett perfekt alternativ till vit bourgogne\""
       },
       {
         "titel": "Bourgogne- och Champagnelådan",
@@ -294,7 +276,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 38,
+    "count": 40,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -324,10 +306,10 @@
         "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
       },
       {
-        "titel": "La Grande Année 2015 + 2018 (2 fl.)",
+        "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
         "pris": 3279.95,
         "flaskor": 2.0,
-        "text": ""
+        "text": "Med denne eksklusive smagekasse får du en sjælden mulighed for at opleve Champagne Bollinger La Grande Année i to forskellige årgange, 2015 og 2018, samlet i én kasse. Det er en smageoplevelse til den kvalitetsbevidste champagneelsker, der vil fordybe sig i, hvordan samme prestigecuvée kan udtrykke sig forskelligt fra høstår til høstår. Bollinger er et af Champagnes mest respekterede huse og kendt for en stil præget af dybde, karakter, kompleksitet og elegance, og La Grande Année hører til bland"
       }
     ],
     "alkoholfria": 0,
@@ -361,13 +343,6 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -380,6 +355,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -931,7 +913,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 149,
+    "count": 158,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -953,53 +935,53 @@
         "text": "Välkomna att prova viner från vår producent Burzi i La Morra i Piemonte i Italien! Måndagen den 16 november kl 18.00-19.30 ordnar vi en provning på At Six, Brunkebergstorg 6, i Stockholm då du får möjlighet att prova sex olika viner från vår vinmakar"
       },
       {
-        "titel": "2024 Burzi Langhe Nebbiolo ×6",
-        "pris": 1494.0,
+        "titel": "2023 Thörle Josephine Riesling Sekt Brut ×6",
+        "pris": 1434.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2024-burzi-langhe-nebbiolo/",
-        "text": "Alla druvor som används till Burzi Langhe Nebbiolo Runcaja kommer från vingården Roncaglia i Barolo, Piemonte. (Namnet Runcaja är ett dialektalt namn på vingården, då klassificeringen Langhe Nebbiolo egentligen inte får benämnas med distriktsnamn.) D"
+        "url": "https://finewineservice.se/produkt/2023-thorle-josephine-riesling-sekt-brut/",
+        "text": "Thörle Josephine Riesling Sekt Brut görs på handplockade Rieslingdruvor från de kalkrika vingårdarna i Saulheim. Vinet spontanjäser i rostfria ståltankar och genomgår även spontan malolaktisk jäsning. Efter den andra jäsningen på flaska lagras vinet "
       },
       {
-        "titel": "2024 Le Clotagnas La Peyne ×6",
-        "pris": 1494.0,
+        "titel": "2022 Thörle Blanc de Blancs Sekt Brut ×6",
+        "pris": 1734.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2024-le-clotagnas-la-peyne/",
-        "text": "Le Clotagnas La Peyne görs på 100% cinsaultdruvor odlade på ler- och kalkstensjordar. En terroir som ger vinerna rundhet och mineralitet. Druvorna plockas för hand och 20% av klasarna behålls. Vinet lagras på rostfria ståltankar i åtta månader för at"
+        "url": "https://finewineservice.se/produkt/2022-thorle-blanc-de-blancs-chardonnay-sekt-brut/",
+        "text": "Thörle Blanc de Blancs Sekt Brut görs på handplockade Chardonnay &amp; Pinot Blancdruvor från de kalkrika vingårdarna i Saulheim. Vinet jäser i 500-liters tunnor. Efter den andra jäsningen på flaska lagras vinet på bottensatsen i 36 månader. Vinet ha"
       },
       {
-        "titel": "2025 Bindella Luna a Vallocaia Grechetto ×6",
-        "pris": 1134.0,
+        "titel": "2024 Thörle Saulheim Spätburgunder Kalkstein ×6",
+        "pris": 1614.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2025-bindella-luna-a-vallocaia-grechetto/",
-        "text": "Luna a Vallocaia görs på 100% Grechetto-druvor från vingården Camparone. Efter att druvorna handplockats sker alkoholjäsningen på ståltank. Lagring sker i fyra månader på ståltank och i två månader på flaska. Vinet har en halmgul färg och en intensiv"
+        "url": "https://finewineservice.se/produkt/2023-thorle-spatburgunder-saulheim-kalkstein/",
+        "text": "Spätburgunder är det tyska namnet på Pinot Noir-druvan, som är anpassad till svala förhållanden och därmed passar perfekt till att göra kvalitetsviner av i Rheinhessen. Thörles filosofi är att följa den klassiska stilen som påminner om Bourgogne-vin,"
       },
       {
-        "titel": "2023 Bindella Ardore ×6",
-        "pris": 1314.0,
+        "titel": "2024 Thörle Teufelspfad Riesling ×6",
+        "pris": 1914.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2023-bindella-ardore/",
-        "text": "Bindella Ardore görs på en blandning av Cabernet Franc, Merlot och Cabernet Sauvignon från vingårdarna Vallocaia, Camparone och Santa Maria. Efter att druvorna handplockats sker alkoholjäsningen separat för varje druvsort på ståltank tillsammans med "
+        "url": "https://finewineservice.se/produkt/2024-thorle-teufelspfad-riesling/",
+        "text": "Teufelspfad (som betyder Djävulens stig) är en lång, brant vingårdssluttning som producerar intensiva, kryddiga viner. Vinstockarna är exponerade för Selzdalens vindar, och jordmånen varierar från djup kalksten högst upp på sluttningen, via näringsri"
       },
       {
-        "titel": "2023 Bindella Fossolupaio Rosso di Montepulciano ×6",
-        "pris": 1134.0,
+        "titel": "2025 Thörle Probstey Riesling ×6",
+        "pris": 2274.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2023-bindella-fossolupaio-rosso-di-montepulciano/",
-        "text": "Fossolupaio Rosso di Montepulciano görs på 85% Sangiovese och 15% Syrah från vingårdarna Fossolupaio och Vallocaia. Efter att druvorna handplockats sker alkoholjäsningen på ståltank tillsammans med 8-10 dagars maceration av druvorna. Lagring sker i t"
+        "url": "https://finewineservice.se/produkt/2025-thorle-probstey-riesling/",
+        "text": "Vingården Probstey, med sitt rakt sydvända läge, sluttningar på upp till 25 % och en låg höjd på 120 till 170 meter över havet, garanterar viner av högsta kvalitet. Efter en selektiv skörd där druvorna handplockas krossas druvorna lätt i vineriet och"
       },
       {
-        "titel": "2022 Bindella Vino Nobile di Montepulciano ×6",
-        "pris": 1494.0,
+        "titel": "2025 Thörle Schlossberg Riesling ×6",
+        "pris": 2514.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2022-bindella-vino-nobile-di-montepulciano/",
-        "text": "Vino Nobile di Montepulciano görs på 85% Sangiovese och 15% Canaiolo, Colorino och Mammolo från vingårdarna Vallocaia, Camparone och Casalte. Efter att druvorna handplockats sker alkoholjäsningen på ståltank tillsammans med 15-20 dagars maceration av"
+        "url": "https://finewineservice.se/produkt/2025-thorle-schlossberg-riesling/",
+        "text": "Riesling Schlossberg är Thörles premiumvin som görs på druvor som alla kommer från Thörles anrika vingård i Schlossberg. Vingården Schlossberg ligger i nordvästra Saulheim. Detta västvända läge i Saulheim befinner sig på en höjd av 170 till 235 meter"
       },
       {
-        "titel": "2019 Bindella Dolce Sinfonia Vin Santo di Montepulciano ×6",
-        "pris": 2214.0,
+        "titel": "2025 Thörle Hölle Riesling ×6",
+        "pris": 2994.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2019-bindella-dolce-sinfonia-vin-santo-di-montepulciano-doc/",
-        "text": "Dolce Sinfonia Vin Santo di Montepulciano är ett sött vin som görs på 100% Sangiovese-druvor från vingårdarna Vallocaia och Camparone. Efter att druvorna torkats sker alkoholjäsningen på 50 och 100 L ekfat. Lagring sker i tre år på samma ekfat och i "
+        "url": "https://finewineservice.se/produkt/2025-thorle-holle-riesling/",
+        "text": "Detta omtalade vin görs i en mycket liten upplaga, på druvor som alla kommer från Thörles anrika vingård i Hölle som är en gammal vingård i söderläge på den bästa platsen i Saulheim. Druvorna skördas sent och man gör ett mycket strängt urval vilket g"
       }
     ]
   },
@@ -1017,7 +999,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 558,
+      "sokta": 567,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
@@ -1036,7 +1018,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 11
+        "Råå": 9
       }
     },
     "lagersvar": [
