@@ -4,7 +4,7 @@
     "count": 14,
     "errors": [],
     "utan_flaskantal": 1,
-    "slut_i_lager": 0,
+    "slut_i_lager": 1,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -31,7 +31,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 499.0,
+        "pris": 509.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -74,17 +74,60 @@
     ]
   },
   "Vinoteket": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
-    ],
-    "utan_flaskantal": 0,
+    "state": "live",
+    "count": 5,
+    "errors": [],
+    "utan_flaskantal": 3,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [],
-    "exempel": []
+    "utan_flaskantal_exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "url": "https://vinoteket.se/hostens-stora-mixlada",
+        "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Cava i en låda",
+        "url": "https://vinoteket.se/cava-i-en-lada",
+        "text": "Cava - spanskt lyxbubbel gjort på traditionell metod"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
+      }
+    ],
+    "exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/hostens-stora-mixlada",
+        "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Vinotekets vita & bubbel låda",
+        "pris": 1159.0,
+        "flaskor": 9.0,
+        "url": "https://vinoteket.se/vit-manad---mix-x-9",
+        "text": "Vi fyller månaden med vin!"
+      },
+      {
+        "titel": "Cava i en låda",
+        "pris": 1099.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/cava-i-en-lada",
+        "text": "Cava - spanskt lyxbubbel gjort på traditionell metod"
+      },
+      {
+        "titel": "Bästsäljare i en låda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
+      }
+    ]
   },
   "Winefinder": {
     "state": "live",
@@ -156,11 +199,17 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 42,
+    "count": 43,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
+      {
+        "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
+        "pris": 949.95,
+        "flaskor": 3.0,
+        "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Varje flaska av parcellvinet Commissaire är individuellt numrerad, då den totala produktionen uppgår till blott 1 333 flaskor. Förstautgåvan från 2024 av detta nya flaggskepp är så sällsynt att vinet inte ens finns med officiellt på Weingut Teschs egen"
+      },
       {
         "titel": "Klassiker Röd Vinlåda",
         "pris": 1189.95,
@@ -266,32 +315,38 @@
         "text": "Provlådan uppdaterades senast den 21-10-2026 Spanien runt! Prova de populära rödvinerna från Rioja & Ribera del Duero, samt Spaniens svar på stor, lyxigt fatkryddig Meursault... Provlådan innehåller: 2 fl. Labastida 1786 Rioja 2021 \"94 poäng. Rioja R"
       },
       {
-        "titel": "Riesling Vinlåda",
+        "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
         "pris": 949.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/riesling-vinlada",
-        "text": "Provlådan uppdaterades senast den 21-10-2026 Riesling Provlåda – 6 stjärnskott från Tyskland, Österrike och Frankrike. Gillar du krispig syra, blommiga aromer och mineralisk elegans? Då är denna Riesling Provlåda ett sant paradis! Här får du 6 toppre"
+        "flaskor": 3.0,
+        "url": "https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack",
+        "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Va"
       }
     ]
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 40,
+    "count": 41,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
-        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
-        "pris": 3659.95,
-        "flaskor": 3.0,
-        "text": "Tenuta San Guido — Den kompletta familjen från Bolgheri Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri, Toscana, som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia — husets flaggskepp och det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker — är inte bara ett vin. Det är ett monument över va"
-      },
-      {
         "titel": "Vinlåda Tenuta San Guido Sassicaia 100 P Med Familj 3 fl",
         "pris": 3739.95,
         "flaskor": 3.0,
         "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
+      },
+      {
+        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
+        "pris": 3659.95,
+        "flaskor": 3.0,
+        "text": ""
+      },
+      {
+        "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
+        "pris": 2989.95,
+        "flaskor": 2.0,
+        "text": "Med denne eksklusive smagekasse får du en sjælden mulighed for at opleve Champagne Bollinger La Grande Année i to forskellige årgange, 2015 og 2018, samlet i én kasse. Det er en smageoplevelse til den kvalitetsbevidste champagneelsker, der vil fordybe sig i, hvordan samme prestigecuvée kan udtrykke sig forskelligt fra høstår til høstår. Bollinger er et af Champagnes mest respekterede huse og kendt for en stil præget af dybde, karakter, kompleksitet og elegance, og La Grande Année hører til bland"
       },
       {
         "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
@@ -304,12 +359,6 @@
         "pris": 15229.95,
         "flaskor": 3.0,
         "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
-      },
-      {
-        "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
-        "pris": 3279.95,
-        "flaskor": 2.0,
-        "text": "Med denne eksklusive smagekasse får du en sjælden mulighed for at opleve Champagne Bollinger La Grande Année i to forskellige årgange, 2015 og 2018, samlet i én kasse. Det er en smageoplevelse til den kvalitetsbevidste champagneelsker, der vil fordybe sig i, hvordan samme prestigecuvée kan udtrykke sig forskelligt fra høstår til høstår. Bollinger er et af Champagnes mest respekterede huse og kendt for en stil præget af dybde, karakter, kompleksitet og elegance, og La Grande Année hører til bland"
       }
     ],
     "alkoholfria": 0,
@@ -321,6 +370,13 @@
       }
     ],
     "exempel": [
+      {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+      },
       {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
@@ -336,11 +392,11 @@
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
@@ -355,13 +411,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -381,9 +430,9 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 31,
+    "count": 30,
     "errors": [],
-    "utan_flaskantal": 11,
+    "utan_flaskantal": 10,
     "slut_i_lager": 2,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -913,7 +962,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 158,
+    "count": 156,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -999,7 +1048,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 567,
+      "sokta": 565,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
@@ -1018,7 +1067,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 9
+        "Råå": 7
       }
     },
     "lagersvar": [
