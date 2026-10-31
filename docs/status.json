@@ -1,10 +1,10 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 14,
+    "count": 17,
     "errors": [],
     "utan_flaskantal": 1,
-    "slut_i_lager": 1,
+    "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -16,11 +16,32 @@
     ],
     "exempel": [
       {
+        "titel": "XL Vinterlådan - Guld nivå 🎖️❄️",
+        "pris": 979.0,
+        "flaskor": 8.0,
+        "url": "https://dittvin.se/products/vinterladan-guld-niva",
+        "text": "XL Vinterlådan - Guld nivå 🎖️❄️ Upplev en utsökt smakresa med vår unika vinlåda med 8 fylliga rödviner, 3 friska vita viner och 1 mousserande vin. Varje vin är noggrant utvalt för att lyfta fram de bästa smakerna och egenskaperna från sin region. Det"
+      },
+      {
+        "titel": "XL Black Month Lådan💥",
+        "pris": 899.0,
+        "flaskor": 12.0,
+        "url": "https://dittvin.se/products/xl-black-month-vanvidskassen",
+        "text": "XL Black Month Lådan💥 Är du redo för en Black Month fylld med prisbelönta vinupplevelser? 🍷 Vi har samlat 12 spännande rödviner i en stor XL-vinlåda, där flera av flaskorna har fått fina medaljer och utmärkelser i internationella vintävlingar. Se fra"
+      },
+      {
         "titel": "XL Rödvinsvinlåda",
         "pris": 849.0,
         "flaskor": 12.0,
         "url": "https://dittvin.se/products/xl-rodvinsvinlada",
         "text": "XL Rödvinsvinlåda Upptäck en utvald samling av 12 fantastiska rödviner som bjuder på en mångfald av smaker och stilar. Från den fruktiga elegansen av Marques de Berol Tinto Seco och den semisöta charmen i Sol de Castilla, till den klassiska strukture"
+      },
+      {
+        "titel": "Black Month Lådan🍷🖤",
+        "pris": 489.0,
+        "flaskor": 6.0,
+        "url": "https://dittvin.se/products/black-month-vinlada",
+        "text": "Black Month Lådan 🍷🖤 Black Month är den perfekta anledningen att fylla vinglaset med extra goda upplevelser. Därför har vi samlat 6 noggrant utvalda röda viner från Italien, fyllda med karaktär, kvalitet och massor av smak. I lådan hittar du både pri"
       },
       {
         "titel": "XL vitvinslåda 🍾🥂",
@@ -49,27 +70,6 @@
         "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser",
         "text": "Dittvins bubbellåda- 6 festliga smakupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och en elegant rosé i denna sköna låda. Varje vin presenterar sin egen unika karaktär, från den livliga J. Kieffer Mousseux till den krispiga S"
-      },
-      {
-        "titel": "XL Höstfavoriter - 12 utvalda viner till höstens mysstunder",
-        "pris": 869.0,
-        "flaskor": 12.0,
-        "url": "https://dittvin.se/products/xl-hostfavoriter-12-utvalda-viner-till-hostens-mysstunder",
-        "text": "XL Höstfavoriter - 12 utvalda viner till höstens mysstunder Upptäck en mångfacetterad vinupplevelse med vår smakfulla box som erbjuder två friska roséer, två eleganta vita viner, sex fylliga röda viner och två sprudlande cremant. Varje vin är noggran"
-      },
-      {
-        "titel": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysiga stunder",
-        "pris": 499.0,
-        "flaskor": 6.0,
-        "url": "https://dittvin.se/products/dittvins-hostfavoriter-6-utvalda-viner-till-hostens-mysiga-stunder",
-        "text": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysiga stunder Upplev en utsökt samling av viner med vår provningslåda, som presenterar fem fylliga rödviner och en frisk vitvin. Varje vin är noggrant utvalt för att erbjuda en rad smakupplevelse"
-      },
-      {
-        "titel": "XL Lyxig vinlåda - Guld nivå 🏅🍷",
-        "pris": 899.0,
-        "flaskor": 12.0,
-        "url": "https://dittvin.se/products/xl-luksus-vinlada-guld-niva",
-        "text": "XL Lyxig vinlåda - Guld nivå 🏅🍷 Denna smaklåda bjuder in dig på en spännande vinresa genom italienska klassiker, friska roséviner, eleganta bubblor och ett välvalt vitt vin. Här får du 12 flaskor med stor variation och massor av drickglädje: 1 × rödv"
       }
     ]
   },
@@ -344,7 +344,7 @@
       },
       {
         "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
-        "pris": 2989.95,
+        "pris": 3279.95,
         "flaskor": 2.0,
         "text": "Med denne eksklusive smagekasse får du en sjælden mulighed for at opleve Champagne Bollinger La Grande Année i to forskellige årgange, 2015 og 2018, samlet i én kasse. Det er en smageoplevelse til den kvalitetsbevidste champagneelsker, der vil fordybe sig i, hvordan samme prestigecuvée kan udtrykke sig forskelligt fra høstår til høstår. Bollinger er et af Champagnes mest respekterede huse og kendt for en stil præget af dybde, karakter, kompleksitet og elegance, og La Grande Année hører til bland"
       },
@@ -378,6 +378,20 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -399,20 +413,6 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
-      },
-      {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
         "pris": 519.95,
         "flaskor": 6.0,
@@ -432,7 +432,7 @@
     "state": "live",
     "count": 30,
     "errors": [],
-    "utan_flaskantal": 10,
+    "utan_flaskantal": 8,
     "slut_i_lager": 2,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
@@ -441,16 +441,6 @@
         "titel": "Kompletta franska lådan för höstens middagar",
         "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
         "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
-      },
-      {
-        "titel": "Stora höstlådan, Bordeaux och Merlot",
-        "url": "https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot",
-        "text": "När du ska beställa vin till säsongens alla bjudningar är denna blandlåda ett självklart val. Vi har handplockat viner som förenar kraften hos Bordeaux med mjukheten i Merlot. Kombinationen bygger på"
-      },
-      {
-        "titel": "Stora Appassimentolådan",
-        "url": "https://nordiskavin.se/store/stora-apassimentoladan",
-        "text": "Beställ Appassimento Favoriter smidigt på nätet. Se pris och lagerstatus. Mjuka och fylliga italienska rödviner med snabb hemleverans till dörren."
       },
       {
         "titel": "Appassimentolådan med röda viner",
@@ -476,6 +466,16 @@
         "titel": "Hållbar trio av vitt, Rosé och Côtes du Rhône",
         "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
         "text": "Beställ Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône smidigt på nätet. Se pris och lagerstatus. En hållbar samling av Sauvignon Blanc, rosé och Rhône med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Smakfullt Rosépaket från Frankrike",
+        "url": "https://nordiskavin.se/store/franska-rosefavoriter-loire-och-grenache-flaska",
+        "text": "Beställ Franska Roséfavoriter smidigt på nätet. Se pris och lagerstatus. En prisvärd blandlåda med utvald rosé från Loire och Sydfrankrike med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Italiensk appassimento premium blandlåda",
+        "url": "https://nordiskavin.se/store/italiensk-appassimento-premium-toscana-till-apulien",
+        "text": "Beställ Italiensk appassimento premium blandlåda smidigt på nätet. Se pris och lagerstatus. Utforskande rödvinssamling med snabb hemleverans till dörren."
       }
     ],
     "exempel": [
@@ -595,7 +595,7 @@
         "pris": 1725.0,
         "flaskor": 12.0,
         "url": "https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/",
-        "text": "Då är rödvin grejen! – tolv flaskor. I paketet ingår två flaskor vardera av följande toppdryck, totalt alltså tolv buteljer. * Cascere Valeggia Barbera Superiore ”Per Ingrid”. Fylig och generös Barbera. Passar bra till svampmackan eller grytan. Vinet"
+        "text": "Då är rödvin grejen! – tolv flaskor. I paketet ingår två flaskor vardera av följande toppdryck, totalt alltså tolv buteljer. * Cascere Valeggia Barbera Superiore ”Per Ingrid”. Fylig och mycket generös Barbera. Passar bra till svampmackan eller grytan"
       },
       {
         "titel": "Pinot Noir! – Vinpaket",
@@ -677,18 +677,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -962,7 +962,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 156,
+    "count": 154,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1026,11 +1026,11 @@
         "text": "Riesling Schlossberg är Thörles premiumvin som görs på druvor som alla kommer från Thörles anrika vingård i Schlossberg. Vingården Schlossberg ligger i nordvästra Saulheim. Detta västvända läge i Saulheim befinner sig på en höjd av 170 till 235 meter"
       },
       {
-        "titel": "2025 Thörle Hölle Riesling ×6",
-        "pris": 2994.0,
+        "titel": "2024 Thörle Probstey Spätburgunder ×6",
+        "pris": 3594.0,
         "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2025-thorle-holle-riesling/",
-        "text": "Detta omtalade vin görs i en mycket liten upplaga, på druvor som alla kommer från Thörles anrika vingård i Hölle som är en gammal vingård i söderläge på den bästa platsen i Saulheim. Druvorna skördas sent och man gör ett mycket strängt urval vilket g"
+        "url": "https://finewineservice.se/produkt/2024-thorle-probstey-spatburgunder/",
+        "text": "Spätburgunder Probstey görs i en mycket liten upplaga, på druvor som alla kommer från Thörles anrika vingård i Probstey. Probstey ligger helt i söderläge på 100-180 meters höjd över havet. Vingården ligger helt öppet, och får på eftermiddagen och kvä"
       }
     ]
   },
@@ -1048,7 +1048,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 565,
+      "sokta": 563,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
@@ -1067,7 +1067,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 7
+        "Råå": 6
       }
     },
     "lagersvar": [
