@@ -199,7 +199,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 43,
+    "count": 42,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 0,
@@ -378,6 +378,13 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
+      },
+      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -404,13 +411,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -677,18 +677,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Maset Mim ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/maset-mim/",
-        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
         "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
+      },
+      {
+        "titel": "Maset Mim ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/maset-mim/",
+        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -712,11 +712,11 @@
         "text": "Bocopa Alcanta Crianza Alkohol: 14% Druva: Monastrell, Tempranillo Land: Spanien Årgång: 2022 Utseende: Mörkröd Doft: Fruktig, söt med inslag av vinbär Smak: Den unika smaken av detta vin speglar det bästa av druvorna Monastrell och Tempranillo. Lagr"
       },
       {
-        "titel": "GEMIN SPUMANTE BIANCO CUVÈE EXTRA DRY ×6",
+        "titel": "GEMIN SPUMANTE BIANCO CUVÈE BRUT ×6",
         "pris": 654.0,
         "flaskor": 6.0,
-        "url": "https://tidblomwines.com/prosecco/gemin-spumante-bianco-cuvee-extra-dry/",
-        "text": "Charmatjäst spumante med intensiv doft av mogen persika och gyllene äpple. Extra Dry, 16 gram socker – och prisvärd. Till skillnad från husets DOCG-viner är den här en spumante gjord på Glera från Veneto i stort, jäst i autoklav i minst 30 dagar enli"
+        "url": "https://tidblomwines.com/prosecco/gemin-spumante-bianco-cuvee-brut/",
+        "text": "Samma hus och metod som Cuvée Extra Dry, men torr: 10 gram socker, bestämd smak och en lätt bitter eftersmak som skärper helheten. Gemins Brut-version av husets spumante, jäst i autoklav i minst 30 dagar enligt Charmat- eller Martinottimetoden på Gle"
       }
     ]
   },
@@ -750,6 +750,13 @@
     ],
     "exempel": [
       {
+        "titel": "Höstlåda #1",
+        "pris": 1490.0,
+        "flaskor": null,
+        "url": "https://winetrade.se/products/hostlada-1",
+        "text": "La Biancara, Masieri, 2024, Veneto, Italien Garganega från vulkanisk jordmån i norra Italien. Friskt vitt med hög syra &amp; mineralitet. Sebastien Brunet, Arpent, 2025, Loire, Frankrike 100% Chenin blanc från kalkrik lergjord med fräsch syra och min"
+      },
+      {
         "titel": "Rosélåda!",
         "pris": 595.0,
         "flaskor": 3.0,
@@ -762,13 +769,6 @@
         "flaskor": 3.0,
         "url": "https://winetrade.se/products/champagne-3-pack-copy-copy-copy",
         "text": "Larmandier-Bernier, Champagne 1 x NV Latitude, Blanc des Blancs 1 x 2016 Chemins d'Avize, Blanc des Blancs 1 x 2015 Vielle Vignes Lévan, Blanc des Blancs Pierre tillsammans med sin familj kultiverar samtliga vingårdar biodynamiskt. De förfogar idag ö"
-      },
-      {
-        "titel": "Höstlåda #1",
-        "pris": 1490.0,
-        "flaskor": null,
-        "url": "https://winetrade.se/products/hostlada-1",
-        "text": "La Biancara, Masieri, 2024, Veneto, Italien Garganega från vulkanisk jordmån i norra Italien. Friskt vitt med hög syra &amp; mineralitet. Sebastien Brunet, Arpent, 2025, Loire, Frankrike 100% Chenin blanc från kalkrik lergjord med fräsch syra och min"
       }
     ]
   },
