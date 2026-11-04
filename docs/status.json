@@ -58,11 +58,11 @@
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
       },
       {
-        "titel": "Dittvins boble låda - 6 festliga smaksupplevelser 🥂🍾",
+        "titel": "Dittvins bubbellåda - 6 festliga smaksupplevelser 🥂🍾",
         "pris": 519.0,
         "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser",
-        "text": "Dittvins boble låda - 6 festliga smaksupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och en elegant rosé i denna sköna låda. Varje vin presenterar sin egen unika karaktär, från den livliga J. Kieffer Mousseux till den krispiga"
+        "text": "Dittvins bubbellåda - 6 festliga smaksupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och ett elegant roséviner i den här vinlådan. Varje vin har sin egen karaktär, från livliga J. Kieffer Mousseux till krispiga Sire de Beaupré"
       },
       {
         "titel": "XL Höstfavoriter - 12 utvalda viner till höstens mysstunder",
@@ -75,18 +75,13 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 4,
+    "count": 2,
     "errors": [],
-    "utan_flaskantal": 2,
+    "utan_flaskantal": 1,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
       {
         "titel": "Bästsäljare i en låda",
         "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
@@ -94,20 +89,6 @@
       }
     ],
     "exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Vinotekets vita & bubbel låda",
-        "pris": 1159.0,
-        "flaskor": 9.0,
-        "url": "https://vinoteket.se/vit-manad---mix-x-9",
-        "text": "Vi fyller månaden med vin!"
-      },
       {
         "titel": "Bästsäljare i en låda",
         "pris": 1199.0,
@@ -190,7 +171,7 @@
     "count": 42,
     "errors": [],
     "utan_flaskantal": 4,
-    "slut_i_lager": 2,
+    "slut_i_lager": 4,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -262,7 +243,7 @@
       },
       {
         "titel": "Provlåda SPANSKE LÆKKERIER",
-        "pris": 769.95,
+        "pris": 1919.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/smaklada-spanska-lackerheter",
         "text": "Provlådan uppdaterades senast den 21-10-2026 Spanskt Rödvin Provlåda – 6 topprecenserade flaskor med stor smak och litet pris. Letar du efter spanskt rödvin i världsklass – utan att betala överpris? Då har du hittat helt rätt med den här provlådan! H"
@@ -367,7 +348,7 @@
       },
       {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 1259.95,
+        "pris": 959.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
@@ -418,10 +399,10 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 30,
+    "count": 31,
     "errors": [],
     "utan_flaskantal": 8,
-    "slut_i_lager": 2,
+    "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -503,13 +484,6 @@
         "text": "Att samla vänner kring kylda glas ska vara enkelt. Vi valde ut dessa tre mousserande viner för att skapa en prisvärd blandlåda fylld med fräschör till alla skålar och mingel. Franska Roche Mazet bär m"
       },
       {
-        "titel": "She's Always Blanc de Blancs, 6-pack",
-        "pris": 749.0,
-        "flaskor": 6.0,
-        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
-        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
-      },
-      {
         "titel": "Eleganta bubblor och Sauvignon Blanc",
         "pris": 1299.0,
         "flaskor": 6.0,
@@ -522,6 +496,13 @@
         "flaskor": null,
         "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
         "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
+      },
+      {
+        "titel": "Appassimento med 98 poäng 12 flaskor",
+        "pris": 1499.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/appassimento-blandlada-98p-duca-di-saragnano",
+        "text": "Denna blandlåda är skapad för dig som älskar fylliga och generösa italienska rödviner. Vi har valt ut tre fantastiska viner från Duca di Saragnano där den hyllade Passone möter eleganta leggermente ap"
       }
     ]
   },
@@ -665,18 +646,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -950,7 +931,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 153,
+    "count": 154,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1034,10 +1015,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 13,
+    "count": 14,
     "stats": {
-      "sokta": 562,
-      "hittade": 13,
+      "sokta": 563,
+      "hittade": 14,
       "i_lager": 0,
       "fel": 0
     },
@@ -1216,6 +1197,28 @@
         }
       },
       {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
         "vin": "Post House Black Mail ×6",
         "butik": "Tidblom Wines",
         "sb": {
@@ -1330,12 +1333,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7229601",
-          "price": 740.0,
+          "number": "7761701",
+          "price": 584.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
