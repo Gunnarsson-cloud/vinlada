@@ -75,13 +75,18 @@
   },
   "Vinoteket": {
     "state": "live",
-    "count": 2,
+    "count": 4,
     "errors": [],
-    "utan_flaskantal": 1,
+    "utan_flaskantal": 2,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "url": "https://vinoteket.se/hostens-stora-mixlada",
+        "text": "Hela hösten samlad i en låda"
+      },
       {
         "titel": "Bästsäljare i en låda",
         "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
@@ -89,6 +94,20 @@
       }
     ],
     "exempel": [
+      {
+        "titel": "Höstens stora mixlåda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/hostens-stora-mixlada",
+        "text": "Hela hösten samlad i en låda"
+      },
+      {
+        "titel": "Vinotekets vita & bubbel låda",
+        "pris": 1159.0,
+        "flaskor": 9.0,
+        "url": "https://vinoteket.se/vit-manad---mix-x-9",
+        "text": "Vi fyller månaden med vin!"
+      },
       {
         "titel": "Bästsäljare i en låda",
         "pris": 1199.0,
@@ -242,13 +261,6 @@
         "text": "Vinlådan uppdaterades senast den 21-10-2026 Härligt vitt vin och fantastiska bubblor – vad mer kan man önska sig?! Vilken härlig vinlåda vi har satt ihop… Lådan är fylld med topprankade vita viner och lyxiga bubblor till helt otroliga priser. Vinerna"
       },
       {
-        "titel": "Provlåda SPANSKE LÆKKERIER",
-        "pris": 1919.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/smaklada-spanska-lackerheter",
-        "text": "Provlådan uppdaterades senast den 21-10-2026 Spanskt Rödvin Provlåda – 6 topprecenserade flaskor med stor smak och litet pris. Letar du efter spanskt rödvin i världsklass – utan att betala överpris? Då har du hittat helt rätt med den här provlådan! H"
-      },
-      {
         "titel": "Italiensk Provningslåda",
         "pris": 799.95,
         "flaskor": 6.0,
@@ -289,6 +301,13 @@
         "flaskor": 6.0,
         "url": "https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay",
         "text": "Vinlådan är senast uppdaterad den 27-05-2026 3 fl. Couveys Pinot Noir och 3 fl. Couveys Chardonnay - fransk finess i samma låda! Vinlådan innehåller: 3 fl. Couveys Pinot Noir 2024 \"94 point. Couveys Pinot Noir er en vin, der leverer netop dét, man hå"
+      },
+      {
+        "titel": "Ziereisen Provlåda",
+        "pris": 1639.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada",
+        "text": "För första gången någonsin har vi samlat 6 olika små restpartier från kultvinmakaren Hans Peter Ziereisen och skapat \"Ziereisen\"-Vinlåda. Här får du möjlighet att uppleva 6 olika röd- och vitviner som har tagit hela världen med storm. Något av det me"
       }
     ]
   },
@@ -304,12 +323,6 @@
         "pris": 3739.95,
         "flaskor": 3.0,
         "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
-      },
-      {
-        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
-        "pris": 3659.95,
-        "flaskor": 3.0,
-        "text": ""
       },
       {
         "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
@@ -340,6 +353,13 @@
     ],
     "exempel": [
       {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
+      },
+      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -352,13 +372,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
         "titel": "Vinlåda Vivino-favoriter 6 fl",
@@ -399,10 +412,10 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 31,
+    "count": 32,
     "errors": [],
     "utan_flaskantal": 8,
-    "slut_i_lager": 3,
+    "slut_i_lager": 2,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
@@ -484,6 +497,13 @@
         "text": "Att samla vänner kring kylda glas ska vara enkelt. Vi valde ut dessa tre mousserande viner för att skapa en prisvärd blandlåda fylld med fräschör till alla skålar och mingel. Franska Roche Mazet bär m"
       },
       {
+        "titel": "She's Always Blanc de Blancs, 6-pack",
+        "pris": 749.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
+        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
+      },
+      {
         "titel": "Eleganta bubblor och Sauvignon Blanc",
         "pris": 1299.0,
         "flaskor": 6.0,
@@ -491,18 +511,11 @@
         "text": "Vi har satt ihop denna kombination för dig som vill köpa vin med balanserad friskhet och bubblande elegans. Lådan skapar en mångsidig samling för livets alla fina stunder.Vad den innehåller Sex flasko"
       },
       {
-        "titel": "Kompletta franska lådan för höstens middagar",
-        "pris": 1399.0,
-        "flaskor": null,
-        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
-        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
-      },
-      {
-        "titel": "Appassimento med 98 poäng 12 flaskor",
-        "pris": 1499.0,
-        "flaskor": 12.0,
-        "url": "https://nordiskavin.se/store/appassimento-blandlada-98p-duca-di-saragnano",
-        "text": "Denna blandlåda är skapad för dig som älskar fylliga och generösa italienska rödviner. Vi har valt ut tre fantastiska viner från Duca di Saragnano där den hyllade Passone möter eleganta leggermente ap"
+        "titel": "Fylliga höstlådan, Bordeaux, Côtes du Rhône och Merlot",
+        "pris": 1349.0,
+        "flaskor": 4.0,
+        "url": "https://nordiskavin.se/store/fylliga-hostladan-bordeaux-cotes",
+        "text": "Vi har valt ut fyra franska favoriter som värmer under kulna kvällar och sätter guldkant på helgens middagar. Kombinationen samlar smakrika viner som lyfter varandra runt matbordet och bjuder in till"
       }
     ]
   },
@@ -931,7 +944,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 154,
+    "count": 152,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1017,7 +1030,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 563,
+      "sokta": 561,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
