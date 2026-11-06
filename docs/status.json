@@ -118,79 +118,24 @@
     ]
   },
   "Winefinder": {
-    "state": "live",
-    "count": 9,
-    "errors": [],
+    "state": "kunde inte läsas",
+    "count": 0,
+    "errors": [
+      "html: inga vinlådor: 2 listningar, 69 länkar, 68 sidor, 0 med pris, 0 fel valuta"
+    ],
     "utan_flaskantal": 0,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
-    "exempel": [
-      {
-        "titel": "Weingut Dr. Corvers-Kauter Terroir Riesling Case 2025",
-        "pris": 1194.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941",
-        "text": "Corvers-Kauter Berg Roseneck Rüdesheim Riesling trocken 2025 (2 flaskor) Doften bjuder på generösa toner av gula äpplen, päron, persika och gula plommon, kompletterade av friska inslag av citron och grapefrukt. Smaken inleds med en tydlig mineralitet"
-      },
-      {
-        "titel": "Wine Mechanics GBG - Goa Buteljer från Göteborg! #6 ×6",
-        "pris": 1614.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/eu/eu/gbg-goa-buteljer-fran-goteborg-6-wine-mechanics-a137671",
-        "text": "Wine Mechanics GBG – Goa Buteljer från Göteborg! #6 är en exklusiv och smakrik vinlåda från Wine Mechanics i Göteborg, Sveriges första urbana vineri. Denna noggrant sammansatta vinlåda erbjuder en unik möjlighet att upptäcka flera av producentens mes"
-      },
-      {
-        "titel": "Domaine Vocoret & Fils Chablis 2024 ×6",
-        "pris": 1794.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/frankrike/chablis/chablis-domaine-vocoret-fils-2024-a137714",
-        "text": "Vinet bjuder på friska toner av citrus, gröna äpplen och vit persika, med en tydlig kalkig mineralitet som speglar områdets unika terroir. Smaken är torr, krispig och välbalanserad med hög syra och en ren, lång avslutning."
-      },
-      {
-        "titel": "Domaine Vocoret & Fils Chablis Forêt 1. Cru 2024 ×6",
-        "pris": 2094.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/frankrike/chablis/chablis-fort-1-cru-domaine-vocoret-fils-2024-a137724",
-        "text": "Vinet bjuder på intensiva toner av citrus, gröna äpplen och vit persika, med tydlig kalkig mineralitet och subtila inslag av vita blommor. Smaken är stram och precis med hög syra, fin koncentration och en lång, komplex avslutning."
-      },
-      {
-        "titel": "De Lisio Wines Quarterback 2021 ×6",
-        "pris": 1254.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/australien/mclaren-vale/quarterback-de-lisio-wines-2021-khjh136102",
-        "text": "Vinet har en stor och inbjudande doft med inslag av söta kryddor, mogna mörka körsbär, plommon, blåbär och choklad. Smaken är fyllig, med inlindade tanniner och varm fruktighet samtidigt som det lyckas behålla en fin balans. Lång, fruktdriven och kry"
-      },
-      {
-        "titel": "Allan Scott Family Winemakers Pinot Noir 2025 ×6",
-        "pris": 894.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/nya-zeeland/marlborough/pinot-noir-allan-scott-family-winemakers-2025-a137559",
-        "text": "En modern tolkning av Marlborough Pinot Noir med mjuka tanniner och generös frukt. Vinet bjuder på en frisk, fruktdriven stil med tydliga inslag av körsbär, jordgubbar, boysenbär, hallon och mogna röda plommon. Den lena och smidiga strukturen ger ett"
-      },
-      {
-        "titel": "Three Sticks Head High Pinot Noir 2023 ×6",
-        "pris": 1314.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/usa/sonoma-/head-high-pinot-noir-three-sticks-2023-khjh137757",
-        "text": "Stor floral doft av viol, röda bär, hallon, jordgubbar och rökig mineral. Smaken är medelfyllig och varm men med fin nerv och juicig pinot noir-frukt. Välstrukturerat och elegant med lång härlig eftersmak."
-      },
-      {
-        "titel": "Château Pigoudet Première Rosé 2025 ×6",
-        "pris": 894.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/frankrike/provence/premire-rose-chteau-pigoudet-2025-a137638",
-        "text": "Blek laxrosa färg med klara reflexer, typisk för rosé från Provence. Doften är frisk och aromatisk med inslag av jordgubbar, hallon och vita persikor, tillsammans med subtila toner av citrus och örter. Smaken är torr, krispig och välbalanserad med en"
-      }
-    ]
+    "exempel": []
   },
   "Supervin": {
     "state": "live",
     "count": 42,
     "errors": [],
-    "utan_flaskantal": 4,
-    "slut_i_lager": 4,
+    "utan_flaskantal": 3,
+    "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -245,11 +190,6 @@
         "titel": "Rød Bourgogne Provningslåda",
         "url": "https://www.supervin.se/rod-bourgogne-vinlada",
         "text": "Vinlådan uppdaterades senast den 21-10-2026 Äntligen... Vinlådan som alla Pinot Noir-entusiaster har väntat på. 6 olika flaskor från världens mest eftertraktade vinområde - Bourgogne! Vi vill redan här i inledningen uppmärksamma dig på att den här vinlådan är sammansatt av små exklusiva restpartier och därför kommer att sälja slut inom kort. Upplev Bourgogne från alla dess sidor, men till ett helt"
-      },
-      {
-        "titel": "Tesch Tasting Box 2020 & Liveprovning",
-        "url": "https://www.supervin.se/tesch-tasting-box-2020-live-provning",
-        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Riesling‑producenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den fantastiska nya årgången 2020. Praktisk info: Se eller återse provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 provflaskor samt ett elegant häfte som introducerar dig till lådans enskilda vin"
       }
     ],
     "exempel": [
@@ -259,6 +199,13 @@
         "flaskor": 9.0,
         "url": "https://www.supervin.se/vitt-vin-bubblor-vinlada",
         "text": "Vinlådan uppdaterades senast den 21-10-2026 Härligt vitt vin och fantastiska bubblor – vad mer kan man önska sig?! Vilken härlig vinlåda vi har satt ihop… Lådan är fylld med topprankade vita viner och lyxiga bubblor till helt otroliga priser. Vinerna"
+      },
+      {
+        "titel": "Provlåda SPANSKE LÆKKERIER",
+        "pris": 769.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/smaklada-spanska-lackerheter",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Spanskt Rödvin Provlåda – 6 topprecenserade flaskor med stor smak och litet pris. Letar du efter spanskt rödvin i världsklass – utan att betala överpris? Då har du hittat helt rätt med den här provlådan! H"
       },
       {
         "titel": "Italiensk Provningslåda",
@@ -273,6 +220,13 @@
         "flaskor": 6.0,
         "url": "https://www.supervin.se/chardonnay-vinlada",
         "text": "Vinlådan er senest opdateret den 24-05-2026 Är du förtjust i Chardonnay – eller nyfiken på druvans många uttryck? Då är denna vinlåda ett riktigt fynd! Här får du 6 kritikerrosade Chardonnay-viner från både klassiska och överraskande ursprung – alla "
+      },
+      {
+        "titel": "Spanien rundt i rødvine provlåda",
+        "pris": 899.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/spanien-runt-vinlada-med-rodviner",
+        "text": "Ribera del Duero, Rioja och Navarra… Det är de tre mest hypade vinområdena i Spanien vi ska besöka i denna nya Vinlåda, som innehåller 6 olika flaskor med toppomdömen massor . Låt oss börja på toppen hos Ribera del Dueros nya kultförklarade producent"
       },
       {
         "titel": "Spansk vinprovningslåda",
@@ -294,26 +248,12 @@
         "flaskor": 6.0,
         "url": "https://www.supervin.se/riesling-vinlada",
         "text": "Provlådan uppdaterades senast den 21-10-2026 Riesling Provlåda – 6 stjärnskott från Tyskland, Österrike och Frankrike. Gillar du krispig syra, blommiga aromer och mineralisk elegans? Då är denna Riesling Provlåda ett sant paradis! Här får du 6 toppre"
-      },
-      {
-        "titel": "Mixlåda Pinot Noir & Chardonnay",
-        "pris": 959.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay",
-        "text": "Vinlådan är senast uppdaterad den 27-05-2026 3 fl. Couveys Pinot Noir och 3 fl. Couveys Chardonnay - fransk finess i samma låda! Vinlådan innehåller: 3 fl. Couveys Pinot Noir 2024 \"94 point. Couveys Pinot Noir er en vin, der leverer netop dét, man hå"
-      },
-      {
-        "titel": "Ziereisen Provlåda",
-        "pris": 1639.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada",
-        "text": "För första gången någonsin har vi samlat 6 olika små restpartier från kultvinmakaren Hans Peter Ziereisen och skapat \"Ziereisen\"-Vinlåda. Här får du möjlighet att uppleva 6 olika röd- och vitviner som har tagit hela världen med storm. Något av det me"
       }
     ]
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 40,
+    "count": 39,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -326,7 +266,7 @@
       },
       {
         "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
-        "pris": 3279.95,
+        "pris": 2959.95,
         "flaskor": 2.0,
         "text": "Med denne eksklusive smagekasse får du en sjælden mulighed for at opleve Champagne Bollinger La Grande Année i to forskellige årgange, 2015 og 2018, samlet i én kasse. Det er en smageoplevelse til den kvalitetsbevidste champagneelsker, der vil fordybe sig i, hvordan samme prestigecuvée kan udtrykke sig forskelligt fra høstår til høstår. Bollinger er et af Champagnes mest respekterede huse og kendt for en stil præget af dybde, karakter, kompleksitet og elegance, og La Grande Année hører til bland"
       },
@@ -353,25 +293,18 @@
     ],
     "exempel": [
       {
-        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
-        "pris": 14549.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
-        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
-      },
-      {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 959.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
+        "pris": 14549.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
+        "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
         "titel": "Vinlåda Vivino-favoriter 6 fl",
@@ -393,6 +326,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -497,13 +437,6 @@
         "text": "Att samla vänner kring kylda glas ska vara enkelt. Vi valde ut dessa tre mousserande viner för att skapa en prisvärd blandlåda fylld med fräschör till alla skålar och mingel. Franska Roche Mazet bär m"
       },
       {
-        "titel": "She's Always Blanc de Blancs, 6-pack",
-        "pris": 749.0,
-        "flaskor": 6.0,
-        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
-        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
-      },
-      {
         "titel": "Eleganta bubblor och Sauvignon Blanc",
         "pris": 1299.0,
         "flaskor": 6.0,
@@ -516,6 +449,13 @@
         "flaskor": 4.0,
         "url": "https://nordiskavin.se/store/fylliga-hostladan-bordeaux-cotes",
         "text": "Vi har valt ut fyra franska favoriter som värmer under kulna kvällar och sätter guldkant på helgens middagar. Kombinationen samlar smakrika viner som lyfter varandra runt matbordet och bjuder in till"
+      },
+      {
+        "titel": "She's Always Blanc de Blancs, 6-pack",
+        "pris": 749.0,
+        "flaskor": 6.0,
+        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
+        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
       }
     ]
   },
@@ -756,7 +696,7 @@
   },
   "Vinibutik": {
     "state": "live",
-    "count": 44,
+    "count": 46,
     "errors": [],
     "utan_flaskantal": 0,
     "slut_i_lager": 0,
@@ -764,6 +704,20 @@
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": [
+      {
+        "titel": "Vita lådan 12 flaskor",
+        "pris": 1395.0,
+        "flaskor": 12.0,
+        "url": "https://vinibutik.dk/products/ribera-del-duero-ladan-copy",
+        "text": "OBS! Se leveransplan för nästa leveransdatum Vinlådan innehåller: 3 flaskor Fervenzada 2025 Land: Spanien Region: Galicien Vinsort: Vitt vin Druvor: 60% Airén och 40% Chardonnay Årgang: 2025 Producent: Bodegas La Vereda Alkohol: 12% Volym: 75cl Försl"
+      },
+      {
+        "titel": "Ribera del Duero lådan",
+        "pris": 1495.0,
+        "flaskor": 6.0,
+        "url": "https://vinibutik.dk/products/barolo-barbaresco-nebbiolo-copy",
+        "text": "OBS! Se leveransplan för nästa leveransdatum Vinlådan innehåller: 2 flaskor Abaco 2018 Land: Spanien Region: Ribera del Duero Vinsort: Rött vin Druvor: 100% Tinto Fino Årgang: 2018 Producent: Arte y Parte Alkohol: 14% Volym: 75cl Förslutning: Naturko"
+      },
       {
         "titel": "Teño un Polbaso 2025 ×6",
         "pris": 774.0,
@@ -805,20 +759,6 @@
         "flaskor": 6.0,
         "url": "https://vinibutik.dk/products/voiturette-cabernet-sauvignon-2024",
         "text": "Voiturette Cabernet Sauvignon 2024 Land: Frankrike Region: VdF Vin de France Vinsort: Rött vin Druvor: 10 0% Cabernet Sauvignon Årgang: 2024 Producent: Vignobles Compagnie V&amp;Co Alkohol: 13,5% Volym: 75cl Förslutning: Skruvkapsyl Tillverkning: Dru"
-      },
-      {
-        "titel": "Flasktermometer ×6",
-        "pris": 834.0,
-        "flaskor": 6.0,
-        "url": "https://vinibutik.dk/products/droppskydd-copy",
-        "text": "Digital flasktermometer för vinflaska."
-      },
-      {
-        "titel": "Chardonnay Spätlese 2020 ×6",
-        "pris": 714.0,
-        "flaskor": 6.0,
-        "url": "https://vinibutik.dk/products/jonny-spatlese-chardonnay-2020",
-        "text": "Chardonnay Spätlese 2020 Land: Österrike Region: Burgenland Vinsort: s ött vin / dessertvin Druvor: 50 % Chardonnay, 25% Welchriesling, 25% Sämling Årgang: 2020 Producent: Weingut Jonny Wegleitner Alkohol: 10% Sötma: 56,4 gr/l Syra: 5,5 gr/l Volym: 3"
       }
     ]
   },
@@ -944,7 +884,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 152,
+    "count": 151,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -1030,7 +970,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 561,
+      "sokta": 552,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
