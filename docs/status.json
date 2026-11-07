@@ -74,54 +74,10 @@
     ]
   },
   "Vinoteket": {
-    "state": "live",
-    "count": 4,
-    "errors": [],
-    "utan_flaskantal": 2,
-    "slut_i_lager": 0,
-    "fa_flaskor_exempel": [],
-    "alkoholfria": 0,
-    "utan_flaskantal_exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ],
-    "exempel": [
-      {
-        "titel": "Höstens stora mixlåda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela hösten samlad i en låda"
-      },
-      {
-        "titel": "Vinotekets vita & bubbel låda",
-        "pris": 1159.0,
-        "flaskor": 9.0,
-        "url": "https://vinoteket.se/vit-manad---mix-x-9",
-        "text": "Vi fyller månaden med vin!"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ]
-  },
-  "Winefinder": {
     "state": "kunde inte läsas",
     "count": 0,
     "errors": [
-      "html: inga vinlådor: 2 listningar, 69 länkar, 68 sidor, 0 med pris, 0 fel valuta"
+      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
     ],
     "utan_flaskantal": 0,
     "slut_i_lager": 0,
@@ -129,6 +85,74 @@
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
     "exempel": []
+  },
+  "Winefinder": {
+    "state": "live",
+    "count": 9,
+    "errors": [],
+    "utan_flaskantal": 0,
+    "slut_i_lager": 0,
+    "fa_flaskor_exempel": [],
+    "alkoholfria": 0,
+    "utan_flaskantal_exempel": [],
+    "exempel": [
+      {
+        "titel": "Weingut Dr. Corvers-Kauter Terroir Riesling Case 2025",
+        "pris": 1194.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/tyskland/rheingau/terroir-riesling-case-weingut-dr-corvers-kauter-2025-a137941",
+        "text": "Corvers-Kauter Berg Roseneck Rüdesheim Riesling trocken 2025 (2 flaskor) Doften bjuder på generösa toner av gula äpplen, päron, persika och gula plommon, kompletterade av friska inslag av citron och grapefrukt. Smaken inleds med en tydlig mineralitet"
+      },
+      {
+        "titel": "Wine Mechanics GBG - Goa Buteljer från Göteborg! #6 ×6",
+        "pris": 1614.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/eu/eu/gbg-goa-buteljer-fran-goteborg-6-wine-mechanics-a137671",
+        "text": "Wine Mechanics GBG – Goa Buteljer från Göteborg! #6 är en exklusiv och smakrik vinlåda från Wine Mechanics i Göteborg, Sveriges första urbana vineri. Denna noggrant sammansatta vinlåda erbjuder en unik möjlighet att upptäcka flera av producentens mes"
+      },
+      {
+        "titel": "Domaine Vocoret & Fils Chablis 2024 ×6",
+        "pris": 1794.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/frankrike/chablis/chablis-domaine-vocoret-fils-2024-a137714",
+        "text": "Vinet bjuder på friska toner av citrus, gröna äpplen och vit persika, med en tydlig kalkig mineralitet som speglar områdets unika terroir. Smaken är torr, krispig och välbalanserad med hög syra och en ren, lång avslutning."
+      },
+      {
+        "titel": "Domaine Vocoret & Fils Chablis Forêt 1. Cru 2024 ×6",
+        "pris": 2094.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/frankrike/chablis/chablis-fort-1-cru-domaine-vocoret-fils-2024-a137724",
+        "text": "Vinet bjuder på intensiva toner av citrus, gröna äpplen och vit persika, med tydlig kalkig mineralitet och subtila inslag av vita blommor. Smaken är stram och precis med hög syra, fin koncentration och en lång, komplex avslutning."
+      },
+      {
+        "titel": "De Lisio Wines Quarterback 2021 ×6",
+        "pris": 1254.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/australien/mclaren-vale/quarterback-de-lisio-wines-2021-khjh136102",
+        "text": "Vinet har en stor och inbjudande doft med inslag av söta kryddor, mogna mörka körsbär, plommon, blåbär och choklad. Smaken är fyllig, med inlindade tanniner och varm fruktighet samtidigt som det lyckas behålla en fin balans. Lång, fruktdriven och kry"
+      },
+      {
+        "titel": "Allan Scott Family Winemakers Pinot Noir 2025 ×6",
+        "pris": 894.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/nya-zeeland/marlborough/pinot-noir-allan-scott-family-winemakers-2025-a137559",
+        "text": "En modern tolkning av Marlborough Pinot Noir med mjuka tanniner och generös frukt. Vinet bjuder på en frisk, fruktdriven stil med tydliga inslag av körsbär, jordgubbar, boysenbär, hallon och mogna röda plommon. Den lena och smidiga strukturen ger ett"
+      },
+      {
+        "titel": "Three Sticks Head High Pinot Noir 2023 ×6",
+        "pris": 1314.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/usa/sonoma-/head-high-pinot-noir-three-sticks-2023-khjh137757",
+        "text": "Stor floral doft av viol, röda bär, hallon, jordgubbar och rökig mineral. Smaken är medelfyllig och varm men med fin nerv och juicig pinot noir-frukt. Välstrukturerat och elegant med lång härlig eftersmak."
+      },
+      {
+        "titel": "Château Pigoudet Première Rosé 2025 ×6",
+        "pris": 894.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/frankrike/provence/premire-rose-chteau-pigoudet-2025-a137638",
+        "text": "Blek laxrosa färg med klara reflexer, typisk för rosé från Provence. Doften är frisk och aromatisk med inslag av jordgubbar, hallon och vita persikor, tillsammans med subtila toner av citrus och örter. Smaken är torr, krispig och välbalanserad med en"
+      }
+    ]
   },
   "Supervin": {
     "state": "live",
@@ -293,13 +317,6 @@
     ],
     "exempel": [
       {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 959.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
@@ -321,18 +338,25 @@
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
         "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 959.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -599,18 +623,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Maset Mim ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/maset-mim/",
-        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
         "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
+      },
+      {
+        "titel": "Maset Mim ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/maset-mim/",
+        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -968,10 +992,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 14,
+    "count": 13,
     "stats": {
-      "sokta": 552,
-      "hittade": 14,
+      "sokta": 560,
+      "hittade": 13,
       "i_lager": 0,
       "fel": 0
     },
@@ -1150,28 +1174,6 @@
         }
       },
       {
-        "vin": "Luzon Altos De Luzon ×6",
-        "butik": "Tidblom Wines",
-        "sb": {
-          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
-          "number": "9508701",
-          "price": 170.0,
-          "vintage": "2023",
-          "other_vintage": false,
-          "assortment": "Tillfälligt sortiment",
-          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
-          "stock": {
-            "Helsingborg Söder": 0,
-            "Drottninggatan 18": 0,
-            "Berga": 0,
-            "Råå": 0
-          },
-          "in_stock_city": false,
-          "in_store_assortment": false,
-          "score": 1.0
-        }
-      },
-      {
         "vin": "Post House Black Mail ×6",
         "butik": "Tidblom Wines",
         "sb": {
@@ -1286,12 +1288,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7761701",
-          "price": 584.0,
+          "number": "7229601",
+          "price": 740.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
