@@ -338,6 +338,13 @@
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -350,13 +357,6 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -461,13 +461,6 @@
         "text": "Att samla vänner kring kylda glas ska vara enkelt. Vi valde ut dessa tre mousserande viner för att skapa en prisvärd blandlåda fylld med fräschör till alla skålar och mingel. Franska Roche Mazet bär m"
       },
       {
-        "titel": "Eleganta bubblor och Sauvignon Blanc",
-        "pris": 1299.0,
-        "flaskor": 6.0,
-        "url": "https://nordiskavin.se/store/sauvignon-blanc-och-bubbel-blandlada",
-        "text": "Vi har satt ihop denna kombination för dig som vill köpa vin med balanserad friskhet och bubblande elegans. Lådan skapar en mångsidig samling för livets alla fina stunder.Vad den innehåller Sex flasko"
-      },
-      {
         "titel": "Fylliga höstlådan, Bordeaux, Côtes du Rhône och Merlot",
         "pris": 1349.0,
         "flaskor": 4.0,
@@ -480,6 +473,13 @@
         "flaskor": 6.0,
         "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
         "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
+      },
+      {
+        "titel": "Kompletta franska lådan för höstens middagar",
+        "pris": 1399.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
+        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
       }
     ]
   },
@@ -992,10 +992,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 13,
+    "count": 14,
     "stats": {
       "sokta": 560,
-      "hittade": 13,
+      "hittade": 14,
       "i_lager": 0,
       "fel": 0
     },
@@ -1174,6 +1174,28 @@
         }
       },
       {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
         "vin": "Post House Black Mail ×6",
         "butik": "Tidblom Wines",
         "sb": {
@@ -1288,12 +1310,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7229601",
-          "price": 740.0,
+          "number": "7761701",
+          "price": 584.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
