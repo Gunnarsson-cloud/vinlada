@@ -156,10 +156,10 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 42,
+    "count": 41,
     "errors": [],
     "utan_flaskantal": 3,
-    "slut_i_lager": 0,
+    "slut_i_lager": 2,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -174,22 +174,10 @@
         "text": "Provlådan uppdaterades senast den 21-10-2026 Barolo, Brunello, Bordeaux, Châteauneuf-du-Pape, Ribera del Duero OCH Bourgogne. Ja, du läste rätt. Världens mest berömda och klassiska vinområden, kända för kvalitet, prestige och inte minst astronomiskt höga priser i många fall… Nu är de samlade i en och samma provlåda - men till ett äkta SUPERVIN-PRIS! Aldrig tidigare har en provlåda av den här kalibern varit möjlig. Här får du de allra mest prisvärda vinerna med toppbetyg till de allra bästa prise"
       },
       {
-        "titel": "Pinot Noir verden rundt provlåda",
-        "pris": 1229.95,
-        "flaskor": 2.0,
-        "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
-      },
-      {
         "titel": "3 x topprecenserade Champagner Provlåda",
         "pris": 1339.95,
         "flaskor": 3.0,
         "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
-      },
-      {
-        "titel": "Bourgogne och Champagne-lådan",
-        "pris": 1869.95,
-        "flaskor": 2.0,
-        "text": "Provlådan uppdaterades senast den 21-10-2026 En provlåda fylld med Champagne och Bourgogne, JA TACK! – 6 olika flaskor från två av världens mest eftertraktade vinområden. Och se bara vad du får med i den här nya provlådan… Du får världens överlägset mest populära och ikoniska Champagne, Moët & Chandon Imperial Brut. Med starkt sällskap av Martel Prestige Brut med 95 poäng och \"TOPLISTET - BEDSTE BOBLER: Champagne under 200 kroner\" hos Flaskehalsen. Vi fortsätter vidare till Bourgogne, där du kan"
       },
       {
         "titel": "Champagne Premium Provningslåda",
@@ -211,9 +199,9 @@
         "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få"
       },
       {
-        "titel": "Rød Bourgogne Provningslåda",
-        "url": "https://www.supervin.se/rod-bourgogne-vinlada",
-        "text": "Vinlådan uppdaterades senast den 21-10-2026 Äntligen... Vinlådan som alla Pinot Noir-entusiaster har väntat på. 6 olika flaskor från världens mest eftertraktade vinområde - Bourgogne! Vi vill redan här i inledningen uppmärksamma dig på att den här vinlådan är sammansatt av små exklusiva restpartier och därför kommer att sälja slut inom kort. Upplev Bourgogne från alla dess sidor, men till ett helt"
+        "titel": "Tesch Tasting Box 2020 & Liveprovning",
+        "url": "https://www.supervin.se/tesch-tasting-box-2020-live-provning",
+        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Riesling‑producenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den fantastiska nya årgången 2020. Praktisk info: Se eller återse provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 provflaskor samt ett elegant häfte som introducerar dig till lådans enskilda vin"
       }
     ],
     "exempel": [
@@ -223,6 +211,13 @@
         "flaskor": 9.0,
         "url": "https://www.supervin.se/vitt-vin-bubblor-vinlada",
         "text": "Vinlådan uppdaterades senast den 21-10-2026 Härligt vitt vin och fantastiska bubblor – vad mer kan man önska sig?! Vilken härlig vinlåda vi har satt ihop… Lådan är fylld med topprankade vita viner och lyxiga bubblor till helt otroliga priser. Vinerna"
+      },
+      {
+        "titel": "Ripasso Provlåda",
+        "pris": 759.95,
+        "flaskor": 6.0,
+        "url": "https://www.supervin.se/ripasso-vinlada",
+        "text": "Provlådan uppdaterades senast den 21-10-2026 Ripasso Provlåda – 6 flaskor lyx till vardagspris Här får du en enastående möjlighet att smaka tre av marknadens mest hyllade Valpolicella Ripasso – och spara stort! Denna provlåda innehåller 6 flaskor top"
       },
       {
         "titel": "Provlåda SPANSKE LÆKKERIER",
@@ -265,13 +260,6 @@
         "flaskor": 3.0,
         "url": "https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack",
         "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Va"
-      },
-      {
-        "titel": "Riesling Provlåda",
-        "pris": 949.95,
-        "flaskor": 6.0,
-        "url": "https://www.supervin.se/riesling-vinlada",
-        "text": "Provlådan uppdaterades senast den 21-10-2026 Riesling Provlåda – 6 stjärnskott från Tyskland, Österrike och Frankrike. Gillar du krispig syra, blommiga aromer och mineralisk elegans? Då är denna Riesling Provlåda ett sant paradis! Här får du 6 toppre"
       }
     ]
   },
@@ -317,18 +305,18 @@
     ],
     "exempel": [
       {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/collectors-case-ikoniska-kultviner-fraan-guigal-6-fl",
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
-      },
-      {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
@@ -338,25 +326,25 @@
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
-      },
-      {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
         "pris": 959.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
         "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
+      },
+      {
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -376,7 +364,7 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 32,
+    "count": 31,
     "errors": [],
     "utan_flaskantal": 8,
     "slut_i_lager": 2,
@@ -623,18 +611,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -674,16 +662,16 @@
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
-        "titel": "Rosélåda!",
-        "pris": 595.0,
-        "flaskor": 3.0,
-        "text": "Ett trepack med sommarens rosa viner; Filipa Pato 3B Rosé, Bairrada, Portugal Lokala druvorna Baga och Bical, traditionella metoden rosébubbel! Arnaud Combier, Rosé 2025, Vin de France En rosé på Grenache från södra Frankrike, torr och lätt bärig. Calvez Bobinet, PIAK! Rosé 2025, Loire, Frankrike Cabernet Franc, Pineau d’Aunis Chardonnay &amp; Sauvignon Blanc fruktigt och lite mer smakrikt rosé!"
-      },
-      {
         "titel": "Champagne 3 pack",
         "pris": 3790.0,
         "flaskor": 3.0,
         "text": "Larmandier-Bernier, Champagne 1 x NV Latitude, Blanc des Blancs 1 x 2016 Chemins d'Avize, Blanc des Blancs 1 x 2015 Vielle Vignes Lévan, Blanc des Blancs Pierre tillsammans med sin familj kultiverar samtliga vingårdar biodynamiskt. De förfogar idag över 15 ha utspritt över ett flertal olika lägen. De olika lägena ligger i sin tur i premier cru-byn Vertus, där vineriet finns, och resten fördelat över grand-cru byarna Cramant, Chouilly, Oger and Avize. Ca 90 % är planterat med Chardonnay och reste"
+      },
+      {
+        "titel": "Rosélåda!",
+        "pris": 595.0,
+        "flaskor": 3.0,
+        "text": "Ett trepack med sommarens rosa viner; Filipa Pato 3B Rosé, Bairrada, Portugal Lokala druvorna Baga och Bical, traditionella metoden rosébubbel! Arnaud Combier, Rosé 2025, Vin de France En rosé på Grenache från södra Frankrike, torr och lätt bärig. Calvez Bobinet, PIAK! Rosé 2025, Loire, Frankrike Cabernet Franc, Pineau d’Aunis Chardonnay &amp; Sauvignon Blanc fruktigt och lite mer smakrikt rosé!"
       }
     ],
     "alkoholfria": 0,
@@ -703,18 +691,18 @@
         "text": "La Biancara, Masieri, 2024, Veneto, Italien Garganega från vulkanisk jordmån i norra Italien. Friskt vitt med hög syra &amp; mineralitet. Sebastien Brunet, Arpent, 2025, Loire, Frankrike 100% Chenin blanc från kalkrik lergjord med fräsch syra och min"
       },
       {
-        "titel": "Rosélåda!",
-        "pris": 595.0,
-        "flaskor": 3.0,
-        "url": "https://winetrade.se/products/roseladan",
-        "text": "Ett trepack med sommarens rosa viner; Filipa Pato 3B Rosé, Bairrada, Portugal Lokala druvorna Baga och Bical, traditionella metoden rosébubbel! Arnaud Combier, Rosé 2025, Vin de France En rosé på Grenache från södra Frankrike, torr och lätt bärig. Ca"
-      },
-      {
         "titel": "Champagne 3 pack",
         "pris": 3790.0,
         "flaskor": 3.0,
         "url": "https://winetrade.se/products/champagne-3-pack-copy-copy-copy",
         "text": "Larmandier-Bernier, Champagne 1 x NV Latitude, Blanc des Blancs 1 x 2016 Chemins d'Avize, Blanc des Blancs 1 x 2015 Vielle Vignes Lévan, Blanc des Blancs Pierre tillsammans med sin familj kultiverar samtliga vingårdar biodynamiskt. De förfogar idag ö"
+      },
+      {
+        "titel": "Rosélåda!",
+        "pris": 595.0,
+        "flaskor": 3.0,
+        "url": "https://winetrade.se/products/roseladan",
+        "text": "Ett trepack med sommarens rosa viner; Filipa Pato 3B Rosé, Bairrada, Portugal Lokala druvorna Baga och Bical, traditionella metoden rosébubbel! Arnaud Combier, Rosé 2025, Vin de France En rosé på Grenache från södra Frankrike, torr och lätt bärig. Ca"
       }
     ]
   },
@@ -1353,13 +1341,13 @@
         "vin": "Pago de Otazu 2020 ×6",
         "butik": "Vinibutik",
         "sb": {
-          "name": "Bodega Otazu – Pago De Otazu Tinto",
-          "number": "7290701",
-          "price": 334.0,
-          "vintage": "2021",
+          "name": "Bodega Otazu – Pago de Otazu Chardonnay",
+          "number": "7776701",
+          "price": 469.0,
+          "vintage": "2024",
           "other_vintage": true,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/pago-de-otazu-tinto-7290701/",
+          "url": "https://www.systembolaget.se/produkt/vin/pago-de-otazu-chardonnay-7776701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
