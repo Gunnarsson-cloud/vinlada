@@ -59,7 +59,7 @@
       },
       {
         "titel": "Dittvins bubbellåda - 6 festliga smaksupplevelser 🥂🍾",
-        "pris": 519.0,
+        "pris": 515.0,
         "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser",
         "text": "Dittvins bubbellåda - 6 festliga smaksupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och ett elegant roséviner i den här vinlådan. Varje vin har sin egen karaktär, från livliga J. Kieffer Mousseux till krispiga Sire de Beaupré"
@@ -265,7 +265,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 39,
+    "count": 40,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -305,13 +305,6 @@
     ],
     "exempel": [
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
         "titel": "Collectors Case - Ikoniska Kultviner från Guigal 6 fl",
         "pris": 14549.95,
         "flaskor": 6.0,
@@ -324,6 +317,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
       },
       {
         "titel": "Château La Tour de By 50 års Jubileumslåda",
@@ -347,18 +347,18 @@
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
+        "titel": "Vinlåda Prisvärd Champagne 6 fl",
+        "pris": 1729.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
+        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
+      },
+      {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
         "pris": 519.95,
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-vardagsfavoriter-6-fl-1",
         "text": "Vinlåda Vardagsfavoriter 6 fl Sex handplockade flaskor, sex olika stilar — alla utvalda för att göra vardagen lite godare. Med Vardagsfavoriter får du sex flaskor med fokus på smak, mångsidighet och stor drickglädje — viner som gör det enkelt att hit"
-      },
-      {
-        "titel": "Vinlåda Black Weeks XXXL 18 fl",
-        "pris": 1469.95,
-        "flaskor": 18.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-black-weeks-xxxl-18-fl",
-        "text": "ETT AV VÅRA STARKASTE BLACK WEEKS-ERBJUDANDEN NÅGONSIN: 18 FLASKOR, STORA NAMN OCH GODA VINER ATT UPPTÄCKA Det här är lådan för dig som vill ha ett helt vinår i en enda leverans. Vi har samlat 18 flaskor från Europas mest namnkunniga vinområden och p"
       }
     ]
   },
@@ -367,7 +367,7 @@
     "count": 31,
     "errors": [],
     "utan_flaskantal": 8,
-    "slut_i_lager": 2,
+    "slut_i_lager": 3,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
