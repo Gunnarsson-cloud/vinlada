@@ -2,7 +2,6 @@ butik,lada,flaskor,pris,frakt,totalt,kr_per_flaska,smak,kalla,systembolaget,komm
 Supervin,2× Hvidvin & Bobler Provlåda,18,1 140,0,1 140,63,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/vitt-vin-bubblor-vinlada
 Dittvin,XL Rödvinsvinlåda,12,849,0,849,71,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/xl-rodvinsvinlada
 Dittvin,2× Rosé vinlådan - En värld av rosé 🌺✨,14,1 010,0,1 010,72,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/rose-vinladan-en-varld-av-rose
-Dittvin,XL Höstfavoriter - 12 utvalda viner till höstens mysstunder,12,869,0,869,72,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/xl-hostfavoriter-12-utvalda-viner-till-hostens-mysstunder
 Dittvin,XL Black Month Lådan💥,12,899,0,899,75,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/xl-black-month-vanvidskassen
 Dittvin,2× Black Month Lådan🍷🖤,12,978,0,978,82,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/black-month-vinlada
 Philipson Wine,Vinlåda Black Weeks XXXL 18 fl,18,1 470,0,1 470,82,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-black-weeks-xxxl-18-fl
@@ -10,12 +9,11 @@ Tidblom Wines,Castaño Dominio Espinal Rosado ×6,6,414,79,493,82,,live,,79 kr f
 Dittvin,2× Dittvins bubbellåda - 6 festliga smaksupplevelser 🥂🍾,12,1 038,0,1 038,86,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser
 Dittvin,2× Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder,12,1 058,0,1 058,88,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/dittvins-hostfavoriter-6-utvalda-viner-till-hostens-mysiga-stunder
 Dittvin,2× Dittvins vitvinslåda – 6 vita viner från Sydeuropa ☀️🌍,12,1 050,0,1 050,88,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/dittvins-hvidvinslada-6-hvidvine-fra-sydeuropa
-Dittvin,2× Pronto vinlådan – Smaken av Italien 🇮🇹 🍷☀️,12,1 078,0,1 078,90,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/prontokassen-smakfull-resa-till-syditalien
+Dittvin,2× Pronto vinlådan – Smaken av Italien 🇮🇹 🍷☀️,12,1 110,0,1 110,92,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/prontokassen-smakfull-resa-till-syditalien
 Philipson Wine,2× Vinlåda Mystery Box Utförsäljning 9 fl,18,1 700,0,1 700,94,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-mystery-box-utfoersaljning-9-fl
 Philipson Wine,Vinlåda Casas del Bosque 6 fl,6,470,99,569,95,,live,,ca 99 kr frakt; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl
 Dittvin,2× Lyxig italiensk vinlåda - guldnivå 🥇,12,1 170,0,1 170,98,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/italiensk-luksus-smagekasse-guld-niveau
 Dittvin,2× Italienska pärlor - En vinlåda med det bästa från Italien✨,12,1 190,0,1 190,99,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/italienska-parlor-en-vinlada-med-det-basta-fran-italien
-Philipson Wine,Vinlåda Sprudlande Vardagsbubblor 6 fl,6,500,99,599,100,,live,,ca 99 kr frakt; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-sprudlande-vardagsbubblor-6-fl
 Tidblom Wines,Château Tour De Luchey ×6,6,534,79,613,102,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/chateau-tour-de-luchey/
 Tidblom Wines,Maset Mim ×6,6,534,79,613,102,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/maset-mim/
 Philipson Wine,Vinlåda Vardagsfavoriter 6 fl,6,520,99,619,103,,live,,ca 99 kr frakt; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-vardagsfavoriter-6-fl-1
@@ -25,8 +23,10 @@ Nordiska Vin,Stora rosélådan från södra Frankrike och Loire - Provence-stil 
 Vinoteket,"Vinprenumeration baslåda, 9 flaskor",9,999,0,999,111,,känd 2026-09-28,,"fri frakt från 799 kr; prenumeration, kan pausas",https://vinoteket.se/attribut/vinprenumeration
 Nordiska Vin,2× Bordeaux och Merlot Rödvinslåda,18,1 990,0,1 990,111,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada-9-flaskor
 Tidblom Wines,Luzon Madax Rosado ×6,6,588,79,667,111,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roseviner/luzon-madax-rosado/
+Nordiska Vin,Bordeaux och Rhône 12-pack,12,1 349,0,1 349,112,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/fylliga-hostladan-bordeaux-cotes
 Nordiska Vin,Stora ljusa rosélådan,12,1 349,0,1 349,112,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/den-stora-ljusa-roseladan-elegant-provence-stil
 Tidblom Wines,Luzon Colección Rosado ×6,6,594,79,673,112,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/luzon-collecion-rosado/
+Nordiska Vin,Franska rödvinsfavoriter – Bordeaux & Rhône (12 flaskor),12,1 389,0,1 389,116,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/franska-rodvinsfavoriter
 Nordiska Vin,2× Bubbellåda med Chardonnay och Blanc de Blancs,12,1 398,0,1 398,116,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/bubbellada-mousserande-favoriter-6-pack
 Nordiska Vin,2× Rosé och vitt i blandlåda,12,1 398,0,1 398,116,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/rose-vitt-clairement-blandlada
 Vinibutik,Macabeo La Villa Real 2021 ×6,6,594,99,693,116,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/macabeo-la-villa-real-2021
@@ -36,7 +36,6 @@ Nordiska Vin,Franska vinresa 12-pack,12,1 399,0,1 399,117,,live,,fri frakt från
 Nordiska Vin,Bordeaux och Merlot Rödvinslåda,12,1 399,0,1 399,117,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada-12-flaskor
 Nordiska Vin,Appassimento blandlåda,12,1 399,0,1 399,117,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/storsta-appassimento-ammone
 Tidblom Wines,Alcanta Crianza ×6,6,630,79,709,118,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/alcanta-crianza/
-Dittvin,XL Vinterlådan - Guld nivå 🎖️❄️,8,979,0,979,122,,live,,fri frakt från 695 kr; Bring 1–3 vardagar,https://dittvin.se/products/vinterladan-guld-niva
 Philipson Wine,2× Vinlåda Gastronomisk Riesling 6 fl,12,1 460,0,1 460,122,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-gastronomisk-riesling-6-fl
 Philipson Wine,2× Vinlåda Lär känna Chardonnay – Jorden Runt 6 fl,12,1 460,0,1 460,122,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-lar-kanna-chardonnay-jorden-runt-6-fl
 Tidblom Wines,GEMIN SPUMANTE BIANCO CUVÈE EXTRA DRY ×6,6,654,79,733,122,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-spumante-bianco-cuvee-extra-dry/
@@ -52,7 +51,6 @@ Supervin,2× Ripasso Provlåda,12,1 520,0,1 520,127,,live,,fri frakt från 1000 
 Nordiska Vin,Blandlåda 9 flaskor,9,1 149,0,1 149,128,,känd 2026-09-28,,"fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee; −20 %, ord. 1 431 kr",https://nordiskavin.se/store/collections/blandlador
 Tidblom Wines,Lima Mayer Xato ×6,6,690,79,769,128,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/portugal/portugisiska-roda-viner/lima-mayer-xato/
 Tidblom Wines,FASOL MENIN – CUVEÈ EXTRA DRY D.O.C ×6,6,690,79,769,128,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/fasol-menin-cuvee-extra-dry-d-o-c/
-Vinoteket,Vinotekets vita & bubbel låda,9,1 159,0,1 159,129,,live,,fri frakt från 799 kr,https://vinoteket.se/vit-manad---mix-x-9
 Tidblom Wines,FASOL MENIN – CAMA BRUT D.O.C.G (375ml) ×6,6,708,79,787,131,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/fasol-menin-cama-brut-d-o-c-g-375ml/
 Supervin,2× Italiensk Provningslåda,12,1 580,0,1 580,132,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/italiensk-vinlada
 Tidblom Wines,Adegas Nessa ×6,6,714,79,793,132,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/adegas-nessa/
@@ -63,12 +61,14 @@ Nordiska Vin,"Instegslådan för Appassimentoälskare, 9 flaskor",9,1 199,0,1 19
 Nordiska Vin,"2× Hjärtat av Toscana, 6 flaskor",12,1 598,0,1 598,133,,känd 2026-09-28,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/toskanaladan
 Tidblom Wines,Peñafiel Alma Serena ×6,6,720,79,799,133,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/penafiel-alma-serena/
 Tidblom Wines,Lobner Weinviertel DAC Grüner Veltliner ×6,6,720,79,799,133,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-vita-viner/lobner-weinviertel-dac-gruner-veltliner/
+Philipson Wine,2× Smagekasse Bordeaux Krisekup (6 fl.),12,1 620,0,1 620,135,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/smagekasse-bordeaux-krisekup-6-fl
 Tidblom Wines,Spansk blandlåda från Yecla,6,740,79,819,136,,live,,79 kr frakt; 5–7 dagar,https://tidblomwines.com/blandlador/spansk-blandlada-fran-yecla/
 Vinibutik,Chardonnay Spätlese 2020 ×6,6,714,99,813,136,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/jonny-spatlese-chardonnay-2020
 Vinibutik,Zweigelt Spätlese 2018 ×6,6,714,99,813,136,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/jonny-spatlese-zweigelt-2018
 Vinibutik,Viña Lastra Sauvignon Blanc 2024 ×6,6,714,99,813,136,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/vina-lastra-sauvignon-blanc-2024
 Vinibutik,Pinot Grigio 2022 ×6,6,714,99,813,136,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/pinot-grigio-2020
 Vinibutik,Belleza Blossom 2020 (eko) ×6,6,714,99,813,136,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/verdejo-belleza-blossom-2021
+Supervin,2× Nyårslåda - Billigt Bubbel,14,1 920,0,1 920,137,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/nyarslada-billiga-bubblor
 Philipson Wine,2× Vinlåda Upptäck Pinot Noir 6 fl,12,1 640,0,1 640,137,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-upptack-pinot-noir-6-fl-2
 Tidblom Wines,Maset N1 Vintage Gran Reserva ×6,6,750,79,829,138,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/maset-n1-vintage-gran-reserva/
 Tidblom Wines,Bocopa alcanta crianza ×6,6,750,79,829,138,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/bocopa-alcanta-crianza/
@@ -80,7 +80,6 @@ Tidblom Wines,Maset N1 Reserva ×6,6,750,79,829,138,,live,,79 kr frakt; 5–7 da
 Tidblom Wines,"Blandlåda Italien – Rött, Vitt och Rosé",6,758,79,837,140,,live,,79 kr frakt; 5–7 dagar,https://tidblomwines.com/blandlador/blandlada-italien-rott-vitt-och-rose/
 Tidblom Wines,Barahonda Tinto Organic ×6,6,768,79,847,141,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/barahonda-tinto-organic/
 Tidblom Wines,Cloud Haven Sauvignon Blanc ×6,6,768,79,847,141,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/cloud-haven-sauvignon-blanc/
-Tidblom Wines,Sangria Carolina Premium ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/sangria-carolina-premium/
 Tidblom Wines,Carolina Tinto de Verano Premium ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/carolina-tinto-de-verano-premium/
 Tidblom Wines,Clos Malverne Devonet Sauvignon Blanc ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/clos-malverne-devonet-sauvignon-blanc/
 Tidblom Wines,Bell Cros El Cami ×6,6,774,79,853,142,,live,179 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/bell-cros-el-cami/
@@ -89,6 +88,7 @@ Tidblom Wines,Lima Mayer Subsido ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 
 Tidblom Wines,Hunawihr Riesling AOC Alsace Réserve ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/hunawihr-riesling-aoc-alsace-reserve/
 Tidblom Wines,PRIDE Prosecco – In a colourful way ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/pride-prosecco-in-a-colourful-way/
 Tidblom Wines,Roberto Mazzi Valpolicella Classico ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/roberto-mazzi-valpolicella-classico/
+Tidblom Wines,Sangria Carolina Premium ×6,6,774,79,853,142,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/sangria-carolina-premium/
 Vinfolket,Då är rödvin grejen! – 12 flaskor,12,1 725,0,1 725,144,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/
 Supervin,2× Chardonnay Provlåda,12,1 740,0,1 740,145,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/chardonnay-vinlada
 Vinibutik,Teño un Polbaso 2025 ×6,6,774,99,873,146,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/teno-un-polbaso-2025
@@ -107,14 +107,15 @@ Tidblom Wines,Lobner Weinviertel DAC Grüner Veltliner ×6,6,810,79,889,148,,liv
 Vinfolket,Pink Passion - Rosépaket,6,895,0,895,149,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/pink-passion-rosepaket/
 Vinfolket,Lätt Kylda Röda,6,898,0,898,150,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/latta-roda/
 Tidblom Wines,Marques De Velilla Roble ×6,6,828,79,907,151,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/marques-de-velilla-roble/
-Tidblom Wines,Hunawihr Calixte Brut No 5 ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/hunawihr-calixte-brut-no-5/
 Tidblom Wines,Barahonda Organic Barrica ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-organic-barrica/
 Tidblom Wines,Château Beauvillage ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/chateau-beauvillage/
 Tidblom Wines,Hunawihr Calixte Brut ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/hunawihr-calixte-brut/
 Tidblom Wines,Peñafiel La Casa det Las Locas ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/penafiel-la-casa-det-las-locas/
 Tidblom Wines,Bell Cros La Figaflor ×6,6,834,79,913,152,,live,179 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/bell-cros-la-figaflor/
 Tidblom Wines,Voltaccino Bianco 2024 – Toscana ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/voltaccino-bianco-toscana/
+Tidblom Wines,Hunawihr Calixte Brut No 5 ×6,6,834,79,913,152,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/hunawihr-calixte-brut-no-5/
 Tidblom Wines,Maset Pinot Noir ×6,6,840,79,919,153,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/maset-pinot-noir/
+Supervin,2× Svensk introduktionslåda för vinprovning,12,1 860,0,1 860,155,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/svensk-introsmagekasse
 Philipson Wine,Vinlåda Ost & Gastronomi 9 fl,9,1 400,0,1 400,156,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-ost-gastronomi-9-fl
 Vinibutik,Smeraldi Prosecco ×6,6,834,99,933,156,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/smeraldi-prosecco
 Vinibutik,Flasktermometer ×6,6,834,99,933,156,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/droppskydd-copy
@@ -122,14 +123,13 @@ Vinibutik,Sauvignon Blanc Val de Loire 2023 ×6,6,834,99,933,156,,live,,"99 kr f
 Vinibutik,Cuvée Clarettes Rosé 2023 ×6,6,834,99,933,156,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/cuvee-clarettes-rose-2023
 Supervin,2× Riesling Provlåda,12,1 880,0,1 880,157,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/riesling-vinlada
 Supervin,2× Mixlåda Pinot Noir & Chardonnay,12,1 900,0,1 900,158,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/mix-vinlada-pinot-noir-chardonnay
-Tidblom Wines,Lima Mayer Subsido ×6,6,870,79,949,158,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/portugal/portugisiska-roda-viner/lima-mayer-subsido/
 Tidblom Wines,Luzon Colección Roble ×6,6,870,79,949,158,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/luzon-collecion-roble/
 Tidblom Wines,Lima Mayer Vinho Tinto ×6,6,870,79,949,158,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/portugal/portugisiska-roda-viner/lima-mayer-vinho-tinto/
 Tidblom Wines,N1 masia vintage gran reserva ×6,6,870,79,949,158,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/n1-masia-vintage-gran-reserva/
 Tidblom Wines,AB – RIFERMENTAZIONE NATURALE FONDUEL ×6,6,870,79,949,158,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/ab-rifermentazione-naturale-fonduel/
+Tidblom Wines,Lima Mayer Subsido ×6,6,870,79,949,158,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/portugal/portugisiska-roda-viner/lima-mayer-subsido/
 Philipson Wine,2× Château La Tour de By 50 års Jubileumslåda,12,1 920,0,1 920,160,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada
 Tidblom Wines,Rebuli – DOC Treviso Extra Dry ×6,6,888,79,967,161,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/rebuli-doc-treviso-extra-dry/
-Tidblom Wines,Barahonda Fenomeno Tinto ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-fenomeno-tinto/
 Tidblom Wines,Marques De Velila Crianza ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/marques-de-velila-crianza/
 Tidblom Wines,Rebuli – DOC Treviso Brut ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/rebuli-doc-treviso-brut/
 Tidblom Wines,Devonet Rosé ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roseviner/devonet-rose/
@@ -140,6 +140,7 @@ Tidblom Wines,GEA Antarktis/Cabernet Sauvignon ×6,6,894,79,973,162,,live,,79 kr
 Tidblom Wines,Miravel Nigma ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/clos-malverne-ellie-mcc-2/
 Tidblom Wines,PROSECCO DOC SPUMANT ROSE BIO DIAMANTE DIAMANTE IT ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/prosecco-doc-spumant-rose-bio-diamante-diamante-it/
 Tidblom Wines,Rainbow´s End Mystical Corner ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/rainbows-end-mystical-corner/
+Tidblom Wines,Barahonda Fenomeno Tinto ×6,6,894,79,973,162,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-fenomeno-tinto/
 Supervin,2× Beyra Provlåda - 1 Grande Reserva och 5 Beyra Reserva,12,1 960,0,1 960,163,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/beyra-vinlada-1-grande-reserva-och-5-beyra-reserva
 Tidblom Wines,Maset euforia rosado ×6,6,900,79,979,163,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roseviner/maset-euforia-rosado/
 Tidblom Wines,Maset euforia rosado ×6,6,900,79,979,163,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roseviner/maset-euforia-rosado-2/
@@ -148,13 +149,13 @@ Vinfolket,Månadens Vinlåda - 6 flaskor,6,995,0,995,166,,live,,fri frakt från 
 Vinibutik,Cándalo Oak aged collection 2016 ×6,6,894,99,993,166,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/candalo-oak-aged-collection-2016
 Vinibutik,Berol Vendimia Seleccionada 2015 ×6,6,894,99,993,166,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/berol-vendimia-seleccionada-2015
 Supervin,2× Kräftskiva Vinlåda,12,2 000,0,2 000,167,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/kraftskiva-vinlada
-Tidblom Wines,Seghesio Barbera d’Alba DOC ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/seghesio-barbera-dalba-doc/
 Tidblom Wines,GEMIN DOC TREVISO EXTRA DRY MILLESIMATO ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-doc-treviso-extra-dry-millesimato/
 Tidblom Wines,GEMIN DOC TREVISO BRUT MILLESIMATO ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-doc-treviso-brut-millesimato/
 Tidblom Wines,Domaine zinck riesling portrait ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-vita-viner/domaine-zinck-riesling-portrait/
 Tidblom Wines,Casa al Vento Chianti Classico Aria 20 DOCG ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/casa-al-vento-chianti-classico-aria-20-docg/
 Tidblom Wines,Quintas de Melgaço Vinhas Velhas Alvarinho ×6,6,930,79,1 009,168,,live,229 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/portugal/quintas-de-melgaco-vinhas-velhas-alvarinho/
 Tidblom Wines,Peñafiel El Prenda The Dude Crianza ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/penafiel-el-prenda-the-dude-crianza/
+Tidblom Wines,Seghesio Barbera d’Alba DOC ×6,6,930,79,1 009,168,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/seghesio-barbera-dalba-doc/
 Fine Wine Service,2× 2025 Thanisch Riesling Trocken 1 liter ×6,12,2 028,0,2 028,169,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2025-thanisch-riesling-trocken-1-liter/
 Supervin,Hvid Bourgogne provlåda,10,1 710,0,1 710,171,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/vit-bourgogne-vinlada
 Tidblom Wines,PROSECCO DOC SPUMANT BIO VEG. EX-BRUT DIAMANTE IT ×6,6,948,79,1 027,171,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/prosecco-doc-spumant-bio-veg-ex-brut-diamante-it/
@@ -191,8 +192,8 @@ Fine Wine Service,2× 2022 Franck Massard El Mago Garnacha Blanca ×6,12,2 148,0
 Tidblom Wines,Bocos crianza ×6,6,1 008,79,1 087,181,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/bocos-crianza/
 Gassås Wine,Mystery Box no 1.,12,1 999,169,2 168,181,,live,,"ca 169 kr frakt; 169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar",https://gassaswine.se/produkt/mystery-box-no1
 Philipson Wine,2× Vinlåda Vivino-favoriter 6 fl,12,2 180,0,2 180,182,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl
-Tidblom Wines,Rebuli – DOCG Extra Dry “Sedicigrammi” ×6,6,1 014,79,1 093,182,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/rebuli-docg-extra-dry-sedicigrammi/
 Tidblom Wines,Post House Three Pearls Rosé ×6,6,1 014,79,1 093,182,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roseviner/post-house-three-pearls-rose/
+Tidblom Wines,Rebuli – DOCG Extra Dry “Sedicigrammi” ×6,6,1 014,79,1 093,182,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/rebuli-docg-extra-dry-sedicigrammi/
 Tidblom Wines,Pinot Noir Réserve ×6,6,1 014,79,1 093,182,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-vita-viner/pinot-noir-reserve/
 Tidblom Wines,Farfaro Toscana IGT 2022 ×6,6,1 014,79,1 093,182,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/farfaro-toscana-igt/
 Tidblom Wines,Rainbow´s End Carbernet Franc Rosé ×6,6,1 014,79,1 093,182,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/rainbows-end-carbernet-franc-rose/
@@ -233,8 +234,8 @@ Tidblom Wines,Elgin Vintners Sauvignon Blanc ×6,6,1 074,79,1 153,192,,live,,79 
 Tidblom Wines,Rainbow´s End Chenin Blanc ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/rainbows-end-chenin-blanc/
 Tidblom Wines,El Lagar De Isilla Gestacion ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/el-lagar-de-isilla-gestacion/
 Tidblom Wines,Clos Malverne Ellie Mcc ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-mousserande-viner/clos-malverne-ellie-mcc/
-Tidblom Wines,GEMIN BRUT D.O.C.G. ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-brut-d-o-c-g/
 Tidblom Wines,Sangria Rita ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/sangria-rita/
+Tidblom Wines,GEMIN BRUT D.O.C.G. ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-brut-d-o-c-g/
 Tidblom Wines,Diefenhardt Riesling Trocken 2023 VDP Gutswein ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/tyskland/diefenhardt-riesling-trocken-2023-vdp-gutswein/
 Tidblom Wines,Elgin Vinters Belle Amie Rosé ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/elgin-vinters-belle-amie-rose/
 Tidblom Wines,Eris Spurmante Brut ×6,6,1 074,79,1 153,192,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-mousserande-viner/eris-spurmante-brut/
@@ -342,8 +343,8 @@ Tidblom Wines,Rainbow´s End Syrah ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 
 Tidblom Wines,Batllori Brut Nature Reserva ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/batllori-brut-nature-reserva/
 Tidblom Wines,Barbera Del Monferato DOC ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barbera-del-monferato-doc/
 Tidblom Wines,Nardi Chianti Classico DOCG 2021 ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/nardi-chianti-classico-docg-2021/
-Tidblom Wines,Bailafieras King of the night ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/bailafieras-king-of-the-night/
 Tidblom Wines,Diefenhardt Martinsthat J.D. Riesling trocken Alte Reben VDP Ortswein 2022 ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/tyskland/tyska-vita-viner/diefenhardt-martinsthat-j-d-riesling-trocken-alte-reben-vdp-ortswein-2022-2/
+Tidblom Wines,Bailafieras King of the night ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/bailafieras-king-of-the-night/
 Tidblom Wines,Elgin Vintners The Century ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/elgin-vintners-the-century/
 Tidblom Wines,Ravazzi Chianti D.O.C.G. 2023 ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/ravazzi-chianti-d-o-c-g-2023/
 Tidblom Wines,Batllori Brut Rosé ×6,6,1 314,79,1 393,232,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/batllori-brut-rose/
@@ -353,23 +354,24 @@ Tidblom Wines,Blandlåda Bailafieras The Bold Dancers 3-pack,3,619,79,698,233,,l
 Vinibutik,Barolo & Piemonte vänner,6,1 299,99,1 398,233,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar",https://vinibutik.dk/products/barolo-piemonte-vanner
 Philipson Wine,Vinlåda Pomerol & Vänner 6 fl,6,1 410,0,1 410,235,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-pomerol-vanner-6-fl
 Philipson Wine,Smagekasse Dining Six Luksus Nytårsvine (6 fl.),6,1 410,0,1 410,235,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/smagekasse-dining-six-luksus-nytaarsvine-6-fl
-Tidblom Wines,LE COLTURE – FAGHER BRUT D.O.C.G ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/le-colture-fagher-brut-d-o-c-g/
-Tidblom Wines,Weingut Höpler Pinot Noir ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/weingut-hopler-pinot-noir/
-Tidblom Wines,Uccelliera Rosso di Montalcino D.O.C ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/uccelliera-rosso-di-montalcino-d-o-c/
-Tidblom Wines,Elgin Vintners Merlot ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/elgin-vintners-merlot/
 Tidblom Wines,AB VIVID MILLESIMATO D.O.C.G ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/ab-vivid-millesimato-d-o-c-g/
 Tidblom Wines,Rejadorada Antona Garcia ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/rejadorada-antona-garcia/
+Tidblom Wines,Weingut Höpler Pinot Noir ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/weingut-hopler-pinot-noir/
+Tidblom Wines,LE COLTURE – FAGHER BRUT D.O.C.G ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/le-colture-fagher-brut-d-o-c-g/
+Tidblom Wines,Uccelliera Rosso di Montalcino D.O.C ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/uccelliera-rosso-di-montalcino-d-o-c/
+Tidblom Wines,Elgin Vintners Merlot ×6,6,1 350,79,1 429,238,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/elgin-vintners-merlot/
 Tidblom Wines,ELGIN VINTNERS PINOT NOIR ×6,6,1 356,79,1 435,239,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/elgin-vintners-pinot-noir/
 Fine Wine Service,2× 2023 Thörle Josephine Riesling Sekt Brut ×6,12,2 868,0,2 868,239,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2023-thorle-josephine-riesling-sekt-brut/
 Fine Wine Service,2× 2023 Marion Navoiseau Bourgogne Rouge ×6,12,2 868,0,2 868,239,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2023-marion-navoiseau-bourgogne-rouge/
-Tidblom Wines,Twenty Twelve White 2023 ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/twenty-twelve-white-2023/
+Tidblom Wines,Pere Seda Brut Natur ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/pere-seda-brut-natur/
 Tidblom Wines,Aaldering Pinotage Blanc ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/aaldering-pinotage-blanc/
+Tidblom Wines,Twenty Twelve White 2023 ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/twenty-twelve-white-2023/
 Tidblom Wines,Post House Bulls Eye ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/post-house-bulls-eye/
 Tidblom Wines,Val De Meigas ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/val-de-meigas/
 Tidblom Wines,La Cresta Castino ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/la-cresta-castino/
 Tidblom Wines,Post House Merry Widow ×6,6,1 374,79,1 453,242,,live,281 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/post-house-merry-widow/
-Tidblom Wines,Twenty Twelve Pink 2023 ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roseviner/twenty-twelve-pink-2023/
 Tidblom Wines,Prosecco Extra Dry Millesimato D.O.C.G ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-mousserande-viner/prosecco-extra-dry-millesimato-d-o-c/
+Tidblom Wines,Twenty Twelve Pink 2023 ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roseviner/twenty-twelve-pink-2023/
 Tidblom Wines,Pietro Rinaldi Vino Rosato Alfi ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roseviner/barolo-dogc-pietro-rinaldi/
 Tidblom Wines,Florence By Aaldering Cape Blend ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/florence-by-aaldering-cape-blend/
 Tidblom Wines,Aaldering Estate Pinotage Rosé ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roseviner/aaldering-estate-pinotage-rose/
@@ -377,7 +379,6 @@ Tidblom Wines,Castina Costamota Nebbiolo ×6,6,1 374,79,1 453,242,,live,,79 kr f
 Tidblom Wines,Elgin Vintners Chardonnay ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/elgin-vintners-chardonnay/
 Tidblom Wines,Mollet ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/mollet/
 Tidblom Wines,Clos Malverne Auret ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/clos-malverne-auret/
-Tidblom Wines,Pere Seda Brut Natur ×6,6,1 374,79,1 453,242,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/pere-seda-brut-natur/
 Tidblom Wines,LE COLTURE – PIANER EXTRA DRY D.O.C.G ×6,6,1 386,79,1 465,244,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/le-colture-pianer-extra-dry-d-o-c-g/
 Tidblom Wines,Bell Cros El Tracte ×6,6,1 410,79,1 489,248,,live,349 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/bell-cros-el-tracte/
 Wine Trade,Rosélåda!,3,595,149,744,248,,live,,"149 kr frakt; naturvin, privatimport – kontrollera om priset redan inkluderar frakt",https://winetrade.se/products/roseladan
@@ -398,13 +399,14 @@ Fine Wine Service,2× 2020 Mariflor Sauvignon Blanc ×6,12,2 988,0,2 988,249,,li
 Vinfolket,Vinfolket gillar Chardonnay,6,1 498,0,1 498,250,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/vinfolket-gillar-chardonnay/
 Vinfolket,2× Santa Marias Guldkorn – 3-pack,6,1 500,0,1 500,250,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/
 Fine Wine Service,2× Ugo Lequio-låda,12,2 998,0,2 998,250,,live,,fri frakt från 2000 kr,https://finewineservice.se/produkt/ugo-lequio-lada/
-Tidblom Wines,The Artisan Merlot ×6,6,1 428,79,1 507,251,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/the-artisan-merlot/
-Tidblom Wines,Artisan Sankt Laurent Ried Kaiserberg ×6,6,1 428,79,1 507,251,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/artisan-sankt-laurent-ried-kaiserberg/
 Tidblom Wines,Artisan Neusiedlersee Dac Reserve ×6,6,1 428,79,1 507,251,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/artisan-neusiedlersee-dac-reserve/
 Tidblom Wines,Artisan Halbturn White ×6,6,1 428,79,1 507,251,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-vita-viner/artisan-halbturn-white/
+Tidblom Wines,The Artisan Merlot ×6,6,1 428,79,1 507,251,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/the-artisan-merlot/
+Tidblom Wines,Artisan Sankt Laurent Ried Kaiserberg ×6,6,1 428,79,1 507,251,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-roda-viner/artisan-sankt-laurent-ried-kaiserberg/
+Tidblom Wines,Pico Cuadro Vendimia ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/pico-cuadro-vendimia/
 Tidblom Wines,Bailafieras Origen ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/bailafieras-origen/
-Tidblom Wines,GEMIN D.O.C.G. EXTRA BRUT “PIONIERE” ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-d-o-c-g-extra-brut-pioniere/
 Tidblom Wines,Rainbow´s End Cabernet Sauvignon ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/rainbows-end-cabernet-sauvignon/
+Tidblom Wines,GEMIN D.O.C.G. EXTRA BRUT “PIONIERE” ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/gemin-d-o-c-g-extra-brut-pioniere/
 Tidblom Wines,Prosecco Rosé ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/prosecco-rose/
 Tidblom Wines,Rainbow´s End Merlot ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/rainbows-end-merlot/
 Tidblom Wines,Voltaccia 49 – Toscana 2020/2021 ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/voltaccia-49/
@@ -415,14 +417,12 @@ Tidblom Wines,Double bubble DOC ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5�
 Tidblom Wines,Cal Pla Mas D’en Compte Blanc Crianca ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/cal-pla-mas-den-compte-blanc-crianca/
 Tidblom Wines,I Sodi Chianti Classico DOCG 2021 ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/i-sodi-chianti-classico-docg-2021/
 Tidblom Wines,Post House Missing Virgin ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/post-house-missing-virgin/
-Tidblom Wines,Pico Cuadro Vendimia ×6,6,1 434,79,1 513,252,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/pico-cuadro-vendimia/
 Tidblom Wines,Artisan Neusiedlersee Dac Beerenauslese ×6,6,1 440,79,1 519,253,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/osterrike/osterrikiska-vita-viner/artisan-neusiedlersee-dac-beerenauslese/
 Tidblom Wines,LE COLTURE – CRUNER DRY D.O.C.G ×6,6,1 458,79,1 537,256,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/le-colture-cruner-dry-d-o-c-g/
 Vinibutik,Ad Libitum Maturana Blanca 2022 (eko) ×6,6,1 434,99,1 533,256,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/add-libitum-maturana-blanca-2022-eko
 Philipson Wine,Vinlåda Vit Bourgogne 6 fl,6,1 540,0,1 540,257,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-vit-bourgogne-6-fl
 Tidblom Wines,Vini Contini i Giganti Bianco ×6,6,1 464,79,1 543,257,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/vini-contini-i-giganti-bianco-2/
 Tidblom Wines,Seghesio Barbera d´Alba DOC La Chiesa ×6,6,1 470,79,1 549,258,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/seghesio-barbera-dalba-doc-la-chiesa/
-Supervin,Toscana Provlåda,6,1 560,0,1 560,260,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/toscana-vinlada
 Philipson Wine,Smagekasse Toscana Luksus 3.0 (6 fl.),6,1 560,0,1 560,260,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/smagekasse-toscana-luksus-3-0-6-fl
 Tidblom Wines,Glenwood Grand Duc Semillon-Sauvignon Blanc ×6,6,1 494,79,1 573,262,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/glenwood-grand-duc-semillon-sauvignon-blanc/
 Tidblom Wines,Alicia I Josep IROIK 2023 ×6,6,1 494,79,1 573,262,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/alicia-i-josep-iroik-2023/
@@ -442,6 +442,7 @@ Tidblom Wines,LE COLTURE – EXTRA BRUT – Rive di Santo Stefano Gerardo D.O.C.
 Fine Wine Service,2× 2024 Thörle Saulheim Spätburgunder Kalkstein ×6,12,3 228,0,3 228,269,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2023-thorle-spatburgunder-saulheim-kalkstein/
 Supervin,Ziereisen Provlåda,6,1 620,0,1 620,270,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/rudi-ruttger-tour-de-pfalz-vinlada
 Supervin,Ziereisen Provlåda,6,1 620,0,1 620,270,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/ziereisen-vinlada
+Tidblom Wines,Castaño Sierra Alta ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/castano-sierra-alta/
 Tidblom Wines,Rainbow´s End Cabernet Franc ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/rainbows-end-cabernet-franc/
 Tidblom Wines,Arliz Borgo Dei Posseri ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/arliz-borgo-dei-posseri/
 Tidblom Wines,Pomona Chianti Classico DOCG 2021 ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/pomona-chianti-classico-docg-2021/
@@ -450,9 +451,7 @@ Tidblom Wines,Vignobles David – Le Mourre de l’lsle ×6,6,1 554,79,1 633,272
 Tidblom Wines,Aaldering Estate Shiraz ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/aaldering-estate-shiraz/
 Tidblom Wines,Diamant ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/diamant/
 Tidblom Wines,Aaldering Estate Lady M ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/aaldering-estate-lady-m/
-Tidblom Wines,Castaño Sierra Alta ×6,6,1 554,79,1 633,272,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/castano-sierra-alta/
 Tidblom Wines,Cantina Santadi Rocca Rubia ×6,6,1 560,79,1 639,273,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/cantina-santadi-rocca-rubia-2/
-Supervin,Nyårslåda - Billigt Bubbel,7,1 950,0,1 950,279,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/nyarslada-billiga-bubblor
 Fine Wine Service,2× 2025 Cassagne et Vitailles Combarels de L’Ombre ×6,12,3 348,0,3 348,279,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2025-cassagne-et-vitailles-combarels-de-lombre/
 Fine Wine Service,2× 2025 Cassagne et Vitailles Combarels à la Lumière ×6,12,3 348,0,3 348,279,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2025-cassagne-et-vitailles-combarels-a-la-lumiere/
 Tidblom Wines,Pico Maccario Estrosa Viognier ×6,6,1 614,79,1 693,282,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/pico-maccario-estrosa-viognier/
@@ -460,17 +459,16 @@ Tidblom Wines,Tenuta Barac Langhe Arneis ×6,6,1 614,79,1 693,282,,live,,79 kr f
 Tidblom Wines,Aaldering Estate Pinotage ×6,6,1 614,79,1 693,282,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/aaldering-estate-pinotage/
 Philipson Wine,Vinlåda Hyllad Brunello 6 fl,6,1 700,0,1 700,283,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl
 Tidblom Wines,Post House Treskilling Yellow ×6,6,1 620,79,1 699,283,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/post-house-treskilling-yellow/
-Supervin,Brunello Provlåda,6,1 710,0,1 710,285,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/brunello-vinlada
 Philipson Wine,Vinlåda Prisvärd Champagne 6 fl,6,1 730,0,1 730,288,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl
 Fine Wine Service,2× 2022 Thörle Blanc de Blancs Sekt Brut ×6,12,3 468,0,3 468,289,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-thorle-blanc-de-blancs-chardonnay-sekt-brut/
 Vinfolket,"En låda bubbel, tack!",5,1 450,0,1 450,290,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/en-lada-bubbel-tack/
+Tidblom Wines,Demuerte Classic ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-classic/
 Tidblom Wines,Blanca Terra Foravila ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/foravila/
 Tidblom Wines,Bailafieras Fiera del Destino ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/bailafieras-fiera-del-destino/
 Tidblom Wines,Elgin Vintners Sandstone ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/elgin-vintners-sandstone/
 Tidblom Wines,Blanca Terra Orígens ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/origens/
 Tidblom Wines,Blanca Terra Son Roca ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/blanca-terra-son-roca/
 Tidblom Wines,Elgin Vintners Ponthuis Pinot Noir ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/elgin-vintners-ponthuis-pinot-noir/
-Tidblom Wines,Demuerte Classic ×6,6,1 674,79,1 753,292,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-classic/
 Vinibutik,Pago de Otazu 2020 ×6,6,1 650,99,1 749,292,,live,469 kr (beställs till butik),"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/pago-de-otazu-2020
 Vinibutik,Abaco 2018 ×6,6,1 674,99,1 773,296,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/abaco-2020
 Tidblom Wines,Vini contini I giganti rosso ×6,6,1 710,79,1 789,298,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/vini-contini-i-giganti-rosso/
@@ -479,17 +477,18 @@ Fine Wine Service,2× 2023 Domaine Thevenard Mâcon-Uchizy La Martine ×6,12,3 5
 Fine Wine Service,2× 2024 Clos de Somméré Bourgogne Rouge Les Forêts ×6,12,3 588,0,3 588,299,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2024-clos-de-sommere-bourgogne-rouge-les-forets/
 Fine Wine Service,2× 2024 Clos de Somméré Saint-Véran Au Champ Lière ×6,12,3 588,0,3 588,299,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2024-clos-de-sommere-saint-veran-au-champ-liere/
 Fine Wine Service,2× 2018 Ugo Lequio Barbera D’Alba Gallina Superiore ×6,12,3 588,0,3 588,299,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2018-ugo-lequio-barbera-dalba-gallina-superiore/
-Tidblom Wines,"Tenute Olbios – Lupus In Fabula, DOCG ×6",6,1 728,79,1 807,301,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/sardinien/tenute-olbios-lupus-in-fabula-docg-2/
 Tidblom Wines,Tenute Olbios In Vino Veritas ×6,6,1 728,79,1 807,301,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-vita-viner/tenute-olbios-in-vino-veritas-3/
+Tidblom Wines,"Tenute Olbios – Lupus In Fabula, DOCG ×6",6,1 728,79,1 807,301,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/sardinien/tenute-olbios-lupus-in-fabula-docg-2/
 Tidblom Wines,Taninai ala borgo dei posseri ×6,6,1 734,79,1 813,302,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-mousserande-viner/taninai-ala-borgo-dei-posseri/
 Tidblom Wines,Le Cappelle – Toscana ×6,6,1 734,79,1 813,302,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/le-cappelle-toscana/
 Tidblom Wines,Post House Holy Grail Malbec Reserve ×6,6,1 734,79,1 813,302,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/post-house-holy-grail-malbec-reserve/
 Philipson Wine,Vinlåda Einaudi – Resa Genom Piemonte 6 fl,6,1 830,0,1 830,305,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-einaudi-resa-genom-piemonte-6-fl
+Philipson Wine,Vinlådan En Resa genom Champagne 6 fl,6,1 830,0,1 830,305,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaadan-en-resa-genom-champagne-6-fl
 Vinibutik,Peña el Gato Granito 2021 (eko) ×6,6,1 734,99,1 833,306,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/pena-el-gato-granito-2021
+Tidblom Wines,Peñafiel Miros Vendimia ×6,6,1 770,79,1 849,308,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/penafiel-miros-vendimia/
 Tidblom Wines,Pico Cuadro Vina El Chorro ×6,6,1 770,79,1 849,308,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/pico-cuadro-vina-el-chorro/
 Tidblom Wines,Seghesio Barolo DOCG Castelleto ×6,6,1 770,79,1 849,308,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/seghesio-barolo-docg-castelleto/
 Tidblom Wines,Luzon Por Ti ×6,6,1 770,79,1 849,308,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/luzon-por-ti/
-Tidblom Wines,Peñafiel Miros Vendimia ×6,6,1 770,79,1 849,308,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/penafiel-miros-vendimia/
 Winefinder,Winefinders Nyårslåda 2026,6,1 860,0,1 860,310,,live,,fri frakt från 1200 kr; Airmee/Bring; butiken anger pris per flaska,https://www.winefinder.se/vin/diverse-lander/blandade-lander-och-distrikt/nyarslada-2026-winefinders-a138258
 Tidblom Wines,Tre roveri Nizza ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/tre-roveri-nizza/
 Tidblom Wines,Tre Roveri Nizza ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/tre-roveri-nizza-2/
@@ -500,39 +499,35 @@ Tidblom Wines,Can Feixes Corpinat Classic Brut ×6,6,1 794,79,1 873,312,,live,,7
 Tidblom Wines,Cabernet Sauvignon 2017 ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/cabernet-sauvignon-2017/
 Tidblom Wines,Can Feixes Corpinat Classic Brut Nature ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/can-feixes-corpinat-classic-brut-nature/
 Tidblom Wines,Rosignol ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/rosignol/
-Tidblom Wines,Post House Stormy Hope ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/post-house-stormy-hope/
+Tidblom Wines,Nizza Silvano DOCG 2017 ×6,6,1 794,79,1 873,312,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/nizza-silvano-docg-2017/
 Supervin,"2× Tesch Riesling Karthäuser ""Commissaire"" Nahe 2024 3-pack",6,1 880,0,1 880,313,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack
 Tidblom Wines,I Sodi Vinsanto Chiani Classico DOC 2013 ×6,6,1 800,79,1 879,313,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/i-sodi-vinsanto-chiani-classico-doc-2013/
 Nordiska Vin,"2025 Hautes Cotes de Beaune Blanc Domaine Frédéric Esmonin, 6-pack",6,1 899,0,1 899,316,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/collections/prisvarda-flerpack-vin
 Fine Wine Service,2× 2024 Thörle Teufelspfad Riesling ×6,12,3 828,0,3 828,319,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2024-thorle-teufelspfad-riesling/
 Nordiska Vin,Stora Höstlådan,4,1 299,0,1 299,325,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/stora-hostladan-bordeaux-merlot
-Tidblom Wines,Demuerte Gold ×6,6,1 914,79,1 993,332,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-gold/
 Tidblom Wines,Prosecco Superiore D.O.C.G ×6,6,1 914,79,1 993,332,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/prosecco-superiore-d-o-c-g/
 Tidblom Wines,Clos Dominic Petó 2021 ×6,6,1 914,79,1 993,332,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/clos-dominic-peto-2021/
-Nordiska Vin,"Fylliga höstlådan, Bordeaux, Côtes du Rhône och Merlot",4,1 349,0,1 349,337,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/fylliga-hostladan-bordeaux-cotes
+Tidblom Wines,Demuerte Gold ×6,6,1 914,79,1 993,332,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-gold/
 Tidblom Wines,Barahonda Summum ×6,6,1 950,79,2 029,338,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/barahonda-summum/
 Philipson Wine,Vinlåda Upptäck Barolo 6 fl,6,2 050,0,2 050,342,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-upptack-barolo-6-fl
 Tidblom Wines,Willi Haag Brauneberger Juffer-Sonnenuhr Riesling trocken 2022 VDP GG Grose Lage ×6,6,1 974,79,2 053,342,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/tyskland/willi-haag-brauneberger-juffer-sonnenuhr-riesling-trocken-2022-vdp-gg-grose-lage/
 Fine Wine Service,2024 Thanisch Lieser Niederberg Helden Riesling GG ×6,6,2 094,0,2 094,349,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2024-thanisch-lieser-niederberg-helden-riesling-gg/
 Fine Wine Service,2022 Domaine de Pallus Chinon Le Coq de Pallus Blanc ×6,6,2 094,0,2 094,349,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-domaine-de-pallus-chinon-le-coq-de-pallus-blanc/
 Fine Wine Service,2020 Ugo Lequio Barbaresco ×6,6,2 094,0,2 094,349,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2020-ugo-lequio-barbaresco/
-Fine Wine Service,Vinprovning med Caterina Burzi 16 november ×6,6,2 100,0,2 100,350,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/vinprovning-med-burzi-16-november/
-Fine Wine Service,Sortimentsprovning 18 november kl 16-18 ×6,6,2 100,0,2 100,350,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/sortimentsprovning-18-november-kl-16-18/
 Tidblom Wines,Pomona Chianti Classico 2020 DOCG Riserva ×6,6,2 034,79,2 113,352,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/pomona-chianti-classico-2020-docg-riserva/
 Supervin,Spätburgunder Provlåda,4,1 430,0,1 430,357,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/spatburgunder-vinlada
 Fine Wine Service,2022 Josef Fischer Grüner Veltliner Smaragd Mugler ×6,6,2 154,0,2 154,359,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-gruner-veltliner-smaragd-mugler/
 Philipson Wine,"Vinlåda Barolo, Sex Unika Uttryck 6 fl",6,2 160,0,2 160,360,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-barolo-sex-unika-uttryck-6-fl
-Tidblom Wines,I Sodi Chiani Classico DOCG 2019 Riserva ×6,6,2 094,79,2 173,362,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/i-sodi-chiani-classico-docg-2019-riserva/
 Tidblom Wines,Clos Dominic Vinyes Baixes 2021 ×6,6,2 094,79,2 173,362,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/clos-dominic-vinyes-baixes-2021/
 Tidblom Wines,Rainbow´s End Family Reserve ×6,6,2 094,79,2 173,362,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/rainbows-end-family-reserve/
 Tidblom Wines,Celler Cal Pla Mas Dén Compte 2017 ×6,6,2 094,79,2 173,362,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/mas-den-compte-red-2017/
-Supervin,Svensk introduktionslåda för vinprovning,6,2 180,0,2 180,363,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/svensk-introsmagekasse
+Tidblom Wines,I Sodi Chiani Classico DOCG 2019 Riserva ×6,6,2 094,79,2 173,362,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/i-sodi-chiani-classico-docg-2019-riserva/
 Vinibutik,Family Reserve 2017 ×6,6,2 094,99,2 193,366,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/family-reserve-2017
 Supervin,Champagne Provlåda,6,2 210,0,2 210,368,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/champagne-vinlada
 Tidblom Wines,Peñafiel Miros Crianza ×6,6,2 130,79,2 209,368,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/penafiel-miros-crianza/
 Fine Wine Service,2019 Bindella Dolce Sinfonia Vin Santo di Montepulciano ×6,6,2 214,0,2 214,369,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2019-bindella-dolce-sinfonia-vin-santo-di-montepulciano-doc/
-Tidblom Wines,The Ahrens Family Paarl Rocks ×6,6,2 154,79,2 233,372,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/the-ahrens-family-paarl-rocks/
 Tidblom Wines,Blanca Terra Febrer ×6,6,2 154,79,2 233,372,,live,295 kr (beställs till butik) – billigare!,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/febrer/
+Tidblom Wines,The Ahrens Family Paarl Rocks ×6,6,2 154,79,2 233,372,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/the-ahrens-family-paarl-rocks/
 Fine Wine Service,2025 Thörle Probstey Riesling ×6,6,2 274,0,2 274,379,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2025-thorle-probstey-riesling/
 Fine Wine Service,2023 Cerbaiona Gramattica ×6,6,2 274,0,2 274,379,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2023-cerbaiona-gramattica/
 Fine Wine Service,2022 Cerbaiona Gramattica ×6,6,2 274,0,2 274,379,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-cerbaiona-gramattica/
@@ -552,22 +547,22 @@ Vinibutik,Barolo Marino 2021 Family Collection ×6,6,2 274,99,2 373,396,,live,,"
 Winefinder,Winefinders Champagnelådan,6,2 382,0,2 382,397,,live,,fri frakt från 1200 kr; Airmee/Bring; butiken anger pris per flaska,https://www.winefinder.se/vin/frankrike/champagne/champagneladan-winefinders-a138252
 Fine Wine Service,2022 Thörle Probstey Silvaner ×6,6,2 394,0,2 394,399,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-thorle-probstey-silvaner/
 Fine Wine Service,2020 Cassagne et Vitailles Nimalaya ×6,6,2 394,0,2 394,399,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2020-cassagne-et-vitailles-nimalaya/
-Tidblom Wines,Es Fangar Elements 2014 ×6,6,2 334,79,2 413,402,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/es-fangar-elements-2014/
 Tidblom Wines,QBQ 2019 ×6,6,2 334,79,2 413,402,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-vita-viner/qbq-2019/
+Tidblom Wines,Es Fangar Elements 2014 ×6,6,2 334,79,2 413,402,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/es-fangar-elements-2014/
 Tidblom Wines,Vini contini barrile ×6,6,2 340,79,2 419,403,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/vini-contini-barrile/
-Philipson Wine,2× Smagekasse 1. Cru Chablis (3 fl.),6,2 440,0,2 440,407,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/smagekasse-1-cru-chablis-3-fl
+Philipson Wine,2× Vinlåda Chablis 1. Cru 3 fl,6,2 440,0,2 440,407,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-chablis-1-cru-3-fl
 Tidblom Wines,Vini Contini Barrile ×6,6,2 364,79,2 443,407,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/vini-contini-barrile-2/
 Tidblom Wines,Piave melanotte D.O.G.C. ×6,6,2 370,79,2 449,408,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/piave-melanotte-d-o-g-c/
-Tidblom Wines,Demuerte Deluxe ×6,6,2 394,79,2 473,412,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-deluxe/
 Tidblom Wines,Perinet Merit ×6,6,2 394,79,2 473,412,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/perinet-merit/
 Tidblom Wines,The Ahrens Family Seventy ×6,6,2 394,79,2 473,412,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/the-ahrens-family-seventy/
+Tidblom Wines,Demuerte Deluxe ×6,6,2 394,79,2 473,412,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-deluxe/
 Vinibutik,Champagne Pascal Machet Tradition - Premier Cru Brut ×6,6,2 394,99,2 493,416,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/champagne-pascal-machet
-Tidblom Wines,Barolo Rocche di Castiglione cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-rocche-di-castiglione-cru-d-o-c-g/
 Tidblom Wines,Barolo Parussi cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-parussi-cru-d-o-c-g/
 Tidblom Wines,Barolo Gabutti cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-gabutti-cru-d-o-c-g/
 Tidblom Wines,Barolo Ravera cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-ravera-cru-d-o-c-g/
 Tidblom Wines,Barolo Monvigliero cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-monvigliero-cru-d-o-c-g/
 Tidblom Wines,Barolo Perno cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-perno-cru-d-o-c-g/
+Tidblom Wines,Barolo Rocche di Castiglione cru D.O.C.G. ×6,6,2 430,79,2 509,418,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-rocche-di-castiglione-cru-d-o-c-g/
 Gassås Wine,Mixed Case - Rosso di Montalcino 2022,5,1 924,169,2 093,419,,live,,"ca 169 kr frakt; 169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar",https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022
 Fine Wine Service,2025 Thörle Schlossberg Riesling ×6,6,2 514,0,2 514,419,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2025-thorle-schlossberg-riesling/
 Fine Wine Service,2023 Hasher Ernest Pinot Noir ×6,6,2 514,0,2 514,419,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2023-haser-ernest-pinot-noir/
@@ -577,10 +572,10 @@ Fine Wine Service,"2022 Dominio de Atauta, Dominio de Atauta ×6",6,2 574,0,2 57
 Fine Wine Service,2022 Cassagne et Vitailles Nimalaya ×6,6,2 574,0,2 574,429,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-cassagne-et-vitailles-nimalaya/
 Fine Wine Service,M.V. Frerejean Frères Grande Réserve Brut ×6,6,2 574,0,2 574,429,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/m-v-frerejean-freres-grande-reserve-brut/
 Gassås Wine,Mystery Box no 3.,12,4 999,169,5 168,431,,live,,"ca 169 kr frakt; 169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar",https://gassaswine.se/produkt/mystery-box-no-3
-Tidblom Wines,Demuerte Organic ×6,6,2 514,79,2 593,432,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-organic/
 Tidblom Wines,Alicia I Josep Tentiber 2019 ×6,6,2 514,79,2 593,432,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/alicia-i-josep-tentiber-2019/
 Tidblom Wines,The Ahrens Kwarts Die Paarl ×6,6,2 514,79,2 593,432,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-vita-viner/the-ahrens-kwarts-die-paarl/
 Tidblom Wines,Blanca Terra Ses Planes ×6,6,2 514,79,2 593,432,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/blanca-terra-ses-planes/
+Tidblom Wines,Demuerte Organic ×6,6,2 514,79,2 593,432,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/demuerte-organic/
 Tidblom Wines,Barolo DOGC Piangalardo ×6,6,2 550,79,2 629,438,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-dogc-piangalardo/
 Fine Wine Service,2022 Burzi Barolo ×6,6,2 634,0,2 634,439,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-burzi-barolo/
 Tidblom Wines,Broccardo DOCG San Giovanni 2018 ×6,6,2 574,79,2 653,442,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/broccardo-docg-san-giovanni-2018/
@@ -589,18 +584,18 @@ Tidblom Wines,Marques De Velilla Doncel De Mataperras ×6,6,2 580,79,2 659,443,,
 Fine Wine Service,2021 Burzi Barolo ×6,6,2 694,0,2 694,449,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2021-burzi-barolo/
 Philipson Wine,Vinlåda Prestige Champagne 6 fl,6,2 710,0,2 710,452,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-prestige-champagne-6-fl
 Fine Wine Service,2018 Ugo Lequio Barbaresco Gallina ×6,6,2 754,0,2 754,459,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2018-ugo-lequio-barbaresco-gallina/
+Tidblom Wines,The Ahrens Family Kasteel-Neef ×6,6,2 694,79,2 773,462,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/the-ahrens-family-kasteel-neef/
 Tidblom Wines,Celler Cal Pla Mas Dén Compte Obac De l’andreva 2017 ×6,6,2 694,79,2 773,462,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/celler-cal-pla-mas-den-compte-obac-de-landreva-2017/
 Tidblom Wines,Blanca Terra Terra Dolça ×6,6,2 694,79,2 773,462,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/blanca-terra-terra-dolca/
-Tidblom Wines,The Ahrens Family Kasteel-Neef ×6,6,2 694,79,2 773,462,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/the-ahrens-family-kasteel-neef/
 Tidblom Wines,Castaño Casa Igarza ×6,6,2 700,79,2 779,463,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/castano-casa-igarza-2/
 Tidblom Wines,Castaño Casa Igarza ×6,6,2 700,79,2 779,463,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-roda-viner/castano-casa-igarza/
-Tidblom Wines,Barolo DOGC Bricco San Pietro riserva ×6,6,2 754,79,2 833,472,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-dogc-bricco-san-pietro-riserva/
 Tidblom Wines,Martoccia Brunello di Montalcino DOCG 2020 ×6,6,2 754,79,2 833,472,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/brunello-di-montalcino-docg-2019/
+Tidblom Wines,Barolo DOGC Bricco San Pietro riserva ×6,6,2 754,79,2 833,472,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-dogc-bricco-san-pietro-riserva/
 Fine Wine Service,2019 Ugo Lequio Barbaresco Gallina ×6,6,2 874,0,2 874,479,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2019-ugo-lequio-barbaresco-gallina/
-Tidblom Wines,Blanca Terra Brut Nature ×6,6,2 814,79,2 893,482,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/blanca-terra-brut-nature/
 Tidblom Wines,Sordo Barolo “La Morra” – 16 ×6,6,2 814,79,2 893,482,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/sordo-barolo-la-morra-16/
 Tidblom Wines,Bruno Roulot Zéro Dosage ×6,6,2 814,79,2 893,482,,live,535 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/bruno-roulot-zero-dosage/
 Tidblom Wines,Boizel brut réserve champagne ×6,6,2 814,79,2 893,482,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/boizel-brut-reserve-champagne/
+Tidblom Wines,Blanca Terra Brut Nature ×6,6,2 814,79,2 893,482,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/spanska-mousserande-viner/blanca-terra-brut-nature/
 Tidblom Wines,Pazzo ×6,6,2 850,79,2 929,488,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/rott-vin/pazzo/
 Tidblom Wines,Barolo ”Sottocastello di Novello” Cru D.O.C.G. ×6,6,2 874,79,2 953,492,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-sottocastello-di-novello-cru-d-o-c-g/
 Tidblom Wines,Barolo Villero cru D.O.C.G. ×6,6,2 880,79,2 959,493,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-villero-cru-d-o-c-g/
@@ -613,8 +608,8 @@ Fine Wine Service,2017 Franck Massard Huellas ×6,6,2 994,0,2 994,499,,live,,fri
 Fine Wine Service,2016 Ugo Lequio Barbaresco Gallina ×6,6,2 994,0,2 994,499,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2016-ugo-lequio-barbaresco-gallina/
 Tidblom Wines,Cantina Santadi Terre Brune ×6,6,2 928,79,3 007,501,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/cantina-santadi-terre-brune-2/
 Tidblom Wines,Ahrens Black ×6,6,2 970,79,3 049,508,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/sydafrika/sydafrikanska-roda-viner/ahrens-black/
-Tidblom Wines,Blanca Terra FEBRER SELECCIÓ ×6,6,2 994,79,3 073,512,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/blanca-terra-febrer-seleccio/
 Tidblom Wines,Clos Dominic Vinyes Altes 2022 ×6,6,2 994,79,3 073,512,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/clos-dominic-vinyes-altes-2022/
+Tidblom Wines,Blanca Terra FEBRER SELECCIÓ ×6,6,2 994,79,3 073,512,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/spanien/blanca-terra-febrer-seleccio/
 Tidblom Wines,Barolo D.O.C. G. Monvigliero ×6,6,3 000,79,3 079,513,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/italienska-roda-viner/barolo-d-o-c-g-monvigliero/
 Fine Wine Service,2021 Cassagne et Vitailles Les Chausmes ×6,6,3 174,0,3 174,529,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2021-cassagne-et-vitailles-les-chausmes/
 Tidblom Wines,Bruno Roulot Millésime 2018 ×6,6,3 150,79,3 229,538,,live,584 kr (beställs till butik),79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/bruno-roulot-millesime-2018/
@@ -626,9 +621,9 @@ Tidblom Wines,GEMIN SUPERIORE DI CARTIZZE DRY D.O.C.G. ×6,6,3 330,79,3 409,568,
 Fine Wine Service,2022 Joy Fantastic Syrah ×6,6,3 414,0,3 414,569,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-joy-fantastic-pinot-syrah/
 Tidblom Wines,AB – D.O.C.G SUPERIORE DI CARTIZZE AURA ×6,6,3 390,79,3 469,578,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/ab-d-o-c-g-superiore-di-cartizze-aura/
 Fine Wine Service,2022 Cassagne et Vitailles Les Chausmes ×6,6,3 474,0,3 474,579,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2022-cassagne-et-vitailles-les-chausmes/
-Tidblom Wines,Boizel brut rosé ×6,6,3 414,79,3 493,582,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/boizel-brut-rose/
 Tidblom Wines,Sordo Barolo “Villero” – 16 ×6,6,3 414,79,3 493,582,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/sordo-barolo-villero-16/
 Tidblom Wines,Pico Maccario Barolo 2018 ×6,6,3 414,79,3 493,582,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/italien/pico-maccarino-barole-2018/
+Tidblom Wines,Boizel brut rosé ×6,6,3 414,79,3 493,582,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/boizel-brut-rose/
 Tidblom Wines,FASOL MENIN – D.O.C.G SUPERIORE DI CARTIZZE ×6,6,3 450,79,3 529,588,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/prosecco/fasol-menin-d-o-c-g-superiore-di-cartizze/
 Tidblom Wines,Brut Prestige ×6,6,3 450,79,3 529,588,,live,,79 kr frakt; 5–7 dagar; säljs per flaska; räknat som 6 st,https://tidblomwines.com/frankrike/franska-mousserande-viner/brut-prestige/
 Fine Wine Service,2024 Thörle Probstey Spätburgunder ×6,6,3 594,0,3 594,599,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2024-thorle-probstey-spatburgunder/
@@ -667,6 +662,7 @@ Fine Wine Service,2023 Cassagne et Vitailles Les Homs ×6,6,5 394,0,5 394,899,,l
 Fine Wine Service,2023 Cassagne et Vitailles Les Crouzets ×6,6,5 394,0,5 394,899,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2023-cassagne-et-vitailles-les-crouzets/
 Fine Wine Service,2018 Domaine de Pallus Chinon La Rougerie ×6,6,5 394,0,5 394,899,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2018-domaine-de-pallus-chinon-la-rougerie/
 Fine Wine Service,2021 Kelley Fox Pinot Noir Carter Vineyard ×6,6,5 394,0,5 394,899,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2021-kelley-fox-pinot-noir-carter-vineyard/
+Philipson Wine,Vinlåda Chassagne-Montrachet 1. Cru 3 fl,3,2 710,0,2 710,903,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-chassagne-montrachet-1-cru-3-fl
 Vinibutik,3.4 VÄRLDENS LÅNGLAGRADE GULDKORN ×6,6,5 370,99,5 469,912,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/3-4-verdens-opbevarede-guldkorn
 Vinibutik,Lagerrensning ×6,6,5 394,99,5 493,916,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/masserbjudande-lagerrensning
 Vinibutik,Terra Altas skatter (lagerrensning) ×6,6,5 634,99,5 733,956,,live,,"99 kr frakt; till utlämningsställe (ej hemleverans), ca 4 vardagar; säljs per flaska; räknat som 6 st",https://vinibutik.dk/products/terra-altas-skatter
@@ -680,6 +676,7 @@ Gassås Wine,Vina Errazuriz - Don Maximiano Veritical Box [3 bottles 2007- 2010 
 Fine Wine Service,2013 Frerejean Frères Cuvée des Hussards Premier Cru ×6,6,7 194,0,7 194,1 199,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2013-frerejean-frere-cuvee-des-hussards/
 Philipson Wine,Vinlåda Tenuta San Guido Sassicaia med familj 3 fl,3,3 660,0,3 660,1 220,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-tenuta-san-guido-sassicaia-med-familj-3-fl
 Philipson Wine,Vinlåda Tenuta San Guido Sassicaia 100 P Med Familj 3 fl,3,3 740,0,3 740,1 247,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-tenuta-san-guido-sassicaia-100-p-med-familj-3-fl
+Philipson Wine,Vinlåda Exklusiv Bordeaux 3 fl,3,3 750,0,3 750,1 250,,live,,fri frakt från 1295 kr; kolla mängdrabatter (18 fl. för priset av 12),https://philipsonwine.se/produkter/vinlaada-exklusiv-bordeaux-3-fl
 Winefinder,Winefinders Adventskalender med Bourbon & Rye ×6,6,7 770,0,7 770,1 295,,live,,fri frakt från 1200 kr; Airmee/Bring; säljs per flaska; räknat som 6 st,https://www.winefinder.se/vin/adventskalender-med-bourbon-rye-winefinders-a138119
 Fine Wine Service,"2016 Dominio de Atauta, La Mala ×6",6,7 794,0,7 794,1 299,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2016-dominio-de-atauta-la-mala/
 Fine Wine Service,"2016 Dominio de Atauta, Valdegatiles ×6",6,7 794,0,7 794,1 299,,live,,fri frakt från 2000 kr; säljs per flaska; räknat som 6 st,https://finewineservice.se/produkt/2016-dominio-de-atauta-valdegatiles/
@@ -707,18 +704,18 @@ Dittvin,XL vitvinslåda 🍾🥂,?,889,0,889,?,,live,,fri frakt från 695 kr; Br
 Vinfolket,Vinfolket Prova På Paket,?,925,0,925,?,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/prova-pa-paket/
 Vinfolket,Sardinienpaket,?,970,0,970,?,,live,,fri frakt från 800 kr,https://vinfolket.se/vinpaket/sardinienpaket/
 Vinoteket,Vinlåda: Höstfynd,?,999,0,999,?,,känd 2026-09-28,,fri frakt från 799 kr; ord. 1 491 kr,https://vinoteket.se/semesterdeal
-Nordiska Vin,"Hållbar trio av vitt, Rosé och Côtes du Rhône",?,999,0,999,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone
+Nordiska Vin,"Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",?,999,0,999,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone
 Nordiska Vin,Roséviner i blandlåda,?,1 095,0,1 095,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada
 Supervin,Jul Provlåda,?,1 140,0,1 140,?,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/jul-vinlada
-Vinoteket,Höstens stora mixlåda,?,1 199,0,1 199,?,,live,,fri frakt från 799 kr,https://vinoteket.se/hostens-stora-mixlada
-Nordiska Vin,Mousserande viner blandlåda,?,1 199,0,1 199,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci
-Nordiska Vin,"Topprankad Appassimento, premiumlådan från Italien.",?,1 249,0,1 249,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/duca-di-saragnano-leggermente-appassite-blandlada
 Nordiska Vin,Toscana blandlåda,?,1 249,0,1 249,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/duca-di-saragnano-appassimento-toscana-blandlada
 Supervin,Nyårslåda - Champagne,?,1 380,0,1 380,?,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/nyarslada-champagne
 Vinoteket,2× Vinlåda: Välkommen till Vinoteket (nya kunder),?,1 398,0,1 398,?,,känd 2026-09-28,,fri frakt från 799 kr; ord. 903 kr,https://vinoteket.se/valkommen-till-vinoteket-v1
+Nordiska Vin,Mousserande viner blandlåda,?,1 399,0,1 399,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci
 Nordiska Vin,2× Appassimentolådan med röda viner,?,1 498,0,1 498,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/appassimentoladan
+Nordiska Vin,Appassimentolådan med röda viner,?,1 499,0,1 499,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/storsta-appassimento-legami
 Wine Trade,Höstlåda #1,?,1 490,149,1 639,?,,live,,"149 kr frakt; naturvin, privatimport – kontrollera om priset redan inkluderar frakt",https://winetrade.se/products/hostlada-1
 Nordiska Vin,2× Smakfullt Rosépaket från Frankrike,?,1 698,0,1 698,?,,live,,fri frakt från 999 kr; 69–99 kr under 999 kr; fri frakt från 999 kr med Budbee/Airmee,https://nordiskavin.se/store/franska-rosefavoriter-loire-och-grenache-flaska
+Supervin,2× TOP 6 Provlåda 2026,?,1 920,0,1 920,?,,live,,fri frakt från 1000 kr; 2–5 vardagar,https://www.supervin.se/top-6-vinlada-2026
 Gassås Wine,Château Potensac - Mixed Case of Great Vintages,?,2 999,169,3 168,?,,live,,"ca 169 kr frakt; 169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar",https://gassaswine.se/produkt/chteau-potensac-mixed-case-of-great-vintages
 Gassås Wine,Champagnelådan - 3 Grand Cru Odlare,?,3 499,169,3 668,?,,live,,"ca 169 kr frakt; 169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar",https://gassaswine.se/produkt/champagneladan-3-grand-cru-odlare
 Gassås Wine,Champagnelådan - Premier Cru,?,3 623,169,3 792,?,,live,,"ca 169 kr frakt; 169 kr enligt systersajterna; PostNord tors/sön, 14–21 dagar",https://gassaswine.se/produkt/champagneladan-premier-cru
