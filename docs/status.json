@@ -52,7 +52,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 505.0,
+        "pris": 509.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -66,7 +66,7 @@
       },
       {
         "titel": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder",
-        "pris": 535.0,
+        "pris": 529.0,
         "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-hostfavoriter-6-utvalda-viner-till-hostens-mysiga-stunder",
         "text": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder Upplev en utsökt samling av viner med vår provningslåda, som presenterar fem fylliga rödviner och en frisk vitvin. Varje vin är noggrant utvald för att erbjuda en rad smakupplevelser, f"
@@ -163,37 +163,32 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 41,
+    "count": 39,
     "errors": [],
-    "utan_flaskantal": 5,
-    "slut_i_lager": 7,
+    "utan_flaskantal": 4,
+    "slut_i_lager": 6,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
-        "pris": 939.95,
+        "pris": 949.95,
         "flaskor": 3.0,
         "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Varje flaska av parcellvinet Commissaire är individuellt numrerad, då den totala produktionen uppgår till blott 1 333 flaskor. Förstautgåvan från 2024 av detta nya flaggskepp är så sällsynt att vinet inte ens finns med officiellt på Weingut Teschs egen"
       },
       {
         "titel": "3 x topprecenserade Champagner Provlåda",
-        "pris": 1329.95,
+        "pris": 1339.95,
         "flaskor": 3.0,
         "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
       },
       {
         "titel": "Champagne Premium Provningslåda",
-        "pris": 3609.95,
+        "pris": 3639.95,
         "flaskor": 2.0,
         "text": "Går du alltid den extra milen för att få en extraordinär vinupplevelse? – Då är den här lådan med bubbel något för dig! Inte vilket bubbel som helst, utan världens bästa bubbel Champagne! Ge dig i kast med en förstklassig Champagne-provlåda med vintage, Premier Cru och Grand Cru Champagne i långa banor! Prova en makalös Champagne som kan få även den största Champagne-kritikern att bli knäsvag. Är du nybörjare och vill lära dig mer om den underbara värld som är Champagne, eller är du väl bekant m"
       }
     ],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
-      {
-        "titel": "TOP 6 Provlåda 2026",
-        "url": "https://www.supervin.se/top-6-vinlada-2026",
-        "text": "Vinlådan uppdaterades senast den 20-10-2026 Top 6 Vinlåda, vad är det? Här får du en noga utvald blandning av vit Bourgogne, en mousserande kundfavorit, 99-poängs Primitivo, Brunello i världsklass, Provence-rosé och topp-Bordeaux. Vad har de alla gemensamt? De är absoluta storsäljare – och kundernas klara favoriter. Priset är pressat i botten. Nu kan du prova alla de topprankade favoriterna på en "
-      },
       {
         "titel": "Jul Provlåda",
         "url": "https://www.supervin.se/jul-vinlada",
@@ -218,7 +213,7 @@
     "exempel": [
       {
         "titel": "Hvidvin & Bobler Provlåda",
-        "pris": 569.95,
+        "pris": 579.95,
         "flaskor": 9.0,
         "url": "https://www.supervin.se/vitt-vin-bubblor-vinlada",
         "text": "Vinlådan uppdaterades senast den 21-10-2026 Härligt vitt vin och fantastiska bubblor – vad mer kan man önska sig?! Vilken härlig vinlåda vi har satt ihop… Lådan är fylld med topprankade vita viner och lyxiga bubblor till helt otroliga priser. Vinerna"
@@ -232,42 +227,42 @@
       },
       {
         "titel": "Italiensk Provningslåda",
-        "pris": 789.95,
+        "pris": 799.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/italiensk-vinlada",
         "text": "Provlådan uppdaterades senast den 21-10-2026 Italienskt rödvin provlåda – 6 flaskor till fyndpris och toppbetyg. Älskar du italienskt rödvin med massor av karaktär, charm och kraft? Då är den här provlådan ett fynd för finsmakare! Här får du 6 kritik"
       },
       {
         "titel": "Chardonnay Provlåda",
-        "pris": 869.95,
+        "pris": 879.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/chardonnay-vinlada",
         "text": "Vinlådan er senest opdateret den 24-05-2026 Är du förtjust i Chardonnay – eller nyfiken på druvans många uttryck? Då är denna vinlåda ett riktigt fynd! Här får du 6 kritikerrosade Chardonnay-viner från både klassiska och överraskande ursprung – alla "
       },
       {
         "titel": "Spanien rundt i rødvine provlåda",
-        "pris": 889.95,
+        "pris": 899.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/spanien-runt-vinlada-med-rodviner",
         "text": "Ribera del Duero, Rioja och Navarra… Det är de tre mest hypade vinområdena i Spanien vi ska besöka i denna nya Vinlåda, som innehåller 6 olika flaskor med toppomdömen massor . Låt oss börja på toppen hos Ribera del Dueros nya kultförklarade producent"
       },
       {
         "titel": "Svensk introduktionslåda för vinprovning",
-        "pris": 929.95,
+        "pris": 939.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/svensk-introsmagekasse",
         "text": "Välkommen till Supervin! Är du nyfiken på vilka vi är och vad vi kan? Här har vi samlat sex viner som svenska vinälskare inte kan få nog av – från eleganta klassiker till flaskor med massor av personlighet. En imponerande introduktion till vårt sorti"
       },
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
-        "pris": 939.95,
+        "pris": 949.95,
         "flaskor": 3.0,
         "url": "https://www.supervin.se/tesch-riesling-karthauser-commissaire-nahe-2024-3-pack",
         "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Va"
       },
       {
         "titel": "Riesling Provlåda",
-        "pris": 939.95,
+        "pris": 949.95,
         "flaskor": 6.0,
         "url": "https://www.supervin.se/riesling-vinlada",
         "text": "Provlådan uppdaterades senast den 21-10-2026 Riesling Provlåda – 6 stjärnskott från Tyskland, Österrike och Frankrike. Gillar du krispig syra, blommiga aromer och mineralisk elegans? Då är denna Riesling Provlåda ett sant paradis! Här får du 6 toppre"
@@ -306,16 +301,16 @@
         "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
       },
       {
-        "titel": "2021 Guigal Côte-Rôtie LaLa's Wooden Case 3 btls",
-        "pris": 15229.95,
-        "flaskor": 3.0,
-        "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
-      },
-      {
         "titel": "Vinlåda Chassagne-Montrachet 1. Cru 3 fl",
         "pris": 2709.95,
         "flaskor": 3.0,
         "text": "Chassagne-Montrachet är ett av vit Bourgognes verkliga hjärtan, och här får du tre 1. Cru från årgång 2023 från två av byns mest eftertraktade hus. Årgången har av Bourgognes vinråd kallats “Beyond All Expectations”, och de vita vinerna har både friskhet, mineralitet och fyllighet. Från Domaine Blain-Gagnard kommer två olika vingårdar. Morgeot är mineralisk och strukturerad. Caillerets räknas till byns allra bästa 1. Cru-marker och är en elegant, krämig chardonnay med citrus, apelsinskal och gul"
+      },
+      {
+        "titel": "2021 Guigal Côte-Rôtie LaLa's Wooden Case 3 btls",
+        "pris": 15229.95,
+        "flaskor": 3.0,
+        "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
       },
       {
         "titel": "Vinlåda Exklusiv Bordeaux 3 fl",
@@ -341,20 +336,6 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
-        "pris": 879.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
-        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
-      },
-      {
-        "titel": "Vinlåda Friska Bubblor 6 fl",
-        "pris": 709.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-friska-bubblor-6-fl",
-        "text": "Vinlåda Friska Bubblor 6 fl Sex noggrant utvalda flaskor som tillsammans visar hur mångfacetterat och spännande mousserande vin verkligen kan vara, från krispig mineralisk elegans till generöst fruktig festkänsla. Perfekt som välkomstdrink, till skal"
-      },
-      {
         "titel": "Vinlåda Casas del Bosque 6 fl",
         "pris": 469.95,
         "flaskor": 6.0,
@@ -376,6 +357,13 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
+        "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
+        "pris": 879.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
+        "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
         "pris": 1699.95,
         "flaskor": 6.0,
@@ -388,6 +376,13 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
         "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
+      },
+      {
+        "titel": "Vinlåda Vardagsfavoriter 6 fl",
+        "pris": 519.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-vardagsfavoriter-6-fl-1",
+        "text": "Vinlåda Vardagsfavoriter 6 fl Sex handplockade flaskor, sex olika stilar — alla utvalda för att göra vardagen lite godare. Med Vardagsfavoriter får du sex flaskor med fokus på smak, mångsidighet och stor drickglädje — viner som gör det enkelt att hit"
       }
     ]
   },
@@ -443,13 +438,6 @@
     ],
     "exempel": [
       {
-        "titel": "Franska rödvinsfavoriter – Bordeaux & Rhône (12 flaskor)",
-        "pris": 1389.0,
-        "flaskor": 12.0,
-        "url": "https://nordiskavin.se/store/franska-rodvinsfavoriter",
-        "text": "Denna samling är skapad för dig som uppskattar den franska vintraditionens bredd och djup. Vi har kombinerat strama klassiker från Bordeaux med solmogen Merlot och kryddig Côtes du Rhône för att skapa"
-      },
-      {
         "titel": "Stora rosélådan från södra Frankrike och Loire - Provence-stil 12 flaskor",
         "pris": 1315.0,
         "flaskor": 12.0,
@@ -497,6 +485,13 @@
         "flaskor": 6.0,
         "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
         "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
+      },
+      {
+        "titel": "Appassimento med 98 poäng 12 flaskor",
+        "pris": 1499.0,
+        "flaskor": 12.0,
+        "url": "https://nordiskavin.se/store/appassimento-blandlada-98p-duca-di-saragnano",
+        "text": "Denna blandlåda är skapad för dig som älskar fylliga och generösa italienska rödviner. Vi har valt ut tre fantastiska viner från Duca di Saragnano där den hyllade Passone möter eleganta leggermente ap"
       }
     ]
   },
@@ -929,6 +924,13 @@
     ],
     "exempel": [
       {
+        "titel": "2022 Burzi Barolo Comune Di La Morra ×6",
+        "pris": 3774.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2022-burzi-barolo-comune-di-la-morra/",
+        "text": "Barolo Comune Di La Morra görs på 100% Nebbiolo från vingårdarna Capalot och La Serra i Piemonte, ca 75% druvor från Capalot och 25% från La Serra. Efter den manuella skörden sker alkoholjäsning på ståltank tillsammans med 15 dagars maceration av dru"
+      },
+      {
         "titel": "2022 Burzi Barolo ×6",
         "pris": 2634.0,
         "flaskor": 6.0,
@@ -976,13 +978,6 @@
         "flaskor": 6.0,
         "url": "https://finewineservice.se/produkt/2024-thorle-teufelspfad-riesling/",
         "text": "Teufelspfad (som betyder Djävulens stig) är en lång, brant vingårdssluttning som producerar intensiva, kryddiga viner. Vinstockarna är exponerade för Selzdalens vindar, och jordmånen varierar från djup kalksten högst upp på sluttningen, via näringsri"
-      },
-      {
-        "titel": "2025 Thörle Probstey Riesling ×6",
-        "pris": 2274.0,
-        "flaskor": 6.0,
-        "url": "https://finewineservice.se/produkt/2025-thorle-probstey-riesling/",
-        "text": "Vingården Probstey, med sitt rakt sydvända läge, sluttningar på upp till 25 % och en låg höjd på 120 till 170 meter över havet, garanterar viner av högsta kvalitet. Efter en selektiv skörd där druvorna handplockas krossas druvorna lätt i vineriet och"
       }
     ]
   },
