@@ -52,7 +52,7 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 509.0,
+        "pris": 499.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
@@ -74,17 +74,29 @@
     ]
   },
   "Vinoteket": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
-    ],
-    "utan_flaskantal": 0,
+    "state": "live",
+    "count": 2,
+    "errors": [],
+    "utan_flaskantal": 1,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [],
-    "exempel": []
+    "utan_flaskantal_exempel": [
+      {
+        "titel": "Bästsäljare i en låda",
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
+      }
+    ],
+    "exempel": [
+      {
+        "titel": "Bästsäljare i en låda",
+        "pris": 1199.0,
+        "flaskor": null,
+        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
+        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
+      }
+    ]
   },
   "Winefinder": {
     "state": "live",
@@ -139,6 +151,13 @@
         "text": "Corvers-Kauter Berg Roseneck Rüdesheim Riesling trocken 2025 (2 flaskor) Doften bjuder på generösa toner av gula äpplen, päron, persika och gula plommon, kompletterade av friska inslag av citron och grapefrukt. Smaken inleds med en tydlig mineralitet"
       },
       {
+        "titel": "Winefinders Black Outlet Lådan",
+        "pris": 1092.0,
+        "flaskor": 6.0,
+        "url": "https://www.winefinder.se/vin/diverse-lander/diverse-distrikt/black-outlet-ladan-winefinders-a138253",
+        "text": "Domaine Lafage Bastide Miraflors 2023 – (1 flaska) Ett riktigt härligt rödvin från en av södra Frankrikes mest uppskattade producenter! Domaine Lafage håller till i Roussillon, där det soliga medelhavsklimatet och de varierande jordmånerna skapar fan"
+      },
+      {
         "titel": "Winefinders Poänglådan - högpoängare",
         "pris": 990.0,
         "flaskor": 6.0,
@@ -151,22 +170,15 @@
         "flaskor": 6.0,
         "url": "https://www.winefinder.se/vin/diverse-lander/blandade-lander-och-distrikt/nyheter-winefinders-a138254",
         "text": "Domaine Vocoret & Fils Chablis 2025 – (1 flaska) Klassisk och härligt frisk Chablis från familjeproducenten Domaine Vocoret & Fils! Egendomen har sina rötter i hjärtat av Chablis i norra Bourgogne, där familjen under flera generationer har producerat"
-      },
-      {
-        "titel": "Winefinders Romkalender 24 Days of Rum - Blue Edition ×6",
-        "pris": 6570.0,
-        "flaskor": 6.0,
-        "url": "https://www.winefinder.se/vin/romkalender-24-days-of-rum-blue-edition-winefinders-a137174",
-        "text": "De 24 rom- och rombaserade spritsorterna, från kända märken till okända pärlor, har noggrant valts ut för att garantera en hjärtvärmande och raffinerad upplevelse för alla. Rum Explorer 5 y.o. – Thailand Hooded Skunk Rum – Paraguay Ron Roble Ultra Añ"
       }
     ]
   },
   "Supervin": {
     "state": "live",
-    "count": 39,
+    "count": 40,
     "errors": [],
-    "utan_flaskantal": 4,
-    "slut_i_lager": 6,
+    "utan_flaskantal": 2,
+    "slut_i_lager": 1,
     "fa_flaskor_exempel": [
       {
         "titel": "Tesch Riesling Karthäuser \"Commissaire\" Nahe 2024 3-pack",
@@ -175,16 +187,34 @@
         "text": "“With the 2024 vintage, Johannes Tesch and his young team vinified the grapes from this exceptional vineyard as a standalone Riesling for the very first time … A true gem has been created here.” – Weingut Tesch One Tesch Riesling to rule them all. Varje flaska av parcellvinet Commissaire är individuellt numrerad, då den totala produktionen uppgår till blott 1 333 flaskor. Förstautgåvan från 2024 av detta nya flaggskepp är så sällsynt att vinet inte ens finns med officiellt på Weingut Teschs egen"
       },
       {
+        "titel": "Pinot Noir verden rundt provlåda",
+        "pris": 1229.95,
+        "flaskor": 2.0,
+        "text": "Vinlådan är uppdaterad den 01/09-2026 Följ med på en Pinot-upptäcktsresa runt jorden! Vi besöker sex olika toppområden runt om i världen där man bemästrar den delikata, tunnhudade Pinot Noir-druvan. Vi börjar i Pinot-epicentrum Bourgogne, där du får Danmarks förmodligen bästa köp hos Prosper Maufoux. Därefter går resan till kultproducenten Hanspeter Ziereisen i Baden, där hans Talrain enkeltmark skapar kanske den största Pinot Noir utanför Bourgogne, enligt Robert Parker. Resan går också till Sa"
+      },
+      {
         "titel": "3 x topprecenserade Champagner Provlåda",
         "pris": 1339.95,
         "flaskor": 3.0,
         "text": "Nu får du en helt extraordinär möjlighet! Vi har samlat tre av våra absolut bästa förslag på Champagne. En Vinlåda, där du får möjlighet att uppleva topprankad Champagne – Champagne som hyllats av flera vinexperter, men där priset på magiskt vis hållits nere på en nivå som tidigare känts helt orimlig för Champagne i den här kvaliteten! Det rör sig om Vintage Grand Cru Champagne som säljs under Premier Cru-etikett – något som uteslutande kommer dig till godo! Kvaliteten från Grand Cru, men priset"
       },
       {
+        "titel": "Bourgogne och Champagne-lådan",
+        "pris": 1859.95,
+        "flaskor": 2.0,
+        "text": "Provlådan uppdaterades senast den 21-10-2026 En provlåda fylld med Champagne och Bourgogne, JA TACK! – 6 olika flaskor från två av världens mest eftertraktade vinområden. Och se bara vad du får med i den här nya provlådan… Du får världens överlägset mest populära och ikoniska Champagne, Moët & Chandon Imperial Brut. Med starkt sällskap av Martel Prestige Brut med 95 poäng och \"TOPLISTET - BEDSTE BOBLER: Champagne under 200 kroner\" hos Flaskehalsen. Vi fortsätter vidare till Bourgogne, där du kan"
+      },
+      {
         "titel": "Champagne Premium Provningslåda",
         "pris": 3639.95,
         "flaskor": 2.0,
         "text": "Går du alltid den extra milen för att få en extraordinär vinupplevelse? – Då är den här lådan med bubbel något för dig! Inte vilket bubbel som helst, utan världens bästa bubbel Champagne! Ge dig i kast med en förstklassig Champagne-provlåda med vintage, Premier Cru och Grand Cru Champagne i långa banor! Prova en makalös Champagne som kan få även den största Champagne-kritikern att bli knäsvag. Är du nybörjare och vill lära dig mer om den underbara värld som är Champagne, eller är du väl bekant m"
+      },
+      {
+        "titel": "Bordeaux Krislåda Black Friday Edt. Provlåda",
+        "pris": 2139.95,
+        "flaskor": 2.0,
+        "text": "Saint-Emilion Grand Cru, Pomerol, Saint-Estèphe, Saint-Julien… Det är bara några av de ikoniska vinområden du får möjlighet att smaka på i årets Black Friday-utgåva av ”Bordeaux Krislådan”. Och visst ser det mörkt ut för Bordeaux… Under de senaste 2-3 åren har området varit epicentrum för den enorma försäljningskris som har drabbat framför allt de stora klassiska vinområdena. Det har i gengäld resulterat i det ena otroliga restpartiet efter det andra och nu har vi samlat de 6 bästa Black Friday-"
       }
     ],
     "alkoholfria": 0,
@@ -198,16 +228,6 @@
         "titel": "Nyårslåda - Champagne",
         "url": "https://www.supervin.se/nyarslada-champagne",
         "text": "Den perfekta Champagne-trion till nyårsafton! Krispig och frisk 1er Cru till kungens nyårstal, djup och komplex Grand Cru till middagen samt ljuvlig, söt doux -Champagne till kransekakan kl. 24.00. Vi har handplockat 3 av våra bästa Champagner och samlat dem i en Vinlåda som matchar hela manuskriptet för nyårsafton, och som garanterat kommer att slå benen undan för dina gäster. Obs. Vi har bara få"
-      },
-      {
-        "titel": "Tesch Tasting Box 2020 & Liveprovning",
-        "url": "https://www.supervin.se/tesch-tasting-box-2020-live-provning",
-        "text": "EXKLUSIV ONLINEPROVNING med en av Tysklands största Riesling‑producenter! Legenden Martin Tesch från Nahe kommer personligen att guida dig genom sin topprankade kollektion av kultviner i den fantastiska nya årgången 2020. Praktisk info: Se eller återse provningen i sin helhet högst upp på sidan. Vinlådan innehåller: 6 provflaskor samt ett elegant häfte som introducerar dig till lådans enskilda vin"
-      },
-      {
-        "titel": "Black Box 12 st Blandlåda",
-        "url": "https://www.supervin.se/black-box-12-st-mixlada",
-        "text": "12 olika viner - till EXTRA EXTRA nedsatt pris - i samma låda. Det blir övervägande rött vin, men det kan absolut också finnas flera vita viner, portvin, dessertvin, mousserande eller champagne i lådan. Enstaka flaskor i lådan kan ha en skadad etikett. Observera att om du köper två lådor kommer du att få fler dubbletter."
       }
     ],
     "exempel": [
@@ -271,7 +291,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 46,
+    "count": 47,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -281,6 +301,12 @@
         "pris": 3739.95,
         "flaskor": 3.0,
         "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
+      },
+      {
+        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
+        "pris": 3659.95,
+        "flaskor": 3.0,
+        "text": "Vinlåda: Tenuta San Guido – hela familjen bakom legendariska Sassicaia Få viner i världen kan mäta sig med Sassicaia – en vinikon som gång på gång placerar sig bland världens bästa.Nu kan du uppleva hela vinuniversumet från Tenuta San Guido, huset bakom det mytomspunna mästerverket, samlat i en exklusiv vinlåda till ett sanslöst bra pris. Denna unika låda tar dig med på en resa genom tre nivåer av toskansk perfektion: Le Difese – tillgänglig, elegant och full av charm. Guidalberto – kraftfull, s"
       },
       {
         "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
@@ -301,6 +327,12 @@
         "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
       },
       {
+        "titel": "Vinlåda Exklusiv Bordeaux 3 fl",
+        "pris": 3749.95,
+        "flaskor": 3.0,
+        "text": "Tre av Bordeaux största slott i en och samma låda, alla från Médoc-halvön. Två Pauillac från den utmärkta årgången 2020 och en Saint-Julien från 2022, tre olika uttryck av vad som gör vänstra stranden till vinvärldens referens. Château Lynch-Bages 2020 (5:e cru, Pauillac) är mörk, fruktrik och fyllig, och räknas ofta som en “super second”, ett slott som spelar i samma liga som andra cru. Den har fått 95–97 poäng hos Falstaff och 95 hos Tim Atkin. Château Pontet-Canet 2020 (5:e cru, Pauillac) odl"
+      },
+      {
         "titel": "Vinlåda Chassagne-Montrachet 1. Cru 3 fl",
         "pris": 2709.95,
         "flaskor": 3.0,
@@ -311,12 +343,6 @@
         "pris": 15229.95,
         "flaskor": 3.0,
         "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
-      },
-      {
-        "titel": "Vinlåda Exklusiv Bordeaux 3 fl",
-        "pris": 3749.95,
-        "flaskor": 3.0,
-        "text": "Tre av Bordeaux största slott i en och samma låda, alla från Médoc-halvön. Två Pauillac från den utmärkta årgången 2020 och en Saint-Julien från 2022, tre olika uttryck av vad som gör vänstra stranden till vinvärldens referens. Château Lynch-Bages 2020 (5:e cru, Pauillac) är mörk, fruktrik och fyllig, och räknas ofta som en “super second”, ett slott som spelar i samma liga som andra cru. Den har fått 95–97 poäng hos Falstaff och 95 hos Tim Atkin. Château Pontet-Canet 2020 (5:e cru, Pauillac) odl"
       }
     ],
     "alkoholfria": 0,
@@ -336,20 +362,6 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 959.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
         "titel": "Vinlåda Vivino-favoriter 6 fl",
         "pris": 1089.95,
         "flaskor": 6.0,
@@ -362,6 +374,20 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-3-x-lar-kanna-cuvee-philipson-6-fl",
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
+      },
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 959.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
         "titel": "Vinlåda Hyllad Brunello 6 fl",
@@ -388,13 +414,23 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 34,
+    "count": 37,
     "errors": [],
-    "utan_flaskantal": 9,
-    "slut_i_lager": 7,
+    "utan_flaskantal": 11,
+    "slut_i_lager": 4,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Merlot favoritlåda, mjukt och bärigt rött vin",
+        "url": "https://nordiskavin.se/store/klassisk-fransk-merlot-blandlada-rott-vin",
+        "text": "Denna noggrant sammansatta blandlåda hyllar den älskade druvan Merlot genom tre unika uttryck från Frankrike. Vi har valt ut dessa viner för att visa druvans fantastiska bredd, från det bäriga och mju"
+      },
+      {
+        "titel": "Kompletta franska lådan för höstens middagar",
+        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
+        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
+      },
       {
         "titel": "Hållbar trio av Sauvignon Blanc, Rosé och Côtes du Rhône",
         "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
@@ -404,11 +440,6 @@
         "titel": "Topprankad Appassimento, premiumlådan från Italien.",
         "url": "https://nordiskavin.se/store/duca-di-saragnano-leggermente-appassite-blandlada",
         "text": "Denna kollektion fokuserar på den hantverksmässiga metoden Leggermente Appassite vilket bokstavligen betyder lätt appassimento. Till skillnad från fullskalig appassimento, där druvorna torkas tills de"
-      },
-      {
-        "titel": "Internationell fyndlåda med utvalda viner",
-        "url": "https://nordiskavin.se/store/fyndlada-rodda-och-vita-favoriter",
-        "text": "Denna unika samling kombinerar högklassiga viner från kända regioner i Spanien, USA och Italien. Vi har satt ihop lådan för dig som vill upptäcka nya favoriter utan kompromisser. Det är den perfekta k"
       },
       {
         "titel": "Appassimentolådan med röda viner",
@@ -421,19 +452,14 @@
         "text": "Beställ blandlåda med rosé, vitt och rött från Toscana smidigt på nätet. Se pris och lagerstatus. Upplev prisbelönta italienska viner 97 poäng med snabb hemleverans till dörren."
       },
       {
+        "titel": "Bordeaux Klassisk Rödvinslåda",
+        "url": "https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada",
+        "text": "Beställ Bordeaux Klassisk Rödvinslåda online. En prisvärd vinlåda med mjuka röda viner från Bordeaux och södra Frankrike. Smidig hemleverans i hela Sverige. Se pris och köp här!"
+      },
+      {
         "titel": "Roséviner i blandlåda",
         "url": "https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada",
         "text": "Beställ roséviner från Provence och Toscana smidigt på nätet. Se pris och lagerstatus. Upptäck noga utvalda roséviner från Frankrike och Italien med snabb hemleverans till dörren."
-      },
-      {
-        "titel": "Appassimentolådan med röda viner",
-        "url": "https://nordiskavin.se/store/storsta-appassimento-legami",
-        "text": "Beställ Appassimento Favoriter smidigt på nätet. Se pris och lagerstatus. Mjuka och fylliga italienska rödviner med snabb hemleverans till dörren."
-      },
-      {
-        "titel": "Mousserande viner blandlåda",
-        "url": "https://nordiskavin.se/store/mousserande-med-prosecco-och-blanc-de-blancs-dacci",
-        "text": "Beställ mousserande viner blandlåda smidigt på nätet. Se pris och lagerstatus. Upptäck en krispig mix av fransk Blanc de Blancs och Prosecco med snabb hemleverans till dörren."
       }
     ],
     "exempel": [
@@ -443,6 +469,13 @@
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/franskt-mingel-med-krispig-rose-flaska",
         "text": "Vi har satt ihop den här lådan med ett enda mål, att du ska ha det perfekta vinet redo för sommarens alla stunder. Här hittar du tre olika roséviner som alla är som gjorda för lata dagar i solen och l"
+      },
+      {
+        "titel": "Merlot favoritlåda, mjukt och bärigt rött vin",
+        "pris": 1399.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/klassisk-fransk-merlot-blandlada-rott-vin",
+        "text": "Denna noggrant sammansatta blandlåda hyllar den älskade druvan Merlot genom tre unika uttryck från Frankrike. Vi har valt ut dessa viner för att visa druvans fantastiska bredd, från det bäriga och mju"
       },
       {
         "titel": "Instegslådan för Appassimentoälskare, 9 flaskor",
@@ -457,6 +490,13 @@
         "flaskor": 9.0,
         "url": "https://nordiskavin.se/store/italienska-bianco-chardonnay-blandlada",
         "text": "Denna blandlåda är sammansatt för dig som vill upptäcka eleganta och uppfriskande vita viner från utvalda europeiska vingårdar. Vi har handplockat tre olika stilar som kompletterar varandra perfekt fö"
+      },
+      {
+        "titel": "Kompletta franska lådan för höstens middagar",
+        "pris": 1399.0,
+        "flaskor": null,
+        "url": "https://nordiskavin.se/store/kompletta-franska-paketet-for-hosten",
+        "text": "Denna mångsidiga samling är sammansatt för dig som vill köpa vin från Frankrikes främsta regioner. Här möts friskhet och fyllig karaktär för livets alla middagar och festliga stunder.Vad den innehålle"
       },
       {
         "titel": "Italiensk guldbox med Appassimento från Puglia och Sicilien",
@@ -478,20 +518,6 @@
         "flaskor": null,
         "url": "https://nordiskavin.se/store/terra-vitis-sauvignon-blanc-rose-cotes-du-rhone",
         "text": "Denna samling består av viner som förenas genom sitt starka fokus på hållbar odling och respekt för naturen. Samtliga producenter i lådan är certifierade enligt Terra Vitis, vilket garanterar en miljö"
-      },
-      {
-        "titel": "She's Always Blanc de Blancs, 6-pack",
-        "pris": 749.0,
-        "flaskor": 6.0,
-        "url": "https://nordiskavin.se/store/enotalia-shes-always-blanc-de-blanc-6-pack",
-        "text": "Vi har valt ut detta mousserande vin för dess omedelbara charm och förmåga att lyfta vilken social stund som helst. Tanken bakom urvalet är att erbjuda ett vin som känns lyxigt men som samtidigt är lä"
-      },
-      {
-        "titel": "Appassimento med 98 poäng 12 flaskor",
-        "pris": 1499.0,
-        "flaskor": 12.0,
-        "url": "https://nordiskavin.se/store/appassimento-blandlada-98p-duca-di-saragnano",
-        "text": "Denna blandlåda är skapad för dig som älskar fylliga och generösa italienska rödviner. Vi har valt ut tre fantastiska viner från Duca di Saragnano där den hyllade Passone möter eleganta leggermente ap"
       }
     ]
   },
@@ -502,6 +528,12 @@
     "utan_flaskantal": 2,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
+      {
+        "titel": "Lamblin Fils Beaujolais Nouveau 3-Pack",
+        "pris": 550.0,
+        "flaskor": 3.0,
+        "text": "Nu är den här! Årets Beaujolais Nouveau. Köp i 3-pack, priset inkluderar fraktFrån hjärtat av Bourgogne kommer detta lätta, trevliga röda vin på 100 procent av Gamay, eller Gamay Noir, vilket är en blå druva som ofta används i de röda vinerna från Beaujolais i södra Bourgogne, Frankrike. ServeringVinet förtäras gärna lite svalare än normalt; i 12-14 grader.ProducentenMed anor sedan slutet av 1600-talet verkar familjen Lamblin i vinmeckat Bourgogne; närmare bestämt runt byn Maligny. Numera är det"
+      },
       {
         "titel": "Santa Marias Guldkorn – 3-pack",
         "pris": 750.0,
@@ -524,11 +556,11 @@
     ],
     "exempel": [
       {
-        "titel": "Vinfolket gillar Chardonnay",
-        "pris": 1498.0,
-        "flaskor": 6.0,
-        "url": "https://vinfolket.se/vinpaket/vinfolket-gillar-chardonnay/",
-        "text": "Chardonnay – En värld av smaker i ett glasFå druvor är så mångsidiga och fascinerande som Chardonnay. Den kallas ofta för vinmakarens målarduk eftersom den speglar både sin växtplats och hur den har hanterats i vineriet på ett unikt sätt.I det här vi"
+        "titel": "Lamblin Fils Beaujolais Nouveau 3-Pack",
+        "pris": 550.0,
+        "flaskor": 3.0,
+        "url": "https://vinfolket.se/vinpaket/lamblin-fils-beaujolais-nouveau-2026-3-pack/",
+        "text": "Nu är den här! Årets Beaujolais Nouveau. Köp i 3-pack, priset inkluderar fraktFrån hjärtat av Bourgogne kommer detta lätta, trevliga röda vin på 100 procent av Gamay, eller Gamay Noir, vilket är en blå druva som ofta används i de röda vinerna från Be"
       },
       {
         "titel": "Polvanera Marchesana Prova på paket",
@@ -624,18 +656,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -909,7 +941,7 @@
   },
   "Fine Wine Service": {
     "state": "live",
-    "count": 146,
+    "count": 145,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -995,7 +1027,7 @@
     "state": "live",
     "count": 14,
     "stats": {
-      "sokta": 553,
+      "sokta": 551,
       "hittade": 14,
       "i_lager": 0,
       "fel": 0
@@ -1014,7 +1046,7 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 18
+        "Råå": 17
       }
     },
     "lagersvar": [
