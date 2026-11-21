@@ -62,7 +62,7 @@
         "pris": 535.0,
         "flaskor": 6.0,
         "url": "https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser",
-        "text": "Dittvins bubbellåda - 6 festliga smaksupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och ett elegant roséviner i den här vinlådan. Varje vin har sin egen karaktär, från livliga J. Kieffer Mousseux till krispiga Sire de Beaupré"
+        "text": "Dittvins bubbelkasse - 6 festliga smaksupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och en elegant rosé i denna underbara låda. Varje vin presenterar sin egen unika karaktär, från den livliga J. Kieffer Mousseux till den kri"
       },
       {
         "titel": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder",
@@ -166,7 +166,7 @@
     "count": 42,
     "errors": [],
     "utan_flaskantal": 3,
-    "slut_i_lager": 1,
+    "slut_i_lager": 0,
     "fa_flaskor_exempel": [
       {
         "titel": "Bordeaux Krislåda Black Friday Edt. Provlåda",
@@ -284,7 +284,7 @@
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 47,
+    "count": 46,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -294,12 +294,6 @@
         "pris": 3739.95,
         "flaskor": 3.0,
         "text": "Vinlåda Tenuta San Guido — Sassicaia och hela familjen Det finns vinhus som gör bra vin. Och sedan finns det Tenuta San Guido — det legendariska gods i Bolgheri som en gång för alltid förändrade omvärldens syn på italiensk vinframställning och som sedan dess aldrig slutat att sätta nya standarder för hela landet. Sassicaia är inte bara ett vin. Det är ett monument — det första italienska vinet någonsin att erhålla de magiska 100 poängen av Robert Parker, och ett namn som i vinvärlden uttalas med"
-      },
-      {
-        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
-        "pris": 3659.95,
-        "flaskor": 3.0,
-        "text": "Vinlåda: Tenuta San Guido – hela familjen bakom legendariska Sassicaia Få viner i världen kan mäta sig med Sassicaia – en vinikon som gång på gång placerar sig bland världens bästa.Nu kan du uppleva hela vinuniversumet från Tenuta San Guido, huset bakom det mytomspunna mästerverket, samlat i en exklusiv vinlåda till ett sanslöst bra pris. Denna unika låda tar dig med på en resa genom tre nivåer av toskansk perfektion: Le Difese – tillgänglig, elegant och full av charm. Guidalberto – kraftfull, s"
       },
       {
         "titel": "Champagne Bollinger La Grande Année 2015 + 2018 (2 fl.)",
@@ -320,16 +314,16 @@
         "text": "Tre 1. Cru från Chablis i samma låda, ett smart sätt att uppleva hur mark, årgång och producent formar chardonnay. Två av vinerna kommer från La Chablisienne, kooperativet med tillgång till några av Chablis bästa vingårdar, och en från den unga stjärnproducenten Charly Nicolle. I lådan finns 2020 L’Homme Mort från La Chablisienne, en elegant och komplex 1. Cru från Fourchaume-området med toner av hasselnöt, persika och citron. Därtill 2018 Côte de Léchet, också från La Chablisienne och den äldst"
       },
       {
-        "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
-        "pris": 1499.95,
-        "flaskor": 1.5,
-        "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
-      },
-      {
         "titel": "Vinlåda Chassagne-Montrachet 1. Cru 3 fl",
         "pris": 2709.95,
         "flaskor": 3.0,
         "text": "Chassagne-Montrachet är ett av vit Bourgognes verkliga hjärtan, och här får du tre 1. Cru från årgång 2023 från två av byns mest eftertraktade hus. Årgången har av Bourgognes vinråd kallats “Beyond All Expectations”, och de vita vinerna har både friskhet, mineralitet och fyllighet. Från Domaine Blain-Gagnard kommer två olika vingårdar. Morgeot är mineralisk och strukturerad. Caillerets räknas till byns allra bästa 1. Cru-marker och är en elegant, krämig chardonnay med citrus, apelsinskal och gul"
+      },
+      {
+        "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
+        "pris": 1499.95,
+        "flaskor": 1.5,
+        "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
       },
       {
         "titel": "2021 Guigal Côte-Rôtie LaLa's Wooden Case 3 btls",
@@ -516,17 +510,11 @@
   },
   "Vinfolket": {
     "state": "live",
-    "count": 12,
+    "count": 11,
     "errors": [],
     "utan_flaskantal": 2,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [
-      {
-        "titel": "Lamblin Fils Beaujolais Nouveau 3-Pack",
-        "pris": 550.0,
-        "flaskor": 3.0,
-        "text": "Nu är den här! Årets Beaujolais Nouveau. Köp i 3-pack, priset inkluderar fraktFrån hjärtat av Bourgogne kommer detta lätta, trevliga röda vin på 100 procent av Gamay, eller Gamay Noir, vilket är en blå druva som ofta används i de röda vinerna från Beaujolais i södra Bourgogne, Frankrike. ServeringVinet förtäras gärna lite svalare än normalt; i 12-14 grader.ProducentenMed anor sedan slutet av 1600-talet verkar familjen Lamblin i vinmeckat Bourgogne; närmare bestämt runt byn Maligny. Numera är det"
-      },
       {
         "titel": "Santa Marias Guldkorn – 3-pack",
         "pris": 750.0,
@@ -548,13 +536,6 @@
       }
     ],
     "exempel": [
-      {
-        "titel": "Lamblin Fils Beaujolais Nouveau 3-Pack",
-        "pris": 550.0,
-        "flaskor": 3.0,
-        "url": "https://vinfolket.se/vinpaket/lamblin-fils-beaujolais-nouveau-2026-3-pack/",
-        "text": "Nu är den här! Årets Beaujolais Nouveau. Köp i 3-pack, priset inkluderar fraktFrån hjärtat av Bourgogne kommer detta lätta, trevliga röda vin på 100 procent av Gamay, eller Gamay Noir, vilket är en blå druva som ofta används i de röda vinerna från Be"
-      },
       {
         "titel": "Polvanera Marchesana Prova på paket",
         "pris": 885.0,
@@ -603,6 +584,13 @@
         "flaskor": 6.0,
         "url": "https://vinfolket.se/vinpaket/latta-roda/",
         "text": "Lätta röda vinerAtt dricka lätta röda viner under varma sommardagar är det perfekta alternativet för dig som vill ha rödvinskaraktär men ändå söker den svalka och fräschör som ett vitt vin eller rosévin brukar ge. När temperaturen stiger tappar tunga"
+      },
+      {
+        "titel": "Upptäck Prosecco – Vinpaket",
+        "pris": 850.0,
+        "flaskor": 4.0,
+        "url": "https://vinfolket.se/vinpaket/upptack-prosecco-vinpaket/",
+        "text": "Prosecco – på ett ”nytt” sätt! Prosecco, denna populära mousserande dryck, men allt som oftast i varianter med väsentligt mer socker jämfört med vinerna i detta spännande – betydligt torrare – paket! Vårt sprillans nya från Nadal, där är till exempel"
       }
     ]
   },
@@ -649,18 +637,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Château Tour De Luchey ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
-        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
-      },
-      {
         "titel": "Maset Mim ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/spanien/maset-mim/",
         "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
+      },
+      {
+        "titel": "Château Tour De Luchey ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
+        "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -1336,12 +1324,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7761701",
-          "price": 584.0,
+          "number": "7229601",
+          "price": 740.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
