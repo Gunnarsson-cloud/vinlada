@@ -1,13 +1,18 @@
 {
   "Dittvin": {
     "state": "live",
-    "count": 14,
+    "count": 16,
     "errors": [],
-    "utan_flaskantal": 1,
-    "slut_i_lager": 0,
+    "utan_flaskantal": 2,
+    "slut_i_lager": 1,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [
+      {
+        "titel": "Black Week vinlådan ✨🖤",
+        "url": "https://dittvin.se/products/black-week-vinladan",
+        "text": "Black Week vinlådan✨🖤 Black Week är den perfekta anledningen att skämma bort dig själv med goda viner. Därför har vi samlat 6 noggrant utvalda flaskor som erbjuder en spännande blandning av rödvin, vitt vin och mousserande vin. En vinlåda fylld med kvalitet, variation och massor av goda smakupplevelser. Se fram emot att upptäcka både eleganta och fylliga rödviner, ett friskt vitt vin och festliga "
+      },
       {
         "titel": "XL vitvinslåda 🍾🥂",
         "url": "https://dittvin.se/products/xl-vitvinslada",
@@ -15,6 +20,13 @@
       }
     ],
     "exempel": [
+      {
+        "titel": "XL Black Week lådan 🏅🍷",
+        "pris": 799.0,
+        "flaskor": 12.0,
+        "url": "https://dittvin.se/products/xl-black-week-ladan",
+        "text": "XL Black Week lådan 🏅🍷 Är du redo att göra ett riktigt bra vinfynd? Med XL Black Week-provningslådan får du hela 12 flaskor rödvin fördelade på 6 olika viner, som alla bjuder på sin egen karaktär och smakupplevelse. Vi har satt ihop en spännande blan"
+      },
       {
         "titel": "XL Vinterlådan - Guld nivå 🎖️❄️",
         "pris": 979.0,
@@ -37,6 +49,13 @@
         "text": "XL Rödvinsvinlåda Upptäck en utvald samling av 12 fantastiska rödviner som bjuder på en mångfald av smaker och stilar. Från den fruktiga elegansen av Marques de Berol Tinto Seco och den semisöta charmen i Sol de Castilla, till den klassiska strukture"
       },
       {
+        "titel": "Black Week vinlådan ✨🖤",
+        "pris": 579.0,
+        "flaskor": null,
+        "url": "https://dittvin.se/products/black-week-vinladan",
+        "text": "Black Week vinlådan✨🖤 Black Week är den perfekta anledningen att skämma bort dig själv med goda viner. Därför har vi samlat 6 noggrant utvalda flaskor som erbjuder en spännande blandning av rödvin, vitt vin och mousserande vin. En vinlåda fylld med k"
+      },
+      {
         "titel": "Black Month Lådan🍷🖤",
         "pris": 489.0,
         "flaskor": 6.0,
@@ -52,24 +71,10 @@
       },
       {
         "titel": "Rosé vinlådan - En värld av rosé 🌺✨",
-        "pris": 505.0,
+        "pris": 499.0,
         "flaskor": 7.0,
         "url": "https://dittvin.se/products/rose-vinladan-en-varld-av-rose",
         "text": "Rosé vinlådan - En värld av rosé 🌺✨ Upplev en utsökt smakresa med vår vinsmakningslåda, som innehåller fyra delikata roséer och två sprudlande crémant. Från den eleganta Maravides Pinot Noir till de friska PNK Bubbles och den fruktiga Chaval Rosado, "
-      },
-      {
-        "titel": "Dittvins bubbelkasse - 6 festliga smaksupplevelser 🥂🍾",
-        "pris": 535.0,
-        "flaskor": 6.0,
-        "url": "https://dittvin.se/products/dittvins-boble-lada-6-festliga-smaksupplevelser",
-        "text": "Dittvins bubbelkasse - 6 festliga smaksupplevelser 🥂🍾 Upplev en uppfriskande blandning av 5 mousserande viner och en elegant rosé i denna underbara låda. Varje vin presenterar sin egen unika karaktär, från den livliga J. Kieffer Mousseux till den kri"
-      },
-      {
-        "titel": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder",
-        "pris": 529.0,
-        "flaskor": 6.0,
-        "url": "https://dittvin.se/products/dittvins-hostfavoriter-6-utvalda-viner-till-hostens-mysiga-stunder",
-        "text": "Dittvins Höstfavoriter - 6 utvalda viner till höstens mysstunder Upplev en utsökt samling av viner med vår provningslåda, som presenterar fem fylliga rödviner och en frisk vitvin. Varje vin är noggrant utvald för att erbjuda en rad smakupplevelser, f"
       }
     ]
   },
@@ -356,20 +361,6 @@
         "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
       },
       {
-        "titel": "Vinlåda Casas del Bosque 6 fl",
-        "pris": 469.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
-        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
-      },
-      {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 959.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -382,6 +373,20 @@
         "flaskor": 6.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
         "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+      },
+      {
+        "titel": "Vinlåda Casas del Bosque 6 fl",
+        "pris": 469.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-casas-del-bosque-6-fl",
+        "text": "Casas del Bosques vingårdar är bland de 50 bästa vingårdarna i världen att besöka. Men med denna provningslåda med viner från kalla klimat som omfamnas av Stilla havets svalkande vindar behöver du inte resa till Sydamerika."
+      },
+      {
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 959.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
         "titel": "Vinlåda Prisvärd Champagne 6 fl",
@@ -401,7 +406,7 @@
   },
   "Nordiska Vin": {
     "state": "live",
-    "count": 38,
+    "count": 39,
     "errors": [],
     "utan_flaskantal": 11,
     "slut_i_lager": 4,
@@ -439,17 +444,24 @@
         "text": "Beställ blandlåda med rosé, vitt och rött från Toscana smidigt på nätet. Se pris och lagerstatus. Upplev prisbelönta italienska viner 97 poäng med snabb hemleverans till dörren."
       },
       {
-        "titel": "Bordeaux Klassisk Rödvinslåda",
-        "url": "https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada",
-        "text": "Beställ Bordeaux Klassisk Rödvinslåda online. En prisvärd vinlåda med mjuka röda viner från Bordeaux och södra Frankrike. Smidig hemleverans i hela Sverige. Se pris och köp här!"
-      },
-      {
         "titel": "Roséviner i blandlåda",
         "url": "https://nordiskavin.se/store/fransk-och-italiensk-rosefavorit-blandlada",
         "text": "Beställ roséviner från Provence och Toscana smidigt på nätet. Se pris och lagerstatus. Upptäck noga utvalda roséviner från Frankrike och Italien med snabb hemleverans till dörren."
+      },
+      {
+        "titel": "Bordeaux Klassisk Rödvinslåda",
+        "url": "https://nordiskavin.se/store/bordeaux-klassisk-rodvinslada",
+        "text": "Beställ Bordeaux Klassisk Rödvinslåda online. En prisvärd vinlåda med mjuka röda viner från Bordeaux och södra Frankrike. Smidig hemleverans i hela Sverige. Se pris och köp här!"
       }
     ],
     "exempel": [
+      {
+        "titel": "Fylliga Italienska Fiano Bianco och Chardonnay 9 flaskor",
+        "pris": 1199.0,
+        "flaskor": 9.0,
+        "url": "https://nordiskavin.se/store/italienska-bianco-chardonnay-blandlada",
+        "text": "Denna blandlåda är sammansatt för dig som vill upptäcka eleganta och uppfriskande vita viner från utvalda europeiska vingårdar. Vi har handplockat tre olika stilar som kompletterar varandra perfekt fö"
+      },
       {
         "titel": "Stora rosélådan från södra Frankrike och Loire - Provence-stil 12 flaskor",
         "pris": 1315.0,
@@ -470,13 +482,6 @@
         "flaskor": 12.0,
         "url": "https://nordiskavin.se/store/duca-di-saragnano-appassimento-blandlada",
         "text": "Vi har samlat tolv hantverksviner från Duca di Saragnano som alla hyllats högt av Luca Maroni. För dig som vill köpa vin med solmogna smaker från Puglia och Sicilien passar detta utmärkt till livfulla"
-      },
-      {
-        "titel": "Fylliga Italienska Fiano Bianco och Chardonnay 9 flaskor",
-        "pris": 1199.0,
-        "flaskor": 9.0,
-        "url": "https://nordiskavin.se/store/italienska-bianco-chardonnay-blandlada",
-        "text": "Denna blandlåda är sammansatt för dig som vill upptäcka eleganta och uppfriskande vita viner från utvalda europeiska vingårdar. Vi har handplockat tre olika stilar som kompletterar varandra perfekt fö"
       },
       {
         "titel": "Bubbellåda med Chardonnay och Blanc de Blancs",
@@ -510,7 +515,7 @@
   },
   "Vinfolket": {
     "state": "live",
-    "count": 11,
+    "count": 10,
     "errors": [],
     "utan_flaskantal": 2,
     "slut_i_lager": 0,
@@ -586,11 +591,11 @@
         "text": "Lätta röda vinerAtt dricka lätta röda viner under varma sommardagar är det perfekta alternativet för dig som vill ha rödvinskaraktär men ändå söker den svalka och fräschör som ett vitt vin eller rosévin brukar ge. När temperaturen stiger tappar tunga"
       },
       {
-        "titel": "Upptäck Prosecco – Vinpaket",
-        "pris": 850.0,
+        "titel": "Nebbiolo – på olika sätt",
+        "pris": 1995.0,
         "flaskor": 4.0,
-        "url": "https://vinfolket.se/vinpaket/upptack-prosecco-vinpaket/",
-        "text": "Prosecco – på ett ”nytt” sätt! Prosecco, denna populära mousserande dryck, men allt som oftast i varianter med väsentligt mer socker jämfört med vinerna i detta spännande – betydligt torrare – paket! Vårt sprillans nya från Nadal, där är till exempel"
+        "url": "https://vinfolket.se/vinpaket/nebbiolo-pa-olika-satt/",
+        "text": "Ett högkvalitativt vinpaket, där du får uppleva tre olika stilar med klassikerdruvan Nebbiolo i fokus!Ordinarie pris är 2.363 kr Nebbiolo, den elegantaste druvan i Italien. Där de mest kända av vinerna kommer från byarna Barolo och Barbaresco. Nebbio"
       }
     ]
   },
@@ -637,18 +642,18 @@
         "text": "Område: Yecla, Spanien Årgång: 2021 Druva: 100% Monastrell Utseende: Attraktiv ljusrosa färg Doft: Trevliga aromer av jordgubbar och körsbär Smak: Röda frukttonerna. Fräscht, med elegant avslut och bra syra. Lagringspotential: Drickas nu, men kan spa"
       },
       {
-        "titel": "Maset Mim ×6",
-        "pris": 534.0,
-        "flaskor": 6.0,
-        "url": "https://tidblomwines.com/spanien/maset-mim/",
-        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
-      },
-      {
         "titel": "Château Tour De Luchey ×6",
         "pris": 534.0,
         "flaskor": 6.0,
         "url": "https://tidblomwines.com/frankrike/chateau-tour-de-luchey/",
         "text": "Château Tour de Luchey Bordeaux 2020 Bordeaux Frankrike Druva: 100% Merlot Alkohol: 14% Utseende: Djupt röd Doft: Fruktiga och mjuka dofter med inslag av mörka frukter som plommon och svarta vinbär Smak: Läcker, välbalanserad med röda frukter, och mo"
+      },
+      {
+        "titel": "Maset Mim ×6",
+        "pris": 534.0,
+        "flaskor": 6.0,
+        "url": "https://tidblomwines.com/spanien/maset-mim/",
+        "text": "Område: Penedes, Spanien Årgång: NV Druva: Macabeu, Xarel-lo, Parellada Utseende: Blekt halmgul med gyllene nyanser Doft: Äpple, citrusfrukter och lite brödaktig Smak: Sötman varierar från mycket torr till halvsöt. Kännetecknande är en frisk syrlighe"
       },
       {
         "titel": "Luzon Madax Rosado ×6",
@@ -1006,10 +1011,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 14,
+    "count": 15,
     "stats": {
       "sokta": 550,
-      "hittade": 14,
+      "hittade": 15,
       "i_lager": 0,
       "fel": 0
     },
@@ -1210,6 +1215,28 @@
         }
       },
       {
+        "vin": "Luzon Altos De Luzon ×6",
+        "butik": "Tidblom Wines",
+        "sb": {
+          "name": "Bodegas Luzon – Altos de Luzon Monastrell",
+          "number": "9508701",
+          "price": 170.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Tillfälligt sortiment",
+          "url": "https://www.systembolaget.se/produkt/vin/altos-de-luzon-monastrell-9508701/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 1.0
+        }
+      },
+      {
         "vin": "Post House Black Mail ×6",
         "butik": "Tidblom Wines",
         "sb": {
@@ -1324,12 +1351,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7229601",
-          "price": 740.0,
+          "number": "7761701",
+          "price": 584.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
