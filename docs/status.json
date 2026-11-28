@@ -84,72 +84,17 @@
     ]
   },
   "Vinoteket": {
-    "state": "live",
-    "count": 6,
-    "errors": [],
-    "utan_flaskantal": 4,
+    "state": "kunde inte läsas",
+    "count": 0,
+    "errors": [
+      "html: HTTP 403 för https://vinoteket.se/attribut/vinlador"
+    ],
+    "utan_flaskantal": 0,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [
-      {
-        "titel": "Mixade favoriter - Black Outlet",
-        "url": "https://vinoteket.se/black-outlet-mix-mid",
-        "text": "Fynda favoriter på black outlet"
-      },
-      {
-        "titel": "Mixade guldkorn - Black Outlet",
-        "url": "https://vinoteket.se/black-outlet-mix-premium",
-        "text": "Fynd för finsmakaren!"
-      },
-      {
-        "titel": "Vinterns stora mixlåda",
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela vintern samlad i en låda"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ],
-    "exempel": [
-      {
-        "titel": "Black Friday lådan - Black Outlet",
-        "pris": 1199.0,
-        "flaskor": 12.0,
-        "url": "https://vinoteket.se/black-friday-ladan---black-outlet",
-        "text": "I denna låda har vi samlat rött, vitt och bubbel i en låda för dig som vill ha riktigt bra viner till pangpris. Du får tolv flaskor där de röda står för det mesta, från fruktiga till kryddiga. Dessutom ingår friskt vitt vin och ett bubbel att skåla m"
-      },
-      {
-        "titel": "Mixade favoriter - Black Outlet",
-        "pris": 1099.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/black-outlet-mix-mid",
-        "text": "Fynda favoriter på black outlet"
-      },
-      {
-        "titel": "Mixade guldkorn - Black Outlet",
-        "pris": 1299.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/black-outlet-mix-premium",
-        "text": "Fynd för finsmakaren!"
-      },
-      {
-        "titel": "Vinterns stora mixlåda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/hostens-stora-mixlada",
-        "text": "Hela vintern samlad i en låda"
-      },
-      {
-        "titel": "Bästsäljare i en låda",
-        "pris": 1199.0,
-        "flaskor": null,
-        "url": "https://vinoteket.se/bastsaljare-i-en-lada-prenumeration-mix",
-        "text": "Prenumerera på vin - alltid prisvärt och leverans hem till dörren"
-      }
-    ]
+    "utan_flaskantal_exempel": [],
+    "exempel": []
   },
   "Winefinder": {
     "state": "live",
@@ -228,7 +173,7 @@
   },
   "Supervin": {
     "state": "live",
-    "count": 38,
+    "count": 39,
     "errors": [],
     "utan_flaskantal": 4,
     "slut_i_lager": 4,
@@ -344,17 +289,17 @@
         "text": "Ribera del Duero, Rioja och Navarra… Det är de tre mest hypade vinområdena i Spanien vi ska besöka i denna nya Vinlåda, som innehåller 6 olika flaskor med toppomdömen massor . Låt oss börja på toppen hos Ribera del Dueros nya kultförklarade producent"
       },
       {
-        "titel": "Svensk introduktionslåda för vinprovning",
+        "titel": "Supervin Introprovningslåda",
         "pris": 949.95,
         "flaskor": 6.0,
-        "url": "https://www.supervin.se/svensk-introsmagekasse",
+        "url": "https://www.supervin.se/supervin-introsmagekasse",
         "text": "Välkommen till Supervin! Är du nyfiken på vilka vi är och vad vi kan? Här har vi samlat sex viner som svenska vinälskare inte kan få nog av – från eleganta klassiker till flaskor med massor av personlighet. En imponerande introduktion till vårt sorti"
       }
     ]
   },
   "Philipson Wine": {
     "state": "live",
-    "count": 46,
+    "count": 44,
     "errors": [],
     "utan_flaskantal": 1,
     "slut_i_lager": 0,
@@ -378,16 +323,16 @@
         "text": "Med denne eksklusive smagekasse får du en sjælden mulighed for at opleve Champagne Bollinger La Grande Année i to forskellige årgange, 2015 og 2018, samlet i én kasse. Det er en smageoplevelse til den kvalitetsbevidste champagneelsker, der vil fordybe sig i, hvordan samme prestigecuvée kan udtrykke sig forskelligt fra høstår til høstår. Bollinger er et af Champagnes mest respekterede huse og kendt for en stil præget af dybde, karakter, kompleksitet og elegance, og La Grande Année hører til bland"
       },
       {
-        "titel": "Vinlåda Exklusiv Bordeaux 3 fl",
-        "pris": 3749.95,
-        "flaskor": 3.0,
-        "text": "Tre av Bordeaux största slott i en och samma låda, alla från Médoc-halvön. Två Pauillac från den utmärkta årgången 2020 och en Saint-Julien från 2022, tre olika uttryck av vad som gör vänstra stranden till vinvärldens referens. Château Lynch-Bages 2020 (5:e cru, Pauillac) är mörk, fruktrik och fyllig, och räknas ofta som en “super second”, ett slott som spelar i samma liga som andra cru. Den har fått 95–97 poäng hos Falstaff och 95 hos Tim Atkin. Château Pontet-Canet 2020 (5:e cru, Pauillac) odl"
-      },
-      {
         "titel": "Vinlåda Chassagne-Montrachet 1. Cru 3 fl",
         "pris": 2529.95,
         "flaskor": 3.0,
         "text": "Chassagne-Montrachet är ett av vit Bourgognes verkliga hjärtan, och här får du tre 1. Cru från årgång 2023 från två av byns mest eftertraktade hus. Årgången har av Bourgognes vinråd kallats “Beyond All Expectations”, och de vita vinerna har både friskhet, mineralitet och fyllighet. Från Domaine Blain-Gagnard kommer två olika vingårdar. Morgeot är mineralisk och strukturerad. Caillerets räknas till byns allra bästa 1. Cru-marker och är en elegant, krämig chardonnay med citrus, apelsinskal och gul"
+      },
+      {
+        "titel": "Vinlåda Exklusiv Bordeaux 3 fl",
+        "pris": 3749.95,
+        "flaskor": 3.0,
+        "text": "Tre av Bordeaux största slott i en och samma låda, alla från Médoc-halvön. Två Pauillac från den utmärkta årgången 2020 och en Saint-Julien från 2022, tre olika uttryck av vad som gör vänstra stranden till vinvärldens referens. Château Lynch-Bages 2020 (5:e cru, Pauillac) är mörk, fruktrik och fyllig, och räknas ofta som en “super second”, ett slott som spelar i samma liga som andra cru. Den har fått 95–97 poäng hos Falstaff och 95 hos Tim Atkin. Château Pontet-Canet 2020 (5:e cru, Pauillac) odl"
       },
       {
         "titel": "Vinlåda Chablis 1. Cru 3 fl",
@@ -396,16 +341,16 @@
         "text": "Tre 1. Cru från Chablis i samma låda, ett smart sätt att uppleva hur mark, årgång och producent formar chardonnay. Två av vinerna kommer från La Chablisienne, kooperativet med tillgång till några av Chablis bästa vingårdar, och en från den unga stjärnproducenten Charly Nicolle. I lådan finns 2020 L’Homme Mort från La Chablisienne, en elegant och komplex 1. Cru från Fourchaume-området med toner av hasselnöt, persika och citron. Därtill 2018 Côte de Léchet, också från La Chablisienne och den äldst"
       },
       {
-        "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
-        "pris": 1499.95,
-        "flaskor": 1.5,
-        "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
-      },
-      {
         "titel": "2021 Guigal Côte-Rôtie LaLa's Wooden Case 3 btls",
         "pris": 15229.95,
         "flaskor": 3.0,
         "text": "Guigal Côte-Rôtie LaLaLaLa Collectors Case — fyra legendariska viner från Rhônedalens absoluta topp Guigal LaLaLaLa Collectors Case är inte bara fyra flaskor i en låda — det är en komplett berättelse om Côte-Rôtie, om syrahdruvans mest monumentala uttryck och om en producent som under decennier definierat vad norra Rhône kan åstadkomma på absolut toppnivå. Maison Guigal är ett av vinvärldens mest ikoniska namn. Med rötterna djupt i Côte-Rôties branta, granitklädda sluttningar har familjen Guigal"
+      },
+      {
+        "titel": "Smagekasse Weingut Kracher Mystery 37,5 cl (3 fl.)",
+        "pris": 1499.95,
+        "flaskor": 1.5,
+        "text": "Tre flasker sødt guld fra Østrigs mest legendariske dessertvinsproducent – i én overraskelseskasse. Denne mystery case er en enestående mulighed for at dykke ned i universet omkring Weingut Kracher - Østrigs svar på Château d'Yquem og en producent, der gang på gang har fået topkarakterer af Robert Parker, Wine Enthusiast, Falstaff og Wine Spectator (heriblandt de magiske 100 point). Kassen indeholder tre forskellige halvflasker (37,5 cl) af Krachers berømte dessertvine. Sammensætningen varierer "
       }
     ],
     "alkoholfria": 0,
@@ -425,20 +370,6 @@
         "text": "Unika samlarobjekt från världens bästa vinmakare! Upptäck Guigals ikoniska viner i en riktig kultlåda för vinklubben eller vinsamlingen."
       },
       {
-        "titel": "Château La Tour de By 50 års Jubileumslåda",
-        "pris": 959.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
-        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
-      },
-      {
-        "titel": "Vinlåda Vivino-favoriter 6 fl",
-        "pris": 1089.95,
-        "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
-        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
-      },
-      {
         "titel": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl",
         "pris": 879.95,
         "flaskor": 6.0,
@@ -446,11 +377,11 @@
         "text": "Vinlåda 3 x Lär Känna Cuvée Philipson 6 fl. Cuvée Philipson är våra egna viner — skapade i nära samarbete med tre av vinvärldens mest namnkunniga producenter. Nu har vi samlat dem alla i en låda. Tillsammans med Guigal i Rhônedalen, La Chablisienne i"
       },
       {
-        "titel": "Vinlåda Hyllad Brunello 6 fl",
-        "pris": 1699.95,
+        "titel": "Château La Tour de By 50 års Jubileumslåda",
+        "pris": 959.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
-        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
+        "url": "https://philipsonwine.se/produkter/chateau-la-tour-de-by-50-aars-jubileumslaada",
+        "text": "Château La Tour de By 50 års Jubileumslåda Fira 50 år av klassisk Médoc med denna exklusiva jubileumslåda från Château La Tour de By – en unik vertikal med sex noggrant utvalda årgångar från ett av områdets mest pålitliga slott. Lådan ger en sällsynt"
       },
       {
         "titel": "Vinlåda Vardagsfavoriter 6 fl",
@@ -460,11 +391,18 @@
         "text": "Vinlåda Vardagsfavoriter 6 fl Sex handplockade flaskor, sex olika stilar — alla utvalda för att göra vardagen lite godare. Med Vardagsfavoriter får du sex flaskor med fokus på smak, mångsidighet och stor drickglädje — viner som gör det enkelt att hit"
       },
       {
-        "titel": "Vinlåda Prisvärd Champagne 6 fl",
-        "pris": 1729.95,
+        "titel": "Vinlåda Vivino-favoriter 6 fl",
+        "pris": 1089.95,
         "flaskor": 6.0,
-        "url": "https://philipsonwine.se/produkter/vinlaada-prisvard-champagne-6-fl",
-        "text": "Vinlåda Prisvärd Champagne 6 fl. Champagne är inte bara ett vin — det är ett tillstånd. En känsla av finesse, av bubblor som stiger, av ögonblick som lyfter. Den här vinlådan är skapad för dig som vill utforska Champagnens värld på riktigt, utan att "
+        "url": "https://philipsonwine.se/produkter/vinlaada-vivino-favoriter-6-fl",
+        "text": "Nu har du chansen att få sex av våra största kundfavoriter samlade i en och samma vinlåda. Här hittar du viner som alla har fått minst 4,0 i betyg på Vivino – älskade av tusentals vinentusiaster världen över. Sex beprövade favoriter med höga betyg oc"
+      },
+      {
+        "titel": "Vinlåda Hyllad Brunello 6 fl",
+        "pris": 1699.95,
+        "flaskor": 6.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-hyllad-brunello-6-fl",
+        "text": "Vinlåda Hyllad Brunello — 6 fl Brunello di Montalcino är ett av Italiens mest eftertraktade och prestigefyllda vinnamn — en appellation där sangiovese-druvan når ett av sina mest koncentrerade, komplexa och lagringsdugliga uttryck. Normalt till prise"
       },
       {
         "titel": "Vinlåda Black Weeks XXXL 18 fl",
@@ -472,6 +410,13 @@
         "flaskor": 18.0,
         "url": "https://philipsonwine.se/produkter/vinlaada-black-weeks-xxxl-18-fl",
         "text": "ETT AV VÅRA STARKASTE BLACK WEEKS-ERBJUDANDEN NÅGONSIN: 18 FLASKOR, STORA NAMN OCH GODA VINER ATT UPPTÄCKA Det här är lådan för dig som vill ha ett helt vinår i en enda leverans. Vi har samlat 18 flaskor från Europas mest namnkunniga vinområden och p"
+      },
+      {
+        "titel": "Vinlåda Tenuta San Guido Sassicaia med familj 3 fl",
+        "pris": 2979.95,
+        "flaskor": 3.0,
+        "url": "https://philipsonwine.se/produkter/vinlaada-tenuta-san-guido-sassicaia-med-familj-3-fl",
+        "text": "Vinlåda: Tenuta San Guido – hela familjen bakom legendariska Sassicaia Få viner i världen kan mäta sig med Sassicaia – en vinikon som gång på gång placerar sig bland världens bästa.Nu kan du uppleva hela vinuniversumet från Tenuta San Guido, huset ba"
       }
     ]
   },
@@ -585,17 +530,90 @@
     ]
   },
   "Vinfolket": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "html: inga vinlådor: 1 listningar, 0 länkar, 0 sidor, 0 med pris, 0 fel valuta"
-    ],
-    "utan_flaskantal": 0,
+    "state": "live",
+    "count": 15,
+    "errors": [],
+    "utan_flaskantal": 2,
     "slut_i_lager": 0,
-    "fa_flaskor_exempel": [],
+    "fa_flaskor_exempel": [
+      {
+        "titel": "Santa Marias Guldkorn – 3-pack",
+        "pris": 750.0,
+        "flaskor": 3.0,
+        "text": "Vinnare – igen! Cannonau-reservan Redit, med den djupt lilaröda färgen, som upprepat samlat på sig guldmedaljer vid olika tävlingar, senast hyllad av bland annat Mundus Vini. Det firas med detta kalaspris på dels vinnaren – dels bubbel från samma producent, Santa Maria la Palma! Och inte nog med det. Man får i detta vinnarpaket också ett smäktande vitt på druvan Vermentino, som i 2026 års upplaga av den ”italienska vinbibeln” Gambero Rosso högsta betyg – Akenta Ráfia!Matcha matRedit: Perfekt til"
+      }
+    ],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [],
-    "exempel": []
+    "utan_flaskantal_exempel": [
+      {
+        "titel": "Sardinienpaket",
+        "url": "https://vinfolket.se/vinpaket/sardinienpaket/",
+        "text": "Sardinien är en av Italiens mest fascinerande vinregioner, känd för sina unika inhemska druvsorter och en distinkt terroir med medelhavssälta, soliga granitjordar och karga berg. Istället för att köpa enstaka flaskor på måfå är Sardinienpaketet den perfekta introduktionen till denna gömda vinskatt.Här är de främsta anledningarna till varför du ska klicka hem just detta vinpaket:En komplett och som"
+      },
+      {
+        "titel": "Vinfolket Prova På Paket",
+        "url": "https://vinfolket.se/vinpaket/prova-pa-paket/",
+        "text": "Smaka på och hitta din vinstil. Ett vinpaket som talar sitt eget språk och tydligt visar att vin är vin och inte saft. Italien och Frankrike finns med i paketet. Välkommen till Vinfolket!I Prova På Paketet ingår sex exempel på våra omtyckta viner.* Zililani Machese di Lamosa Brut Franciacorta. Mousserande vin i världsklass. Gjord på ”Champagnemetoden”. * Terra Vizina Prosecco Millesimato Brut. Tor"
+      }
+    ],
+    "exempel": [
+      {
+        "titel": "Top Box",
+        "pris": 1475.0,
+        "flaskor": 6.0,
+        "url": "https://vinfolket.se/vinpaket/top-box/",
+        "text": "Passa på och köp det bästa vi har till Black Friday-pris!Pris under Black Friday, vid nyttjande av rabattkoden Blackweek26: 1.327:50 kronor (ordinarie pris 1.644).Två flaskor Lamblin Petit Chablis. Fräsch och klassisk Chablis. Perfekt till skaldjur o"
+      },
+      {
+        "titel": "Black Bubbel",
+        "pris": 1059.0,
+        "flaskor": 10.0,
+        "url": "https://vinfolket.se/vinpaket/black-bubbel/",
+        "text": "Vår superdeal för Black Friday 2026!Pris under Black Friday 1.059 kronor (ordinarie 1.126)!Pris med rabattkoden Blackweek26: 953:10 krVåra bästa mousserande viner till specialpris. Ladda upp inför helgerna med lyxigt bubbel!Paketet innehåller:Två fla"
+      },
+      {
+        "titel": "Polvanera Marchesana Prova på paket",
+        "pris": 920.0,
+        "flaskor": 6.0,
+        "url": "https://vinfolket.se/vinpaket/polvanera-marchesana-prova-pa-paket/",
+        "text": "Ett paket om sex flaskor från vår alldeles färska och spännande producent från södra Italien, där två vita viner och fyra röda ingår. Bland annat ett på traktens ursprungsdruva Primitivo ... Övriga röda druvor är Susumaniello och Aglianico – och de v"
+      },
+      {
+        "titel": "Då är rödvin grejen! – 12 flaskor",
+        "pris": 1995.0,
+        "flaskor": 12.0,
+        "url": "https://vinfolket.se/vinpaket/da-ar-rodvin-grejen-12-flaskor/",
+        "text": "Då är rödvin grejen! – tolv flaskor. I paketet ingår två flaskor vardera av följande toppdryck, totalt alltså tolv buteljer. * Paschetta Barbera D´Asti. Fylig och mycket generös Barbera. Passar bra till svampmackan eller grytan. Liten familjen gård s"
+      },
+      {
+        "titel": "Santa Marias Guldkorn – 3-pack",
+        "pris": 750.0,
+        "flaskor": 3.0,
+        "url": "https://vinfolket.se/vinpaket/santa-marias-guldkorn-3-pack/",
+        "text": "Vinnare – igen! Cannonau-reservan Redit, med den djupt lilaröda färgen, som upprepat samlat på sig guldmedaljer vid olika tävlingar, senast hyllad av bland annat Mundus Vini. Det firas med detta kalaspris på dels vinnaren – dels bubbel från samma pro"
+      },
+      {
+        "titel": "Vinpaket Nadal",
+        "pris": 895.0,
+        "flaskor": 6.0,
+        "url": "https://vinfolket.se/vinpaket/vinpaket-nadal/",
+        "text": "ÅTER I LAGER – Nadal!Inte tennisspelaren, den så legendariske och fantastiske spanjoren, utan italienska producenten med samma namn. I nordöstra delen av landet, norr om både Venedig och Treviso, håller de till och gör bland annat vita, röda och mous"
+      },
+      {
+        "titel": "Populära Röda BAR",
+        "pris": 970.0,
+        "flaskor": 6.0,
+        "url": "https://vinfolket.se/vinpaket/populara-roda-bar/",
+        "text": "I paketet ingår:* Två flaskor från popuöta sardinien. Kioskvälare på våra vinbarer* Två flaskor av vår populära spanjor på druvan Garnacha och här på äldre vinstockar. * Två flaskor av Fosso Corno \" Mayro\" Montepulicinao D´Abruzzo. Som en Volvo.... s"
+      },
+      {
+        "titel": "Pinot Noir! – Vinpaket",
+        "pris": 1297.0,
+        "flaskor": 6.0,
+        "url": "https://vinfolket.se/vinpaket/pinot-noir/",
+        "text": "Den är mångas favoritdruva, mångas val när det kommer till röda viner.Eller som en del av våra bargäster brukar säga: ”jag tar en pino”.Så vi kände att det helt enkelt var läge för mer av – Pinot Noir!I denna låda får du fem olika varianter från druv"
+      }
+    ]
   },
   "Tidblom Wines": {
     "state": "live",
@@ -804,31 +822,184 @@
     ]
   },
   "Gassås Wine": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "html: inga vinlådor: 2 listningar, 0 länkar, 0 sidor, 0 med pris, 0 fel valuta"
-    ],
-    "utan_flaskantal": 0,
+    "state": "live",
+    "count": 14,
+    "errors": [],
+    "utan_flaskantal": 6,
     "slut_i_lager": 0,
-    "fa_flaskor_exempel": [],
+    "fa_flaskor_exempel": [
+      {
+        "titel": "Guigal -  Côte Rôtie Trilogy - LaLaLa 2019 [3pack]",
+        "pris": 14997.0,
+        "flaskor": 3.0,
+        "text": "En låda med 1 flaskor per vin. « E. Guigal är en av de mest anmärkningsvärda vinproducenterna i Rhônedalen. Det grundades 1946 av Etienne Guigal i Ampuis  där huvudkontoret finns kvar än i dag  på Rhônes västra strand, ett stenkast från de berömda solstekta sluttningarna av Côte Rôtie, och Guigals flaggskeppsviner, de berömda 'LaLaLa-viner': La Landonne, La Mouline och La Turque. »"
+      },
+      {
+        "titel": "Vina Errazuriz - Don Maximiano Veritical Box [3 bottles 2007- 2010 - 2012]",
+        "pris": 3299.0,
+        "flaskor": 3.0,
+        "text": "« Don Maximiano Founder's Reserve är Viña Errázuriz flaggskeppsvin, döpt efter Don Maximiano Errázuriz, som skapade vingården 1870. Ett Bordeaux-inspirerat rött vin, Don Maximiano Founder's Reserve representerar familjens arv, tradition och ständiga strävan efter att tillverka det finaste och mest eleganta Cabernet Sauvignon-baserad blandning, samtidigt som den visar upp den exceptionella terroiren i Chiles Aconcagua-dal. » TheWineTeam - gassaswine.se"
+      }
+    ],
     "alkoholfria": 0,
-    "utan_flaskantal_exempel": [],
-    "exempel": []
+    "utan_flaskantal_exempel": [
+      {
+        "titel": "Julklapp Champagne - Prestige lådan",
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-prestige-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Julklapp Champagne - Blanc de Blancs lådan",
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-blanc-de-blancs-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Julklapp Champagne - Blanc de Noirs lådan",
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-blanc-de-noirs-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Julklapp Champagne - Grand Cru lådan",
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-grand-cru-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Champagnelådan - 3 Grand Cru Odlare",
+        "url": "https://gassaswine.se/produkt/champagneladan-3-grand-cru-odlare",
+        "text": "« Jul- och nyårsfesten är en magisk tid på året då människor runt om i världen samlas för att fira och sprida glädje. Det är en period av kärlek, gemenskap och reflektion där familjer och vänner kommer tillsammans för att skapa minnen som varar livet ut. Från julens varma omfamning till det sprakande fyrverkeriets natt, dessa högtider är fyllda av hopp och förväntan inför det nya året. »"
+      },
+      {
+        "titel": "Champagnelådan - Premier Cru",
+        "url": "https://gassaswine.se/produkt/champagneladan-premier-cru",
+        "text": "« Jul- och nyårsfesten är en magisk tid på året då människor runt om i världen samlas för att fira och sprida glädje. Det är en period av kärlek, gemenskap och reflektion där familjer och vänner kommer tillsammans för att skapa minnen som varar livet ut. Från julens varma omfamning till det sprakande fyrverkeriets natt, dessa högtider är fyllda av hopp och förväntan inför det nya året. »"
+      }
+    ],
+    "exempel": [
+      {
+        "titel": "Julklapp Champagne - Prestige lådan",
+        "pris": 10199.0,
+        "flaskor": null,
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-prestige-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Julklapp Champagne - Blanc de Blancs lådan",
+        "pris": 4199.0,
+        "flaskor": null,
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-blanc-de-blancs-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Julklapp Champagne - Blanc de Noirs lådan",
+        "pris": 4099.0,
+        "flaskor": null,
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-blanc-de-noirs-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Julklapp Champagne - Grand Cru lådan",
+        "pris": 3199.0,
+        "flaskor": null,
+        "url": "https://gassaswine.se/produkt/julklapp-champagne-grand-cru-ladan",
+        "text": "« För nyårsfirandet, storslagna skålar och festliga stunder. »"
+      },
+      {
+        "titel": "Guigal -  Côte Rôtie Trilogy - LaLaLa 2019 [3pack]",
+        "pris": 14997.0,
+        "flaskor": 3.0,
+        "url": "https://gassaswine.se/produkt/guigal-cte-rtie-trilogy-lalala-2019-3pack",
+        "text": "En låda med 1 flaskor per vin. « E. Guigal är en av de mest anmärkningsvärda vinproducenterna i Rhônedalen. Det grundades 1946 av Etienne Guigal i Ampuis  där huvudkontoret finns kvar än i dag  på Rhônes västra strand, ett stenkast från de berömda "
+      },
+      {
+        "titel": "Domäne Roland Chan 2022 - [mixed case 6-pac]",
+        "pris": 4399.0,
+        "flaskor": 6.0,
+        "url": "https://gassaswine.se/produkt/domane-roland-chan-mixed-case",
+        "text": "« Domäne Roland Chan är en prisbelönt boutiquevingård som ligger i hjärtat av Wachau-regionen i Österrike. Rieslingälskare räknar Mosel och Rheingau som två platser vi tillber. Vi måste nu lägga till Wachau. »"
+      },
+      {
+        "titel": "Mixed Case - Brunello di Montalcino 2019",
+        "pris": 3575.0,
+        "flaskor": 5.0,
+        "url": "https://gassaswine.se/produkt/mixed-case-brunello-di-montalcino-2019",
+        "text": "« Mixed case Brunello di Montalcino - 1 flaska av varje; Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo »"
+      },
+      {
+        "titel": "Mixed Case - Rosso di Montalcino 2022",
+        "pris": 1924.0,
+        "flaskor": 5.0,
+        "url": "https://gassaswine.se/produkt/mixed-case-rosso-di-montalcino-2022",
+        "text": "« Mixed case Rosso di Montalcino - 1 flaska av varje; Poggio Antico, La Gerla, Cerbaia, Cortonesi & San Filippo »"
+      }
+    ]
   },
   "Fine Wine Service": {
-    "state": "kunde inte läsas",
-    "count": 0,
-    "errors": [
-      "woocommerce: HTTP 403 för https://finewineservice.se/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "html: inga vinlådor: 1 listningar, 0 länkar, 0 sidor, 0 med pris, 0 fel valuta"
-    ],
+    "state": "live",
+    "count": 152,
+    "errors": [],
     "utan_flaskantal": 0,
     "slut_i_lager": 0,
     "fa_flaskor_exempel": [],
     "alkoholfria": 0,
     "utan_flaskantal_exempel": [],
-    "exempel": []
+    "exempel": [
+      {
+        "titel": "Jullåda Grand Cru",
+        "pris": 1499.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/jullada-grand-cru/",
+        "text": "Denna utvalda jullåda innehåller sammanlagt sex flaskor, med en flaska vardera av 2023 Regis et Sylvain Cremant de Bourgogne, 2025 Cassagne et Vitailles Combarels Blanc, 2024 Hasher Marimist Chardonnay, 2023 Bindella Ardore, 2023 Marion Navoiseau Bou"
+      },
+      {
+        "titel": "Jullåda Premier Cru",
+        "pris": 999.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/jullada-premier-cru/",
+        "text": "Denna utvalda jullåda innehåller sammanlagt sex flaskor, med en flaska vardera av M.V. Maset Cava Brut Tradition, 2025 Famille Morin Beaujolais Villages Blanc, 2025 Thanisch Riesling Trocken (1 liter), 2024 Domaine Saint-Etienne La Garrigue Côtes du "
+      },
+      {
+        "titel": "2023 Domaine Bott Côte Rôtie ×6",
+        "pris": 5994.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2023-domaine-bott-cote-rotie/",
+        "text": "Domaine Bott Saint Côte Rôtie görs på 100% Syrah som växer på 40 år gamla vinstockar. Druvorna skördas för hand och sorteras därefter, både ute i vingården och vid ankomst till vineriet. 80% av druvorna avstjälkas och kallmaceration sker i temperatur"
+      },
+      {
+        "titel": "2023 Domaine Bott Saint-Joseph Rouge ×6",
+        "pris": 2394.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2023-domaine-bott-saint-joseph-rouge/",
+        "text": "Domaine Bott Saint Joseph görs på 100% Syrah. Druvorna skördas för hand och sorteras därefter, både ute i vingården och vid ankomst till vineriet. 50% av druvorna avstjälkas och kallmaceration sker i temperaturkontrollerade rostfria ståltankar. Jäsni"
+      },
+      {
+        "titel": "2024 Domaine Bott Crozes-Hermitage Rouge ×6",
+        "pris": 2034.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2024-domaine-bott-crozes-hermitage-rouge/",
+        "text": "Domaine Bott Crozes-Hermitage görs på 100% Syrah. Druvorna skördas för hand och sorteras därefter, både ute i vingården och vid ankomst till vineriet. Druvorna avstjälkas och kallmaceration sker i temperaturkontrollerade rostfria ståltankar. Jäsninge"
+      },
+      {
+        "titel": "2024 Domaine Bott First Flight Syrah ×6",
+        "pris": 1674.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2024-domaine-bott-first-flight-syrah/",
+        "text": "Domaine Bott First Flight görs på 100% Syrah. Druvorna skördas för hand och sorteras därefter, både ute i vingården och vid ankomst till vineriet. Druvorna avstjälkas och kallmaceration sker i temperaturkontrollerade rostfria ståltankar. Jäsningen in"
+      },
+      {
+        "titel": "2024 Domaine Bott Condrieu ×6",
+        "pris": 3774.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2024-domaine-bott-condrieu/",
+        "text": "Domaine Bott Condrieu görs på 100% Viognier. Druvorna skördas för hand och sorteras direkt ute i vingården. De pressas sedan som hela klasar. Musten får klarna genom kylning. Vinet jäser på 500 L gamla ekfat och lagras därefter i åtta månader på samm"
+      },
+      {
+        "titel": "2024 Domaine Bott Saint-Joseph Blanc ×6",
+        "pris": 2514.0,
+        "flaskor": 6.0,
+        "url": "https://finewineservice.se/produkt/2024-domaine-bott-saint-joseph-blanc/",
+        "text": "Saint Joseph Blanc görs på en druvblandning bestående av 70% Roussanne och 30% Marsanne. Druvorna skördas för hand och pressas som hela klasar. Musten får klarna genom sedimentering i kyla och tappas sedan om. Vinet jäser på 500 L gamla ekfat och lag"
+      }
+    ]
   },
   "Vivino": {
     "state": "bara länk",
@@ -842,10 +1013,10 @@
   },
   "Systembolaget": {
     "state": "live",
-    "count": 14,
+    "count": 15,
     "stats": {
-      "sokta": 418,
-      "hittade": 14,
+      "sokta": 558,
+      "hittade": 15,
       "i_lager": 0,
       "fel": 0
     },
@@ -863,15 +1034,15 @@
         "Helsingborg Söder": 0,
         "Drottninggatan 18": 0,
         "Berga": 0,
-        "Råå": 11
+        "Råå": 8
       }
     },
     "lagersvar": [
       {
         "butik": "1240",
-        "vara": "64088655",
+        "vara": "39226660",
         "svar": {
-          "productId": "64088655",
+          "productId": "39226660",
           "storeId": "1240",
           "shelf": null,
           "stock": 0,
@@ -880,9 +1051,9 @@
       },
       {
         "butik": "1243",
-        "vara": "64088655",
+        "vara": "39226660",
         "svar": {
-          "productId": "64088655",
+          "productId": "39226660",
           "storeId": "1243",
           "shelf": null,
           "stock": 0,
@@ -891,9 +1062,9 @@
       },
       {
         "butik": "1244",
-        "vara": "64088655",
+        "vara": "39226660",
         "svar": {
-          "productId": "64088655",
+          "productId": "39226660",
           "storeId": "1244",
           "shelf": null,
           "stock": 0,
@@ -902,9 +1073,9 @@
       },
       {
         "butik": "1242",
-        "vara": "64088655",
+        "vara": "39226660",
         "svar": {
-          "productId": "64088655",
+          "productId": "39226660",
           "storeId": "1242",
           "shelf": null,
           "stock": 0,
@@ -913,9 +1084,9 @@
       },
       {
         "butik": "1240",
-        "vara": "39226660",
+        "vara": "24654551",
         "svar": {
-          "productId": "39226660",
+          "productId": "24654551",
           "storeId": "1240",
           "shelf": null,
           "stock": 0,
@@ -924,9 +1095,9 @@
       },
       {
         "butik": "1243",
-        "vara": "39226660",
+        "vara": "24654551",
         "svar": {
-          "productId": "39226660",
+          "productId": "24654551",
           "storeId": "1243",
           "shelf": null,
           "stock": 0,
@@ -1182,12 +1353,12 @@
         "butik": "Tidblom Wines",
         "sb": {
           "name": "Champagne Bruno Roulot – Bruno Roulot Millésime",
-          "number": "7229601",
-          "price": 740.0,
+          "number": "7761701",
+          "price": 584.0,
           "vintage": "2018",
           "other_vintage": false,
           "assortment": "Ordervaror",
-          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7229601/",
+          "url": "https://www.systembolaget.se/produkt/vin/bruno-roulot-millesime-7761701/",
           "stock": {
             "Helsingborg Söder": 0,
             "Drottninggatan 18": 0,
@@ -1241,6 +1412,28 @@
           "in_stock_city": false,
           "in_store_assortment": false,
           "score": 0.9
+        }
+      },
+      {
+        "vin": "2023 Hasher Marimist Chardonnay ×6",
+        "butik": "Fine Wine Service",
+        "sb": {
+          "name": "Hasher Family Estate – Hasher Marimist Chardonnay",
+          "number": "7397901",
+          "price": 441.0,
+          "vintage": "2023",
+          "other_vintage": false,
+          "assortment": "Ordervaror",
+          "url": "https://www.systembolaget.se/produkt/vin/hasher-marimist-chardonnay-7397901/",
+          "stock": {
+            "Helsingborg Söder": 0,
+            "Drottninggatan 18": 0,
+            "Berga": 0,
+            "Råå": 0
+          },
+          "in_stock_city": false,
+          "in_store_assortment": false,
+          "score": 0.8
         }
       }
     ]
